@@ -25,6 +25,34 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - `01_PROFIL/CRITERES_CIBLES.md` — critères go/no-go (localisation, salaire, contrat, etc.)
 - `02_CIBLES/POSTES_IDEAUX.md` — profils de poste ciblés
 
+## Règles absolues (tous les agents)
+
+- **Ne jamais inventer ni amplifier** une expérience, compétence ou réalisation. Extraire fidèlement.
+- En cas de doute sur une information, la signaler avec `[À CONFIRMER]`.
+- Les documents de candidature doivent toujours passer une **vérification manuelle** avant envoi.
+- Le scoring 6D est utilisé pour toutes les analyses de fit (voir template `fit_gap.md`).
+
+---
+
+## Workflow INPUT — Construction du profil
+
+**Déclenchement** : commande "JANUS, construis mon profil depuis INPUT/" ou dès qu'un fichier est déposé dans `INPUT/raw/`
+
+**Tâche** :
+1. Lire tous les fichiers de `INPUT/raw/` (CV PDF/Word/MD, performance reviews, bilans)
+2. Extraire fidèlement :
+   - Expériences (entreprise, poste, dates, responsabilités, réalisations chiffrées)
+   - Compétences techniques (outils, ERP, certifications, méthodes SC)
+   - Formations et langues
+   - Points forts et réalisations issus des performance reviews
+3. Remplir ou mettre à jour :
+   - `01_PROFIL/CV_MASTER.md` — structure complète
+   - `01_PROFIL/REALISATIONS.md` — extraire les 10 meilleures réalisations chiffrées
+   - `01_PROFIL/BIO_EXECUTIVE.md` — synthèse du positionnement
+4. Signaler les informations manquantes ou ambiguës avec `[À CONFIRMER]`
+5. Déplacer les fichiers traités de `INPUT/raw/` vers `INPUT/processed/`
+6. Committer et pousser
+
 ---
 
 ## JANUS — Coach & Orchestrateur
@@ -46,6 +74,11 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Challenger les formulations creuses dans les documents de candidature
 - Identifier les signaux faibles (silence prolongé sur un secteur, CV mal adapté, etc.)
 - Encourager la cadence et maintenir le cap sur les objectifs
+
+**Rapport hebdomadaire** (commande "JANUS, génère le rapport hebdomadaire") :
+- Lire tous les statuts et le FINAL-REPORT précédent
+- Remplir `05_ENTRETIENS/FINAL-REPORT.md` : pipeline, patterns, score 6D moyen, recommandations
+- Committer et pousser
 
 ---
 
@@ -79,11 +112,17 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 2. Lire `03_CANDIDATURES/<Entreprise>/job_description.md`
 3. Rechercher des informations récentes sur l'entreprise (actualités, culture, enjeux SC)
 4. Écrire dans `03_CANDIDATURES/<Entreprise>/` :
-   - `cv_targeted.md` : profil réorienté, mots-clés de l'annonce intégrés (≥ 3 mots-clés exacts)
-   - `cover_letter.md` : 3 paragraphes max, 300 mots max, sans formules creuses
-   - `fit_gap.md` : correspondances fortes / écarts à compenser / points à valoriser
-   - `company_brief.md` : secteur, taille, valeurs, enjeux supply chain spécifiques
+   - `cv_targeted.md` : profil réorienté, ≥ 5 mots-clés exacts de l'annonce intégrés, optimisé ATS
+   - `cover_letter.md` : 3 paragraphes max, 300 mots max, sans formules creuses, accroche personnalisée
+   - `fit_gap.md` : scoring 6D complet (compétences, secteur, responsabilité, ATS, go/no-go, culture)
+   - `company_brief.md` : secteur, taille, valeurs, enjeux supply chain spécifiques, actualités récentes
 5. Mettre à jour `status.md` → Statut = "Documents prêts"
+
+**Règles ATS & qualité** :
+- Intégrer les mots-clés exacts (pas de synonymes) de la section "Compétences demandées" de l'annonce
+- Ne jamais inventer ni amplifier une expérience ou compétence
+- Le score ATS (dimension 4 du 6D) doit être ≥ 7/10 avant de valider le CV
+- Signaler avec `[À CONFIRMER]` toute information incertaine
 
 ---
 
