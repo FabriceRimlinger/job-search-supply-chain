@@ -14,6 +14,9 @@ header { background: #1e3a5f; color: white; padding: 10px 16px; display: flex; a
 header h1 { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #e2e8f0; }
 header .sep { color: #4a7fa5; font-size: 14px; }
 header .folder-name { font-size: 13px; color: #7eb8e0; flex: 1; font-style: italic; }
+.mode-badge { font-size: 11px; padding: 3px 8px; border-radius: 10px; font-weight: 500; }
+.mode-fsa { background: #065f46; color: #6ee7b7; }
+.mode-dl { background: #92400e; color: #fde68a; }
 header .btn { background: #2563eb; color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; }
 header .btn:hover { background: #1d4ed8; }
 header .btn.secondary { background: #2d4f73; }
@@ -141,8 +144,10 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
     <option>MINERVE</option>
     <option>FIDES</option>
   </select>
+  <span class="mode-badge mode-fsa" id="modeBadge" style="display:none" title="Écriture directe dans les fichiers"></span>
   <button class="btn secondary" onclick="exportLog()">⬇ Log CSV</button>
   <button class="btn" onclick="openDirectory()">📂 Ouvrir dossier</button>
+  <input type="file" id="dirInput" style="display:none" multiple accept=".md">
 </header>
 
 <div class="main">
@@ -214,41 +219,78 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
 <script>
 const LOG_KEY = 'janus_log';
 let dirHandle = null;
-let fileHandles = {};
-let fileOriginal = {}; // content at last save
+let fileHandles = {};   // name -> FSA FileSystemFileHandle OR { _fileObj: File }
+let fileOriginal = {};  // name -> content at last save
 let currentFile = null;
-let pendingSaveResolve = null;
 let activeTab = 'edit';
+let saveMode = 'fsa';   // 'fsa' | 'download'
 
 // ─── File System ─────────────────────────────────────────────────────────────
 
 async function openDirectory() {
-  if (!('showDirectoryPicker' in window)) {
-    alert('Votre navigateur ne supporte pas l\'accès au système de fichiers.\nUtilisez Chrome ou Edge.');
-    return;
+  if ('showDirectoryPicker' in window) {
+    saveMode = 'fsa';
+    try {
+      dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+      await loadDirectory();
+    } catch (e) {
+      if (e.name !== 'AbortError') console.error(e);
+    }
+  } else {
+    // Firefox / fallback : sélection via <input webkitdirectory>
+    saveMode = 'download';
+    const input = document.getElementById('dirInput');
+    input.setAttribute('webkitdirectory', '');
+    input.onchange = e => handleFileInput(e.target.files);
+    input.click();
   }
-  try {
-    dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
-    await loadDirectory();
-  } catch (e) {
-    if (e.name !== 'AbortError') console.error(e);
+}
+
+async function handleFileInput(files) {
+  fileHandles = {};
+  fileOriginal = {};
+  const names = [];
+  let folderName = '—';
+
+  for (const file of files) {
+    if (!file.name.endsWith('.md')) continue;
+    const content = await file.text();
+    // webkitRelativePath = "FolderName/filename.md"
+    const parts = file.webkitRelativePath ? file.webkitRelativePath.split('/') : [file.name];
+    if (parts.length >= 2) folderName = parts[0];
+    const name = parts[parts.length - 1];
+    fileHandles[name] = { _fileObj: file };
+    fileOriginal[name] = content;
+    names.push(name);
   }
+
+  setModeBadge();
+  document.getElementById('folderName').textContent = folderName;
+  renderFileList(sortFiles(names));
+  if (names.length > 0) await loadFile(sortFiles(names)[0]);
 }
 
 async function loadDirectory() {
   fileHandles = {};
   fileOriginal = {};
-  const files = [];
+  const names = [];
 
   for await (const [name, handle] of dirHandle.entries()) {
     if (handle.kind === 'file' && name.endsWith('.md')) {
       fileHandles[name] = handle;
-      files.push(name);
+      names.push(name);
     }
   }
 
-  files.sort((a, b) => {
-    const order = ['status', 'job_description', 'fit_gap', 'cv_targeted', 'cover_letter', 'company_brief'];
+  setModeBadge();
+  document.getElementById('folderName').textContent = dirHandle.name;
+  renderFileList(sortFiles(names));
+  if (names.length > 0) await loadFile(sortFiles(names)[0]);
+}
+
+function sortFiles(names) {
+  const order = ['status', 'job_description', 'fit_gap', 'cv_targeted', 'cover_letter', 'company_brief'];
+  return [...names].sort((a, b) => {
     const ai = order.findIndex(o => a.includes(o));
     const bi = order.findIndex(o => b.includes(o));
     if (ai !== -1 && bi !== -1) return ai - bi;
@@ -256,11 +298,20 @@ async function loadDirectory() {
     if (bi !== -1) return 1;
     return a.localeCompare(b);
   });
+}
 
-  document.getElementById('folderName').textContent = dirHandle.name;
-  renderFileList(files);
-
-  if (files.length > 0) await loadFile(files[0]);
+function setModeBadge() {
+  const badge = document.getElementById('modeBadge');
+  badge.style.display = 'inline';
+  if (saveMode === 'fsa') {
+    badge.className = 'mode-badge mode-fsa';
+    badge.textContent = '✓ Écriture directe';
+    badge.title = 'Les fichiers sont modifiés directement sur le disque';
+  } else {
+    badge.className = 'mode-badge mode-dl';
+    badge.textContent = '⬇ Mode téléchargement';
+    badge.title = 'Firefox : la sauvegarde télécharge le fichier modifié — remplacez le fichier original';
+  }
 }
 
 async function loadFile(name) {
@@ -269,13 +320,20 @@ async function loadFile(name) {
     if (!ok) return;
   }
 
+  let content;
   const handle = fileHandles[name];
-  const file = await handle.getFile();
-  const content = await file.text();
 
-  fileOriginal[name] = content;
+  if (handle._fileObj) {
+    // Firefox mode : content already loaded in fileOriginal
+    content = fileOriginal[name] ?? '';
+  } else {
+    // FSA mode : read from disk
+    const file = await handle.getFile();
+    content = await file.text();
+    fileOriginal[name] = content;
+  }
+
   currentFile = name;
-
   const editor = document.getElementById('editor');
   editor.value = content;
 
@@ -286,7 +344,6 @@ async function loadFile(name) {
   document.getElementById('preview').style.display = activeTab === 'preview' ? 'block' : 'none';
 
   if (activeTab === 'preview') updatePreview();
-
   updateDirtyState();
   updateFileListUI();
   editor.focus();
@@ -383,19 +440,34 @@ async function performSave(note = '') {
   const newContent = document.getElementById('editor').value;
   const oldContent = fileOriginal[currentFile] ?? '';
   const delta = newContent.length - oldContent.length;
+  const folderName = dirHandle ? dirHandle.name : document.getElementById('folderName').textContent;
 
   try {
     const handle = fileHandles[currentFile];
-    const writable = await handle.createWritable();
-    await writable.write(newContent);
-    await writable.close();
+
+    if (handle._fileObj) {
+      // Firefox mode : déclencher un téléchargement
+      const blob = new Blob([newContent], { type: 'text/markdown;charset=utf-8' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = currentFile;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+      showToast(`⬇ ${currentFile} téléchargé — remplacez le fichier original`);
+    } else {
+      // FSA mode : écriture directe
+      const writable = await handle.createWritable();
+      await writable.write(newContent);
+      await writable.close();
+      showToast(`✓ ${currentFile} sauvegardé`);
+    }
 
     fileOriginal[currentFile] = newContent;
 
     addLogEntry({
       timestamp: new Date().toISOString(),
       author: document.getElementById('authorSelect').value,
-      folder: dirHandle ? dirHandle.name : '—',
+      folder: folderName,
       file: currentFile,
       charsBefore: oldContent.length,
       charsAfter: newContent.length,
@@ -404,7 +476,6 @@ async function performSave(note = '') {
     });
 
     updateDirtyState();
-    showToast(`✓ ${currentFile} sauvegardé`);
   } catch (e) {
     alert(`Erreur lors de la sauvegarde : ${e.message}`);
   }
