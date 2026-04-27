@@ -10,54 +10,70 @@
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1f2937; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
 
 /* Header */
-header { background: #1e3a5f; color: white; padding: 10px 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-header h1 { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #e2e8f0; }
-header .sep { color: #4a7fa5; font-size: 14px; }
-header .folder-name { font-size: 13px; color: #7eb8e0; flex: 1; font-style: italic; }
-.mode-badge { font-size: 11px; padding: 3px 8px; border-radius: 10px; font-weight: 500; }
-.mode-fsa { background: #065f46; color: #6ee7b7; }
-.mode-dl { background: #92400e; color: #fde68a; }
-header .btn { background: #2563eb; color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; }
-header .btn:hover { background: #1d4ed8; }
-header .btn.secondary { background: #2d4f73; }
-header .btn.secondary:hover { background: #3a6491; }
+header { background: #1e3a5f; color: white; padding: 10px 16px; display: flex; align-items: center; gap: 10px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+header h1 { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #e2e8f0; white-space: nowrap; }
+header .sep { color: #4a7fa5; }
+header .root-name { font-size: 13px; color: #7eb8e0; flex: 1; font-style: italic; }
+.author-wrap { display: flex; align-items: center; gap: 6px; }
+.author-label { font-size: 11px; color: #94b3d4; white-space: nowrap; }
 header select { background: #2d4f73; color: #e2e8f0; border: 1px solid #3a6491; padding: 5px 10px; border-radius: 6px; font-size: 13px; cursor: pointer; }
+.mode-badge { font-size: 11px; padding: 3px 9px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
+.mode-fsa { background: #065f46; color: #6ee7b7; }
+.mode-dl  { background: #92400e; color: #fde68a; }
+header .btn { color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; white-space: nowrap; }
+header .btn-open { background: #2563eb; } header .btn-open:hover { background: #1d4ed8; }
+header .btn-csv  { background: #2d4f73; } header .btn-csv:hover  { background: #3a6491; }
 
-/* Main layout */
+/* Layout */
 .main { display: flex; flex: 1; overflow: hidden; }
 
 /* Sidebar */
-.sidebar { width: 200px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
+.sidebar { width: 230px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
 .sidebar-header { padding: 10px 12px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; }
-.file-list { flex: 1; overflow-y: auto; padding: 4px 0; }
-.file-item { padding: 9px 12px; cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 8px; color: #374151; border-left: 3px solid transparent; transition: all 0.1s; }
-.file-item:hover { background: #f3f4f6; }
-.file-item.active { background: #eff6ff; color: #2563eb; border-left-color: #2563eb; font-weight: 500; }
-.file-item .dot { margin-left: auto; width: 7px; height: 7px; border-radius: 50%; background: #f59e0b; display: none; flex-shrink: 0; }
-.file-item.dirty .dot { display: block; }
-.file-icon { font-size: 13px; flex-shrink: 0; }
-.file-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.sidebar-empty { padding: 20px 12px; font-size: 12px; color: #9ca3af; text-align: center; line-height: 1.6; }
+.tree { flex: 1; overflow-y: auto; padding: 4px 0; user-select: none; }
+.sidebar-empty { padding: 24px 14px; font-size: 12px; color: #9ca3af; text-align: center; line-height: 1.7; }
+
+/* Tree folder row */
+.tree-folder { display: flex; align-items: center; gap: 6px; padding: 8px 10px; cursor: pointer; font-size: 13px; font-weight: 600; color: #374151; transition: background 0.1s; }
+.tree-folder:hover { background: #f3f4f6; }
+.tree-folder .caret { font-size: 11px; color: #9ca3af; width: 12px; display: inline-block; transition: transform 0.15s; }
+.tree-folder.open .caret { transform: rotate(0deg); }
+.tree-folder.closed .caret { transform: rotate(-90deg); }
+.tree-folder .folder-icon { font-size: 14px; }
+.tree-folder .folder-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+
+/* Tree children */
+.tree-children { overflow: hidden; transition: max-height 0.2s ease; }
+
+/* Tree file row */
+.tree-file { display: flex; align-items: center; gap: 7px; padding: 7px 10px 7px 30px; cursor: pointer; font-size: 12px; color: #4b5563; border-left: 3px solid transparent; transition: all 0.1s; }
+.tree-file:hover { background: #f3f4f6; }
+.tree-file.active { background: #eff6ff; color: #2563eb; border-left-color: #2563eb; font-weight: 500; }
+.tree-file .file-icon { font-size: 12px; flex-shrink: 0; }
+.tree-file .file-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tree-file .dirty-dot { width: 6px; height: 6px; border-radius: 50%; background: #f59e0b; flex-shrink: 0; display: none; }
+.tree-file.dirty .dirty-dot { display: block; }
 
 /* Editor area */
 .editor-area { flex: 1; display: flex; flex-direction: column; overflow: hidden; background: white; }
 .editor-toolbar { padding: 8px 14px; background: white; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 8px; flex-shrink: 0; min-height: 46px; }
-.editor-toolbar .filename { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; }
-.editor-toolbar .unsaved-badge { background: #fef3c7; color: #92400e; font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.editor-toolbar .filename { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.unsaved-badge { background: #fef3c7; color: #92400e; font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
 .tab-btn { padding: 4px 14px; border: 1px solid #d1d5db; border-radius: 20px; cursor: pointer; font-size: 12px; background: white; color: #6b7280; transition: all 0.15s; }
 .tab-btn.active { background: #2563eb; color: white; border-color: #2563eb; }
 .tab-btn:hover:not(.active) { background: #f3f4f6; }
-.save-btn { background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; }
+.save-btn { background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; white-space: nowrap; }
 .save-btn:hover { background: #059669; }
 .save-btn:disabled { background: #d1d5db; cursor: default; }
 
+/* Editor / Preview */
 .editor-container { flex: 1; overflow: hidden; position: relative; }
-#editor { width: 100%; height: 100%; padding: 18px 20px; border: none; outline: none; font-family: 'Monaco', 'Menlo', 'Consolas', monospace; font-size: 13px; line-height: 1.75; resize: none; color: #1f2937; background: white; }
-#preview { display: none; width: 100%; height: 100%; padding: 24px 32px; overflow-y: auto; line-height: 1.75; font-size: 14px; background: white; }
+#editor  { width: 100%; height: 100%; padding: 18px 22px; border: none; outline: none; font-family: 'Monaco','Menlo','Consolas',monospace; font-size: 13px; line-height: 1.8; resize: none; color: #1f2937; background: white; display: none; }
+#preview { width: 100%; height: 100%; padding: 24px 36px; overflow-y: auto; line-height: 1.8; font-size: 14px; background: white; display: none; }
 #preview h1 { font-size: 22px; color: #1e3a5f; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; margin: 0 0 16px; }
-#preview h2 { font-size: 17px; color: #1e3a5f; margin: 20px 0 10px; }
-#preview h3 { font-size: 14px; color: #374151; margin: 16px 0 8px; }
-#preview p { margin: 8px 0; color: #374151; }
+#preview h2 { font-size: 17px; color: #1e3a5f; margin: 22px 0 10px; }
+#preview h3 { font-size: 14px; color: #374151; margin: 16px 0 8px; font-weight: 600; }
+#preview p  { margin: 8px 0; color: #374151; }
 #preview ul, #preview ol { padding-left: 22px; margin: 8px 0; }
 #preview li { margin: 5px 0; color: #374151; }
 #preview table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
@@ -80,21 +96,19 @@ header select { background: #2d4f73; color: #e2e8f0; border: 1px solid #3a6491; 
 
 /* Save dialog */
 .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 99; }
-.save-dialog { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 24px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); z-index: 100; width: 380px; }
+.save-dialog { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: white; padding: 24px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); z-index: 100; width: 380px; }
 .save-dialog h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #1e3a5f; }
 .save-dialog p { font-size: 12px; color: #6b7280; margin-bottom: 14px; }
 .save-dialog input { width: 100%; padding: 9px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.15s; }
 .save-dialog input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
 .save-dialog .btns { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
 .save-dialog .btns button { padding: 8px 18px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; border: none; transition: background 0.15s; }
-.btn-cancel { background: #f3f4f6; color: #374151; }
-.btn-cancel:hover { background: #e5e7eb; }
-.btn-confirm { background: #10b981; color: white; }
-.btn-confirm:hover { background: #059669; }
+.btn-cancel  { background: #f3f4f6; color: #374151; } .btn-cancel:hover  { background: #e5e7eb; }
+.btn-confirm { background: #10b981; color: white;   } .btn-confirm:hover { background: #059669; }
 
 /* Log panel */
-.log-panel { height: 190px; background: white; border-top: 2px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
-.log-header { padding: 8px 16px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 10px; }
+.log-panel { height: 185px; background: white; border-top: 2px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
+.log-header { padding: 7px 16px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 10px; }
 .log-header span { color: #374151; }
 .log-filter { padding: 3px 10px; border: 1px solid #e5e7eb; border-radius: 12px; font-size: 12px; outline: none; color: #374151; background: #f9fafb; }
 .log-filter:focus { border-color: #2563eb; background: white; }
@@ -105,28 +119,25 @@ header select { background: #2d4f73; color: #e2e8f0; border: 1px solid #3a6491; 
 .log-table { flex: 1; overflow-y: auto; }
 table.log { width: 100%; border-collapse: collapse; font-size: 12px; }
 table.log th { position: sticky; top: 0; background: #f9fafb; padding: 6px 14px; text-align: left; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #e5e7eb; z-index: 1; }
-table.log td { padding: 7px 14px; border-bottom: 1px solid #f3f4f6; color: #374151; vertical-align: middle; }
+table.log td { padding: 6px 14px; border-bottom: 1px solid #f3f4f6; color: #374151; vertical-align: middle; }
 table.log tr:hover td { background: #f9fafb; }
 table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-style: italic; }
 .badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
 .badge-Fabrice { background: #dbeafe; color: #1d4ed8; }
-.badge-AURORA { background: #fef3c7; color: #92400e; }
+.badge-AURORA  { background: #fef3c7; color: #92400e; }
 .badge-VULCAIN { background: #fee2e2; color: #991b1b; }
 .badge-MINERVE { background: #ede9fe; color: #5b21b6; }
-.badge-FIDES { background: #d1fae5; color: #065f46; }
-.badge-JANUS { background: #e0f2fe; color: #0369a1; }
-.delta-pos { color: #10b981; }
-.delta-neg { color: #ef4444; }
+.badge-FIDES   { background: #d1fae5; color: #065f46; }
+.badge-JANUS   { background: #e0f2fe; color: #0369a1; }
+.delta-pos { color: #10b981; } .delta-neg { color: #ef4444; }
 .note-cell { color: #6b7280; font-style: italic; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-/* Scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
 
-/* Toast */
-.toast { position: fixed; bottom: 210px; right: 20px; background: #1e293b; color: white; padding: 10px 18px; border-radius: 8px; font-size: 13px; z-index: 200; transform: translateY(20px); opacity: 0; transition: all 0.25s; pointer-events: none; }
+.toast { position: fixed; bottom: 200px; right: 20px; background: #1e293b; color: white; padding: 10px 18px; border-radius: 8px; font-size: 13px; z-index: 200; transform: translateY(20px); opacity: 0; transition: all 0.25s; pointer-events: none; }
 .toast.show { transform: translateY(0); opacity: 1; }
 </style>
 </head>
@@ -135,26 +146,29 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
 <header>
   <h1>⚖ JANUS</h1>
   <span class="sep">/</span>
-  <span class="folder-name" id="folderName">Aucun dossier ouvert</span>
-  <select id="authorSelect" title="Auteur de la modification">
-    <option>Fabrice</option>
-    <option>JANUS</option>
-    <option>AURORA</option>
-    <option>VULCAIN</option>
-    <option>MINERVE</option>
-    <option>FIDES</option>
-  </select>
-  <span class="mode-badge mode-fsa" id="modeBadge" style="display:none" title="Écriture directe dans les fichiers"></span>
-  <button class="btn secondary" onclick="exportLog()">⬇ Log CSV</button>
-  <button class="btn" onclick="openDirectory()">📂 Ouvrir dossier</button>
+  <span class="root-name" id="rootName">Aucun dossier ouvert</span>
+  <div class="author-wrap">
+    <span class="author-label">👤 Auteur log :</span>
+    <select id="authorSelect" title="Auteur enregistré dans le journal des modifications">
+      <option>Fabrice</option>
+      <option>JANUS</option>
+      <option>AURORA</option>
+      <option>VULCAIN</option>
+      <option>MINERVE</option>
+      <option>FIDES</option>
+    </select>
+  </div>
+  <span class="mode-badge" id="modeBadge" style="display:none"></span>
+  <button class="btn btn-csv"  onclick="exportLog()">⬇ Log CSV</button>
+  <button class="btn btn-open" onclick="openDirectory()">📂 Ouvrir dossier</button>
   <input type="file" id="dirInput" style="display:none" multiple accept=".md">
 </header>
 
 <div class="main">
   <div class="sidebar">
-    <div class="sidebar-header">Fichiers</div>
-    <div class="file-list" id="fileList">
-      <div class="sidebar-empty">Ouvrez un dossier de candidature pour commencer</div>
+    <div class="sidebar-header" id="sidebarHeader">Candidatures</div>
+    <div class="tree" id="tree">
+      <div class="sidebar-empty">Ouvrez le dossier<br><code>03_CANDIDATURES</code><br>ou un dossier de candidature</div>
     </div>
   </div>
 
@@ -162,16 +176,16 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
     <div class="editor-toolbar" id="toolbar" style="display:none">
       <span class="filename" id="currentFilename">—</span>
       <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
-      <button class="tab-btn active" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
-      <button class="tab-btn" id="tabPreview" onclick="switchTab('preview')">Aperçu</button>
+      <button class="tab-btn" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
+      <button class="tab-btn active" id="tabPreview" onclick="switchTab('preview')">Aperçu</button>
       <button class="save-btn" id="saveBtn" onclick="triggerSave()" disabled>Sauvegarder</button>
     </div>
     <div class="editor-container">
       <div class="empty-state" id="emptyState">
-        <div class="icon">📄</div>
-        <p>Ouvrez un dossier de candidature puis sélectionnez un fichier</p>
+        <div class="icon">📁</div>
+        <p>Ouvrez le dossier <strong>03_CANDIDATURES</strong> pour voir l'arborescence de vos candidatures</p>
       </div>
-      <textarea id="editor" style="display:none" spellcheck="true" placeholder="Contenu du fichier..."></textarea>
+      <textarea id="editor" spellcheck="true" placeholder="Contenu du fichier..."></textarea>
       <div id="preview"></div>
     </div>
   </div>
@@ -180,36 +194,33 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
 <div class="log-panel">
   <div class="log-header">
     <span>Journal des modifications</span>
-    <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer..." oninput="renderLog()">
+    <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer par fichier, auteur, note..." oninput="renderLog()">
     <div class="log-actions">
-      <button onclick="exportLog()">Exporter CSV</button>
+      <button onclick="exportLog()">CSV</button>
       <button class="clear-btn" onclick="clearLog()">Effacer</button>
     </div>
   </div>
   <div class="log-table">
     <table class="log">
-      <thead>
-        <tr>
-          <th style="width:140px">Date & heure</th>
-          <th style="width:80px">Auteur</th>
-          <th style="width:150px">Fichier</th>
-          <th style="width:70px">Δ chars</th>
-          <th>Note</th>
-        </tr>
-      </thead>
+      <thead><tr>
+        <th style="width:130px">Date & heure</th>
+        <th style="width:80px">Auteur</th>
+        <th style="width:200px">Fichier</th>
+        <th style="width:60px">Δ</th>
+        <th>Note</th>
+      </tr></thead>
       <tbody id="logBody"></tbody>
     </table>
   </div>
 </div>
 
-<!-- Save dialog -->
 <div class="overlay" id="overlay" onclick="cancelSave()"></div>
 <div class="save-dialog" id="saveDialog">
-  <h3>💾 Sauvegarder les modifications</h3>
-  <p id="saveInfo">Fichier : —</p>
-  <input type="text" id="saveNote" placeholder="Note optionnelle (ex: Statut mis à jour → Entretien planifié)" maxlength="120">
+  <h3>💾 Sauvegarder</h3>
+  <p id="saveInfo">—</p>
+  <input type="text" id="saveNote" placeholder="Note optionnelle (ex: Statut → Entretien planifié)" maxlength="120">
   <div class="btns">
-    <button class="btn-cancel" onclick="cancelSave()">Annuler</button>
+    <button class="btn-cancel"  onclick="cancelSave()">Annuler</button>
     <button class="btn-confirm" onclick="confirmSave()">Sauvegarder</button>
   </div>
 </div>
@@ -218,278 +229,353 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
 
 <script>
 const LOG_KEY = 'janus_log';
-let dirHandle = null;
-let fileHandles = {};   // name -> FSA FileSystemFileHandle OR { _fileObj: File }
-let fileOriginal = {};  // name -> content at last save
-let currentFile = null;
-let activeTab = 'edit';
-let saveMode = 'fsa';   // 'fsa' | 'download'
 
-// ─── File System ─────────────────────────────────────────────────────────────
+// State
+let rootHandle  = null;           // top-level FSA dir handle
+let saveMode    = 'fsa';          // 'fsa' | 'download'
+let activeTab   = 'preview';      // default: aperçu
+let currentPath = null;           // e.g. "Alloga_2026-04/status.md"
+
+// Tree structure: { folderKey: { label, expanded, handle|null, files: [{name, path, handle}] } }
+// flat files (no subfolders) stored under key ''
+let treeData    = {};
+let fileHandles = {};  // path -> FSA handle | { _fileObj }
+let fileOrig    = {};  // path -> content at last save
+
+const FILE_ICONS = { status:'📊', job_description:'📋', fit_gap:'🎯', cv_targeted:'📄', cover_letter:'✉️', company_brief:'🏢', README:'📖', CATALOGUE:'📚' };
+const FILE_ORDER = ['status','job_description','fit_gap','cv_targeted','cover_letter','company_brief'];
+
+// ── Open ──────────────────────────────────────────────────────────────────────
 
 async function openDirectory() {
   if ('showDirectoryPicker' in window) {
     saveMode = 'fsa';
     try {
-      dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
-      await loadDirectory();
-    } catch (e) {
-      if (e.name !== 'AbortError') console.error(e);
-    }
+      rootHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+      await scanFSA(rootHandle);
+    } catch(e) { if (e.name !== 'AbortError') console.error(e); }
   } else {
-    // Firefox / fallback : sélection via <input webkitdirectory>
     saveMode = 'download';
-    const input = document.getElementById('dirInput');
-    input.setAttribute('webkitdirectory', '');
-    input.onchange = e => handleFileInput(e.target.files);
-    input.click();
+    const inp = document.getElementById('dirInput');
+    inp.setAttribute('webkitdirectory','');
+    inp.onchange = e => scanInput(e.target.files);
+    inp.click();
   }
 }
 
-async function handleFileInput(files) {
-  fileHandles = {};
-  fileOriginal = {};
-  const names = [];
-  let folderName = '—';
+// FSA: scan root, detect if it has subdirs with .md files
+async function scanFSA(root) {
+  treeData = {}; fileHandles = {}; fileOrig = {};
+  let hasSubs = false;
+
+  for await (const [name, handle] of root.entries()) {
+    if (handle.kind === 'directory' && !name.startsWith('.')) {
+      const files = [];
+      for await (const [fn, fh] of handle.entries()) {
+        if (fh.kind === 'file' && fn.endsWith('.md')) {
+          const path = `${name}/${fn}`;
+          fileHandles[path] = fh;
+          files.push({ name: fn, path });
+          hasSubs = true;
+        }
+      }
+      if (files.length) {
+        treeData[name] = { label: name, expanded: true, handle, files: sortFileList(files) };
+      }
+    } else if (handle.kind === 'file' && name.endsWith('.md')) {
+      if (!treeData['']) treeData[''] = { label: '', expanded: true, handle: null, files: [] };
+      fileHandles[name] = handle;
+      treeData[''].files.push({ name, path: name });
+    }
+  }
+
+  document.getElementById('rootName').textContent = root.name;
+  setModeBadge();
+  renderTree();
+
+  // Auto-load first file
+  const firstFolder = Object.keys(treeData)[0];
+  if (firstFolder !== undefined) {
+    const files = treeData[firstFolder].files;
+    if (files.length) await loadFile(files[0].path);
+  }
+}
+
+// Firefox: group files by folder from webkitRelativePath
+async function scanInput(files) {
+  treeData = {}; fileHandles = {}; fileOrig = {};
+  let rootName = '—';
 
   for (const file of files) {
     if (!file.name.endsWith('.md')) continue;
+    const parts = (file.webkitRelativePath || file.name).split('/');
     const content = await file.text();
-    // webkitRelativePath = "FolderName/filename.md"
-    const parts = file.webkitRelativePath ? file.webkitRelativePath.split('/') : [file.name];
-    if (parts.length >= 2) folderName = parts[0];
-    const name = parts[parts.length - 1];
-    fileHandles[name] = { _fileObj: file };
-    fileOriginal[name] = content;
-    names.push(name);
-  }
 
-  setModeBadge();
-  document.getElementById('folderName').textContent = folderName;
-  renderFileList(sortFiles(names));
-  if (names.length > 0) await loadFile(sortFiles(names)[0]);
-}
-
-async function loadDirectory() {
-  fileHandles = {};
-  fileOriginal = {};
-  const names = [];
-
-  for await (const [name, handle] of dirHandle.entries()) {
-    if (handle.kind === 'file' && name.endsWith('.md')) {
-      fileHandles[name] = handle;
-      names.push(name);
+    if (parts.length === 1) {
+      // flat file
+      const path = file.name;
+      if (!treeData['']) treeData[''] = { label:'', expanded:true, handle:null, files:[] };
+      fileHandles[path] = { _fileObj: file };
+      fileOrig[path] = content;
+      treeData[''].files.push({ name: file.name, path });
+      rootName = 'Dossier sélectionné';
+    } else if (parts.length === 2) {
+      const [folder, fname] = parts;
+      rootName = folder;
+      const path = `${folder}/${fname}`;
+      if (!treeData[folder]) treeData[folder] = { label: folder, expanded: true, handle: null, files: [] };
+      fileHandles[path] = { _fileObj: file };
+      fileOrig[path] = content;
+      treeData[folder].files.push({ name: fname, path });
+    } else {
+      // deeper nesting: use parent/file
+      const folder = parts[parts.length - 2];
+      const fname  = parts[parts.length - 1];
+      rootName = parts[0];
+      const path = `${folder}/${fname}`;
+      if (!treeData[folder]) treeData[folder] = { label: folder, expanded: true, handle: null, files: [] };
+      fileHandles[path] = { _fileObj: file };
+      fileOrig[path] = content;
+      treeData[folder].files.push({ name: fname, path });
     }
   }
 
+  // Sort files within each folder
+  for (const k of Object.keys(treeData)) treeData[k].files = sortFileList(treeData[k].files);
+
+  document.getElementById('rootName').textContent = rootName;
   setModeBadge();
-  document.getElementById('folderName').textContent = dirHandle.name;
-  renderFileList(sortFiles(names));
-  if (names.length > 0) await loadFile(sortFiles(names)[0]);
+  renderTree();
+
+  const firstFolder = Object.keys(treeData)[0];
+  if (firstFolder !== undefined && treeData[firstFolder].files.length) {
+    await loadFile(treeData[firstFolder].files[0].path);
+  }
 }
 
-function sortFiles(names) {
-  const order = ['status', 'job_description', 'fit_gap', 'cv_targeted', 'cover_letter', 'company_brief'];
-  return [...names].sort((a, b) => {
-    const ai = order.findIndex(o => a.includes(o));
-    const bi = order.findIndex(o => b.includes(o));
+function sortFileList(files) {
+  return files.sort((a, b) => {
+    const ai = FILE_ORDER.findIndex(o => a.name.includes(o));
+    const bi = FILE_ORDER.findIndex(o => b.name.includes(o));
     if (ai !== -1 && bi !== -1) return ai - bi;
-    if (ai !== -1) return -1;
-    if (bi !== -1) return 1;
-    return a.localeCompare(b);
+    if (ai !== -1) return -1; if (bi !== -1) return 1;
+    return a.name.localeCompare(b.name);
   });
 }
 
-function setModeBadge() {
-  const badge = document.getElementById('modeBadge');
-  badge.style.display = 'inline';
-  if (saveMode === 'fsa') {
-    badge.className = 'mode-badge mode-fsa';
-    badge.textContent = '✓ Écriture directe';
-    badge.title = 'Les fichiers sont modifiés directement sur le disque';
-  } else {
-    badge.className = 'mode-badge mode-dl';
-    badge.textContent = '⬇ Mode téléchargement';
-    badge.title = 'Firefox : la sauvegarde télécharge le fichier modifié — remplacez le fichier original';
-  }
-}
+// ── Load file ─────────────────────────────────────────────────────────────────
 
-async function loadFile(name) {
-  if (currentFile && isDirty()) {
-    const ok = confirm(`"${currentFile}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`);
-    if (!ok) return;
+async function loadFile(path) {
+  if (currentPath && isDirty()) {
+    if (!confirm(`"${fname(currentPath)}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`)) return;
   }
 
+  const handle = fileHandles[path];
   let content;
-  const handle = fileHandles[name];
 
   if (handle._fileObj) {
-    // Firefox mode : content already loaded in fileOriginal
-    content = fileOriginal[name] ?? '';
+    content = fileOrig[path] ?? '';
   } else {
-    // FSA mode : read from disk
-    const file = await handle.getFile();
-    content = await file.text();
-    fileOriginal[name] = content;
+    const f = await handle.getFile();
+    content = await f.text();
+    fileOrig[path] = content;
   }
 
-  currentFile = name;
+  currentPath = path;
   const editor = document.getElementById('editor');
   editor.value = content;
 
-  document.getElementById('currentFilename').textContent = name;
+  document.getElementById('currentFilename').textContent = path;
   document.getElementById('toolbar').style.display = 'flex';
   document.getElementById('emptyState').style.display = 'none';
+
+  // Apply current tab
   editor.style.display = activeTab === 'edit' ? 'block' : 'none';
   document.getElementById('preview').style.display = activeTab === 'preview' ? 'block' : 'none';
-
   if (activeTab === 'preview') updatePreview();
+
   updateDirtyState();
-  updateFileListUI();
-  editor.focus();
+  renderTreeUI();
+  if (activeTab === 'edit') editor.focus();
 }
 
+function fname(path) { return path.includes('/') ? path.split('/').pop() : path; }
+
+// ── Tree render ───────────────────────────────────────────────────────────────
+
+function renderTree() {
+  const container = document.getElementById('tree');
+  const folders = Object.keys(treeData).filter(k => k !== '');
+  const flat = treeData[''];
+
+  if (folders.length === 0 && !flat) {
+    container.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé</div>';
+    return;
+  }
+
+  let html = '';
+
+  // Flat files at root (no subfolder)
+  if (flat) {
+    flat.files.forEach(f => { html += fileRow(f, false); });
+  }
+
+  // Folders
+  folders.sort().forEach(key => {
+    const folder = treeData[key];
+    const isOpen = folder.expanded !== false;
+    html += `<div class="tree-folder ${isOpen ? 'open' : 'closed'}" onclick="toggleFolder('${escAttr(key)}')">
+      <span class="caret">▾</span>
+      <span class="folder-icon">📁</span>
+      <span class="folder-label" title="${escAttr(key)}">${key}</span>
+    </div>
+    <div class="tree-children" id="fc-${escAttr(key)}" style="max-height:${isOpen ? '1000px' : '0'}">`;
+    folder.files.forEach(f => { html += fileRow(f, true); });
+    html += '</div>';
+  });
+
+  container.innerHTML = html;
+}
+
+function fileRow(f, indented) {
+  const iconKey = Object.keys(FILE_ICONS).find(k => f.name.includes(k));
+  const icon = iconKey ? FILE_ICONS[iconKey] : '📝';
+  const active = f.path === currentPath ? 'active' : '';
+  const dirty  = f.path === currentPath && isDirty() ? 'dirty' : '';
+  const safe = escAttr(f.path);
+  return `<div class="tree-file ${active} ${dirty}" data-path="${safe}" onclick="loadFile('${safe}')">
+    <span class="file-icon">${icon}</span>
+    <span class="file-label" title="${f.name}">${f.name.replace('.md','')}</span>
+    <span class="dirty-dot"></span>
+  </div>`;
+}
+
+function toggleFolder(key) {
+  if (treeData[key]) treeData[key].expanded = !treeData[key].expanded;
+  const children = document.getElementById(`fc-${key}`);
+  const header   = children?.previousElementSibling;
+  if (!children) return;
+  const open = treeData[key]?.expanded;
+  children.style.maxHeight = open ? '1000px' : '0';
+  header?.classList.toggle('open',   open);
+  header?.classList.toggle('closed', !open);
+}
+
+function renderTreeUI() {
+  // Update active/dirty classes without full re-render
+  document.querySelectorAll('.tree-file').forEach(el => {
+    const p = el.dataset.path;
+    el.classList.toggle('active', p === currentPath);
+    el.classList.toggle('dirty',  p === currentPath && isDirty());
+  });
+}
+
+function escAttr(s) { return s.replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
+
+// ── Dirty / tabs ──────────────────────────────────────────────────────────────
+
 function isDirty() {
-  if (!currentFile) return false;
-  return document.getElementById('editor').value !== (fileOriginal[currentFile] ?? '');
+  if (!currentPath) return false;
+  return document.getElementById('editor').value !== (fileOrig[currentPath] ?? '');
 }
 
 function updateDirtyState() {
-  const dirty = isDirty();
-  document.getElementById('unsavedBadge').style.display = dirty ? 'inline' : 'none';
-  document.getElementById('saveBtn').disabled = !dirty;
-  updateFileItemDirty();
-}
-
-function updateFileItemDirty() {
-  document.querySelectorAll('.file-item').forEach(el => {
-    if (el.dataset.name === currentFile) {
-      el.classList.toggle('dirty', isDirty());
-    }
-  });
-}
-
-// ─── UI ───────────────────────────────────────────────────────────────────────
-
-function renderFileList(files) {
-  const list = document.getElementById('fileList');
-  if (files.length === 0) {
-    list.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé dans ce dossier</div>';
-    return;
-  }
-  const icons = { status: '📊', job_description: '📋', fit_gap: '🎯', cv_targeted: '📄', cover_letter: '✉️', company_brief: '🏢' };
-  list.innerHTML = files.map(name => {
-    const key = Object.keys(icons).find(k => name.includes(k)) || 'default';
-    const icon = icons[key] || '📝';
-    return `<div class="file-item" data-name="${name}" onclick="loadFile('${name}')">
-      <span class="file-icon">${icon}</span>
-      <span class="file-name">${name}</span>
-      <span class="dot"></span>
-    </div>`;
-  }).join('');
-  updateFileListUI();
-}
-
-function updateFileListUI() {
-  document.querySelectorAll('.file-item').forEach(el => {
-    el.classList.toggle('active', el.dataset.name === currentFile);
-  });
+  const d = isDirty();
+  document.getElementById('unsavedBadge').style.display = d ? 'inline' : 'none';
+  document.getElementById('saveBtn').disabled = !d;
+  renderTreeUI();
 }
 
 function switchTab(tab) {
   activeTab = tab;
-  const editor = document.getElementById('editor');
+  const editor  = document.getElementById('editor');
   const preview = document.getElementById('preview');
   document.getElementById('tabEdit').classList.toggle('active', tab === 'edit');
   document.getElementById('tabPreview').classList.toggle('active', tab === 'preview');
-  editor.style.display = tab === 'edit' ? 'block' : 'none';
+  editor.style.display  = tab === 'edit'    ? 'block' : 'none';
   preview.style.display = tab === 'preview' ? 'block' : 'none';
   if (tab === 'preview') updatePreview();
-  if (tab === 'edit') editor.focus();
+  if (tab === 'edit')    editor.focus();
 }
 
 function updatePreview() {
-  const content = document.getElementById('editor').value;
-  document.getElementById('preview').innerHTML = marked.parse(content);
+  document.getElementById('preview').innerHTML = marked.parse(document.getElementById('editor').value || '');
 }
 
-// ─── Save ─────────────────────────────────────────────────────────────────────
+// ── Save ──────────────────────────────────────────────────────────────────────
 
 function triggerSave() {
-  if (!currentFile || !isDirty()) return;
-  document.getElementById('saveInfo').textContent = `Fichier : ${currentFile}`;
+  if (!currentPath || !isDirty()) return;
+  document.getElementById('saveInfo').textContent = `Fichier : ${currentPath}`;
   document.getElementById('saveNote').value = '';
   document.getElementById('overlay').style.display = 'block';
   document.getElementById('saveDialog').style.display = 'block';
   setTimeout(() => document.getElementById('saveNote').focus(), 50);
 }
-
 function cancelSave() {
   document.getElementById('overlay').style.display = 'none';
   document.getElementById('saveDialog').style.display = 'none';
 }
-
 async function confirmSave() {
   cancelSave();
-  const note = document.getElementById('saveNote').value.trim();
-  await performSave(note);
+  await performSave(document.getElementById('saveNote').value.trim());
 }
 
 async function performSave(note = '') {
-  if (!currentFile) return;
+  if (!currentPath) return;
   const newContent = document.getElementById('editor').value;
-  const oldContent = fileOriginal[currentFile] ?? '';
+  const oldContent = fileOrig[currentPath] ?? '';
   const delta = newContent.length - oldContent.length;
-  const folderName = dirHandle ? dirHandle.name : document.getElementById('folderName').textContent;
+  const folderPart = currentPath.includes('/') ? currentPath.split('/')[0] : (rootHandle?.name ?? '—');
 
   try {
-    const handle = fileHandles[currentFile];
-
+    const handle = fileHandles[currentPath];
     if (handle._fileObj) {
-      // Firefox mode : déclencher un téléchargement
-      const blob = new Blob([newContent], { type: 'text/markdown;charset=utf-8' });
+      const blob = new Blob([newContent], { type:'text/markdown;charset=utf-8' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = currentFile;
+      a.download = fname(currentPath);
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 5000);
-      showToast(`⬇ ${currentFile} téléchargé — remplacez le fichier original`);
+      showToast(`⬇ ${fname(currentPath)} téléchargé`);
     } else {
-      // FSA mode : écriture directe
-      const writable = await handle.createWritable();
-      await writable.write(newContent);
-      await writable.close();
-      showToast(`✓ ${currentFile} sauvegardé`);
+      const w = await handle.createWritable();
+      await w.write(newContent); await w.close();
+      showToast(`✓ ${fname(currentPath)} sauvegardé`);
     }
 
-    fileOriginal[currentFile] = newContent;
-
+    fileOrig[currentPath] = newContent;
     addLogEntry({
       timestamp: new Date().toISOString(),
       author: document.getElementById('authorSelect').value,
-      folder: folderName,
-      file: currentFile,
-      charsBefore: oldContent.length,
-      charsAfter: newContent.length,
-      delta,
-      note
+      folder: folderPart,
+      file: fname(currentPath),
+      charsBefore: oldContent.length, charsAfter: newContent.length, delta, note
     });
-
     updateDirtyState();
-  } catch (e) {
-    alert(`Erreur lors de la sauvegarde : ${e.message}`);
+  } catch(e) { alert(`Erreur : ${e.message}`); }
+}
+
+// ── Mode badge ────────────────────────────────────────────────────────────────
+
+function setModeBadge() {
+  const b = document.getElementById('modeBadge');
+  b.style.display = 'inline';
+  if (saveMode === 'fsa') {
+    b.className = 'mode-badge mode-fsa';
+    b.textContent = '✓ Écriture directe';
+    b.title = 'Fichiers modifiés directement sur le disque';
+  } else {
+    b.className = 'mode-badge mode-dl';
+    b.textContent = '⬇ Mode téléchargement';
+    b.title = 'Firefox : sauvegarde = téléchargement du fichier';
   }
 }
 
-// ─── Log ──────────────────────────────────────────────────────────────────────
+// ── Log ───────────────────────────────────────────────────────────────────────
 
-function getLog() {
-  try { return JSON.parse(localStorage.getItem(LOG_KEY) || '[]'); } catch { return []; }
-}
-
-function saveLogData(entries) {
-  localStorage.setItem(LOG_KEY, JSON.stringify(entries));
-}
+function getLog() { try { return JSON.parse(localStorage.getItem(LOG_KEY)||'[]'); } catch { return []; } }
+function saveLogData(e) { localStorage.setItem(LOG_KEY, JSON.stringify(e)); }
 
 function addLogEntry(entry) {
   const log = getLog();
@@ -500,74 +586,60 @@ function addLogEntry(entry) {
 
 function renderLog() {
   const filter = document.getElementById('logFilter').value.toLowerCase();
-  const log = getLog().filter(e =>
-    !filter || e.file?.toLowerCase().includes(filter) ||
-    e.author?.toLowerCase().includes(filter) ||
-    e.note?.toLowerCase().includes(filter) ||
-    e.folder?.toLowerCase().includes(filter)
-  );
+  const log = getLog().filter(e => !filter ||
+    [e.file, e.author, e.note, e.folder].some(v => v?.toLowerCase().includes(filter)));
 
   const tbody = document.getElementById('logBody');
-  if (log.length === 0) {
+  if (!log.length) {
     tbody.innerHTML = '<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>';
     return;
   }
-
   tbody.innerHTML = log.map(e => {
     const d = new Date(e.timestamp);
-    const date = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
-    const time = d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-    const delta = e.delta > 0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta < 0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
-    const badgeClass = `badge badge-${e.author}`;
+    const dt = d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'})
+             + ' ' + d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
+    const delta = e.delta > 0 ? `<span class="delta-pos">+${e.delta}</span>`
+                : e.delta < 0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
     return `<tr>
-      <td>${date} ${time}</td>
-      <td><span class="${badgeClass}">${e.author}</span></td>
-      <td>${e.folder ? `<span style="color:#9ca3af">${e.folder} / </span>` : ''}${e.file}</td>
+      <td>${dt}</td>
+      <td><span class="badge badge-${e.author}">${e.author}</span></td>
+      <td><span style="color:#9ca3af;font-size:11px">${e.folder}/</span>${e.file}</td>
       <td>${delta}</td>
-      <td class="note-cell" title="${e.note || ''}">${e.note || '<em style="color:#d1d5db">—</em>'}</td>
+      <td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">—</em>'}</td>
     </tr>`;
   }).join('');
 }
 
 function clearLog() {
-  if (!confirm('Effacer tout l\'historique des modifications ?')) return;
-  saveLogData([]);
-  renderLog();
-  showToast('Journal effacé');
+  if (!confirm('Effacer tout l\'historique ?')) return;
+  saveLogData([]); renderLog(); showToast('Journal effacé');
 }
 
 function exportLog() {
   const log = getLog();
-  if (log.length === 0) { showToast('Aucune entrée à exporter'); return; }
-  const rows = [['Date', 'Heure', 'Auteur', 'Dossier', 'Fichier', 'Δ chars', 'Note']];
+  if (!log.length) { showToast('Aucune entrée'); return; }
+  const rows = [['Date','Heure','Auteur','Dossier','Fichier','Δ chars','Note']];
   log.forEach(e => {
     const d = new Date(e.timestamp);
-    rows.push([
-      d.toLocaleDateString('fr-FR'),
-      d.toLocaleTimeString('fr-FR'),
-      e.author, e.folder, e.file,
-      e.delta > 0 ? `+${e.delta}` : e.delta,
-      e.note || ''
-    ]);
+    rows.push([d.toLocaleDateString('fr-FR'), d.toLocaleTimeString('fr-FR'),
+      e.author, e.folder, e.file, e.delta > 0 ? `+${e.delta}` : e.delta, e.note||'']);
   });
-  const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');
-  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
-  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  const csv = rows.map(r => r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
   a.download = `janus_log_${new Date().toISOString().slice(0,10)}.csv`;
-  a.click();
-  showToast('Log exporté');
+  a.click(); showToast('Log exporté');
 }
 
-// ─── Utils ────────────────────────────────────────────────────────────────────
+// ── Utils ─────────────────────────────────────────────────────────────────────
 
 function showToast(msg) {
   const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
+  t.textContent = msg; t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 2500);
 }
 
-// ─── Events ───────────────────────────────────────────────────────────────────
+// ── Events ────────────────────────────────────────────────────────────────────
 
 document.getElementById('editor').addEventListener('input', () => {
   updateDirtyState();
@@ -575,22 +647,16 @@ document.getElementById('editor').addEventListener('input', () => {
 });
 
 document.addEventListener('keydown', e => {
-  if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+  if ((e.ctrlKey||e.metaKey) && e.key === 's') {
     e.preventDefault();
-    if (!document.getElementById('saveDialog').style.display || document.getElementById('saveDialog').style.display === 'none') {
-      triggerSave();
-    }
+    if (document.getElementById('saveDialog').style.display !== 'block') triggerSave();
   }
   if (e.key === 'Enter' && document.getElementById('saveDialog').style.display === 'block') {
-    e.preventDefault();
-    confirmSave();
+    e.preventDefault(); confirmSave();
   }
-  if (e.key === 'Escape' && document.getElementById('saveDialog').style.display === 'block') {
-    cancelSave();
-  }
+  if (e.key === 'Escape' && document.getElementById('saveDialog').style.display === 'block') cancelSave();
 });
 
-// Init
 renderLog();
 </script>
 </body>
