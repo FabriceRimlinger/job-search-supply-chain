@@ -63,7 +63,16 @@ Senior Portfolio Manager – Technology & Transformation avec 20 ans d'expérien
 
 ---
 
+## Pont vers l'univers pharma / environnements réglementés
+
+**~10 ans dans la logistique de produits périssables et à température contrôlée** (Dole Europe, Pomona Spain, ColdEnergy France) : gestion de chaînes du froid, traçabilité, conformité opérationnelle en environnements contrôlés — expérience directement transférable aux exigences GDP d'Alloga.
+
+**Formation life sciences** : Ingénieur agronome (INP Toulouse, Master of Science) + Licence Biochimie/Chimie — background académique en sciences du vivant aligné avec la culture pharma.
+
+---
+
 ## Formation & Langues
 
-- Ingénieur agronome — INP Toulouse (Master of Science, Économie et Management)
+- Ingénieur agronome — INP Toulouse (Master of Science, Économie et Management agro-alimentaire)
+- Licence Biochimie / Chimie — Université des Sciences de Montpellier
 - Français · Anglais · Espagnol — niveaux natifs

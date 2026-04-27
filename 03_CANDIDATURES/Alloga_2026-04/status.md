@@ -2,9 +2,9 @@
 
 ## Suivi de la candidature Alloga
 
-- Date de découverte : 2026-04-16
-- Date d'envoi :
-- Statut : Documents prêts
-- Prochaine action : Relire cv_targeted + cover_letter, confirmer nom recruteur, localisation et rémunération, vérifier certifications PMO [À CONFIRMER]
-- Date de relance :
-- Commentaires : Lead chaud — document de poste reçu directement. Score fit 6D : 45/60. Principal gap : expérience pharma/GDP. À traiter en priorité.
+- Date de découverte : 2026-04-17
+- Date d'envoi : 2026-04-19 (CV envoyé à Matt Hancock / Talent Smart)
+- Statut : Envoyée
+- Prochaine action : Relancer Matt Hancock — soumission à Alloga confirmée ~20/04, aucun retour à ce jour (7 jours)
+- Date de relance : 2026-04-27
+- Commentaires : Lead via cabinet Talent Smart (Matt Hancock). Premier contact 17/04, échange téléphonique préalable. CV envoyé 19/04 avec pitch ciblé. Matt a confirmé le 20/04 "great match" et soumission imminente. Rémunération confirmée 120-130k€ + bens. Score fit 6D : 46/60.

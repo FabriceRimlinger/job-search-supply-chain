@@ -27,7 +27,7 @@
 
 ## Écarts à compenser
 
-- **Expérience pharma/GDP** (principal gap) : aucune expérience directe. À adresser en valorisant les expériences en environnement réglementé (Amazon : conformité EMEA, audits, risk management environnemental) et la capacité d'adaptation rapide à des contextes réglementés
+- **Expérience pharma/GDP** (gap compensé) : aucune expérience pharma directe, mais ~10 ans dans la logistique de produits périssables à température contrôlée (Dole Europe, Pomona, ColdEnergy) = chaîne du froid, traçabilité, conformité en environnements contrôlés. Formation life sciences (Biochimie + Ingénieur agronome). À valoriser explicitement comme pont vers GDP
 - **WMS/TMS/ERP direct** : expérience indirecte via Amazon et Colis Privé. À préciser les systèmes utilisés si applicable
 - **Certifications PMO** (PMP/PRINCE2/MSP) : aucune. Ne pas mentionner. Compenser par la profondeur de l'expérience opérationnelle (40M€/an, SHIELD, 1200+ projets/an)
 
