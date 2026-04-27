@@ -108,11 +108,12 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 **Déclenchement** : commande "VULCAIN, personnalise ma candidature pour [Entreprise]"
 
 **Tâche** :
-1. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`
+0. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. Afficher le diagnostic en console.
+1. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md`
 2. Lire `03_CANDIDATURES/<Entreprise>/job_description.md`
 3. Rechercher des informations récentes sur l'entreprise (actualités, culture, enjeux SC)
 4. Écrire dans `03_CANDIDATURES/<Entreprise>/` :
-   - `cv_targeted.md` : profil réorienté, ≥ 5 mots-clés exacts de l'annonce intégrés, optimisé ATS
+   - `cv_targeted.md` : hook 3 lignes en tête, profil réorienté, ≥ 5 mots-clés exacts de l'annonce intégrés, optimisé ATS
    - `cover_letter.md` : 3 paragraphes max, 300 mots max, sans formules creuses, accroche personnalisée
    - `fit_gap.md` : scoring 6D complet (compétences, secteur, responsabilité, ATS, go/no-go, culture)
    - `company_brief.md` : secteur, taille, valeurs, enjeux supply chain spécifiques, actualités récentes

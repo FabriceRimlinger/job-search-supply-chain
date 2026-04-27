@@ -1,33 +1,49 @@
 # cv_targeted
 
-## Objectif de ce CV
+## Hook 3 lignes
 
-Résumé des éléments ciblés pour l'annonce :
+> [Titre du poste ciblé] — [X] ans d'expérience [secteur/domaine].
+> [Réalisation #1 chiffrée, la plus percutante pour CE poste spécifiquement].
+> [Réalisation #2 ou compétence différenciante alignée avec la JD].
 
-- Priorités du poste :
-- Compétences à mettre en avant :
-- Réalisations à détailler :
+---
 
-## Profil
+## Audit pré-rédaction (Spot the Flaws)
 
-[Résumé court adapté à l'annonce]
+**Faiblesses du CV face à cette JD :**
+-
 
-## Expériences clés
+**Buzzwords sans preuve à corriger :**
+-
 
-- Expérience 1 : points alignés avec le poste
-- Expérience 2 : points alignés avec le poste
+**Métriques manquantes à ajouter :**
+-
 
-## Compétences et outils
+---
 
-- 
-- 
-- 
+## Mots-clés ATS intégrés
 
-## Réalisations sélectionnées
+*(liste des mots-clés exacts de la JD utilisés dans ce CV)*
 
-- 
-- 
+---
 
-## Valeur ajoutée
+## Profil ciblé
 
-- 
+[Résumé 3-4 lignes adapté à l'annonce — première personne, chiffres, sans buzzwords]
+
+## Expériences clés réorientées
+
+### [Poste] — [Entreprise] ([dates])
+- J'ai [action] → [résultat chiffré + contexte]
+- J'ai [action] → [résultat chiffré + contexte]
+
+### [Poste] — [Entreprise] ([dates])
+- J'ai [action] → [résultat chiffré + contexte]
+
+## Compétences techniques
+
+- [Outil/méthode] : [usage concret]
+
+## Formation & Langues
+
+-
