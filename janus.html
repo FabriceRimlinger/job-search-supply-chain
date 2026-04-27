@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JANUS — Candidatures</title>
+<script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1f2937; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+
+/* Header */
+header { background: #1e3a5f; color: white; padding: 10px 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+header h1 { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #e2e8f0; }
+header .sep { color: #4a7fa5; font-size: 14px; }
+header .folder-name { font-size: 13px; color: #7eb8e0; flex: 1; font-style: italic; }
+header .btn { background: #2563eb; color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; }
+header .btn:hover { background: #1d4ed8; }
+header .btn.secondary { background: #2d4f73; }
+header .btn.secondary:hover { background: #3a6491; }
+header select { background: #2d4f73; color: #e2e8f0; border: 1px solid #3a6491; padding: 5px 10px; border-radius: 6px; font-size: 13px; cursor: pointer; }
+
+/* Main layout */
+.main { display: flex; flex: 1; overflow: hidden; }
+
+/* Sidebar */
+.sidebar { width: 200px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
+.sidebar-header { padding: 10px 12px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; }
+.file-list { flex: 1; overflow-y: auto; padding: 4px 0; }
+.file-item { padding: 9px 12px; cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 8px; color: #374151; border-left: 3px solid transparent; transition: all 0.1s; }
+.file-item:hover { background: #f3f4f6; }
+.file-item.active { background: #eff6ff; color: #2563eb; border-left-color: #2563eb; font-weight: 500; }
+.file-item .dot { margin-left: auto; width: 7px; height: 7px; border-radius: 50%; background: #f59e0b; display: none; flex-shrink: 0; }
+.file-item.dirty .dot { display: block; }
+.file-icon { font-size: 13px; flex-shrink: 0; }
+.file-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sidebar-empty { padding: 20px 12px; font-size: 12px; color: #9ca3af; text-align: center; line-height: 1.6; }
+
+/* Editor area */
+.editor-area { flex: 1; display: flex; flex-direction: column; overflow: hidden; background: white; }
+.editor-toolbar { padding: 8px 14px; background: white; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 8px; flex-shrink: 0; min-height: 46px; }
+.editor-toolbar .filename { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; }
+.editor-toolbar .unsaved-badge { background: #fef3c7; color: #92400e; font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.tab-btn { padding: 4px 14px; border: 1px solid #d1d5db; border-radius: 20px; cursor: pointer; font-size: 12px; background: white; color: #6b7280; transition: all 0.15s; }
+.tab-btn.active { background: #2563eb; color: white; border-color: #2563eb; }
+.tab-btn:hover:not(.active) { background: #f3f4f6; }
+.save-btn { background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; }
+.save-btn:hover { background: #059669; }
+.save-btn:disabled { background: #d1d5db; cursor: default; }
+
+.editor-container { flex: 1; overflow: hidden; position: relative; }
+#editor { width: 100%; height: 100%; padding: 18px 20px; border: none; outline: none; font-family: 'Monaco', 'Menlo', 'Consolas', monospace; font-size: 13px; line-height: 1.75; resize: none; color: #1f2937; background: white; }
+#preview { display: none; width: 100%; height: 100%; padding: 24px 32px; overflow-y: auto; line-height: 1.75; font-size: 14px; background: white; }
+#preview h1 { font-size: 22px; color: #1e3a5f; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; margin: 0 0 16px; }
+#preview h2 { font-size: 17px; color: #1e3a5f; margin: 20px 0 10px; }
+#preview h3 { font-size: 14px; color: #374151; margin: 16px 0 8px; }
+#preview p { margin: 8px 0; color: #374151; }
+#preview ul, #preview ol { padding-left: 22px; margin: 8px 0; }
+#preview li { margin: 5px 0; color: #374151; }
+#preview table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
+#preview th { background: #f1f5f9; padding: 9px 14px; text-align: left; border: 1px solid #e2e8f0; font-weight: 600; color: #374151; }
+#preview td { padding: 8px 14px; border: 1px solid #e2e8f0; color: #374151; }
+#preview tr:nth-child(even) td { background: #f9fafb; }
+#preview blockquote { border-left: 4px solid #2563eb; padding: 10px 16px; margin: 14px 0; background: #eff6ff; color: #1e3a5f; border-radius: 0 6px 6px 0; }
+#preview code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 12px; color: #dc2626; }
+#preview pre { background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; margin: 14px 0; }
+#preview pre code { background: none; color: inherit; padding: 0; }
+#preview strong { color: #1e3a5f; }
+#preview a { color: #2563eb; }
+#preview hr { border: none; border-top: 1px solid #e5e7eb; margin: 18px 0; }
+#preview input[type="checkbox"] { margin-right: 6px; }
+
+/* Empty state */
+.empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: #9ca3af; gap: 14px; }
+.empty-state .icon { font-size: 48px; }
+.empty-state p { font-size: 14px; line-height: 1.7; text-align: center; max-width: 240px; }
+
+/* Save dialog */
+.overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 99; }
+.save-dialog { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 24px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); z-index: 100; width: 380px; }
+.save-dialog h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #1e3a5f; }
+.save-dialog p { font-size: 12px; color: #6b7280; margin-bottom: 14px; }
+.save-dialog input { width: 100%; padding: 9px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.15s; }
+.save-dialog input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.save-dialog .btns { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
+.save-dialog .btns button { padding: 8px 18px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; border: none; transition: background 0.15s; }
+.btn-cancel { background: #f3f4f6; color: #374151; }
+.btn-cancel:hover { background: #e5e7eb; }
+.btn-confirm { background: #10b981; color: white; }
+.btn-confirm:hover { background: #059669; }
+
+/* Log panel */
+.log-panel { height: 190px; background: white; border-top: 2px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
+.log-header { padding: 8px 16px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 10px; }
+.log-header span { color: #374151; }
+.log-filter { padding: 3px 10px; border: 1px solid #e5e7eb; border-radius: 12px; font-size: 12px; outline: none; color: #374151; background: #f9fafb; }
+.log-filter:focus { border-color: #2563eb; background: white; }
+.log-actions { margin-left: auto; display: flex; gap: 8px; }
+.log-actions button { font-size: 11px; cursor: pointer; background: none; border: 1px solid #e5e7eb; border-radius: 4px; padding: 2px 8px; color: #6b7280; transition: all 0.15s; }
+.log-actions button:hover { background: #f3f4f6; }
+.log-actions .clear-btn:hover { color: #ef4444; border-color: #fca5a5; background: #fef2f2; }
+.log-table { flex: 1; overflow-y: auto; }
+table.log { width: 100%; border-collapse: collapse; font-size: 12px; }
+table.log th { position: sticky; top: 0; background: #f9fafb; padding: 6px 14px; text-align: left; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #e5e7eb; z-index: 1; }
+table.log td { padding: 7px 14px; border-bottom: 1px solid #f3f4f6; color: #374151; vertical-align: middle; }
+table.log tr:hover td { background: #f9fafb; }
+table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-style: italic; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
+.badge-Fabrice { background: #dbeafe; color: #1d4ed8; }
+.badge-AURORA { background: #fef3c7; color: #92400e; }
+.badge-VULCAIN { background: #fee2e2; color: #991b1b; }
+.badge-MINERVE { background: #ede9fe; color: #5b21b6; }
+.badge-FIDES { background: #d1fae5; color: #065f46; }
+.badge-JANUS { background: #e0f2fe; color: #0369a1; }
+.delta-pos { color: #10b981; }
+.delta-neg { color: #ef4444; }
+.note-cell { color: #6b7280; font-style: italic; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+/* Toast */
+.toast { position: fixed; bottom: 210px; right: 20px; background: #1e293b; color: white; padding: 10px 18px; border-radius: 8px; font-size: 13px; z-index: 200; transform: translateY(20px); opacity: 0; transition: all 0.25s; pointer-events: none; }
+.toast.show { transform: translateY(0); opacity: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚖ JANUS</h1>
+  <span class="sep">/</span>
+  <span class="folder-name" id="folderName">Aucun dossier ouvert</span>
+  <select id="authorSelect" title="Auteur de la modification">
+    <option>Fabrice</option>
+    <option>JANUS</option>
+    <option>AURORA</option>
+    <option>VULCAIN</option>
+    <option>MINERVE</option>
+    <option>FIDES</option>
+  </select>
+  <button class="btn secondary" onclick="exportLog()">⬇ Log CSV</button>
+  <button class="btn" onclick="openDirectory()">📂 Ouvrir dossier</button>
+</header>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="sidebar-header">Fichiers</div>
+    <div class="file-list" id="fileList">
+      <div class="sidebar-empty">Ouvrez un dossier de candidature pour commencer</div>
+    </div>
+  </div>
+
+  <div class="editor-area">
+    <div class="editor-toolbar" id="toolbar" style="display:none">
+      <span class="filename" id="currentFilename">—</span>
+      <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
+      <button class="tab-btn active" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
+      <button class="tab-btn" id="tabPreview" onclick="switchTab('preview')">Aperçu</button>
+      <button class="save-btn" id="saveBtn" onclick="triggerSave()" disabled>Sauvegarder</button>
+    </div>
+    <div class="editor-container">
+      <div class="empty-state" id="emptyState">
+        <div class="icon">📄</div>
+        <p>Ouvrez un dossier de candidature puis sélectionnez un fichier</p>
+      </div>
+      <textarea id="editor" style="display:none" spellcheck="true" placeholder="Contenu du fichier..."></textarea>
+      <div id="preview"></div>
+    </div>
+  </div>
+</div>
+
+<div class="log-panel">
+  <div class="log-header">
+    <span>Journal des modifications</span>
+    <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer..." oninput="renderLog()">
+    <div class="log-actions">
+      <button onclick="exportLog()">Exporter CSV</button>
+      <button class="clear-btn" onclick="clearLog()">Effacer</button>
+    </div>
+  </div>
+  <div class="log-table">
+    <table class="log">
+      <thead>
+        <tr>
+          <th style="width:140px">Date & heure</th>
+          <th style="width:80px">Auteur</th>
+          <th style="width:150px">Fichier</th>
+          <th style="width:70px">Δ chars</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody id="logBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Save dialog -->
+<div class="overlay" id="overlay" onclick="cancelSave()"></div>
+<div class="save-dialog" id="saveDialog">
+  <h3>💾 Sauvegarder les modifications</h3>
+  <p id="saveInfo">Fichier : —</p>
+  <input type="text" id="saveNote" placeholder="Note optionnelle (ex: Statut mis à jour → Entretien planifié)" maxlength="120">
+  <div class="btns">
+    <button class="btn-cancel" onclick="cancelSave()">Annuler</button>
+    <button class="btn-confirm" onclick="confirmSave()">Sauvegarder</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const LOG_KEY = 'janus_log';
+let dirHandle = null;
+let fileHandles = {};
+let fileOriginal = {}; // content at last save
+let currentFile = null;
+let pendingSaveResolve = null;
+let activeTab = 'edit';
+
+// ─── File System ─────────────────────────────────────────────────────────────
+
+async function openDirectory() {
+  if (!('showDirectoryPicker' in window)) {
+    alert('Votre navigateur ne supporte pas l\'accès au système de fichiers.\nUtilisez Chrome ou Edge.');
+    return;
+  }
+  try {
+    dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+    await loadDirectory();
+  } catch (e) {
+    if (e.name !== 'AbortError') console.error(e);
+  }
+}
+
+async function loadDirectory() {
+  fileHandles = {};
+  fileOriginal = {};
+  const files = [];
+
+  for await (const [name, handle] of dirHandle.entries()) {
+    if (handle.kind === 'file' && name.endsWith('.md')) {
+      fileHandles[name] = handle;
+      files.push(name);
+    }
+  }
+
+  files.sort((a, b) => {
+    const order = ['status', 'job_description', 'fit_gap', 'cv_targeted', 'cover_letter', 'company_brief'];
+    const ai = order.findIndex(o => a.includes(o));
+    const bi = order.findIndex(o => b.includes(o));
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return a.localeCompare(b);
+  });
+
+  document.getElementById('folderName').textContent = dirHandle.name;
+  renderFileList(files);
+
+  if (files.length > 0) await loadFile(files[0]);
+}
+
+async function loadFile(name) {
+  if (currentFile && isDirty()) {
+    const ok = confirm(`"${currentFile}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`);
+    if (!ok) return;
+  }
+
+  const handle = fileHandles[name];
+  const file = await handle.getFile();
+  const content = await file.text();
+
+  fileOriginal[name] = content;
+  currentFile = name;
+
+  const editor = document.getElementById('editor');
+  editor.value = content;
+
+  document.getElementById('currentFilename').textContent = name;
+  document.getElementById('toolbar').style.display = 'flex';
+  document.getElementById('emptyState').style.display = 'none';
+  editor.style.display = activeTab === 'edit' ? 'block' : 'none';
+  document.getElementById('preview').style.display = activeTab === 'preview' ? 'block' : 'none';
+
+  if (activeTab === 'preview') updatePreview();
+
+  updateDirtyState();
+  updateFileListUI();
+  editor.focus();
+}
+
+function isDirty() {
+  if (!currentFile) return false;
+  return document.getElementById('editor').value !== (fileOriginal[currentFile] ?? '');
+}
+
+function updateDirtyState() {
+  const dirty = isDirty();
+  document.getElementById('unsavedBadge').style.display = dirty ? 'inline' : 'none';
+  document.getElementById('saveBtn').disabled = !dirty;
+  updateFileItemDirty();
+}
+
+function updateFileItemDirty() {
+  document.querySelectorAll('.file-item').forEach(el => {
+    if (el.dataset.name === currentFile) {
+      el.classList.toggle('dirty', isDirty());
+    }
+  });
+}
+
+// ─── UI ───────────────────────────────────────────────────────────────────────
+
+function renderFileList(files) {
+  const list = document.getElementById('fileList');
+  if (files.length === 0) {
+    list.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé dans ce dossier</div>';
+    return;
+  }
+  const icons = { status: '📊', job_description: '📋', fit_gap: '🎯', cv_targeted: '📄', cover_letter: '✉️', company_brief: '🏢' };
+  list.innerHTML = files.map(name => {
+    const key = Object.keys(icons).find(k => name.includes(k)) || 'default';
+    const icon = icons[key] || '📝';
+    return `<div class="file-item" data-name="${name}" onclick="loadFile('${name}')">
+      <span class="file-icon">${icon}</span>
+      <span class="file-name">${name}</span>
+      <span class="dot"></span>
+    </div>`;
+  }).join('');
+  updateFileListUI();
+}
+
+function updateFileListUI() {
+  document.querySelectorAll('.file-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.name === currentFile);
+  });
+}
+
+function switchTab(tab) {
+  activeTab = tab;
+  const editor = document.getElementById('editor');
+  const preview = document.getElementById('preview');
+  document.getElementById('tabEdit').classList.toggle('active', tab === 'edit');
+  document.getElementById('tabPreview').classList.toggle('active', tab === 'preview');
+  editor.style.display = tab === 'edit' ? 'block' : 'none';
+  preview.style.display = tab === 'preview' ? 'block' : 'none';
+  if (tab === 'preview') updatePreview();
+  if (tab === 'edit') editor.focus();
+}
+
+function updatePreview() {
+  const content = document.getElementById('editor').value;
+  document.getElementById('preview').innerHTML = marked.parse(content);
+}
+
+// ─── Save ─────────────────────────────────────────────────────────────────────
+
+function triggerSave() {
+  if (!currentFile || !isDirty()) return;
+  document.getElementById('saveInfo').textContent = `Fichier : ${currentFile}`;
+  document.getElementById('saveNote').value = '';
+  document.getElementById('overlay').style.display = 'block';
+  document.getElementById('saveDialog').style.display = 'block';
+  setTimeout(() => document.getElementById('saveNote').focus(), 50);
+}
+
+function cancelSave() {
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('saveDialog').style.display = 'none';
+}
+
+async function confirmSave() {
+  cancelSave();
+  const note = document.getElementById('saveNote').value.trim();
+  await performSave(note);
+}
+
+async function performSave(note = '') {
+  if (!currentFile) return;
+  const newContent = document.getElementById('editor').value;
+  const oldContent = fileOriginal[currentFile] ?? '';
+  const delta = newContent.length - oldContent.length;
+
+  try {
+    const handle = fileHandles[currentFile];
+    const writable = await handle.createWritable();
+    await writable.write(newContent);
+    await writable.close();
+
+    fileOriginal[currentFile] = newContent;
+
+    addLogEntry({
+      timestamp: new Date().toISOString(),
+      author: document.getElementById('authorSelect').value,
+      folder: dirHandle ? dirHandle.name : '—',
+      file: currentFile,
+      charsBefore: oldContent.length,
+      charsAfter: newContent.length,
+      delta,
+      note
+    });
+
+    updateDirtyState();
+    showToast(`✓ ${currentFile} sauvegardé`);
+  } catch (e) {
+    alert(`Erreur lors de la sauvegarde : ${e.message}`);
+  }
+}
+
+// ─── Log ──────────────────────────────────────────────────────────────────────
+
+function getLog() {
+  try { return JSON.parse(localStorage.getItem(LOG_KEY) || '[]'); } catch { return []; }
+}
+
+function saveLogData(entries) {
+  localStorage.setItem(LOG_KEY, JSON.stringify(entries));
+}
+
+function addLogEntry(entry) {
+  const log = getLog();
+  log.unshift({ id: Date.now(), ...entry });
+  saveLogData(log);
+  renderLog();
+}
+
+function renderLog() {
+  const filter = document.getElementById('logFilter').value.toLowerCase();
+  const log = getLog().filter(e =>
+    !filter || e.file?.toLowerCase().includes(filter) ||
+    e.author?.toLowerCase().includes(filter) ||
+    e.note?.toLowerCase().includes(filter) ||
+    e.folder?.toLowerCase().includes(filter)
+  );
+
+  const tbody = document.getElementById('logBody');
+  if (log.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = log.map(e => {
+    const d = new Date(e.timestamp);
+    const date = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    const time = d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    const delta = e.delta > 0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta < 0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
+    const badgeClass = `badge badge-${e.author}`;
+    return `<tr>
+      <td>${date} ${time}</td>
+      <td><span class="${badgeClass}">${e.author}</span></td>
+      <td>${e.folder ? `<span style="color:#9ca3af">${e.folder} / </span>` : ''}${e.file}</td>
+      <td>${delta}</td>
+      <td class="note-cell" title="${e.note || ''}">${e.note || '<em style="color:#d1d5db">—</em>'}</td>
+    </tr>`;
+  }).join('');
+}
+
+function clearLog() {
+  if (!confirm('Effacer tout l\'historique des modifications ?')) return;
+  saveLogData([]);
+  renderLog();
+  showToast('Journal effacé');
+}
+
+function exportLog() {
+  const log = getLog();
+  if (log.length === 0) { showToast('Aucune entrée à exporter'); return; }
+  const rows = [['Date', 'Heure', 'Auteur', 'Dossier', 'Fichier', 'Δ chars', 'Note']];
+  log.forEach(e => {
+    const d = new Date(e.timestamp);
+    rows.push([
+      d.toLocaleDateString('fr-FR'),
+      d.toLocaleTimeString('fr-FR'),
+      e.author, e.folder, e.file,
+      e.delta > 0 ? `+${e.delta}` : e.delta,
+      e.note || ''
+    ]);
+  });
+  const csv = rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `janus_log_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  showToast('Log exporté');
+}
+
+// ─── Utils ────────────────────────────────────────────────────────────────────
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// ─── Events ───────────────────────────────────────────────────────────────────
+
+document.getElementById('editor').addEventListener('input', () => {
+  updateDirtyState();
+  if (activeTab === 'preview') updatePreview();
+});
+
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+    e.preventDefault();
+    if (!document.getElementById('saveDialog').style.display || document.getElementById('saveDialog').style.display === 'none') {
+      triggerSave();
+    }
+  }
+  if (e.key === 'Enter' && document.getElementById('saveDialog').style.display === 'block') {
+    e.preventDefault();
+    confirmSave();
+  }
+  if (e.key === 'Escape' && document.getElementById('saveDialog').style.display === 'block') {
+    cancelSave();
+  }
+});
+
+// Init
+renderLog();
+</script>
+</body>
+</html>
