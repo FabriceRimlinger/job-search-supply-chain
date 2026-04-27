@@ -1,44 +1,44 @@
 # fit_gap — Alloga Portfolio Manager Technology / Change & Transformation
 
-## Score global : 46/60
+## Overall Score: 46/60
 
-## Scoring 6D
+## 6D Scoring
 
-| Dimension | Score | Détail |
+| Dimension | Score | Detail |
 |-----------|-------|--------|
-| **Compétences techniques** | 8/10 | PMO fort, BI/data excellent (SHIELD, PowerBI, SQL), CAPEX management prouvé. Manque : WMS/TMS/ERP direct, certifications PMO (aucune) |
-| **Expérience sectorielle** | 6/10 | Logistique forte (Amazon, Colis Privé, Dole) mais zéro expérience pharma/GDP. Environnement réglementé partiel (Amazon EMEA compliance, EDD) |
-| **Niveau de responsabilité** | 10/10 | Pan-européen avéré, reporting C-level, multi-pays (EMEA), budget 40M€/an, équipes 25+ — correspond au niveau Senior Portfolio Manager |
-| **Mots-clés ATS** | 6/10 | Manquent dans le CV : SteerCo, RAID, stage gates, QMS, EAC, EDI/API, PMP/PRINCE2. À intégrer dans cv_targeted |
-| **Critères go/no-go** | 9/10 | Niveau, contrat, scope EU : OK. Localisation : Marseille hybride = domicile de Fabrice. Rémunération cible 120k€ (à confirmer avec Alloga) |
-| **Culture & fit** | 7/10 | International, data-driven, transformation : excellent fit. Culture réglementée pharma : nouveau mais transférable |
+| **Technical Skills** | 8/10 | Strong PMO, excellent BI/data (SHIELD, PowerBI, SQL), proven CAPEX management. Gaps: no direct WMS/TMS/ERP, no PMO certifications |
+| **Sector Experience** | 6/10 | Strong logistics (Amazon, Colis Privé, Dole) but zero pharma/GDP experience. Partial regulated environment (Amazon EMEA compliance, EDD) |
+| **Responsibility Level** | 10/10 | Proven pan-European, C-level reporting, multi-country (EMEA), €40M/year budget, 25+ teams — matches Senior Portfolio Manager level |
+| **ATS Keywords** | 6/10 | Missing from CV: SteerCo, RAID, stage gates, QMS, EAC, EDI/API, PMP/PRINCE2. Integrated in cv_targeted |
+| **Go/No-Go Criteria** | 9/10 | Level, contract, EU scope: OK. Location: Marseille hybrid = Fabrice's home city. Target salary €120k (to confirm with Alloga) |
+| **Culture & Fit** | 7/10 | International, data-driven, transformation: excellent fit. Regulated pharma culture: new but transferable |
 
-> **Interprétation : 45/60 — Candidature prioritaire avec adaptation sectorielle**
+> **Interpretation: 46/60 — Priority candidature with sector adaptation required**
 
 ---
 
-## Correspondances fortes
+## Strong Matches
 
-- Portfolio management et gouvernance de programmes complexes : Amazon SC 36 mois, CAPEX 40M€/an, Colis Privé transformation
-- Pan-European, multi-sites, executive stakeholder management : Amazon EMEA, Infarm EU (DE/UK/DK/FR)
-- BI et reporting exécutif : SHIELD (plateforme BI EMEA déployée), PowerBI, Microstrategy — compétence rare chez les Portfolio Managers
-- Gestion financière de grands portfolios : budget 40M€/an Amazon, CAPEX 72M€ Infarm, P&L Colis Privé
-- Intégration post-M&A en environnement réglementé : 300 employés intégrés avec continuité opérationnelle totale
+- Portfolio management and complex programme governance: Amazon SC 36-month SOP, €40M/year CAPEX, Colis Privé transformation
+- Pan-European, multi-site, executive stakeholder management: Amazon EMEA, Infarm EU (DE/UK/DK/FR)
+- BI and executive reporting: SHIELD (EMEA BI platform deployed at scale), PowerBI, Microstrategy — rare capability among Portfolio Managers
+- Large portfolio financial management: €40M/year Amazon budget, €72M Infarm CAPEX, Colis Privé P&L
+- Post-M&A integration in regulated environment: 300 employees integrated with full operational continuity
 
-## Écarts à compenser
+## Gaps to Address
 
-- **Expérience pharma/GDP** (gap compensé) : aucune expérience pharma directe, mais ~10 ans dans la logistique de produits périssables à température contrôlée (Dole Europe, Pomona, ColdEnergy) = chaîne du froid, traçabilité, conformité en environnements contrôlés. Formation life sciences (Biochimie + Ingénieur agronome). À valoriser explicitement comme pont vers GDP
-- **WMS/TMS/ERP direct** : expérience indirecte via Amazon et Colis Privé. À préciser les systèmes utilisés si applicable
-- **Certifications PMO** (PMP/PRINCE2/MSP) : aucune. Ne pas mentionner. Compenser par la profondeur de l'expérience opérationnelle (40M€/an, SHIELD, 1200+ projets/an)
+- **Pharma/GDP experience** (partially bridged): no direct pharma experience, but ~10 years in cold chain and perishables logistics (Dole Europe, Pomona, ColdEnergy) = cold chain, traceability, compliance in controlled environments. Life sciences academic background (Biochemistry + Agricultural Engineer). To be explicitly leveraged as a bridge to GDP
+- **Direct WMS/TMS/ERP**: indirect experience via Amazon and Colis Privé. Clarify specific systems used if applicable
+- **PMO certifications** (PMP/PRINCE2/MSP): none. Do not mention. Compensate with depth of operational experience (€40M/year, SHIELD, 1,200+ projects/year)
 
-## Points à valoriser dans CV et LM
+## Points to Leverage in CV and Cover Letter
 
-- SHIELD : la création d'une plateforme BI EMEA déployée à grande échelle est exactement ce qu'Alloga cherche (tooling & data quality)
-- Budget 40M€/an Amazon : preuve de financial governance à l'échelle du poste
-- Intégration Milee : exemple concret de delivery assurance en contexte de changement à fort enjeu opérationnel
-- Expérience Amazon réglementaire (EDD, conformité EMEA) comme pont vers l'univers GDP
+- SHIELD: building an EMEA BI platform deployed at scale is exactly what Alloga is looking for (tooling & data quality)
+- €40M/year Amazon budget: proof of financial governance at role level
+- Milee integration: concrete example of delivery assurance in a high-stakes operational change context
+- Amazon regulatory experience (EDD, EMEA compliance) as a bridge to GDP environment
 
-## Mots-clés ATS manquants à intégrer dans cv_targeted.md
+## ATS Keywords Missing — integrated in cv_targeted.md
 
 - Portfolio governance / SteerCo
 - Stage gates / RAID management
@@ -47,7 +47,7 @@
 - Regulated environment / compliance
 - Pan-European / cross-site
 
-## Risques et points de vigilance
+## Risks and Watch Points
 
-- L'absence d'expérience pharma peut être rédhibitoire selon le recruteur — préparer une réponse solide sur la transférabilité
-- Ne pas inventer de certifications PMP/PRINCE2 si non obtenues — les présenter comme "en cours" uniquement si c'est réel [À CONFIRMER]
+- Absence of pharma experience may be a dealbreaker for some recruiters — prepare a strong answer on transferability
+- Do not claim PMP/PRINCE2 certifications if not held — only state "in progress" if genuinely the case [TO CONFIRM]

@@ -8,7 +8,7 @@
 - **Email** : fabrice@rimlinger.eu
 - **LinkedIn** : https://www.linkedin.com/in/fabricerimlinger/
 - **Adresse** : 54 rue de la République, Marseille, 13002, France
-- **Né le** : 25/12/1970 — Nationalité : Française
+- **Né le** : 25/12/1970 à Strasbourg (67) — Nationalité : Française
 
 ---
 
@@ -20,8 +20,8 @@ Dirigeant orienté résultats avec une expertise avérée dans la direction d'é
 
 ## Expériences professionnelles
 
-### Director Business Excellence — Colis Privé
-**05/2024 – Présent | Marseille, France**
+### Director Business Excellence — Colis Privé *(filiale CEVA Logistics / Groupe CMA CGM)*
+**05/2024 – 02/2026 | Marseille, France**
 *Livraisons B2C de colis ; 375 M€ CA ; 90+ millions de colis/an ; 250 à 300k colis/jour | 5 Hubs / 25 Stations / 27 satellites ; >1k employés ; >4k chauffeurs sous contrat ; >6k points relais*
 
 - Dirigé une équipe de 25 personnes, responsable de la performance interne (opérations) et externe (clients), en pilotant l'excellence sur l'ensemble des fonctions
@@ -61,7 +61,7 @@ Dirigeant orienté résultats avec une expertise avérée dans la direction d'é
 ### Head of AMZL Expansion — South EU — Amazon Logistics
 **04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- Pionnier du déploiement du réseau de livraison last mile Amazon (AMZL) en Italie et Espagne ; **lancé 15 stations de livraison en 2 ans**
+- Pionnier du déploiement du réseau de livraison last mile Amazon (AMZL) en Italie et Espagne ; **lancé 15 stations de livraison en 2 ans**, dont **2 centres livrés au-delà des objectifs initiaux**, tous démarrés à temps pour les **peak seasons Amazon (fêtes de fin d'année)**
 - Organisé la collaboration entre 15+ équipes (Immobilier, Construction, Juridique, RH, IT, prestataires de livraison)
 - Standardisé les playbooks, outils et processus d'expansion AMZL pour l'EMEA
 - Piloté les programmes d'expansion EU, axés sur la planification capacitaire et la topologie réseau
@@ -80,34 +80,74 @@ Dirigeant orienté résultats avec une expertise avérée dans la direction d'é
 - Coordonné des projets de construction et maintenance de plateformes logistiques réfrigérées et de mûrisseries en EMEA (Dole, Fruidor, Compagnie Fruitière, Lidl Austria)
 - Dirigé des prestataires transversaux (ingénierie, construction, SAV) pour respecter délais et budgets
 
-### Director of Operations — Dole Europe
-**2009 – 2010 | Constanța, Roumanie**
+### Supply-chain Manager — Dole Europe
+**2011 – 2012 | Bucarest, Roumanie**
+*CA 2 700 M€ — 1 900 employés*
 
-- Conduit la restructuration de 5 sites Dole Romania / 60 employés post-acquisition
-- Supervisé ports, entreposage, transport, contrôle qualité et distribution
-- **Réduit les effectifs de 50%** et réhabilité 2 installations (Constanța, Bucarest) pour augmenter la capacité
+- Restructuré la supply chain Romania — **réduction des coûts de 30% malgré une hausse des volumes de 50%**
+- Renégocié l'ensemble des contrats supply chain
+- Géré les terminaux portuaires et sites de stockage/process (Bulgarie, Ukraine, Roumanie)
+- **Vessel scheduling** : coordonné avec les ports d'origine asiatiques et américains et les ports de destination européens
+- Supervisé les procédures de dédouanement avec les équipes juridiques et financières Dole
 
-### EU Operations Control & Corporate Projects — Dole Europe
-**2007 – 2009 | Paris, France**
+### Corporate Operation Controller — Dole Europe
+**2007 – 2011 | Paris, France**
 *Siège Dole Europe — CA : 2 800 M€ — Importation, maturation et distribution de bananes — 25 entrepôts en Europe*
 
-- Propriétaire du plan industriel quinquennal pour les mûrisseries Dole EU
+- Planifié et suivi l'exécution de **30 à 100 M€/an d'investissements industriels**
+- Responsable de la validation des spécifications techniques, du P&L et de la livraison dans les délais
+- Contrôle opérationnel et benchmarking des KPIs industriels sur tous les sites européens
+- Rapport direct au CEO et CFO Dole Europe, en liaison avec le siège Dole US
 
-### Head of Cold Stores & Ripening Operations — Pomona Spain
-**2005/2006 – 2006/2007 | Barcelone, Espagne**
-*Importateur fruits : CA 135M€, 70K T/an, 2e en Espagne avec 55K T/an, 7 entrepôts, 220 employés*
+### Supply Chain Manager — Bargosa (filiale Pomona)
+**06/2006 – 11/2006 | Barcelone, Espagne**
+*CA 135 M€ — 2e mûrissier de bananes espagnol — 7 entrepôts — 220 employés*
 
-- Dirigé la conception et le déploiement d'un système de gestion de traçabilité
-- Géré un investissement de 2M€, maintenance, actifs
-- Supervisé le contrôle des coûts, la qualité. Négocié avec les fournisseurs
+- Conçu et déployé un système de gestion d'entrepôt par code-barres
+- Géré le budget investissements (2 M€), maintenance et procédures de gestion des actifs
+- Défini le tableau de bord supply chain (productivité, coûts, stocks)
+
+### Supply Chain Project Manager — Pomona (Direction Technique et Logistique)
+**07/2002 – 07/2005 | Antony, France**
+*CA 2 300 M€ — 7 800 employés — 150 entrepôts — 1er mûrissier de bananes français*
+
+- GPS : sélection logiciel/matériel, négociation fournisseurs, déploiement et intégration ERP — **600 camions équipés**
+- Défini les KPIs, documentation et formation utilisateurs
+- Mis en place plusieurs outils de suivi de productivité, capacity planning, optimisation picking et analyse livraisons — **+25% de productivité entrepôt**
+- Responsable de la conformité ERP du département maturation (Fruidor), implémentation et formation entrepôts
+
+*Note : Gap 08/2005–06/2006 = expédition Traversée Nord-Sud des Andes (alpinisme haute altitude)*
+
+### Project Manager — Geest / Primaflor
+**12/2001 – 05/2002 | Pulpi, Espagne**
+
+- Supervisé l'installation d'une usine pilote de salade fraîche découpée (12 employés)
+- Conduit les essais production et commercial pour clients UK
+
+### Product Manager / Analyst — Pascual Hermanos
+**03/1998 – 10/2000 | Aguilas, Espagne**
+*Tomate 16 000 T — 210 Ha serres — Laitue 35 000 T — Agrumes 55 000 T*
+
+- Fourni un support analytique aux key account managers européens sur la rentabilité clients/produits
+- Identifié et implémenté des améliorations de process de production (de la pépinière à la post-récolte)
+
+### Business Analyst / Technologist — Pascual Hermanos & JP Fruit
+**03/1996 – 03/1998 | Aguilas, Espagne** + missions **10/2000–04/2001 | Gillingham, Kent, UK**
+
+- Interface commerciale et production entre l'Espagne et les clients UK (Tesco, M&S, Somerfield)
+- Business Analyst sur les données clients et produits
+
+### Consultant scientifique et commercial — Service national
+**02/1994 – 11/1995 | Barcelone, Espagne**
 
 ---
 
 ## Compétences techniques
 
 - **Data & BI** : Excel VBA avancé, PowerBI, Microstrategy, PowerQuery, SQL, Data visualization
-- **CRM / Outils** : Salesforce
-- **Logistique** : last mile, network planning, capacity planning, WMS, TMS, expansion AMZL
+- **ERP** : JDE Enterprise1, AS400, SAP
+- **CRM / Outils** : Salesforce, MS Project, Jira, AutoCAD (certifié), Cognos Reporting Studio (certifié)
+- **Logistique** : last mile, network planning, capacity planning, WMS, TMS, expansion AMZL, vessel scheduling, port operations
 - **Transformation** : PMO, change management, intégration post-acquisition, M&A
 - **Automatisation** : AI forecasting, RPA, call bots, processus de décision data-driven
 
@@ -125,9 +165,9 @@ Dirigeant orienté résultats avec une expertise avérée dans la direction d'é
 ## Formation
 
 - **1991 – 1994** : Ingénieur agronome — École Nationale Supérieure Agronomique (INP Toulouse)
-  Master of Science, spécialisé en Économie et Management de l'agroalimentaire
+  Master of Science, spécialisé en Économie et Management de l'agroindustrie
 - **1989 – 1991** : Licence Biochimie / Chimie Concours — Université des Sciences de Montpellier
-  Chimie organique, Biochimie. Préparation aux concours nationaux
+  Chimie organique, Biochimie, Physiologie végétale. Préparation aux concours nationaux
 
 ---
 
@@ -136,8 +176,10 @@ Dirigeant orienté résultats avec une expertise avérée dans la direction d'é
 | Langue | Niveau |
 |--------|--------|
 | Français | Langue maternelle |
-| Anglais | Langue maternelle |
-| Espagnol | Langue maternelle |
+| Anglais | Langue maternelle (C2) |
+| Espagnol | Langue maternelle (C2) |
+| Allemand | Bonne maîtrise |
+| Catalan | Bonne maîtrise |
 
 ---
 

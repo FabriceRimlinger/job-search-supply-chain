@@ -1,20 +1,20 @@
 # cover_letter — Alloga Portfolio Manager Technology / Change & Transformation
 
-**Objet : Candidature — Portfolio Manager Technology / Change & Transformation**
+**Subject: Application — Senior Portfolio Manager Technology / Change & Transformation**
 
 ---
 
-Madame, Monsieur,
+Dear Matt,
 
-Alloga entre dans une phase d'expansion structurante — nouveaux sites, croissance de la chaîne du froid, onboarding clients en accélération — dans un environnement où la conformité GDP n'est pas négociable. C'est précisément le type de contexte dans lequel j'apporte le plus de valeur : la livraison de portfolios de transformation complexes, en environnement réglementé, à fort enjeu de continuité opérationnelle.
+Alloga is entering a period of significant expansion — new sites, growing cold chain capabilities, accelerating client onboarding — in an environment where GDP compliance is non-negotiable. This is precisely the context where I deliver the most value: managing complex transformation portfolios in regulated settings, with full operational continuity.
 
-Avec 20 ans d'expérience pan-européenne — Amazon (10 ans, EMEA), Colis Privé, Infarm —, j'ai géré des portfolios allant jusqu'à 40M€/an, conçu des plateformes de governance adoptées à l'échelle EMEA (SHIELD), et livré des programmes d'intégration et d'automatisation avec des résultats mesurables : 550k€ d'économies annuelles sur le Service Client, 40% de réduction des tâches manuelles, 15 stations last mile déployées en 2 ans. Mes évaluations Amazon Forte (rating "Exceeds" 2021) attestent d'une capacité reconnue par mes pairs à "révolutionner le fonctionnement d'une équipe" par la donnée et les processus.
+With 20 years of pan-European experience — Amazon (10 years, EMEA), Colis Privé, Infarm — I have managed portfolios of up to €40M/year, designed governance platforms adopted at EMEA scale (SHIELD), and delivered integration and automation programmes with measurable outcomes: €550k in annual CS cost savings, 40% reduction in manual tasks, 15 last-mile stations deployed in two years. My Amazon Forte reviews (2021 "Exceeds" rating) reflect a recognised ability to "revolutionise the way a team operates" through data and process.
 
-Ce qui me distingue pour ce rôle : je ne suis pas seulement un portfolio manager — je suis aussi le propriétaire des outils qui rendent la governance possible. Chez Amazon, j'ai conçu SHIELD, plateforme BI de Due Diligence déployée sur l'ensemble de l'EMEA. Chez Colis Privé, j'ai sponsorisé le déploiement d'un programme d'IA et RPA qui a transformé la performance opérationnelle. Cette double compétence — governance de portfolio ET ownership des systèmes de reporting — est directement applicable aux enjeux de tooling & data quality qu'Alloga cherche à adresser.
+What sets me apart for this role: I am not solely a portfolio manager — I also own the tools that make governance possible. At Amazon, I designed SHIELD, a BI due diligence platform deployed across the entire EMEA estate. At Colis Privé, I sponsored an AI and RPA automation programme that transformed operational performance. This dual capability — portfolio governance AND reporting system ownership — directly addresses the tooling and data quality challenges Alloga aims to solve.
 
-Je serais heureux d'échanger sur la façon dont mon parcours peut contribuer à la réussite de vos programmes de transformation. Disponible pour un entretien à votre convenance.
+I would welcome the opportunity to discuss how my background can contribute to Alloga's transformation agenda. Available for a call or interview at your convenience.
 
-Cordialement,
+Kind regards,
 
 **Fabrice Rimlinger**
 +33 (0)6 23 57 77 85 | fabrice@rimlinger.eu
@@ -22,4 +22,4 @@ https://www.linkedin.com/in/fabricerimlinger/
 
 ---
 
-*Note VULCAIN : vérifier avant envoi — (1) confirmer le nom du recruteur pour personnaliser l'adresse, (2) confirmer la localisation du poste*
+*VULCAIN note: verify before sending — (1) confirm Alloga internal hiring manager name for salutation, (2) confirm exact job location*

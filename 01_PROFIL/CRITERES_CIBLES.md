@@ -2,7 +2,8 @@
 
 ## Critères de sélection des opportunités
 
-- Localisation : Marseille / Sud de France — ou remote/hybride [À CONFIRMER mobilité nationale]
+- Localisation : **Marseille / Provence / Sud de France en priorité** — remote/hybride accepté si siège national ou international. Paris et autres villes françaises en secondaire uniquement si scope exceptionnel
+- Exposition internationale : **critère prioritaire** — scope EU, EMEA ou global fortement préféré
 - Type de contrat : CDI
 - Taille d'entreprise : Mid-cap à grande entreprise (>200M€ CA) [À CONFIRMER]
 - Secteur d'activité : Logistique, Supply Chain, Transport, Distribution, e-commerce, 3PL — secteur pharma/réglementé ouvert

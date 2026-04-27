@@ -1,27 +1,28 @@
 # company_brief — Alloga
 
-## À propos de l'entreprise
+## About the Company
 
-- **Secteur** : Logistique pharmaceutique et santé (3PL réglementé)
-- **Maison mère** : Alliance Healthcare Group France → Cencora (anciennement AmerisourceBergen, Fortune 50 USA)
-- **Taille France** : 6 sites de distribution, dont 5 établissements pharmaceutiques — 150 000 m² de stockage total, 4 500 m² chaîne du froid (2-8°C)
-- **Volume** : 3,5 millions de commandes préparées/an en France
-- **Ancienneté** : >60 ans dans la distribution pharmaceutique en France
-- **Présence** : Réseau européen (UK, DE, NL, ES, BE, PT...)
+- **Sector**: Pharmaceutical and healthcare logistics (regulated 3PL)
+- **Parent company**: Alliance Healthcare Group France → Cencora (formerly AmerisourceBergen, Fortune 50 USA)
+- **France footprint**: 6 distribution sites, of which 5 are pharmaceutical establishments — 150,000 m² total storage, 4,500 m² cold chain (2–8°C)
+- **Volume**: 3.5 million orders prepared/year in France
+- **Track record**: >60 years in pharmaceutical distribution in France
+- **Presence**: European network (UK, DE, NL, ES, BE, PT…)
 
-## Enjeux supply chain & transformation
+## Supply Chain & Transformation Priorities
 
-- **Expansion 2026** : Cencora investit massivement dans la chaîne du froid et la logistique spécialisée — nouveau site 3PL en France, capacités réfrigérées/surgelées en expansion, technologie cryogénique aux Pays-Bas
-- **Intégration systèmes** : WMS/TMS/OMS, EDI/API avec les laboratoires pharmaceutiques clients, onboarding clients en croissance
-- **Conformité réglementaire** : Environnement GDP (Good Distribution Practice), QMS, audit trail — contraintes fortes et non négociables
-- **Digitalisation** : Reporting data, automatisation, cyber-résilience, projets transformation multi-pays
-- **Compétition** : Marché pharma 3PL en consolidation — Cencora/Alliance Healthcare face à Movianto, STEF Santé, Alloga en position de leader
+- **2026 Expansion**: Cencora is investing heavily in cold chain and specialist logistics — new 3PL site in France, expanded refrigerated/frozen capacities, cryogenic technology in the Netherlands
+- **Systems integration**: WMS/TMS/OMS, EDI/API with pharmaceutical laboratory clients, growing client onboarding pipeline
+- **Regulatory compliance**: GDP (Good Distribution Practice) environment, QMS, audit trail — strict, non-negotiable constraints
+- **Digitalisation**: Data reporting, automation, cyber-resilience, multi-country transformation projects
+- **Competition**: Consolidating pharma 3PL market — Cencora/Alliance Healthcare vs. Movianto, STEF Santé; Alloga positioned as market leader
 
-## Pourquoi ce poste est stratégique
+## Why This Role is Strategic
 
-Le Portfolio Manager Technology/Transformation est au cœur de la phase d'expansion et de digitalisation d'Alloga. Il pilote les projets qui sécurisent la croissance de revenus (onboarding nouveaux clients) tout en maintenant la conformité GDP — rôle de haute visibilité exécutive dans une structure en transformation active.
+The Portfolio Manager Technology/Transformation sits at the heart of Alloga's expansion and digitalisation phase. They drive the projects that secure revenue growth (new client onboarding) while maintaining GDP compliance — a high executive-visibility role within an organisation in active transformation.
 
-## Contacts et contexte
+## Contacts & Context
 
-- Recrutement transmis directement via réseau (lead chaud)
-- [À COMPLÉTER : nom du contact, titre, date échange]
+- Recruitment sourced directly via network (warm lead)
+- Recruiter: Matt Hancock, Talent Smart (UK) — matt.hancock@talent-smart.co.uk
+- [TO CONFIRM: Alloga internal hiring manager name and title]

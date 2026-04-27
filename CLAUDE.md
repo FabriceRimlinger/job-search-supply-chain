@@ -88,6 +88,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 
 **Tâche** :
 1. Lire `01_PROFIL/CRITERES_CIBLES.md` et `02_CIBLES/POSTES_IDEAUX.md`
+1b. **Traiter les URLs déposées manuellement** : lire `02_CIBLES/URLS_A_TRAITER.md`. Pour chaque URL listée (format `- Entreprise : https://...`) : fetcher la page (WebFetch), créer le dossier + `job_description.md` + `status.md`, committer/pousser. Vider le fichier après traitement. Pas de limite de 7 jours pour les URLs manuelles.
 2. Rechercher des offres récentes (moins de 7 jours) sur LinkedIn, Welcome to the Jungle, Indeed France, Cadremploi
    - Utiliser les titres de postes de `POSTES_IDEAUX.md` comme mots-clés
    - Filtrer selon les critères de `CRITERES_CIBLES.md`

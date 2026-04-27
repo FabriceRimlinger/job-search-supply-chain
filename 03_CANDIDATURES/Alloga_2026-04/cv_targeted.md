@@ -1,78 +1,87 @@
 # cv_targeted — Alloga Portfolio Manager Technology / Change & Transformation
 
-## Mots-clés ATS intégrés (issus de la job description)
+## Hook
+
+> Senior Portfolio Manager – Technology & Transformation — 20 years of pan-European supply chain experience.
+> €40M/year portfolio managed under EMEA governance at Amazon; SHIELD BI platform deployed across 1,200+ projects/year.
+> ~10 years in cold chain logistics and regulated environments — life sciences background (INP Toulouse).
+
+---
+
+## ATS Keywords Integrated (from job description)
+
 portfolio governance · stage gates · SteerCo · CapEx/OpEx · benefits realisation · RAID management · pan-European · regulated environment · cross-site · programme management · delivery assurance · audit trail · PMO
 
 ---
 
-## Profil ciblé
+## Targeted Profile
 
-Senior Portfolio Manager – Technology & Transformation avec 20 ans d'expérience pan-européenne dans des environnements logistiques complexes et réglementés. Expertise avérée en portfolio governance, financial management (40M€/an), benefits realisation et delivery assurance. Reconnu pour construire des plateformes de reporting et des processus de gouvernance adoptés à l'échelle EMEA. Trilingue FR/EN/ES.
+Senior Portfolio Manager – Technology & Transformation with 20 years of pan-European experience in complex, regulated logistics environments. Proven expertise in portfolio governance, financial management (€40M/year), benefits realisation and delivery assurance. Recognised for building reporting platforms and governance processes adopted at EMEA scale. Trilingual FR/EN/ES.
 
 ---
 
-## Expériences clés réorientées pour Alloga
+## Key Experience
 
-### Director Business Excellence — Colis Privé (05/2024 – Présent)
-*Portfolio de transformation opérationnelle — environnement réglementé distribution*
+### Director Business Excellence — Colis Privé (05/2024 – 02/2026)
+*Operational transformation portfolio — regulated distribution environment*
 
-- **Portfolio governance** : piloté 25 collaborateurs sur des programmes d'amélioration continue couvrant toutes les fonctions opérationnelles et clients
-- **Benefits realisation** : réduction de 20% du budget Service Client (550k€/an d'économies), mesurée et trackée avec des KPIs définis
-- **CapEx/OpEx** : sponsorisé le déploiement de l'automatisation (AI, RPA, call bots) — réduction de 40% des tâches manuelles
-- **Delivery assurance** : reporting exécutif régulier avec narrative claire, décisions et mitigations de risques
+- **Portfolio governance**: led 25 staff across continuous improvement programmes covering all operational and client-facing functions
+- **Benefits realisation**: 20% reduction in Customer Service budget (€550k/year in savings), measured and tracked against defined KPIs
+- **CapEx/OpEx**: sponsored automation deployment (AI, RPA, call bots) — 40% reduction in manual tasks
+- **Delivery assurance**: regular executive reporting with clear narrative, decisions required, and risk mitigations
 
 ### Director of Transformation — Colis Privé (07/2023 – 04/2024)
-*Intégration post-acquisition — continuité opérationnelle en environnement contraint*
+*Post-acquisition integration — operational continuity in constrained environment*
 
-- **Programme management** : intégration de 300 employés post-M&A avec continuité opérationnelle totale
-- **RAID management** : gestion des risques juridiques, RH, opérationnels et P&L en parallèle
-- **Stakeholder management** : négociations légales, alignement cross-fonctionnel, reporting direction
+- **Programme management**: integration of 300 employees post-M&A with full operational continuity
+- **RAID management**: concurrent management of legal, HR, operational and P&L risks
+- **Stakeholder management**: legal negotiations, cross-functional alignment, senior leadership reporting
 
 ### Senior Manager SC Long-term Planning & Risk Management — Amazon (08/2022 – 07/2023)
-*Portfolio programmes SC — scope EU paneuropéen*
+*SC portfolio programmes — pan-EU scope*
 
-- **Portfolio shaping** : défini le SOP d'expansion supply chain sur 36 mois pour l'EU
-- **Scenario planning** : benchmarked et lancé projets pilotes sur 80+ bâtiments Amazon EU
-- **Pan-European** : scope multi-pays, multi-sites, coordination cross-fonctionnelle EMEA
+- **Portfolio shaping**: defined the 36-month SC expansion SOP for the EU
+- **Scenario planning**: benchmarked and launched pilot projects across 80+ Amazon EU buildings
+- **Pan-European**: multi-country, multi-site scope, cross-functional EMEA coordination
 
 ### Head of Technical & Environmental Real Estate Due Diligence — Amazon (10/2018 – 08/2021)
-*Portfolio 1200 projets/an — budget 40M€ — environnement réglementé EMEA*
+*1,200+ projects/year portfolio — €40M budget — regulated EMEA environment*
 
-- **Portfolio governance** : piloté 1200+ Due Diligence EMEA/an avec stage gates, audit trail et conformité réglementaire totale — budget 40M€/an
-- **Tooling & data quality** : conçu et déployé SHIELD, plateforme BI globale adoptée par toutes les parties prenantes — "révolutionné le fonctionnement de l'équipe" *(peers feedback Forte 2021)*
-- **Regulated environment** : delivery readiness réglementée (conformité environnementale, permitting, EHS) sur l'ensemble des projets Real Estate Amazon EMEA
-- **Benefits realisation** : amélioration significative des délais de Due Diligence et de la qualité des rapports, adoptée EMEA
-- **Team leadership** : 10 risk managers + 30+ consultants, formation et montée en compétences
+- **Portfolio governance**: managed 1,200+ EMEA Due Diligences/year with stage gates, audit trail and full regulatory compliance — €40M/year budget
+- **Tooling & data quality**: designed and deployed SHIELD, a global BI platform adopted by all stakeholders — "revolutionised the way the team operates" *(Forte peer feedback 2021)*
+- **Regulated environment**: regulated delivery readiness (environmental compliance, permitting, EHS) across all Amazon EMEA Real Estate projects
+- **Benefits realisation**: significant improvement in Due Diligence timelines and report quality, adopted EMEA-wide
+- **Team leadership**: 10 risk managers + 30+ consultants, upskilling and capability development
 
 ### Director of Expansion & Industrial Integration — Infarm (06/2021 – 07/2022)
-*Portfolio CAPEX 72M€ — 4 pays EU*
+*€72M CAPEX portfolio — 4 EU countries*
 
-- **Financial management** : CAPEX 72M€ sur DE, UK, DK, FR — budgeting, forecasting, variance management
-- **Cross-site delivery** : coordination multi-pays, multi-sites, multi-fournisseurs (ingénierie, construction, IT)
-- **Delivery assurance** : reporting exécutif sur l'avancement des déploiements et management des risques
-
----
-
-## Compétences techniques
-
-- **Portfolio & PMO** : governance de portfolios complexes, stage gates, RAID, SteerCo, reporting exécutif
-- **Financial management** : CapEx/OpEx, budgeting, forecasting, variance management, business case
-- **BI & Data** : PowerBI, Microstrategy, SQL, PowerQuery, Excel VBA avancé, Salesforce
-- **Outils portfolio** : SHIELD (conçu et déployé), SNN4 dashboard (Amazon), Salesforce
-- **Environnements réglementés** : conformité EMEA, EHS, audit trail, risk management
+- **Financial management**: €72M CAPEX across DE, UK, DK, FR — budgeting, forecasting, variance management
+- **Cross-site delivery**: multi-country, multi-site, multi-vendor coordination (engineering, construction, IT)
+- **Delivery assurance**: executive reporting on deployment progress and risk management
 
 ---
 
-## Pont vers l'univers pharma / environnements réglementés
+## Technical Skills
 
-**~10 ans dans la logistique de produits périssables et à température contrôlée** (Dole Europe, Pomona Spain, ColdEnergy France) : gestion de chaînes du froid, traçabilité, conformité opérationnelle en environnements contrôlés — expérience directement transférable aux exigences GDP d'Alloga.
-
-**Formation life sciences** : Ingénieur agronome (INP Toulouse, Master of Science) + Licence Biochimie/Chimie — background académique en sciences du vivant aligné avec la culture pharma.
+- **Portfolio & PMO**: complex portfolio governance, stage gates, RAID, SteerCo, executive reporting
+- **Financial management**: CapEx/OpEx, budgeting, forecasting, variance management, business case
+- **BI & Data**: PowerBI, Microstrategy, SQL, PowerQuery, Excel VBA, Salesforce
+- **Portfolio tools**: SHIELD (designed and deployed), SNN4 dashboard (Amazon), Salesforce
+- **Regulated environments**: EMEA compliance, EHS, audit trail, risk management
 
 ---
 
-## Formation & Langues
+## Bridge to Pharma / Regulated Environments
 
-- Ingénieur agronome — INP Toulouse (Master of Science, Économie et Management agro-alimentaire)
-- Licence Biochimie / Chimie — Université des Sciences de Montpellier
-- Français · Anglais · Espagnol — niveaux natifs
+**~10 years in cold chain and perishables logistics** (Dole Europe, Pomona Spain, ColdEnergy France): cold chain management, traceability, operational compliance in controlled environments — directly transferable to Alloga's GDP requirements.
+
+**Life sciences background**: Agricultural Engineer (INP Toulouse, Master of Science) + BSc Biochemistry/Chemistry — academic foundation aligned with pharma culture.
+
+---
+
+## Education & Languages
+
+- Agricultural Engineer — INP Toulouse (Master of Science, Food Economics & Management)
+- BSc Biochemistry / Chemistry — Université des Sciences de Montpellier
+- French · English · Spanish — native/bilingual levels

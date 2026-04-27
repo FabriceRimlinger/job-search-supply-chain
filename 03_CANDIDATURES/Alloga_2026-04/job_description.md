@@ -1,38 +1,38 @@
 # job_description — Alloga
 
-## Informations de l'annonce
+## Job Posting Information
 
-- **Entreprise** : Alloga (filiale Alliance Healthcare / Cencora)
-- **Poste** : Portfolio Manager – Technology / Change & Transformation (niveau Senior)
-- **Localisation** : Marseille — Hybride (présentiel possible à Marseille)
-- **Type de contrat** : CDI [À CONFIRMER]
-- **Date de publication** : Avril 2026 (document reçu 16/04/2026)
-- **Source** : Document transmis directement (alloga tsfm.pdf)
+- **Company**: Alloga (subsidiary of Alliance Healthcare / Cencora)
+- **Role**: Portfolio Manager – Technology / Change & Transformation (Senior level)
+- **Location**: Marseille — Hybrid (on-site presence possible in Marseille)
+- **Contract type**: Permanent [TO CONFIRM]
+- **Publication date**: April 2026 (document received 16/04/2026)
+- **Source**: Document received directly (alloga tsfm.pdf)
 
-## Résumé du poste
+## Role Summary
 
-Gérer un portfolio paneuropéen d'initiatives de transformation technologique dans un environnement logistique réglementé (pharma). Piloter la gouvernance, la priorisation, l'assurance de livraison et la réalisation des bénéfices à travers les pays et sites, en soutenant une croissance de revenus multi-millions d'euros tout en protégeant la conformité et la performance opérationnelle.
+Manage a pan-European portfolio of technology transformation initiatives in a regulated logistics (pharma) environment. Drive governance, prioritisation, delivery assurance and benefits realisation across countries and sites, supporting multi-million euro revenue growth while protecting compliance and operational performance.
 
-## Responsabilités principales
+## Key Responsibilities
 
-- Piloter la gouvernance portfolio (cadence SteerCo), journaux de décisions, stage gates et reporting
-- Gérer l'intake des demandes, la qualité des business cases, la priorisation et le shaping du portfolio
-- Posséder le budget/forecast portfolio (CapEx/OpEx), la gestion des écarts et le support à la gouvernance des investissements
-- Suivre la réalisation des bénéfices (croissance revenus et protection des marges) jusqu'au go-live et post-implémentation
-- Piloter le RAID et la gestion des dépendances au niveau portfolio (IT, Opérations, Qualité, Finance, clients)
-- Assurer la préparation à la livraison réglementée (contrôles QMS, piste d'audit, réflexion validation si applicable)
-- Reporting & stakeholder management : livrables exécutifs avec narrative claire, décisions requises, mitigations risques
-- Ownership du système de référence portfolio ; garantir la cohérence des définitions et la qualité des données
+- Drive portfolio governance (SteerCo cadence), decision logs, stage gates and reporting
+- Manage demand intake, business case quality, prioritisation and portfolio shaping
+- Own portfolio budget/forecast (CapEx/OpEx), variance management and investment governance support
+- Track benefits realisation (revenue growth and margin protection) through to go-live and post-implementation
+- Drive RAID and dependency management at portfolio level (IT, Operations, Quality, Finance, clients)
+- Ensure regulated delivery readiness (QMS controls, audit trail, validation considerations where applicable)
+- Reporting & stakeholder management: executive deliverables with clear narrative, decisions required, risk mitigations
+- Ownership of the portfolio system of record; ensure definition consistency and data quality
 
-## Exigences clés
+## Key Requirements
 
-- Expérience forte PMO / portfolio ou programme management, idéalement en environnement réglementé (pharma supply chain, healthcare logistics, 3PL ou similaire)
-- Gestion de parties prenantes pan-européenne, multi-sites et reporting au niveau exécutif avéré
-- Compétences en gouvernance financière (budgeting, forecasting, EAC, business case oversight)
-- Aisance dans les changements à forte intégration (WMS/TMS/ERP, EDI/API) et livraison multi-fournisseurs (préféré)
-- Certifications PMP/PRINCE2/MSP/PfMP/ITIL appréciées
+- Strong PMO / portfolio or programme management experience, ideally in a regulated environment (pharma supply chain, healthcare logistics, 3PL or similar)
+- Proven pan-European stakeholder management, multi-site and executive-level reporting
+- Financial governance skills (budgeting, forecasting, EAC, business case oversight)
+- Comfort with high-integration changes (WMS/TMS/ERP, EDI/API) and multi-vendor delivery (preferred)
+- PMP/PRINCE2/MSP/PfMP/ITIL certifications valued
 
-## Compétences demandées (mots-clés ATS)
+## ATS Keywords
 
 - Portfolio governance, SteerCo, stage gates
 - CapEx/OpEx management, EAC, business case
@@ -43,6 +43,6 @@ Gérer un portfolio paneuropéen d'initiatives de transformation technologique d
 - PMO, programme management
 - PMP / PRINCE2 / MSP / PfMP / ITIL
 
-## Niveau
+## Level
 
-Deux niveaux proposés : Portfolio Manager (portefeuille modéré, avec support) et **Senior Portfolio Manager** (portefeuille plus large, risque élevé, ownership shaping et executive decisioning).
+Two levels proposed: Portfolio Manager (moderate portfolio, with support) and **Senior Portfolio Manager** (larger portfolio, high risk, ownership of shaping and executive decisioning).

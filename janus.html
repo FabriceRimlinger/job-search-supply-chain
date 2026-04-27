@@ -271,7 +271,7 @@ async function buildChildren(dirHandle, basePath, depth) {
       const children = await buildChildren(handle, path, depth + 1);
       if (children.length > 0) {
         const hasStat = children.some(c => c.type === 'file' && c.name === 'status.md');
-        nodes.push({ type:'folder', name, path, handle, expanded: depth < 1, isCandidature: hasStat, children });
+        nodes.push({ type:'folder', name, path, handle, expanded: false, isCandidature: hasStat, children });
       }
     } else if (handle.kind === 'file' && name.endsWith('.md')) {
       const path = basePath ? `${basePath}/${name}` : name;
