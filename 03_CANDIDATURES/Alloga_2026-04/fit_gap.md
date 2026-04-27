@@ -6,7 +6,7 @@
 
 | Dimension | Score | Détail |
 |-----------|-------|--------|
-| **Compétences techniques** | 8/10 | PMO fort, BI/data excellent (SHIELD, PowerBI, SQL), CAPEX management prouvé. Manque : WMS/TMS/ERP direct, PMP/PRINCE2 certif |
+| **Compétences techniques** | 8/10 | PMO fort, BI/data excellent (SHIELD, PowerBI, SQL), CAPEX management prouvé. Manque : WMS/TMS/ERP direct, certifications PMO (aucune) |
 | **Expérience sectorielle** | 6/10 | Logistique forte (Amazon, Colis Privé, Dole) mais zéro expérience pharma/GDP. Environnement réglementé partiel (Amazon EMEA compliance, EDD) |
 | **Niveau de responsabilité** | 10/10 | Pan-européen avéré, reporting C-level, multi-pays (EMEA), budget 40M€/an, équipes 25+ — correspond au niveau Senior Portfolio Manager |
 | **Mots-clés ATS** | 6/10 | Manquent dans le CV : SteerCo, RAID, stage gates, QMS, EAC, EDI/API, PMP/PRINCE2. À intégrer dans cv_targeted |
@@ -29,7 +29,7 @@
 
 - **Expérience pharma/GDP** (principal gap) : aucune expérience directe. À adresser en valorisant les expériences en environnement réglementé (Amazon : conformité EMEA, audits, risk management environnemental) et la capacité d'adaptation rapide à des contextes réglementés
 - **WMS/TMS/ERP direct** : expérience indirecte via Amazon et Colis Privé. À préciser les systèmes utilisés si applicable
-- **Certifications PMO** (PMP/PRINCE2) : non mentionnées. À vérifier si Fabrice en a — sinon ne pas inventer [À CONFIRMER]
+- **Certifications PMO** (PMP/PRINCE2/MSP) : aucune. Ne pas mentionner. Compenser par la profondeur de l'expérience opérationnelle (40M€/an, SHIELD, 1200+ projets/an)
 
 ## Points à valoriser dans CV et LM
 

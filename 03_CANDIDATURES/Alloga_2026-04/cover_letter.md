@@ -22,4 +22,4 @@ https://www.linkedin.com/in/fabricerimlinger/
 
 ---
 
-*Note VULCAIN : vérifier avant envoi — (1) confirmer le nom du recruteur pour personnaliser l'adresse, (2) confirmer la localisation du poste, (3) vérifier si des certifications PMO (PMP/PRINCE2) sont à mentionner [À CONFIRMER avec Fabrice]*
+*Note VULCAIN : vérifier avant envoi — (1) confirmer le nom du recruteur pour personnaliser l'adresse, (2) confirmer la localisation du poste*
