@@ -7,155 +7,139 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1f2937; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+body { font-family: -apple-system, BlinkMacSystemFont,'Segoe UI',sans-serif; background:#f0f2f5; color:#1f2937; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
 
-/* Header */
-header { background: #1e3a5f; color: white; padding: 10px 16px; display: flex; align-items: center; gap: 10px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-header h1 { font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #e2e8f0; white-space: nowrap; }
-header .sep { color: #4a7fa5; }
-header .root-name { font-size: 13px; color: #7eb8e0; flex: 1; font-style: italic; }
-.author-wrap { display: flex; align-items: center; gap: 6px; }
-.author-label { font-size: 11px; color: #94b3d4; white-space: nowrap; }
-header select { background: #2d4f73; color: #e2e8f0; border: 1px solid #3a6491; padding: 5px 10px; border-radius: 6px; font-size: 13px; cursor: pointer; }
-.mode-badge { font-size: 11px; padding: 3px 9px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
-.mode-fsa { background: #065f46; color: #6ee7b7; }
-.mode-dl  { background: #92400e; color: #fde68a; }
-header .btn { color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; white-space: nowrap; }
-header .btn-open { background: #2563eb; } header .btn-open:hover { background: #1d4ed8; }
-header .btn-csv  { background: #2d4f73; } header .btn-csv:hover  { background: #3a6491; }
+header { background:#1e3a5f; color:white; padding:10px 16px; display:flex; align-items:center; gap:10px; flex-shrink:0; box-shadow:0 2px 8px rgba(0,0,0,.2); }
+header h1 { font-size:15px; font-weight:700; letter-spacing:2px; color:#e2e8f0; white-space:nowrap; }
+.sep { color:#4a7fa5; }
+.root-name { font-size:13px; color:#7eb8e0; flex:1; font-style:italic; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.author-wrap { display:flex; align-items:center; gap:6px; }
+.author-label { font-size:11px; color:#94b3d4; white-space:nowrap; }
+header select { background:#2d4f73; color:#e2e8f0; border:1px solid #3a6491; padding:5px 10px; border-radius:6px; font-size:13px; cursor:pointer; }
+.mode-badge { font-size:11px; padding:3px 9px; border-radius:10px; font-weight:500; white-space:nowrap; }
+.mode-fsa { background:#065f46; color:#6ee7b7; }
+.mode-dl  { background:#92400e; color:#fde68a; }
+header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:background .15s; white-space:nowrap; }
+.btn-open { background:#2563eb; } .btn-open:hover { background:#1d4ed8; }
+.btn-csv  { background:#2d4f73; } .btn-csv:hover  { background:#3a6491; }
 
-/* Layout */
-.main { display: flex; flex: 1; overflow: hidden; }
+.main { display:flex; flex:1; overflow:hidden; }
 
 /* Sidebar */
-.sidebar { width: 230px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
-.sidebar-header { padding: 10px 12px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; }
-.tree { flex: 1; overflow-y: auto; padding: 4px 0; user-select: none; }
-.sidebar-empty { padding: 24px 14px; font-size: 12px; color: #9ca3af; text-align: center; line-height: 1.7; }
+.sidebar { width:240px; background:white; border-right:1px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
+.sidebar-hdr { padding:10px 12px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; }
+.tree { flex:1; overflow-y:auto; padding:4px 0; user-select:none; }
+.sidebar-empty { padding:24px 14px; font-size:12px; color:#9ca3af; text-align:center; line-height:1.7; }
+.sidebar-empty code { background:#f3f4f6; padding:1px 5px; border-radius:3px; font-size:11px; }
 
-/* Tree folder row */
-.tree-folder { display: flex; align-items: center; gap: 6px; padding: 8px 10px; cursor: pointer; font-size: 13px; font-weight: 600; color: #374151; transition: background 0.1s; }
-.tree-folder:hover { background: #f3f4f6; }
-.tree-folder .caret { font-size: 11px; color: #9ca3af; width: 12px; display: inline-block; transition: transform 0.15s; }
-.tree-folder.open .caret { transform: rotate(0deg); }
-.tree-folder.closed .caret { transform: rotate(-90deg); }
-.tree-folder .folder-icon { font-size: 14px; }
-.tree-folder .folder-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+/* Generic tree row */
+.tree-row { display:flex; align-items:center; gap:6px; cursor:pointer; transition:background .1s; border-left:3px solid transparent; }
+.tree-row:hover { background:#f3f4f6; }
+.tree-row.active { background:#eff6ff; border-left-color:#2563eb; }
+.tree-row .row-icon { font-size:13px; flex-shrink:0; }
+.tree-row .row-label { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.tree-row .dirty-dot { width:6px; height:6px; border-radius:50%; background:#f59e0b; flex-shrink:0; display:none; }
+.tree-row.dirty .dirty-dot { display:block; }
+.tree-row.file-row { font-size:12px; color:#4b5563; padding:6px 8px; }
+.tree-row.file-row.active { color:#2563eb; font-weight:500; }
+.tree-row.folder-row { font-size:12px; font-weight:600; color:#374151; padding:8px 8px; }
+.tree-row .caret { font-size:10px; color:#9ca3af; width:11px; flex-shrink:0; transition:transform .15s; display:inline-block; }
+.tree-row.closed .caret { transform:rotate(-90deg); }
+.lang-flag { font-size:14px; flex-shrink:0; }
+.tree-children { overflow:hidden; transition:max-height .2s ease; }
 
-/* Tree children */
-.tree-children { overflow: hidden; transition: max-height 0.2s ease; }
+/* Editor */
+.editor-area { flex:1; display:flex; flex-direction:column; overflow:hidden; background:white; }
+.editor-toolbar { padding:8px 14px; background:white; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; gap:8px; flex-shrink:0; min-height:46px; }
+.editor-toolbar .filename { font-size:13px; font-weight:600; color:#1f2937; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.unsaved-badge { background:#fef3c7; color:#92400e; font-size:11px; padding:2px 8px; border-radius:10px; font-weight:500; }
+.tab-btn { padding:4px 14px; border:1px solid #d1d5db; border-radius:20px; cursor:pointer; font-size:12px; background:white; color:#6b7280; transition:all .15s; }
+.tab-btn.active { background:#2563eb; color:white; border-color:#2563eb; }
+.tab-btn:hover:not(.active) { background:#f3f4f6; }
+.save-btn { background:#10b981; color:white; border:none; padding:6px 16px; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:background .15s; }
+.save-btn:hover { background:#059669; }
+.save-btn:disabled { background:#d1d5db; cursor:default; }
+.editor-container { flex:1; overflow:hidden; }
+#editor  { width:100%; height:100%; padding:18px 22px; border:none; outline:none; font-family:'Monaco','Menlo','Consolas',monospace; font-size:13px; line-height:1.8; resize:none; color:#1f2937; background:white; display:none; }
+#preview { width:100%; height:100%; padding:24px 36px; overflow-y:auto; line-height:1.8; font-size:14px; background:white; display:none; }
+#preview h1 { font-size:22px; color:#1e3a5f; border-bottom:2px solid #e5e7eb; padding-bottom:10px; margin:0 0 16px; }
+#preview h2 { font-size:17px; color:#1e3a5f; margin:22px 0 10px; }
+#preview h3 { font-size:14px; color:#374151; margin:16px 0 8px; font-weight:600; }
+#preview p  { margin:8px 0; color:#374151; }
+#preview ul,#preview ol { padding-left:22px; margin:8px 0; }
+#preview li { margin:5px 0; color:#374151; }
+#preview table { border-collapse:collapse; width:100%; margin:14px 0; font-size:13px; }
+#preview th { background:#f1f5f9; padding:9px 14px; text-align:left; border:1px solid #e2e8f0; font-weight:600; }
+#preview td { padding:8px 14px; border:1px solid #e2e8f0; }
+#preview tr:nth-child(even) td { background:#f9fafb; }
+#preview blockquote { border-left:4px solid #2563eb; padding:10px 16px; margin:14px 0; background:#eff6ff; border-radius:0 6px 6px 0; }
+#preview code { background:#f3f4f6; padding:2px 6px; border-radius:4px; font-family:monospace; font-size:12px; color:#dc2626; }
+#preview pre { background:#1e293b; color:#e2e8f0; padding:16px; border-radius:8px; overflow-x:auto; margin:14px 0; }
+#preview pre code { background:none; color:inherit; padding:0; }
+#preview strong { color:#1e3a5f; } #preview a { color:#2563eb; }
+#preview hr { border:none; border-top:1px solid #e5e7eb; margin:18px 0; }
+.empty-state { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; color:#9ca3af; gap:14px; text-align:center; }
+.empty-state .icon { font-size:48px; }
+.empty-state p { font-size:14px; line-height:1.7; max-width:260px; }
+.empty-state strong { color:#374151; }
 
-/* Tree file row */
-.tree-file { display: flex; align-items: center; gap: 7px; padding: 7px 10px 7px 30px; cursor: pointer; font-size: 12px; color: #4b5563; border-left: 3px solid transparent; transition: all 0.1s; }
-.tree-file:hover { background: #f3f4f6; }
-.tree-file.active { background: #eff6ff; color: #2563eb; border-left-color: #2563eb; font-weight: 500; }
-.tree-file .file-icon { font-size: 12px; flex-shrink: 0; }
-.tree-file .file-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.tree-file .dirty-dot { width: 6px; height: 6px; border-radius: 50%; background: #f59e0b; flex-shrink: 0; display: none; }
-.tree-file.dirty .dirty-dot { display: block; }
+/* Dialogs */
+.overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.35); z-index:99; }
+.dialog { display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:24px; border-radius:12px; box-shadow:0 20px 60px rgba(0,0,0,.2); z-index:100; }
+.dialog h3 { font-size:14px; font-weight:600; margin-bottom:6px; color:#1e3a5f; }
+.dialog p  { font-size:12px; color:#6b7280; margin-bottom:14px; }
+#saveDialog { width:380px; }
+#saveDialog input { width:100%; padding:9px 12px; border:1px solid #d1d5db; border-radius:8px; font-size:13px; outline:none; }
+#saveDialog input:focus { border-color:#2563eb; }
+.dialog .btns { display:flex; gap:8px; justify-content:flex-end; margin-top:14px; }
+.dialog .btns button { padding:8px 18px; border-radius:8px; cursor:pointer; font-size:13px; font-weight:500; border:none; }
+.btn-cancel  { background:#f3f4f6; color:#374151; } .btn-cancel:hover  { background:#e5e7eb; }
+.btn-confirm { background:#10b981; color:white;   } .btn-confirm:hover { background:#059669; }
+#langDialog { width:320px; }
+#langDialog .lang-opts { display:flex; gap:10px; margin-top:4px; }
+#langDialog .lang-opt { flex:1; padding:14px 8px; border:2px solid #e5e7eb; border-radius:10px; cursor:pointer; text-align:center; font-size:22px; transition:all .15s; }
+#langDialog .lang-opt:hover { border-color:#2563eb; background:#eff6ff; }
+#langDialog .lang-opt span { display:block; font-size:11px; color:#6b7280; margin-top:4px; font-weight:600; }
 
-/* Editor area */
-.editor-area { flex: 1; display: flex; flex-direction: column; overflow: hidden; background: white; }
-.editor-toolbar { padding: 8px 14px; background: white; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 8px; flex-shrink: 0; min-height: 46px; }
-.editor-toolbar .filename { font-size: 13px; font-weight: 600; color: #1f2937; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.unsaved-badge { background: #fef3c7; color: #92400e; font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
-.tab-btn { padding: 4px 14px; border: 1px solid #d1d5db; border-radius: 20px; cursor: pointer; font-size: 12px; background: white; color: #6b7280; transition: all 0.15s; }
-.tab-btn.active { background: #2563eb; color: white; border-color: #2563eb; }
-.tab-btn:hover:not(.active) { background: #f3f4f6; }
-.save-btn { background: #10b981; color: white; border: none; padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; transition: background 0.15s; white-space: nowrap; }
-.save-btn:hover { background: #059669; }
-.save-btn:disabled { background: #d1d5db; cursor: default; }
+/* Log */
+.log-panel { height:185px; background:white; border-top:2px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
+.log-hdr { padding:7px 16px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; gap:10px; }
+.log-hdr span { color:#374151; }
+.log-filter { padding:3px 10px; border:1px solid #e5e7eb; border-radius:12px; font-size:12px; outline:none; background:#f9fafb; }
+.log-filter:focus { border-color:#2563eb; background:white; }
+.log-actions { margin-left:auto; display:flex; gap:8px; }
+.log-actions button { font-size:11px; cursor:pointer; background:none; border:1px solid #e5e7eb; border-radius:4px; padding:2px 8px; color:#6b7280; }
+.log-actions button:hover { background:#f3f4f6; }
+.log-actions .clear-btn:hover { color:#ef4444; border-color:#fca5a5; background:#fef2f2; }
+.log-table { flex:1; overflow-y:auto; }
+table.log { width:100%; border-collapse:collapse; font-size:12px; }
+table.log th { position:sticky; top:0; background:#f9fafb; padding:6px 14px; text-align:left; color:#9ca3af; font-weight:500; border-bottom:1px solid #e5e7eb; z-index:1; }
+table.log td { padding:6px 14px; border-bottom:1px solid #f3f4f6; color:#374151; }
+table.log tr:hover td { background:#f9fafb; }
+.no-entries { text-align:center; color:#9ca3af; padding:20px; font-style:italic; }
+.badge { padding:2px 8px; border-radius:10px; font-size:11px; font-weight:500; }
+.badge-Fabrice{background:#dbeafe;color:#1d4ed8} .badge-AURORA{background:#fef3c7;color:#92400e}
+.badge-VULCAIN{background:#fee2e2;color:#991b1b} .badge-MINERVE{background:#ede9fe;color:#5b21b6}
+.badge-FIDES  {background:#d1fae5;color:#065f46} .badge-JANUS  {background:#e0f2fe;color:#0369a1}
+.delta-pos{color:#10b981} .delta-neg{color:#ef4444}
+.note-cell{color:#6b7280;font-style:italic;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
-/* Editor / Preview */
-.editor-container { flex: 1; overflow: hidden; position: relative; }
-#editor  { width: 100%; height: 100%; padding: 18px 22px; border: none; outline: none; font-family: 'Monaco','Menlo','Consolas',monospace; font-size: 13px; line-height: 1.8; resize: none; color: #1f2937; background: white; display: none; }
-#preview { width: 100%; height: 100%; padding: 24px 36px; overflow-y: auto; line-height: 1.8; font-size: 14px; background: white; display: none; }
-#preview h1 { font-size: 22px; color: #1e3a5f; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; margin: 0 0 16px; }
-#preview h2 { font-size: 17px; color: #1e3a5f; margin: 22px 0 10px; }
-#preview h3 { font-size: 14px; color: #374151; margin: 16px 0 8px; font-weight: 600; }
-#preview p  { margin: 8px 0; color: #374151; }
-#preview ul, #preview ol { padding-left: 22px; margin: 8px 0; }
-#preview li { margin: 5px 0; color: #374151; }
-#preview table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
-#preview th { background: #f1f5f9; padding: 9px 14px; text-align: left; border: 1px solid #e2e8f0; font-weight: 600; color: #374151; }
-#preview td { padding: 8px 14px; border: 1px solid #e2e8f0; color: #374151; }
-#preview tr:nth-child(even) td { background: #f9fafb; }
-#preview blockquote { border-left: 4px solid #2563eb; padding: 10px 16px; margin: 14px 0; background: #eff6ff; color: #1e3a5f; border-radius: 0 6px 6px 0; }
-#preview code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 12px; color: #dc2626; }
-#preview pre { background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; margin: 14px 0; }
-#preview pre code { background: none; color: inherit; padding: 0; }
-#preview strong { color: #1e3a5f; }
-#preview a { color: #2563eb; }
-#preview hr { border: none; border-top: 1px solid #e5e7eb; margin: 18px 0; }
-#preview input[type="checkbox"] { margin-right: 6px; }
-
-/* Empty state */
-.empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: #9ca3af; gap: 14px; }
-.empty-state .icon { font-size: 48px; }
-.empty-state p { font-size: 14px; line-height: 1.7; text-align: center; max-width: 240px; }
-
-/* Save dialog */
-.overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 99; }
-.save-dialog { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: white; padding: 24px; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); z-index: 100; width: 380px; }
-.save-dialog h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #1e3a5f; }
-.save-dialog p { font-size: 12px; color: #6b7280; margin-bottom: 14px; }
-.save-dialog input { width: 100%; padding: 9px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.15s; }
-.save-dialog input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
-.save-dialog .btns { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
-.save-dialog .btns button { padding: 8px 18px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; border: none; transition: background 0.15s; }
-.btn-cancel  { background: #f3f4f6; color: #374151; } .btn-cancel:hover  { background: #e5e7eb; }
-.btn-confirm { background: #10b981; color: white;   } .btn-confirm:hover { background: #059669; }
-
-/* Log panel */
-.log-panel { height: 185px; background: white; border-top: 2px solid #e5e7eb; display: flex; flex-direction: column; flex-shrink: 0; }
-.log-header { padding: 7px 16px; font-size: 11px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; gap: 10px; }
-.log-header span { color: #374151; }
-.log-filter { padding: 3px 10px; border: 1px solid #e5e7eb; border-radius: 12px; font-size: 12px; outline: none; color: #374151; background: #f9fafb; }
-.log-filter:focus { border-color: #2563eb; background: white; }
-.log-actions { margin-left: auto; display: flex; gap: 8px; }
-.log-actions button { font-size: 11px; cursor: pointer; background: none; border: 1px solid #e5e7eb; border-radius: 4px; padding: 2px 8px; color: #6b7280; transition: all 0.15s; }
-.log-actions button:hover { background: #f3f4f6; }
-.log-actions .clear-btn:hover { color: #ef4444; border-color: #fca5a5; background: #fef2f2; }
-.log-table { flex: 1; overflow-y: auto; }
-table.log { width: 100%; border-collapse: collapse; font-size: 12px; }
-table.log th { position: sticky; top: 0; background: #f9fafb; padding: 6px 14px; text-align: left; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #e5e7eb; z-index: 1; }
-table.log td { padding: 6px 14px; border-bottom: 1px solid #f3f4f6; color: #374151; vertical-align: middle; }
-table.log tr:hover td { background: #f9fafb; }
-table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-style: italic; }
-.badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
-.badge-Fabrice { background: #dbeafe; color: #1d4ed8; }
-.badge-AURORA  { background: #fef3c7; color: #92400e; }
-.badge-VULCAIN { background: #fee2e2; color: #991b1b; }
-.badge-MINERVE { background: #ede9fe; color: #5b21b6; }
-.badge-FIDES   { background: #d1fae5; color: #065f46; }
-.badge-JANUS   { background: #e0f2fe; color: #0369a1; }
-.delta-pos { color: #10b981; } .delta-neg { color: #ef4444; }
-.note-cell { color: #6b7280; font-style: italic; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
-
-.toast { position: fixed; bottom: 200px; right: 20px; background: #1e293b; color: white; padding: 10px 18px; border-radius: 8px; font-size: 13px; z-index: 200; transform: translateY(20px); opacity: 0; transition: all 0.25s; pointer-events: none; }
-.toast.show { transform: translateY(0); opacity: 1; }
+::-webkit-scrollbar{width:6px;height:6px} ::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:3px} ::-webkit-scrollbar-thumb:hover{background:#9ca3af}
+.toast{position:fixed;bottom:200px;right:20px;background:#1e293b;color:white;padding:10px 18px;border-radius:8px;font-size:13px;z-index:200;transform:translateY(20px);opacity:0;transition:all .25s;pointer-events:none}
+.toast.show{transform:translateY(0);opacity:1}
 </style>
 </head>
 <body>
 
 <header>
-  <h1>⚖ JANUS</h1>
-  <span class="sep">/</span>
-  <span class="root-name" id="rootName">Aucun dossier ouvert</span>
+  <h1>⚖ JANUS</h1><span class="sep">/</span>
+  <span class="root-name" id="rootName">Ouvrez le dossier du projet</span>
   <div class="author-wrap">
     <span class="author-label">👤 Auteur log :</span>
-    <select id="authorSelect" title="Auteur enregistré dans le journal des modifications">
-      <option>Fabrice</option>
-      <option>JANUS</option>
-      <option>AURORA</option>
-      <option>VULCAIN</option>
-      <option>MINERVE</option>
-      <option>FIDES</option>
+    <select id="authorSelect">
+      <option>Fabrice</option><option>JANUS</option><option>AURORA</option>
+      <option>VULCAIN</option><option>MINERVE</option><option>FIDES</option>
     </select>
   </div>
   <span class="mode-badge" id="modeBadge" style="display:none"></span>
@@ -166,33 +150,32 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
 
 <div class="main">
   <div class="sidebar">
-    <div class="sidebar-header" id="sidebarHeader">Candidatures</div>
+    <div class="sidebar-hdr">Candidatures</div>
     <div class="tree" id="tree">
-      <div class="sidebar-empty">Ouvrez le dossier<br><code>03_CANDIDATURES</code><br>ou un dossier de candidature</div>
+      <div class="sidebar-empty">Ouvrez le dossier<br><code>Recherche Emploi Supply Chain</code><br>pour voir l'arborescence</div>
     </div>
   </div>
-
   <div class="editor-area">
     <div class="editor-toolbar" id="toolbar" style="display:none">
       <span class="filename" id="currentFilename">—</span>
       <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
       <button class="tab-btn" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
-      <button class="tab-btn active" id="tabPreview" onclick="switchTab('preview')">Aperçu</button>
+      <button class="tab-btn active" id="tabPrev" onclick="switchTab('preview')">Aperçu</button>
       <button class="save-btn" id="saveBtn" onclick="triggerSave()" disabled>Sauvegarder</button>
     </div>
     <div class="editor-container">
       <div class="empty-state" id="emptyState">
         <div class="icon">📁</div>
-        <p>Ouvrez le dossier <strong>03_CANDIDATURES</strong> pour voir l'arborescence de vos candidatures</p>
+        <p>Ouvrez <strong>Recherche Emploi Supply Chain</strong> puis sélectionnez un fichier</p>
       </div>
-      <textarea id="editor" spellcheck="true" placeholder="Contenu du fichier..."></textarea>
+      <textarea id="editor" spellcheck="true"></textarea>
       <div id="preview"></div>
     </div>
   </div>
 </div>
 
 <div class="log-panel">
-  <div class="log-header">
+  <div class="log-hdr">
     <span>Journal des modifications</span>
     <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer par fichier, auteur, note..." oninput="renderLog()">
     <div class="log-actions">
@@ -203,47 +186,56 @@ table.log .no-entries { text-align: center; color: #9ca3af; padding: 20px; font-
   <div class="log-table">
     <table class="log">
       <thead><tr>
-        <th style="width:130px">Date & heure</th>
-        <th style="width:80px">Auteur</th>
-        <th style="width:200px">Fichier</th>
-        <th style="width:60px">Δ</th>
-        <th>Note</th>
+        <th style="width:130px">Date & heure</th><th style="width:80px">Auteur</th>
+        <th style="width:200px">Fichier</th><th style="width:55px">Δ</th><th>Note</th>
       </tr></thead>
       <tbody id="logBody"></tbody>
     </table>
   </div>
 </div>
 
-<div class="overlay" id="overlay" onclick="cancelSave()"></div>
-<div class="save-dialog" id="saveDialog">
+<div class="overlay" id="overlay"></div>
+
+<!-- Save dialog -->
+<div class="dialog" id="saveDialog">
   <h3>💾 Sauvegarder</h3>
   <p id="saveInfo">—</p>
-  <input type="text" id="saveNote" placeholder="Note optionnelle (ex: Statut → Entretien planifié)" maxlength="120">
+  <input type="text" id="saveNote" placeholder="Note optionnelle" maxlength="120">
   <div class="btns">
-    <button class="btn-cancel"  onclick="cancelSave()">Annuler</button>
+    <button class="btn-cancel"  onclick="closeSave()">Annuler</button>
     <button class="btn-confirm" onclick="confirmSave()">Sauvegarder</button>
+  </div>
+</div>
+
+<!-- Language dialog -->
+<div class="dialog" id="langDialog">
+  <h3>🌐 Langue de cette candidature</h3>
+  <p id="langFolderName">Sélectionnez la langue pour les documents de cette candidature.</p>
+  <div class="lang-opts">
+    <div class="lang-opt" onclick="setLang('fr')">🇫🇷<span>Français</span></div>
+    <div class="lang-opt" onclick="setLang('en')">🇺🇸<span>English</span></div>
   </div>
 </div>
 
 <div class="toast" id="toast"></div>
 
 <script>
-const LOG_KEY = 'janus_log';
+const LOG_KEY  = 'janus_log';
+const LANG_KEY = 'janus_lang';
 
-// State
-let rootHandle  = null;           // top-level FSA dir handle
-let saveMode    = 'fsa';          // 'fsa' | 'download'
-let activeTab   = 'preview';      // default: aperçu
-let currentPath = null;           // e.g. "Alloga_2026-04/status.md"
-
-// Tree structure: { folderKey: { label, expanded, handle|null, files: [{name, path, handle}] } }
-// flat files (no subfolders) stored under key ''
-let treeData    = {};
+// ── State ──────────────────────────────────────────────────────────────────────
+let rootHandle  = null;
+let saveMode    = 'fsa';
+let activeTab   = 'preview';
+let currentPath = null;
 let fileHandles = {};  // path -> FSA handle | { _fileObj }
 let fileOrig    = {};  // path -> content at last save
+let treeNodes   = [];  // root children
+let langPending = null; // folder path awaiting lang selection
 
-const FILE_ICONS = { status:'📊', job_description:'📋', fit_gap:'🎯', cv_targeted:'📄', cover_letter:'✉️', company_brief:'🏢', README:'📖', CATALOGUE:'📚' };
-const FILE_ORDER = ['status','job_description','fit_gap','cv_targeted','cover_letter','company_brief'];
+const FILE_ICONS  = {status:'📊',job_description:'📋',fit_gap:'🎯',cv_targeted:'📄',cover_letter:'✉️',company_brief:'🏢',README:'📖',CATALOGUE:'📚',CV_MASTER:'📄',BIO_EXECUTIVE:'🎯',REALISATIONS:'⭐',CRITERES:'🎯'};
+const FILE_ORDER  = ['status','job_description','fit_gap','cv_targeted','cover_letter','company_brief'];
+const SKIP_DIRS   = ['.git','node_modules','__pycache__','.claude','INPUT','99_ARCHIVES'];
 
 // ── Open ──────────────────────────────────────────────────────────────────────
 
@@ -251,128 +243,237 @@ async function openDirectory() {
   if ('showDirectoryPicker' in window) {
     saveMode = 'fsa';
     try {
-      rootHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
-      await scanFSA(rootHandle);
+      rootHandle = await window.showDirectoryPicker({ mode:'readwrite' });
+      treeNodes = await buildChildren(rootHandle, '', 0);
+      document.getElementById('rootName').textContent = rootHandle.name;
+      setModeBadge(); renderTree();
+      autoLoadFirst();
     } catch(e) { if (e.name !== 'AbortError') console.error(e); }
   } else {
     saveMode = 'download';
     const inp = document.getElementById('dirInput');
-    inp.setAttribute('webkitdirectory','');
-    inp.onchange = e => scanInput(e.target.files);
-    inp.click();
+    inp.setAttribute('webkitdirectory',''); inp.onchange = e => loadFromInput(e.target.files); inp.click();
   }
 }
 
-// FSA: scan root, detect if it has subdirs with .md files
-async function scanFSA(root) {
-  treeData = {}; fileHandles = {}; fileOrig = {};
-  let hasSubs = false;
+// Recursive FSA scan — max 3 levels
+async function buildChildren(dirHandle, basePath, depth) {
+  if (depth > 3) return [];
+  const nodes = [];
+  const entries = [];
+  for await (const [name, handle] of dirHandle.entries()) entries.push([name, handle]);
 
-  for await (const [name, handle] of root.entries()) {
-    if (handle.kind === 'directory' && !name.startsWith('.')) {
-      const files = [];
-      for await (const [fn, fh] of handle.entries()) {
-        if (fh.kind === 'file' && fn.endsWith('.md')) {
-          const path = `${name}/${fn}`;
-          fileHandles[path] = fh;
-          files.push({ name: fn, path });
-          hasSubs = true;
-        }
-      }
-      if (files.length) {
-        treeData[name] = { label: name, expanded: true, handle, files: sortFileList(files) };
+  for (const [name, handle] of entries.sort((a,b) => a[0].localeCompare(b[0]))) {
+    if (name.startsWith('.') || SKIP_DIRS.includes(name)) continue;
+
+    if (handle.kind === 'directory') {
+      const path = basePath ? `${basePath}/${name}` : name;
+      const children = await buildChildren(handle, path, depth + 1);
+      if (children.length > 0) {
+        const hasStat = children.some(c => c.type === 'file' && c.name === 'status.md');
+        nodes.push({ type:'folder', name, path, handle, expanded: depth < 1, isCandidature: hasStat, children });
       }
     } else if (handle.kind === 'file' && name.endsWith('.md')) {
-      if (!treeData['']) treeData[''] = { label: '', expanded: true, handle: null, files: [] };
-      fileHandles[name] = handle;
-      treeData[''].files.push({ name, path: name });
+      const path = basePath ? `${basePath}/${name}` : name;
+      fileHandles[path] = handle;
+      nodes.push({ type:'file', name, path, handle });
     }
   }
 
-  document.getElementById('rootName').textContent = root.name;
-  setModeBadge();
-  renderTree();
-
-  // Auto-load first file
-  const firstFolder = Object.keys(treeData)[0];
-  if (firstFolder !== undefined) {
-    const files = treeData[firstFolder].files;
-    if (files.length) await loadFile(files[0].path);
-  }
+  // Sort: folders first, then files in logical order
+  return nodes.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
+    if (a.type === 'file') {
+      const ai = FILE_ORDER.findIndex(o => a.name.includes(o));
+      const bi = FILE_ORDER.findIndex(o => b.name.includes(o));
+      if (ai !== -1 && bi !== -1) return ai - bi;
+      if (ai !== -1) return -1; if (bi !== -1) return 1;
+    }
+    return a.name.localeCompare(b.name);
+  });
 }
 
-// Firefox: group files by folder from webkitRelativePath
-async function scanInput(files) {
-  treeData = {}; fileHandles = {}; fileOrig = {};
+// Firefox input fallback
+async function loadFromInput(files) {
+  fileHandles = {}; fileOrig = {};
+  const byFolder = {};
   let rootName = '—';
 
   for (const file of files) {
     if (!file.name.endsWith('.md')) continue;
     const parts = (file.webkitRelativePath || file.name).split('/');
+    rootName = parts[0];
     const content = await file.text();
-
-    if (parts.length === 1) {
-      // flat file
-      const path = file.name;
-      if (!treeData['']) treeData[''] = { label:'', expanded:true, handle:null, files:[] };
-      fileHandles[path] = { _fileObj: file };
-      fileOrig[path] = content;
-      treeData[''].files.push({ name: file.name, path });
-      rootName = 'Dossier sélectionné';
-    } else if (parts.length === 2) {
-      const [folder, fname] = parts;
-      rootName = folder;
-      const path = `${folder}/${fname}`;
-      if (!treeData[folder]) treeData[folder] = { label: folder, expanded: true, handle: null, files: [] };
-      fileHandles[path] = { _fileObj: file };
-      fileOrig[path] = content;
-      treeData[folder].files.push({ name: fname, path });
-    } else {
-      // deeper nesting: use parent/file
-      const folder = parts[parts.length - 2];
-      const fname  = parts[parts.length - 1];
-      rootName = parts[0];
-      const path = `${folder}/${fname}`;
-      if (!treeData[folder]) treeData[folder] = { label: folder, expanded: true, handle: null, files: [] };
-      fileHandles[path] = { _fileObj: file };
-      fileOrig[path] = content;
-      treeData[folder].files.push({ name: fname, path });
-    }
+    const path = parts.slice(1).join('/') || file.name;
+    fileHandles[path] = { _fileObj: file };
+    fileOrig[path] = content;
+    const folder = parts.length > 2 ? parts.slice(1, -1).join('/') : '';
+    if (!byFolder[folder]) byFolder[folder] = [];
+    byFolder[folder].push({ type:'file', name: parts[parts.length-1], path });
   }
 
-  // Sort files within each folder
-  for (const k of Object.keys(treeData)) treeData[k].files = sortFileList(treeData[k].files);
-
+  // Build simple tree from byFolder
+  treeNodes = buildTreeFromPaths(byFolder);
   document.getElementById('rootName').textContent = rootName;
-  setModeBadge();
-  renderTree();
+  setModeBadge(); renderTree(); autoLoadFirst();
+}
 
-  const firstFolder = Object.keys(treeData)[0];
-  if (firstFolder !== undefined && treeData[firstFolder].files.length) {
-    await loadFile(treeData[firstFolder].files[0].path);
+function buildTreeFromPaths(byFolder) {
+  const nodes = [];
+  const folders = Object.keys(byFolder).sort();
+  const topFolders = [...new Set(folders.map(f => f.split('/')[0]).filter(Boolean))];
+
+  // Flat files
+  if (byFolder['']) {
+    byFolder[''].forEach(f => nodes.push(f));
+  }
+
+  topFolders.forEach(top => {
+    const children = [];
+    folders.filter(f => f === top || f.startsWith(top + '/')).forEach(f => {
+      if (f === top) {
+        byFolder[f].forEach(file => children.push(file));
+      } else {
+        const sub = f.slice(top.length + 1);
+        const subNode = { type:'folder', name: sub, path: `${top}/${sub}`, expanded:true, isCandidature: byFolder[f].some(x => x.name==='status.md'), children: byFolder[f] };
+        children.push(subNode);
+      }
+    });
+    nodes.push({ type:'folder', name: top, path: top, expanded: true, isCandidature: false, children });
+  });
+  return nodes;
+}
+
+function autoLoadFirst() {
+  const first = findFirstFile(treeNodes);
+  if (first) loadFile(first.path);
+}
+
+function findFirstFile(nodes) {
+  for (const n of nodes) {
+    if (n.type === 'file') return n;
+    if (n.type === 'folder') { const f = findFirstFile(n.children || []); if (f) return f; }
+  }
+  return null;
+}
+
+// ── Tree render ───────────────────────────────────────────────────────────────
+
+function renderTree() {
+  const container = document.getElementById('tree');
+  if (!treeNodes.length) {
+    container.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé</div>';
+    return;
+  }
+  container.innerHTML = renderNodes(treeNodes, 0);
+}
+
+function renderNodes(nodes, depth) {
+  return nodes.map(n => renderNode(n, depth)).join('');
+}
+
+function renderNode(n, depth) {
+  const pad = 8 + depth * 14;
+  if (n.type === 'file') {
+    const iconKey = Object.keys(FILE_ICONS).find(k => n.name.includes(k));
+    const icon = iconKey ? FILE_ICONS[iconKey] : '📝';
+    const active = n.path === currentPath ? 'active' : '';
+    const dirty  = n.path === currentPath && isDirty() ? 'dirty' : '';
+    const label  = n.name.replace('.md','');
+    return `<div class="tree-row file-row ${active} ${dirty}" data-path="${esc(n.path)}" onclick="loadFile('${esc(n.path)}')" style="padding-left:${pad}px">
+      <span class="row-icon">${icon}</span>
+      <span class="row-label" title="${n.name}">${label}</span>
+      <span class="dirty-dot"></span>
+    </div>`;
+  } else {
+    const open  = n.expanded !== false;
+    const cls   = open ? '' : 'closed';
+    const langs = getLangs();
+    const lang  = langs[n.path];
+    const flag  = lang === 'fr' ? '🇫🇷' : lang === 'en' ? '🇺🇸' : '';
+    const childrenHTML = renderNodes(n.children || [], depth + 1);
+    const maxH  = open ? '9999px' : '0';
+    const click = n.isCandidature
+      ? `onFolderClick('${esc(n.path)}')`
+      : `toggleFolder('${esc(n.path)}')`;
+    return `<div class="tree-row folder-row ${cls}" id="fr-${esc(n.path)}" onclick="${click}" style="padding-left:${pad}px">
+      <span class="caret">▾</span>
+      <span class="row-icon">📁</span>
+      <span class="row-label" title="${n.name}">${n.name}</span>
+      ${flag ? `<span class="lang-flag">${flag}</span>` : ''}
+    </div>
+    <div class="tree-children" id="fc-${esc(n.path)}" style="max-height:${maxH}">${childrenHTML}</div>`;
   }
 }
 
-function sortFileList(files) {
-  return files.sort((a, b) => {
-    const ai = FILE_ORDER.findIndex(o => a.name.includes(o));
-    const bi = FILE_ORDER.findIndex(o => b.name.includes(o));
-    if (ai !== -1 && bi !== -1) return ai - bi;
-    if (ai !== -1) return -1; if (bi !== -1) return 1;
-    return a.name.localeCompare(b.name);
+function esc(s) { return s.replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
+
+function toggleFolder(path) {
+  const node = findNode(treeNodes, path);
+  if (!node) return;
+  node.expanded = !node.expanded;
+  const fc  = document.getElementById(`fc-${path}`);
+  const row = document.getElementById(`fr-${path}`);
+  if (fc)  fc.style.maxHeight  = node.expanded ? '9999px' : '0';
+  if (row) row.classList.toggle('closed', !node.expanded);
+}
+
+function onFolderClick(path) {
+  toggleFolder(path);
+  // Ask for language if not yet set
+  const langs = getLangs();
+  if (!langs[path]) { langPending = path; showLangDialog(path); }
+}
+
+function findNode(nodes, path) {
+  for (const n of nodes) {
+    if (n.path === path) return n;
+    if (n.children) { const found = findNode(n.children, path); if (found) return found; }
+  }
+  return null;
+}
+
+function refreshTreeUI() {
+  // Only update active/dirty without full re-render
+  document.querySelectorAll('.tree-row.file-row').forEach(el => {
+    const p = el.dataset.path;
+    el.classList.toggle('active', p === currentPath);
+    el.classList.toggle('dirty',  p === currentPath && isDirty());
   });
+}
+
+// ── Language dialog ───────────────────────────────────────────────────────────
+
+function getLangs() { try { return JSON.parse(localStorage.getItem(LANG_KEY)||'{}'); } catch { return {}; } }
+
+function showLangDialog(path) {
+  const folderName = path.split('/').pop();
+  document.getElementById('langFolderName').textContent = `Candidature : ${folderName}`;
+  showOverlay();
+  document.getElementById('langDialog').style.display = 'block';
+}
+
+function setLang(lang) {
+  if (!langPending) return;
+  const langs = getLangs();
+  langs[langPending] = lang;
+  localStorage.setItem(LANG_KEY, JSON.stringify(langs));
+  langPending = null;
+  closeDialogs();
+  renderTree(); // update flag
+  showToast(lang === 'fr' ? '🇫🇷 Français sélectionné' : '🇺🇸 English selected');
 }
 
 // ── Load file ─────────────────────────────────────────────────────────────────
 
 async function loadFile(path) {
   if (currentPath && isDirty()) {
-    if (!confirm(`"${fname(currentPath)}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`)) return;
+    if (!confirm(`"${baseName(currentPath)}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`)) return;
   }
-
   const handle = fileHandles[path];
-  let content;
+  if (!handle) return;
 
+  let content;
   if (handle._fileObj) {
     content = fileOrig[path] ?? '';
   } else {
@@ -382,279 +483,152 @@ async function loadFile(path) {
   }
 
   currentPath = path;
-  const editor = document.getElementById('editor');
-  editor.value = content;
-
+  document.getElementById('editor').value = content;
   document.getElementById('currentFilename').textContent = path;
   document.getElementById('toolbar').style.display = 'flex';
   document.getElementById('emptyState').style.display = 'none';
-
-  // Apply current tab
-  editor.style.display = activeTab === 'edit' ? 'block' : 'none';
+  document.getElementById('editor').style.display  = activeTab === 'edit'    ? 'block' : 'none';
   document.getElementById('preview').style.display = activeTab === 'preview' ? 'block' : 'none';
   if (activeTab === 'preview') updatePreview();
-
   updateDirtyState();
-  renderTreeUI();
-  if (activeTab === 'edit') editor.focus();
+  refreshTreeUI();
 }
 
-function fname(path) { return path.includes('/') ? path.split('/').pop() : path; }
+function baseName(path) { return path.split('/').pop(); }
 
-// ── Tree render ───────────────────────────────────────────────────────────────
-
-function renderTree() {
-  const container = document.getElementById('tree');
-  const folders = Object.keys(treeData).filter(k => k !== '');
-  const flat = treeData[''];
-
-  if (folders.length === 0 && !flat) {
-    container.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé</div>';
-    return;
-  }
-
-  let html = '';
-
-  // Flat files at root (no subfolder)
-  if (flat) {
-    flat.files.forEach(f => { html += fileRow(f, false); });
-  }
-
-  // Folders
-  folders.sort().forEach(key => {
-    const folder = treeData[key];
-    const isOpen = folder.expanded !== false;
-    html += `<div class="tree-folder ${isOpen ? 'open' : 'closed'}" onclick="toggleFolder('${escAttr(key)}')">
-      <span class="caret">▾</span>
-      <span class="folder-icon">📁</span>
-      <span class="folder-label" title="${escAttr(key)}">${key}</span>
-    </div>
-    <div class="tree-children" id="fc-${escAttr(key)}" style="max-height:${isOpen ? '1000px' : '0'}">`;
-    folder.files.forEach(f => { html += fileRow(f, true); });
-    html += '</div>';
-  });
-
-  container.innerHTML = html;
-}
-
-function fileRow(f, indented) {
-  const iconKey = Object.keys(FILE_ICONS).find(k => f.name.includes(k));
-  const icon = iconKey ? FILE_ICONS[iconKey] : '📝';
-  const active = f.path === currentPath ? 'active' : '';
-  const dirty  = f.path === currentPath && isDirty() ? 'dirty' : '';
-  const safe = escAttr(f.path);
-  return `<div class="tree-file ${active} ${dirty}" data-path="${safe}" onclick="loadFile('${safe}')">
-    <span class="file-icon">${icon}</span>
-    <span class="file-label" title="${f.name}">${f.name.replace('.md','')}</span>
-    <span class="dirty-dot"></span>
-  </div>`;
-}
-
-function toggleFolder(key) {
-  if (treeData[key]) treeData[key].expanded = !treeData[key].expanded;
-  const children = document.getElementById(`fc-${key}`);
-  const header   = children?.previousElementSibling;
-  if (!children) return;
-  const open = treeData[key]?.expanded;
-  children.style.maxHeight = open ? '1000px' : '0';
-  header?.classList.toggle('open',   open);
-  header?.classList.toggle('closed', !open);
-}
-
-function renderTreeUI() {
-  // Update active/dirty classes without full re-render
-  document.querySelectorAll('.tree-file').forEach(el => {
-    const p = el.dataset.path;
-    el.classList.toggle('active', p === currentPath);
-    el.classList.toggle('dirty',  p === currentPath && isDirty());
-  });
-}
-
-function escAttr(s) { return s.replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
-
-// ── Dirty / tabs ──────────────────────────────────────────────────────────────
+// ── Editor / Save ─────────────────────────────────────────────────────────────
 
 function isDirty() {
   if (!currentPath) return false;
   return document.getElementById('editor').value !== (fileOrig[currentPath] ?? '');
 }
-
 function updateDirtyState() {
   const d = isDirty();
   document.getElementById('unsavedBadge').style.display = d ? 'inline' : 'none';
   document.getElementById('saveBtn').disabled = !d;
-  renderTreeUI();
+  refreshTreeUI();
 }
-
 function switchTab(tab) {
   activeTab = tab;
-  const editor  = document.getElementById('editor');
-  const preview = document.getElementById('preview');
-  document.getElementById('tabEdit').classList.toggle('active', tab === 'edit');
-  document.getElementById('tabPreview').classList.toggle('active', tab === 'preview');
-  editor.style.display  = tab === 'edit'    ? 'block' : 'none';
-  preview.style.display = tab === 'preview' ? 'block' : 'none';
-  if (tab === 'preview') updatePreview();
-  if (tab === 'edit')    editor.focus();
+  document.getElementById('tabEdit').classList.toggle('active', tab==='edit');
+  document.getElementById('tabPrev').classList.toggle('active', tab==='preview');
+  document.getElementById('editor').style.display  = tab==='edit'    ? 'block' : 'none';
+  document.getElementById('preview').style.display = tab==='preview' ? 'block' : 'none';
+  if (tab==='preview') updatePreview();
+  if (tab==='edit') document.getElementById('editor').focus();
 }
-
 function updatePreview() {
   document.getElementById('preview').innerHTML = marked.parse(document.getElementById('editor').value || '');
 }
-
-// ── Save ──────────────────────────────────────────────────────────────────────
-
 function triggerSave() {
   if (!currentPath || !isDirty()) return;
   document.getElementById('saveInfo').textContent = `Fichier : ${currentPath}`;
   document.getElementById('saveNote').value = '';
-  document.getElementById('overlay').style.display = 'block';
+  showOverlay();
   document.getElementById('saveDialog').style.display = 'block';
   setTimeout(() => document.getElementById('saveNote').focus(), 50);
 }
-function cancelSave() {
-  document.getElementById('overlay').style.display = 'none';
-  document.getElementById('saveDialog').style.display = 'none';
-}
+function closeSave() { closeDialogs(); }
 async function confirmSave() {
-  cancelSave();
+  closeDialogs();
   await performSave(document.getElementById('saveNote').value.trim());
 }
-
 async function performSave(note = '') {
   if (!currentPath) return;
   const newContent = document.getElementById('editor').value;
   const oldContent = fileOrig[currentPath] ?? '';
   const delta = newContent.length - oldContent.length;
-  const folderPart = currentPath.includes('/') ? currentPath.split('/')[0] : (rootHandle?.name ?? '—');
+  const parts = currentPath.split('/');
+  const folder = parts.length > 1 ? parts.slice(0,-1).join('/') : (rootHandle?.name ?? '—');
 
   try {
     const handle = fileHandles[currentPath];
     if (handle._fileObj) {
-      const blob = new Blob([newContent], { type:'text/markdown;charset=utf-8' });
       const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = fname(currentPath);
-      a.click();
+      a.href = URL.createObjectURL(new Blob([newContent],{type:'text/markdown;charset=utf-8'}));
+      a.download = baseName(currentPath); a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 5000);
-      showToast(`⬇ ${fname(currentPath)} téléchargé`);
+      showToast(`⬇ ${baseName(currentPath)} téléchargé`);
     } else {
       const w = await handle.createWritable();
       await w.write(newContent); await w.close();
-      showToast(`✓ ${fname(currentPath)} sauvegardé`);
+      showToast(`✓ ${baseName(currentPath)} sauvegardé`);
     }
-
     fileOrig[currentPath] = newContent;
-    addLogEntry({
-      timestamp: new Date().toISOString(),
-      author: document.getElementById('authorSelect').value,
-      folder: folderPart,
-      file: fname(currentPath),
-      charsBefore: oldContent.length, charsAfter: newContent.length, delta, note
-    });
+    addLogEntry({ timestamp: new Date().toISOString(), author: document.getElementById('authorSelect').value,
+      folder, file: baseName(currentPath), charsBefore: oldContent.length, charsAfter: newContent.length, delta, note });
     updateDirtyState();
   } catch(e) { alert(`Erreur : ${e.message}`); }
 }
+
+// ── Overlay / dialogs ─────────────────────────────────────────────────────────
+
+function showOverlay() { document.getElementById('overlay').style.display = 'block'; }
+function closeDialogs() {
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('saveDialog').style.display = 'none';
+  document.getElementById('langDialog').style.display = 'none';
+}
+document.getElementById('overlay').onclick = closeDialogs;
 
 // ── Mode badge ────────────────────────────────────────────────────────────────
 
 function setModeBadge() {
   const b = document.getElementById('modeBadge');
   b.style.display = 'inline';
-  if (saveMode === 'fsa') {
-    b.className = 'mode-badge mode-fsa';
-    b.textContent = '✓ Écriture directe';
-    b.title = 'Fichiers modifiés directement sur le disque';
-  } else {
-    b.className = 'mode-badge mode-dl';
-    b.textContent = '⬇ Mode téléchargement';
-    b.title = 'Firefox : sauvegarde = téléchargement du fichier';
-  }
+  if (saveMode === 'fsa') { b.className='mode-badge mode-fsa'; b.textContent='✓ Écriture directe'; }
+  else { b.className='mode-badge mode-dl'; b.textContent='⬇ Mode téléchargement'; }
 }
 
 // ── Log ───────────────────────────────────────────────────────────────────────
 
-function getLog() { try { return JSON.parse(localStorage.getItem(LOG_KEY)||'[]'); } catch { return []; } }
-function saveLogData(e) { localStorage.setItem(LOG_KEY, JSON.stringify(e)); }
-
-function addLogEntry(entry) {
-  const log = getLog();
-  log.unshift({ id: Date.now(), ...entry });
-  saveLogData(log);
-  renderLog();
-}
+function getLog()   { try { return JSON.parse(localStorage.getItem(LOG_KEY)||'[]'); } catch { return []; } }
+function saveLD(e)  { localStorage.setItem(LOG_KEY, JSON.stringify(e)); }
+function addLogEntry(entry) { const log = getLog(); log.unshift({id:Date.now(),...entry}); saveLD(log); renderLog(); }
 
 function renderLog() {
   const filter = document.getElementById('logFilter').value.toLowerCase();
-  const log = getLog().filter(e => !filter ||
-    [e.file, e.author, e.note, e.folder].some(v => v?.toLowerCase().includes(filter)));
-
+  const log = getLog().filter(e => !filter || [e.file,e.author,e.note,e.folder].some(v=>v?.toLowerCase().includes(filter)));
   const tbody = document.getElementById('logBody');
-  if (!log.length) {
-    tbody.innerHTML = '<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>';
-    return;
-  }
+  if (!log.length) { tbody.innerHTML = '<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>'; return; }
   tbody.innerHTML = log.map(e => {
-    const d = new Date(e.timestamp);
-    const dt = d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'})
-             + ' ' + d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
-    const delta = e.delta > 0 ? `<span class="delta-pos">+${e.delta}</span>`
-                : e.delta < 0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
-    return `<tr>
-      <td>${dt}</td>
-      <td><span class="badge badge-${e.author}">${e.author}</span></td>
-      <td><span style="color:#9ca3af;font-size:11px">${e.folder}/</span>${e.file}</td>
-      <td>${delta}</td>
-      <td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">—</em>'}</td>
-    </tr>`;
+    const d  = new Date(e.timestamp);
+    const dt = d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'}) + ' ' + d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
+    const delta = e.delta>0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta<0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
+    return `<tr><td>${dt}</td><td><span class="badge badge-${e.author}">${e.author}</span></td>
+    <td><span style="color:#9ca3af;font-size:11px">${e.folder}/</span>${e.file}</td>
+    <td>${delta}</td><td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">—</em>'}</td></tr>`;
   }).join('');
 }
-
-function clearLog() {
-  if (!confirm('Effacer tout l\'historique ?')) return;
-  saveLogData([]); renderLog(); showToast('Journal effacé');
-}
-
+function clearLog()  { if (!confirm('Effacer tout l\'historique ?')) return; saveLD([]); renderLog(); showToast('Journal effacé'); }
 function exportLog() {
-  const log = getLog();
-  if (!log.length) { showToast('Aucune entrée'); return; }
-  const rows = [['Date','Heure','Auteur','Dossier','Fichier','Δ chars','Note']];
-  log.forEach(e => {
-    const d = new Date(e.timestamp);
-    rows.push([d.toLocaleDateString('fr-FR'), d.toLocaleTimeString('fr-FR'),
-      e.author, e.folder, e.file, e.delta > 0 ? `+${e.delta}` : e.delta, e.note||'']);
-  });
-  const csv = rows.map(r => r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
-  a.download = `janus_log_${new Date().toISOString().slice(0,10)}.csv`;
-  a.click(); showToast('Log exporté');
+  const log = getLog(); if (!log.length) { showToast('Aucune entrée'); return; }
+  const rows = [['Date','Heure','Auteur','Dossier','Fichier','Δ','Note']];
+  log.forEach(e => { const d=new Date(e.timestamp); rows.push([d.toLocaleDateString('fr-FR'),d.toLocaleTimeString('fr-FR'),e.author,e.folder,e.file,e.delta>0?`+${e.delta}`:e.delta,e.note||'']); });
+  const csv = rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = document.createElement('a'); a.href=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
+  a.download=`janus_log_${new Date().toISOString().slice(0,10)}.csv`; a.click(); showToast('Log exporté');
 }
 
 // ── Utils ─────────────────────────────────────────────────────────────────────
 
 function showToast(msg) {
-  const t = document.getElementById('toast');
-  t.textContent = msg; t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2500);
+  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 2500);
 }
 
 // ── Events ────────────────────────────────────────────────────────────────────
 
 document.getElementById('editor').addEventListener('input', () => {
-  updateDirtyState();
-  if (activeTab === 'preview') updatePreview();
+  updateDirtyState(); if (activeTab==='preview') updatePreview();
 });
-
 document.addEventListener('keydown', e => {
-  if ((e.ctrlKey||e.metaKey) && e.key === 's') {
+  if ((e.ctrlKey||e.metaKey) && e.key==='s') {
     e.preventDefault();
-    if (document.getElementById('saveDialog').style.display !== 'block') triggerSave();
+    if (document.getElementById('saveDialog').style.display!=='block') triggerSave();
   }
-  if (e.key === 'Enter' && document.getElementById('saveDialog').style.display === 'block') {
-    e.preventDefault(); confirmSave();
-  }
-  if (e.key === 'Escape' && document.getElementById('saveDialog').style.display === 'block') cancelSave();
+  if (e.key==='Enter' && document.getElementById('saveDialog').style.display==='block') { e.preventDefault(); confirmSave(); }
+  if (e.key==='Escape') closeDialogs();
 });
 
 renderLog();
