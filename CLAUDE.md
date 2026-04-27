@@ -108,9 +108,10 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 **Déclenchement** : commande "VULCAIN, personnalise ma candidature pour [Entreprise]"
 
 **Tâche** :
-0. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. Afficher le diagnostic en console.
-1. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md`
-2. Lire `03_CANDIDATURES/<Entreprise>/job_description.md`
+0. **Lire la langue** : lire `03_CANDIDATURES/<Entreprise>/status.md`, extraire le champ `Langue`. **Tous les documents produits doivent être dans cette langue** (fr → français, en → anglais). En l'absence du champ, demander à l'utilisateur.
+1. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. Afficher le diagnostic en console.
+2. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md`
+3. Lire `03_CANDIDATURES/<Entreprise>/job_description.md`
 3. Rechercher des informations récentes sur l'entreprise (actualités, culture, enjeux SC)
 4. Écrire dans `03_CANDIDATURES/<Entreprise>/` :
    - `cv_targeted.md` : hook 3 lignes en tête, profil réorienté, ≥ 5 mots-clés exacts de l'annonce intégrés, optimisé ATS
@@ -198,6 +199,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Date de découverte :
 - Date d'envoi :
 - Statut :
+- Langue : fr 🇫🇷
 - Prochaine action :
 - Date de relance :
 - Relu et validé manuellement : [ ]

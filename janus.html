@@ -453,15 +453,46 @@ function showLangDialog(path) {
   document.getElementById('langDialog').style.display = 'block';
 }
 
-function setLang(lang) {
+async function setLang(lang) {
   if (!langPending) return;
   const langs = getLangs();
   langs[langPending] = lang;
   localStorage.setItem(LANG_KEY, JSON.stringify(langs));
+
+  // Write Langue field to status.md if accessible (FSA mode)
+  await writeLangToStatus(langPending, lang);
+
   langPending = null;
   closeDialogs();
-  renderTree(); // update flag
-  showToast(lang === 'fr' ? '🇫🇷 Français sélectionné' : '🇺🇸 English selected');
+  renderTree();
+  showToast(lang === 'fr' ? '🇫🇷 Français enregistré dans status.md' : '🇺🇸 English saved to status.md');
+}
+
+async function writeLangToStatus(folderPath, lang) {
+  if (saveMode !== 'fsa') return;
+  const statusPath = Object.keys(fileHandles).find(p => p.startsWith(folderPath + '/') && p.endsWith('status.md'));
+  if (!statusPath) return;
+  const handle = fileHandles[statusPath];
+  try {
+    const file = await handle.getFile();
+    let content = await file.text();
+    const value = lang === 'fr' ? 'fr 🇫🇷' : 'en 🇺🇸';
+    if (/^- Langue :/m.test(content)) {
+      content = content.replace(/^- Langue :.*$/m, `- Langue : ${value}`);
+    } else {
+      // Insert after "- Statut :" line
+      content = content.replace(/(^- Statut :.*$)/m, `$1\n- Langue : ${value}`);
+    }
+    const w = await handle.createWritable();
+    await w.write(content); await w.close();
+    fileOrig[statusPath] = content;
+    // If currently viewing status.md, refresh editor
+    if (currentPath === statusPath) {
+      document.getElementById('editor').value = content;
+      if (activeTab === 'preview') updatePreview();
+      updateDirtyState();
+    }
+  } catch(e) { console.warn('Could not write lang to status.md:', e); }
 }
 
 // ── Load file ─────────────────────────────────────────────────────────────────

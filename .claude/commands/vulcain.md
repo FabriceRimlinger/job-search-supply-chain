@@ -8,7 +8,19 @@ Produire un dossier de candidature complet et ATS-optimisé pour l'entreprise in
 
 ---
 
-## Étape 0 — Audit "Spot the Flaws" (AVANT de générer quoi que ce soit)
+## Étape 0 — Lire la langue de la candidature
+
+Lire `03_CANDIDATURES/$ARGUMENTS/status.md` et extraire le champ `Langue`.
+
+- Si `Langue : en` → **rédiger TOUS les documents en anglais** (cv_targeted, cover_letter, fit_gap, company_brief, job_description)
+- Si `Langue : fr` → **rédiger TOUS les documents en français**
+- Si le champ est absent → demander à l'utilisateur avant de continuer
+
+⚠️ La langue s'applique au contenu rédigé, pas aux noms de fichiers ni à la structure markdown.
+
+---
+
+## Étape 0b — Audit "Spot the Flaws" (AVANT de générer quoi que ce soit)
 
 Lis CV_MASTER.md et job_description.md, puis produis en console un diagnostic brutal en 3 sections :
 
