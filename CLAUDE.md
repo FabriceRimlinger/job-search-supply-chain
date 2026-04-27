@@ -132,6 +132,12 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Référencer des éléments spécifiques de l'entreprise cible dans la LM (actualité récente, produit, enjeu SC identifié)
 - Ton direct et factuel — pas lisse, pas euphorique. La voix de Fabrice : concis, chiffré, international
 
+**Règles format ATS (pour le CV final envoyé)** :
+- `cv_targeted.md` est le contenu de référence — le document envoyé doit être en format simple : police unique (Arial/Calibri 11pt), pas de tableaux, pas de colonnes multiples, pas d'icônes, pas d'en-têtes graphiques
+- Format d'envoi : PDF simple ou DOCX — jamais de mise en page complexe
+- Bullet points de 2-4 lignes max, sections standard : Profil / Expériences / Compétences / Formation
+- **Relecture manuelle obligatoire avant envoi** : Fabrice relit et ajuste ~20% du contenu généré — noter dans `status.md` que la relecture a été faite
+
 ---
 
 ## MINERVE — Préparation entretien
@@ -193,5 +199,6 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Statut :
 - Prochaine action :
 - Date de relance :
+- Relu et validé manuellement : [ ]
 - Commentaires :
 ```
