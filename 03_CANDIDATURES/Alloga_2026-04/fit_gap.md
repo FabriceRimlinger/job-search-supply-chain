@@ -1,6 +1,6 @@
 # fit_gap — Alloga Portfolio Manager Technology / Change & Transformation
 
-## Score global : 45/60
+## Score global : 46/60
 
 ## Scoring 6D
 
@@ -10,7 +10,7 @@
 | **Expérience sectorielle** | 6/10 | Logistique forte (Amazon, Colis Privé, Dole) mais zéro expérience pharma/GDP. Environnement réglementé partiel (Amazon EMEA compliance, EDD) |
 | **Niveau de responsabilité** | 10/10 | Pan-européen avéré, reporting C-level, multi-pays (EMEA), budget 40M€/an, équipes 25+ — correspond au niveau Senior Portfolio Manager |
 | **Mots-clés ATS** | 6/10 | Manquent dans le CV : SteerCo, RAID, stage gates, QMS, EAC, EDI/API, PMP/PRINCE2. À intégrer dans cv_targeted |
-| **Critères go/no-go** | 8/10 | Niveau, contrat, scope EU : OK. Localisation France : OK (6 sites). Rémunération : [À CONFIRMER] |
+| **Critères go/no-go** | 9/10 | Niveau, contrat, scope EU : OK. Localisation : Marseille hybride = domicile de Fabrice. Rémunération cible 120k€ (à confirmer avec Alloga) |
 | **Culture & fit** | 7/10 | International, data-driven, transformation : excellent fit. Culture réglementée pharma : nouveau mais transférable |
 
 > **Interprétation : 45/60 — Candidature prioritaire avec adaptation sectorielle**

@@ -4,7 +4,7 @@
 
 - **Entreprise** : Alloga (filiale Alliance Healthcare / Cencora)
 - **Poste** : Portfolio Manager – Technology / Change & Transformation (niveau Senior)
-- **Localisation** : France (6 sites — Lyon, Paris, régions) — [À CONFIRMER localisation exacte + hybride]
+- **Localisation** : Marseille — Hybride (présentiel possible à Marseille)
 - **Type de contrat** : CDI [À CONFIRMER]
 - **Date de publication** : Avril 2026 (document reçu 16/04/2026)
 - **Source** : Document transmis directement (alloga tsfm.pdf)
