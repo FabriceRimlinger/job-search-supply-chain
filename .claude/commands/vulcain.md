@@ -24,4 +24,13 @@ Produire un dossier de candidature complet et ATS-optimisé pour l'entreprise in
 
 5. Mettre à jour status.md → Statut = "Documents prêts"
 
-Règles absolues : ne jamais inventer ni amplifier une expérience. Score ATS ≥ 7/10 avant validation.
+**Règles absolues :**
+- Ne jamais inventer ni amplifier une expérience. Score ATS ≥ 7/10 avant validation.
+
+**Checklist voix humaine (avant de valider chaque document) :**
+- [ ] Première personne partout : "J'ai" pas "A" ni passif
+- [ ] Chaque chiffre a son contexte (équipe, défi, période)
+- [ ] Au moins une anecdote concrète (circonstance → décision → résultat)
+- [ ] Zéro buzzword sans implémentation précise
+- [ ] La LM référence un élément spécifique et récent de l'entreprise cible
+- [ ] Ton factuel et direct — ni lisse, ni générique

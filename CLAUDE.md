@@ -124,6 +124,14 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Le score ATS (dimension 4 du 6D) doit être ≥ 7/10 avant de valider le CV
 - Signaler avec `[À CONFIRMER]` toute information incertaine
 
+**Règles voix humaine (anti red flags recruteurs)** :
+- Toujours à la première personne : "J'ai dirigé" jamais "Dirigé" ou "A dirigé"
+- Chaque metric doit avoir son contexte : "réduit les coûts de 20% (550k€/an) malgré +7,5% d'activité" — pas juste "réduit les coûts de 20%"
+- Minimum une anecdote concrète par rôle clé : circonstance, défi, décision prise, résultat
+- Aucun buzzword sans implémentation précise : "automatisation" → "déploiement RPA sur les tâches de saisie CS, 40% de tâches manuelles éliminées"
+- Référencer des éléments spécifiques de l'entreprise cible dans la LM (actualité récente, produit, enjeu SC identifié)
+- Ton direct et factuel — pas lisse, pas euphorique. La voix de Fabrice : concis, chiffré, international
+
 ---
 
 ## MINERVE — Préparation entretien
