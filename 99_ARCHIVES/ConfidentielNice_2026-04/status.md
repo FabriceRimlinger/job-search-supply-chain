@@ -9,4 +9,4 @@
 - Prochaine action : Identifier l'entreprise et retrouver l'URL source de l'offre
 - Date de relance :
 - Relu et validé manuellement : [ ]
-- Commentaires : Identifié par AURORA le 27/04. Directeur SC Nice — entreprise confidentielle. Localisation Sud de France = critère go. Détails à compléter.
+- Commentaires : Identifié par AURORA le 27/04. Directeur SC Nice - entreprise confidentielle. Localisation Sud de France = critère go. Détails à compléter.

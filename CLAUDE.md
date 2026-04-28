@@ -1,4 +1,4 @@
-# Recherche Emploi Supply Chain — Instructions agents
+# Recherche Emploi Supply Chain - Instructions agents
 
 Ce projet gère une recherche d'emploi en supply chain via une équipe de 5 agents spécialisés, nommés d'après la mythologie romaine.
 La structure de fichiers est la source de vérité. Chaque agent lit et écrit dans des dossiers précis.
@@ -19,11 +19,11 @@ La structure de fichiers est la source de vérité. Chaque agent lit et écrit d
 
 Toujours lire ces fichiers avant de produire un document de candidature :
 
-- `01_PROFIL/CV_MASTER.md` — parcours complet, expériences, compétences, formations
-- `01_PROFIL/BIO_EXECUTIVE.md` — pitch exécutif 1 page
-- `01_PROFIL/REALISATIONS.md` — 10 réalisations chiffrées
-- `01_PROFIL/CRITERES_CIBLES.md` — critères go/no-go (localisation, salaire, contrat, etc.)
-- `02_CIBLES/POSTES_IDEAUX.md` — profils de poste ciblés
+- `01_PROFIL/CV_MASTER.md` - parcours complet, expériences, compétences, formations
+- `01_PROFIL/BIO_EXECUTIVE.md` - pitch exécutif 1 page
+- `01_PROFIL/REALISATIONS.md` - 10 réalisations chiffrées
+- `01_PROFIL/CRITERES_CIBLES.md` - critères go/no-go (localisation, salaire, contrat, etc.)
+- `02_CIBLES/POSTES_IDEAUX.md` - profils de poste ciblés
 
 ## Règles absolues (tous les agents)
 
@@ -31,10 +31,11 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - En cas de doute sur une information, la signaler avec `[À CONFIRMER]`.
 - Les documents de candidature doivent toujours passer une **vérification manuelle** avant envoi.
 - Le scoring 6D est utilisé pour toutes les analyses de fit (voir template `fit_gap.md`).
+- **Tirets** : utiliser uniquement `-` (tiret simple). Ne jamais utiliser `—` (tiret long/em dash) dans aucun document.
 
 ---
 
-## Workflow INPUT — Construction du profil
+## Workflow INPUT - Construction du profil
 
 **Déclenchement** : commande "JANUS, construis mon profil depuis INPUT/" ou dès qu'un fichier est déposé dans `INPUT/raw/`
 
@@ -46,16 +47,16 @@ Toujours lire ces fichiers avant de produire un document de candidature :
    - Formations et langues
    - Points forts et réalisations issus des performance reviews
 3. Remplir ou mettre à jour :
-   - `01_PROFIL/CV_MASTER.md` — structure complète
-   - `01_PROFIL/REALISATIONS.md` — extraire les 10 meilleures réalisations chiffrées
-   - `01_PROFIL/BIO_EXECUTIVE.md` — synthèse du positionnement
+   - `01_PROFIL/CV_MASTER.md` - structure complète
+   - `01_PROFIL/REALISATIONS.md` - extraire les 10 meilleures réalisations chiffrées
+   - `01_PROFIL/BIO_EXECUTIVE.md` - synthèse du positionnement
 4. Signaler les informations manquantes ou ambiguës avec `[À CONFIRMER]`
 5. Déplacer les fichiers traités de `INPUT/raw/` vers `INPUT/processed/`
 6. Committer et pousser
 
 ---
 
-## JANUS — Coach & Orchestrateur
+## JANUS - Coach & Orchestrateur
 
 **Déclenchement** : commande naturelle ("JANUS, fais le point", "JANUS, j'ai un entretien Vinted", etc.)
 
@@ -82,7 +83,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 
 ---
 
-## AURORA — Veille & Sourcing
+## AURORA - Veille & Sourcing
 
 **Déclenchement** : planifié quotidiennement (lundi–vendredi, 8h) ou commande "AURORA, lance la veille"
 
@@ -100,11 +101,15 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 4. Mettre à jour `02_CIBLES/ENTREPRISES.md`
 5. Créer un brouillon Gmail (résumé des nouvelles offres) à fabrice.rimlinger@gmail.com
 
-**Règle** : pas de doublons, uniquement des offres < 7 jours, écrire en français.
+**Règles de qualification** :
+- Pas de doublons, uniquement des offres < 7 jours, écrire en français.
+- **Offre expirée** : si la page indique que l'offre n'est plus active (lien brisé, message "offre expirée", formulaire désactivé), **ne pas créer de dossier**. Ignorer l'offre et passer à la suivante.
+- **Page multi-offres** (ex : page listant plusieurs postes sur un même site comme Michael Page, Hays, etc.) : **ne pas créer un dossier amalgamé**. Identifier l'URL directe de chaque offre individuelle, fetcher chacune séparément, et créer un dossier distinct par offre. Si l'URL individuelle n'est pas accessible, ignorer cette source.
+- **Vérification avant création** : s'assurer que la `job_description.md` contient tous les champs remplis (entreprise, poste, localisation, contrat, date, URL source). Si des champs restent `[À COMPLÉTER]`, ne pas créer le dossier - noter l'offre dans `02_CIBLES/URLS_A_TRAITER.md` pour traitement manuel.
 
 ---
 
-## VULCAIN — Personnalisation de candidature
+## VULCAIN - Personnalisation de candidature
 
 **Déclenchement** : commande "VULCAIN, personnalise ma candidature pour [Entreprise]"
 
@@ -127,23 +132,28 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Le score ATS (dimension 4 du 6D) doit être ≥ 7/10 avant de valider le CV
 - Signaler avec `[À CONFIRMER]` toute information incertaine
 
+**Règle de pondération temporelle** :
+- **5 dernières années = cœur du CV et de la LM** (Colis Privé, Amazon SC Planning) - développer, chiffrer, détailler
+- **5 à 10 ans = contexte et preuves complémentaires** (Amazon AMZL, Infarm, Amazon DD) - mentionner si pertinent, sans sur-développer
+- **Plus de 10 ans = anecdotique** (Pomona, ColdEnergy, Dole, Geest, Pascual Hermanos) - citer uniquement si le secteur ou la compétence est un différenciant direct pour l'offre (ex : agroalimentaire pour une offre FMCG), en une ligne max, jamais en corps principal du CV
+
 **Règles voix humaine (anti red flags recruteurs)** :
 - Toujours à la première personne : "J'ai dirigé" jamais "Dirigé" ou "A dirigé"
-- Chaque metric doit avoir son contexte : "réduit les coûts de 20% (550k€/an) malgré +7,5% d'activité" — pas juste "réduit les coûts de 20%"
+- Chaque metric doit avoir son contexte : "réduit les coûts de 20% (550k€/an) malgré +7,5% d'activité" - pas juste "réduit les coûts de 20%"
 - Minimum une anecdote concrète par rôle clé : circonstance, défi, décision prise, résultat
 - Aucun buzzword sans implémentation précise : "automatisation" → "déploiement RPA sur les tâches de saisie CS, 40% de tâches manuelles éliminées"
 - Référencer des éléments spécifiques de l'entreprise cible dans la LM (actualité récente, produit, enjeu SC identifié)
-- Ton direct et factuel — pas lisse, pas euphorique. La voix de Fabrice : concis, chiffré, international
+- Ton direct et factuel - pas lisse, pas euphorique. La voix de Fabrice : concis, chiffré, international
 
 **Règles format ATS (pour le CV final envoyé)** :
-- `cv_targeted.md` est le contenu de référence — le document envoyé doit être en format simple : police unique (Arial/Calibri 11pt), pas de tableaux, pas de colonnes multiples, pas d'icônes, pas d'en-têtes graphiques
-- Format d'envoi : PDF simple ou DOCX — jamais de mise en page complexe
+- `cv_targeted.md` est le contenu de référence - le document envoyé doit être en format simple : police unique (Arial/Calibri 11pt), pas de tableaux, pas de colonnes multiples, pas d'icônes, pas d'en-têtes graphiques
+- Format d'envoi : PDF simple ou DOCX - jamais de mise en page complexe
 - Bullet points de 2-4 lignes max, sections standard : Profil / Expériences / Compétences / Formation
-- **Relecture manuelle obligatoire avant envoi** : Fabrice relit et ajuste ~20% du contenu généré — noter dans `status.md` que la relecture a été faite
+- **Relecture manuelle obligatoire avant envoi** : Fabrice relit et ajuste ~20% du contenu généré - noter dans `status.md` que la relecture a été faite
 
 ---
 
-## MINERVE — Préparation entretien
+## MINERVE - Préparation entretien
 
 **Déclenchement** : commande "MINERVE, prépare l'entretien [Entreprise]" ou "MINERVE, simule un entretien [Entreprise]"
 
@@ -167,7 +177,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 
 ---
 
-## FIDES — Organisation & Suivi
+## FIDES - Organisation & Suivi
 
 **Déclenchement** : planifié bi-hebdomadaire (lundi + jeudi) ou commande "FIDES, état des candidatures"
 

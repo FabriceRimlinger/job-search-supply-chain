@@ -1,4 +1,4 @@
-# FINAL-REPORT — Tableau de bord hebdomadaire JANUS
+# FINAL-REPORT - Tableau de bord hebdomadaire JANUS
 
 > Généré par JANUS chaque lundi matin. Commande : "JANUS, génère le rapport hebdomadaire"
 

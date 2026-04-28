@@ -1,4 +1,4 @@
-# job_description — AUTO1 Group / Autohero
+# job_description - AUTO1 Group / Autohero
 
 ## Informations de l'annonce
 
@@ -7,7 +7,7 @@
 - **Localisation** : France (Issy-les-Moulineaux / national) [À CONFIRMER]
 - **Type de contrat** : CDI
 - **Date de publication** : Avril 2026
-- **Source** : Identifié par AURORA — offre expirée (https://www.auto1-group.com/jobs/head-of-logistics-last-miles-france-h-f-21855/)
+- **Source** : Identifié par AURORA - offre expirée (https://www.auto1-group.com/jobs/head-of-logistics-last-miles-france-h-f-21855/)
 
 ## Résumé du poste
 

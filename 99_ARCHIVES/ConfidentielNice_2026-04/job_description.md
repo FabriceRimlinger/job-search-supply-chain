@@ -1,9 +1,9 @@
-# job_description — Confidentiel Nice
+# job_description - Confidentiel Nice
 
 ## Informations de l'annonce
 
 - **Entreprise** : Confidentielle [À IDENTIFIER]
-- **Poste** : Directeur Supply Chain — Nice / Côte d'Azur
+- **Poste** : Directeur Supply Chain - Nice / Côte d'Azur
 - **Localisation** : Nice, Alpes-Maritimes (Sud de France ✅)
 - **Type de contrat** : CDI [À CONFIRMER]
 - **Date de publication** : Avril 2026
@@ -11,7 +11,7 @@
 
 ## Résumé du poste
 
-[À COMPLÉTER — détails non disponibles, offre identifiée sous entreprise confidentielle]
+[À COMPLÉTER - détails non disponibles, offre identifiée sous entreprise confidentielle]
 
 ## Responsabilités principales
 

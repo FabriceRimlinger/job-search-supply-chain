@@ -1,8 +1,8 @@
-# BIO_EXECUTIVE — Pitch exécutif
+# BIO_EXECUTIVE - Pitch exécutif
 
 ## Positionnement
 
-Dirigeant supply chain et transformation opérationnelle avec 20 ans d'expérience dans des environnements logistiques complexes et internationaux — Amazon (10 ans), Colis Privé, Infarm, Dole Europe. Trilingue (FR/EN/ES), à l'aise dans des contextes multiculturels et multi-pays (EU, EMEA).
+Dirigeant supply chain et transformation opérationnelle avec 20 ans d'expérience dans des environnements logistiques complexes et internationaux - Amazon (10 ans), Colis Privé, Infarm, Dole Europe. Trilingue (FR/EN/ES), à l'aise dans des contextes multiculturels et multi-pays (EU, EMEA).
 
 ## Forces principales
 

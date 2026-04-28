@@ -8,7 +8,7 @@ Produire un dossier de candidature complet et ATS-optimisé pour l'entreprise in
 
 ---
 
-## Étape 0 — Lire la langue de la candidature
+## Étape 0 - Lire la langue de la candidature
 
 Lire `03_CANDIDATURES/$ARGUMENTS/status.md` et extraire le champ `Langue`.
 
@@ -20,12 +20,12 @@ Lire `03_CANDIDATURES/$ARGUMENTS/status.md` et extraire le champ `Langue`.
 
 ---
 
-## Étape 0b — Audit "Spot the Flaws" (AVANT de générer quoi que ce soit)
+## Étape 0b - Audit "Spot the Flaws" (AVANT de générer quoi que ce soit)
 
 Lis CV_MASTER.md et job_description.md, puis produis en console un diagnostic brutal en 3 sections :
 
 **Faiblesses du CV face à cette JD :**
-- (ex: "Le rôle exige WMS/TMS — absent du CV")
+- (ex: "Le rôle exige WMS/TMS - absent du CV")
 
 **Buzzwords sans preuve :**
 - (ex: "leadership transversal" sans exemple chiffré)
@@ -37,18 +37,18 @@ Ce diagnostic guide tout ce qui suit. Ne pas le sauter.
 
 ---
 
-## Étape 1 — Lire le profil source
+## Étape 1 - Lire le profil source
 - 01_PROFIL/CV_MASTER.md
 - 01_PROFIL/BIO_EXECUTIVE.md
 - 01_PROFIL/REALISATIONS.md
 - 01_PROFIL/Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md (pour les anecdotes)
 
-## Étape 2 — Lire la fiche poste
+## Étape 2 - Lire la fiche poste
 - 03_CANDIDATURES/$ARGUMENTS/job_description.md
 
-## Étape 3 — Rechercher des informations récentes sur l'entreprise (WebSearch)
+## Étape 3 - Rechercher des informations récentes sur l'entreprise (WebSearch)
 
-## Étape 4 — Produire dans 03_CANDIDATURES/$ARGUMENTS/
+## Étape 4 - Produire dans 03_CANDIDATURES/$ARGUMENTS/
 
 - **cv_targeted.md** : profil réorienté, ≥ 5 mots-clés exacts de l'annonce, optimisé ATS
   - Commencer par le **hook 3 lignes** (voir format ci-dessous)
@@ -57,22 +57,22 @@ Ce diagnostic guide tout ce qui suit. Ne pas le sauter.
 - **fit_gap.md** : scoring 6D complet (compétences, secteur, responsabilité, ATS, go/no-go, culture)
 - **company_brief.md** : secteur, taille, valeurs, enjeux SC, actualités récentes
 
-## Étape 5 — Mettre à jour status.md → Statut = "Documents prêts"
+## Étape 5 - Mettre à jour status.md → Statut = "Documents prêts"
 
 ---
 
 ## Format du hook 3 lignes (en tête de cv_targeted.md)
 
 ```
-> [Titre du poste ciblé] — [X] ans d'expérience [secteur].
+> [Titre du poste ciblé] - [X] ans d'expérience [secteur].
 > [Réalisation #1 chiffrée la plus percutante pour CE poste].
 > [Réalisation #2 ou compétence différenciante alignée avec la JD].
 ```
 
 Exemples pour Alloga :
-> Portfolio Manager Technology & Transformation — 20 ans d'expérience supply chain paneuropéenne.
+> Portfolio Manager Technology & Transformation - 20 ans d'expérience supply chain paneuropéenne.
 > 40M€/an géré en gouvernance de portfolio chez Amazon EMEA ; plateforme BI SHIELD déployée sur 1 200+ projets/an.
-> 10 ans en logistique à température contrôlée et environnements réglementés — background life sciences (INP Toulouse).
+> 10 ans en logistique à température contrôlée et environnements réglementés - background life sciences (INP Toulouse).
 
 ---
 
@@ -85,5 +85,5 @@ Exemples pour Alloga :
 - [ ] Au moins une anecdote concrète (circonstance → décision → résultat)
 - [ ] Zéro buzzword sans implémentation précise
 - [ ] La LM référence un élément spécifique et récent de l'entreprise cible
-- [ ] Ton factuel et direct — ni lisse, ni générique
+- [ ] Ton factuel et direct - ni lisse, ni générique
 - [ ] Hook 3 lignes présent en tête du cv_targeted

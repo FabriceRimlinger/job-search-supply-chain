@@ -2,11 +2,11 @@
 
 ## Critères de sélection des opportunités
 
-- Localisation : **Marseille / Provence / Sud de France en priorité** — remote/hybride accepté si siège national ou international. Paris et autres villes françaises en secondaire uniquement si scope exceptionnel
-- Exposition internationale : **critère prioritaire** — scope EU, EMEA ou global fortement préféré
+- Localisation : **Marseille / Provence / Sud de France en priorité** - remote/hybride accepté si siège national ou international. Paris et autres villes françaises en secondaire uniquement si scope exceptionnel
+- Exposition internationale : **critère prioritaire** - scope EU, EMEA ou global fortement préféré
 - Type de contrat : CDI
 - Taille d'entreprise : Mid-cap à grande entreprise (>200M€ CA) [À CONFIRMER]
-- Secteur d'activité : Logistique, Supply Chain, Transport, Distribution, e-commerce, 3PL — secteur pharma/réglementé ouvert
+- Secteur d'activité : Logistique, Supply Chain, Transport, Distribution, e-commerce, 3PL - secteur pharma/réglementé ouvert - **FMCG / Agroalimentaire ouvert** (profil ingénieur agronome INP Toulouse, expérience Pomona, ColdEnergy/Dole, chaîne du froid)
 - Niveau de responsabilité : Director / Senior Manager / Head of / Portfolio Manager
 - Rémunération attendue : 120k€ brut annuel
 - Télétravail / hybride : Hybride souhaité (expérience remote chez Amazon Luxembourg, Aix-en-Provence)

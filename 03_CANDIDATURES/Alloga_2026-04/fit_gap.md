@@ -1,4 +1,4 @@
-# fit_gap — Alloga Portfolio Manager Technology / Change & Transformation
+# fit_gap - Alloga Portfolio Manager Technology / Change & Transformation
 
 ## Overall Score: 46/60
 
@@ -8,12 +8,12 @@
 |-----------|-------|--------|
 | **Technical Skills** | 8/10 | Strong PMO, excellent BI/data (SHIELD, PowerBI, SQL), proven CAPEX management. Gaps: no direct WMS/TMS/ERP, no PMO certifications |
 | **Sector Experience** | 6/10 | Strong logistics (Amazon, Colis Privé, Dole) but zero pharma/GDP experience. Partial regulated environment (Amazon EMEA compliance, EDD) |
-| **Responsibility Level** | 10/10 | Proven pan-European, C-level reporting, multi-country (EMEA), €40M/year budget, 25+ teams — matches Senior Portfolio Manager level |
+| **Responsibility Level** | 10/10 | Proven pan-European, C-level reporting, multi-country (EMEA), €40M/year budget, 25+ teams - matches Senior Portfolio Manager level |
 | **ATS Keywords** | 6/10 | Missing from CV: SteerCo, RAID, stage gates, QMS, EAC, EDI/API, PMP/PRINCE2. Integrated in cv_targeted |
 | **Go/No-Go Criteria** | 9/10 | Level, contract, EU scope: OK. Location: Marseille hybrid = Fabrice's home city. Target salary €120k (to confirm with Alloga) |
 | **Culture & Fit** | 7/10 | International, data-driven, transformation: excellent fit. Regulated pharma culture: new but transferable |
 
-> **Interpretation: 46/60 — Priority candidature with sector adaptation required**
+> **Interpretation: 46/60 - Priority candidature with sector adaptation required**
 
 ---
 
@@ -21,7 +21,7 @@
 
 - Portfolio management and complex programme governance: Amazon SC 36-month SOP, €40M/year CAPEX, Colis Privé transformation
 - Pan-European, multi-site, executive stakeholder management: Amazon EMEA, Infarm EU (DE/UK/DK/FR)
-- BI and executive reporting: SHIELD (EMEA BI platform deployed at scale), PowerBI, Microstrategy — rare capability among Portfolio Managers
+- BI and executive reporting: SHIELD (EMEA BI platform deployed at scale), PowerBI, Microstrategy - rare capability among Portfolio Managers
 - Large portfolio financial management: €40M/year Amazon budget, €72M Infarm CAPEX, Colis Privé P&L
 - Post-M&A integration in regulated environment: 300 employees integrated with full operational continuity
 
@@ -38,7 +38,7 @@
 - Milee integration: concrete example of delivery assurance in a high-stakes operational change context
 - Amazon regulatory experience (EDD, EMEA compliance) as a bridge to GDP environment
 
-## ATS Keywords Missing — integrated in cv_targeted.md
+## ATS Keywords Missing - integrated in cv_targeted.md
 
 - Portfolio governance / SteerCo
 - Stage gates / RAID management
@@ -49,5 +49,5 @@
 
 ## Risks and Watch Points
 
-- Absence of pharma experience may be a dealbreaker for some recruiters — prepare a strong answer on transferability
-- Do not claim PMP/PRINCE2 certifications if not held — only state "in progress" if genuinely the case [TO CONFIRM]
+- Absence of pharma experience may be a dealbreaker for some recruiters - prepare a strong answer on transferability
+- Do not claim PMP/PRINCE2 certifications if not held - only state "in progress" if genuinely the case [TO CONFIRM]

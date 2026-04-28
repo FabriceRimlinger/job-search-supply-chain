@@ -1,4 +1,4 @@
-# Catalogue d'anecdotes — Amazon Leadership Principles
+# Catalogue d'anecdotes - Amazon Leadership Principles
 
 > Sources : Writing Exercises Amazon (2014, 2022), Forte Reviews (2019-2023), CV.
 > Format STAR : Situation → Task → Action → Result.
@@ -35,9 +35,9 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-## INVENT AND SIMPLIFY ⭐ (LP #1 — cité dans 100% des Forte reviews)
+## INVENT AND SIMPLIFY ⭐ (LP #1 - cité dans 100% des Forte reviews)
 
-### Anecdote A — Sparklines for Excel (SfE)
+### Anecdote A - Sparklines for Excel (SfE)
 **Tags** : #invent-simplify #dive-deep #learn-curious #deliver-results · #amazon #dole · #innovation #tool-build · #data #vba #bi · #emea · #logistics #supply-chain · #100k-downloads · #polyvalent #chiffres-forts
 **Source** : Writing Exercises 2014 & 2022, Forte reviews
 
@@ -53,15 +53,15 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote B — Plateforme SHIELD (Amazon Real Estate Due Diligence)
+### Anecdote B - Plateforme SHIELD (Amazon Real Estate Due Diligence)
 **Tags** : #invent-simplify #customer-obsession #insist-standards #earn-trust · #amazon · #innovation #tool-build #compliance · #data #bi #pm · #emea #budget-40m #team-10 · #real-estate #supply-chain #regulated · #polyvalent #chiffres-forts
 **Source** : CV, Forte 2020 & 2021
 
-**S** : Head of Technical & Environmental Real Estate Due Diligence, Amazon (2018-2021). 1 200+ Due Diligence EMEA/an, budget 40M€/an, 10 risk managers + 30+ consultants. Reporting fragmenté — aucune vision consolidée en temps réel.
+**S** : Head of Technical & Environmental Real Estate Due Diligence, Amazon (2018-2021). 1 200+ Due Diligence EMEA/an, budget 40M€/an, 10 risk managers + 30+ consultants. Reporting fragmenté - aucune vision consolidée en temps réel.
 
 **T** : Concevoir une plateforme BI centralisée, adoptée par toutes les parties prenantes EMEA, sans imposer une formation lourde.
 
-**A** : Conçu SHIELD de A à Z — architecture des données, logique de reporting, UX. Déployé progressivement avec formation intégrée. Priorité à la simplicité d'usage.
+**A** : Conçu SHIELD de A à Z - architecture des données, logique de reporting, UX. Déployé progressivement avec formation intégrée. Priorité à la simplicité d'usage.
 
 **R** : Adoption totale par toutes les parties prenantes Amazon EMEA. *"Fabrice has revolutionised how the team operates, using his knowledge to help the team leverage data to get to the right answer at pace."* (Forte 2021). Accélération significative des délais de DD.
 
@@ -69,11 +69,11 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote C — Dashboard SNN4 (Amazon SC Planning, 2023)
+### Anecdote C - Dashboard SNN4 (Amazon SC Planning, 2023)
 **Tags** : #invent-simplify #customer-obsession · #amazon · #tool-build #compliance · #data #bi · #eu · #supply-chain #regulated · #non-amazon
 **Source** : Forte 2023
 
-**S** : Program Manager Supply Chain, Amazon (2022-2023). Problème de drop-offs sur les sélections de sites — les compliance blockers EU n'étaient pas visibles en temps réel.
+**S** : Program Manager Supply Chain, Amazon (2022-2023). Problème de drop-offs sur les sélections de sites - les compliance blockers EU n'étaient pas visibles en temps réel.
 
 **T** : Créer un mécanisme permettant de détecter et réduire les blocages compliance avant qu'ils ne dérèglent les sélections.
 
@@ -85,23 +85,23 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ## BIAS FOR ACTION ⭐
 
-### Anecdote A — Andon Cord DCT1 Barcelona (AMZL Launch 2017)
+### Anecdote A - Andon Cord DCT1 Barcelona (AMZL Launch 2017)
 **Tags** : #bias-for-action #have-backbone #ownership #deliver-results #are-right #customer-obsession · #amazon · #judgment-call #crisis #launch · #escalation #pm · #eu #multi-country · #logistics #last-mile #e-commerce · #polyvalent #chiffres-forts #leadership-solo
 **Source** : Writing Exercise Amazon 2022 A
 
-**S** : Sr Launch Manager, AMZL. Go/No Go call à 18h, 6h avant le lancement de la Delivery Station DCT1 à Barcelone. Signal 4G chute à quasi zéro la nuit — précisément pendant le tri (minuit-7h). 5 000 à 10 000 colis à risque. Pic 2017 compromis.
+**S** : Sr Launch Manager, AMZL. Go/No Go call à 18h, 6h avant le lancement de la Delivery Station DCT1 à Barcelone. Signal 4G chute à quasi zéro la nuit - précisément pendant le tri (minuit-7h). 5 000 à 10 000 colis à risque. Pic 2017 compromis.
 
 **T** : Décision sous pression, sans données complètes : lancer, adapter, ou retarder. Chaque option a des coûts importants (associates mobilisés, partenaires prêts).
 
-**A** : Tiré l'Andon cord, repoussé le lancement de 24h. Simultanément : (1) retiré DCT1 d'ATROPS, (2) maintenu les associates en formation et "virtual deliveries", (3) pensé hors du cadre — le FC BCN2 était dans le même bâtiment. Escaladé de Madrid à Seattle en quelques heures pour partager une fibre optique BCN2. À 7h le lendemain : trou de 5cm percé dans un mur de 40cm, ethernet tiré.
+**A** : Tiré l'Andon cord, repoussé le lancement de 24h. Simultanément : (1) retiré DCT1 d'ATROPS, (2) maintenu les associates en formation et "virtual deliveries", (3) pensé hors du cadre - le FC BCN2 était dans le même bâtiment. Escaladé de Madrid à Seattle en quelques heures pour partager une fibre optique BCN2. À 7h le lendemain : trou de 5cm percé dans un mur de 40cm, ethernet tiré.
 
-**R** : À 12h, réseau AMZL opérationnel avec *"la meilleure connexion broadband jamais déployée pour un DS launch"*. Lancement J+1, zéro impact client. La fibre WiMAX est arrivée 1 mois plus tard — comme anticipé.
+**R** : À 12h, réseau AMZL opérationnel avec *"la meilleure connexion broadband jamais déployée pour un DS launch"*. Lancement J+1, zéro impact client. La fibre WiMAX est arrivée 1 mois plus tard - comme anticipé.
 
 **LP secondaires** : Have Backbone, Ownership, Deliver Results, Are Right A Lot, Customer Obsession
 
 ---
 
-### Anecdote B — Intégration Milee post-acquisition (Colis Privé, 2023)
+### Anecdote B - Intégration Milee post-acquisition (Colis Privé, 2023)
 **Tags** : #bias-for-action #ownership #deliver-results · #colis-prive · #m-and-a #change-management · #negotiation #pm · #france #team-25 · #logistics #last-mile · #polyvalent
 **Source** : CV
 
@@ -117,7 +117,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ## DELIVER RESULTS ⭐
 
-### Anecdote A — 550k€ d'économies Service Client (Colis Privé, 2024)
+### Anecdote A - 550k€ d'économies Service Client (Colis Privé, 2024)
 **Tags** : #deliver-results #frugality #invent-simplify · #colis-prive · #cost-reduction #automation · #rpa #ai #data #team-25 · #france · #logistics #e-commerce · #savings-550k #cost-20pct #tasks-40pct · #polyvalent #chiffres-forts
 **Source** : CV
 
@@ -131,7 +131,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote B — 15 stations AMZL en 2 ans (Italie et Espagne)
+### Anecdote B - 15 stations AMZL en 2 ans (Italie et Espagne)
 **Tags** : #deliver-results #ownership #think-big · #amazon · #launch #planning · #pm #escalation · #eu #multi-country · #logistics #last-mile · #15-stations · #polyvalent #chiffres-forts
 **Source** : CV
 
@@ -147,7 +147,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ## OWNERSHIP ⭐
 
-### Anecdote A — SOP expansion SC Amazon 36 mois
+### Anecdote A - SOP expansion SC Amazon 36 mois
 **Tags** : #ownership #think-big #deliver-results · #amazon · #planning · #pm · #eu #multi-country · #supply-chain · #non-amazon
 **Source** : CV
 
@@ -161,7 +161,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote B — ColdEnergy France (entrepreneur, 2012-2014)
+### Anecdote B - ColdEnergy France (entrepreneur, 2012-2014)
 **Tags** : #ownership #deliver-results #frugality · #coldenergy · #planning · #pm #negotiation · #emea · #cold-chain #pharma #agri · #2m-revenue · #non-amazon
 **Source** : CV
 
@@ -177,7 +177,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ## EARN TRUST ⭐
 
-### Anecdote A — Collaboration multiculturelle EMEA
+### Anecdote A - Collaboration multiculturelle EMEA
 **Tags** : #earn-trust #hire-develop · #amazon · #change-management · #emea #multi-country · #logistics #supply-chain · #polyvalent #non-amazon
 **Source** : Forte 2019, 2020
 
@@ -191,11 +191,11 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote B — DD Intake process (Amazon Real Estate)
+### Anecdote B - DD Intake process (Amazon Real Estate)
 **Tags** : #earn-trust #customer-obsession #invent-simplify · #amazon · #tool-build #compliance · #pm · #emea · #real-estate #regulated · #non-amazon
 **Source** : Forte 2021
 
-**S** : L'intake des demandes de Due Diligence était informel — les équipes Real Estate ne savaient pas où en étaient leurs dossiers.
+**S** : L'intake des demandes de Due Diligence était informel - les équipes Real Estate ne savaient pas où en étaient leurs dossiers.
 
 **T** : Créer un processus d'intake structuré, adopté par les équipes internes et les clients.
 
@@ -207,27 +207,27 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ## HAVE BACKBONE; DISAGREE AND COMMIT
 
-### Anecdote A — Andon Cord DCT1 Barcelona *(voir Bias for Action A)*
+### Anecdote A - Andon Cord DCT1 Barcelona *(voir Bias for Action A)*
 **Tags** : #have-backbone #bias-for-action #ownership · #amazon · #judgment-call #crisis · #escalation · #eu · #logistics #last-mile · #leadership-solo
-Même histoire — angle : contredire le consensus implicite "Go" malgré la pression des délais et coûts déjà engagés.
+Même histoire - angle : contredire le consensus implicite "Go" malgré la pression des délais et coûts déjà engagés.
 
 ---
 
 ## DIVE DEEP ⭐
 
-### Anecdote A — Sparklines for Excel : apprentissage VBA from scratch
+### Anecdote A - Sparklines for Excel : apprentissage VBA from scratch
 **Tags** : #dive-deep #learn-curious #invent-simplify · #dole #amazon · #innovation #tool-build · #vba #data · #emea · #logistics · #100k-downloads · #amazon-only
 **Source** : Writing Exercise 2014, 2022
 
 *"After extensive research and despite of little experience in programming, I found out that the VBA 'shape' object actually offers plenty of properties..."*
 
-J'ai appris le VBA sur le tas en décomposant un graphique composant par composant — chaque ligne, chaque rectangle, chaque point. Forte 2023 : *"inane ability to deed dive, manage complex data and define root cause."*
+J'ai appris le VBA sur le tas en décomposant un graphique composant par composant - chaque ligne, chaque rectangle, chaque point. Forte 2023 : *"inane ability to deed dive, manage complex data and define root cause."*
 
 ---
 
 ## LEARN AND BE CURIOUS
 
-### Anecdote A — Sparklines for Excel + Edward Tufte
+### Anecdote A - Sparklines for Excel + Edward Tufte
 **Tags** : #learn-curious #dive-deep #invent-simplify · #dole · #innovation · #vba #data · #emea · #logistics · #non-amazon
 Inspiré par *The Visual Display of Quantitative Information* de Tufte, j'ai appliqué ses principes de data viz minimaliste à un contexte opérationnel. Forte 2023 manager : *"right level of Learn & Be Curious as he demonstrated in all new areas he jumped in this year."*
 
@@ -235,9 +235,9 @@ Inspiré par *The Visual Display of Quantitative Information* de Tufte, j'ai app
 
 ## INSIST ON THE HIGHEST STANDARDS
 
-### Anecdote A — SHIELD : chaque composant justifié
+### Anecdote A - SHIELD : chaque composant justifié
 **Tags** : #insist-standards #dive-deep #invent-simplify · #amazon · #tool-build #compliance · #bi #data · #emea #budget-40m · #real-estate #regulated · #amazon-only
-*"Every individual component of the graphic had to be carefully thought: Is this line absolutely necessary?"* — éthique de conception appliquée à SHIELD et SfE.
+*"Every individual component of the graphic had to be carefully thought: Is this line absolutely necessary?"* - éthique de conception appliquée à SHIELD et SfE.
 
 Forte 2021 : *"Fabrice dives deep on every process and every product he and his team delivers because he insists on higher standards."*
 
@@ -245,10 +245,10 @@ Forte 2021 : *"Fabrice dives deep on every process and every product he and his 
 
 ## FRUGALITY
 
-### Anecdote A — 550k€ économies CS, Colis Privé *(voir Deliver Results A)*
+### Anecdote A - 550k€ économies CS, Colis Privé *(voir Deliver Results A)*
 **Tags** : #frugality #deliver-results · #colis-prive · #cost-reduction #automation · #rpa #ai · #france · #logistics · #savings-550k #cost-20pct · #chiffres-forts
 
-### Anecdote B — Dole Romania : restructuration 5 sites, -50% effectifs
+### Anecdote B - Dole Romania : restructuration 5 sites, -50% effectifs
 **Tags** : #frugality #deliver-results #ownership · #dole · #restructuring #m-and-a · #pm · #multi-country · #agri #cold-chain · #non-amazon
 Post-acquisition, réhabilitation de 2 sites (Constanța, Bucarest) tout en réduisant les coûts de personnel de 50%.
 
@@ -256,27 +256,27 @@ Post-acquisition, réhabilitation de 2 sites (Constanța, Bucarest) tout en réd
 
 ## THINK BIG
 
-### Anecdote A — Amazon SC 36-month expansion SOP, 80+ bâtiments EU
+### Anecdote A - Amazon SC 36-month expansion SOP, 80+ bâtiments EU
 **Tags** : #think-big #ownership #deliver-results · #amazon · #planning · #pm · #eu #multi-country · #supply-chain · #non-amazon
-Redéfinir la stratégie d'utilisation du réseau de bâtiments Amazon EU sur 3 ans — réflexion sur la topologie du réseau SC à l'échelle continentale.
+Redéfinir la stratégie d'utilisation du réseau de bâtiments Amazon EU sur 3 ans - réflexion sur la topologie du réseau SC à l'échelle continentale.
 
 ---
 
 ## ARE RIGHT, A LOT
 
-### Anecdote A — Andon Cord DCT1 Barcelona *(voir Bias for Action A)*
+### Anecdote A - Andon Cord DCT1 Barcelona *(voir Bias for Action A)*
 **Tags** : #are-right #bias-for-action #have-backbone · #amazon · #judgment-call · #escalation · #eu · #logistics #last-mile · #leadership-solo
-Décision prise sur jugement, sans certitude — la fibre WiMAX est arrivée 1 mois après le lancement, comme anticipé. La 4G aurait effectivement été insuffisante pendant le ramp-up.
+Décision prise sur jugement, sans certitude - la fibre WiMAX est arrivée 1 mois après le lancement, comme anticipé. La 4G aurait effectivement été insuffisante pendant le ramp-up.
 
 ---
 
 ## CUSTOMER OBSESSION
 
-### Anecdote A — DCT1 : protéger l'expérience client *(voir Bias for Action A)*
+### Anecdote A - DCT1 : protéger l'expérience client *(voir Bias for Action A)*
 **Tags** : #customer-obsession #bias-for-action · #amazon · #judgment-call #crisis · #escalation · #eu · #last-mile #logistics · #leadership-solo
 *"Impacting the customer delivery promise: 5 to 10k parcels might not be sorted."* La priorité était de ne pas exposer les clients, même au coût d'un retard.
 
-### Anecdote B — Colis Privé : performance externe client
+### Anecdote B - Colis Privé : performance externe client
 **Tags** : #customer-obsession #deliver-results · #colis-prive · #cost-reduction · #team-25 · #france · #logistics #e-commerce · #savings-550k · #polyvalent
 Accountable pour la performance client sur 90M colis/an. Réduction des coûts CS tout en maintenant la qualité de service.
 
@@ -284,17 +284,17 @@ Accountable pour la performance client sur 90M colis/an. Réduction des coûts C
 
 ## HIRE AND DEVELOP THE BEST
 
-### Anecdote A — Équipe DD Amazon : montée en compétences
+### Anecdote A - Équipe DD Amazon : montée en compétences
 **Tags** : #hire-develop #earn-trust · #amazon · #change-management · #team-10 #emea · #real-estate #regulated · #non-amazon
 Formation et adoption de SHIELD. *"Fabrice has transformed and grown the due diligence team through 2020."* (Forte 2021)
 
-### Anecdote B — Infarm : équipe de 16 ingénieurs EU
+### Anecdote B - Infarm : équipe de 16 ingénieurs EU
 **Tags** : #hire-develop #deliver-results · #infarm · #launch #change-management · #team-16 #eu #multi-country · #agri · #non-amazon
-*"Conducted training and mentoring programs to elevate team capabilities and skills."* — équipe internationale sur 4 pays EU.
+*"Conducted training and mentoring programs to elevate team capabilities and skills."* - équipe internationale sur 4 pays EU.
 
 ---
 
-## Index rapide — Anecdotes polyvalentes
+## Index rapide - Anecdotes polyvalentes
 
 | Anecdote | LPs couverts | Impact chiffré | Idéal pour |
 |----------|-------------|---------------|-----------|

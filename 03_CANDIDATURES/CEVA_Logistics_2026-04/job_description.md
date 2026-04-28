@@ -1,13 +1,13 @@
-# job_description — CEVA Logistics
+# job_description - CEVA Logistics
 
 ## Informations de l'annonce
 
 - **Entreprise** : CEVA Logistics (groupe CMA CGM)
 - **Poste** : Global Contract Logistics Program & System Director
-- **Localisation** : Paris, Île-de-France — flexible selon candidat retenu [À CONFIRMER : Marseille accepté ?]
-- **Type de contrat** : CDI — Temps plein
+- **Localisation** : Paris, Île-de-France - flexible selon candidat retenu [À CONFIRMER : Marseille accepté ?]
+- **Type de contrat** : CDI - Temps plein
 - **Date de publication** : Avril 2026
-- **Source** : LinkedIn Jobs — https://www.linkedin.com/jobs/view/4403726648/
+- **Source** : LinkedIn Jobs - https://www.linkedin.com/jobs/view/4403726648/
 
 ## Responsabilités principales
 
@@ -20,7 +20,7 @@
 
 ## Exigences clés
 
-- Certifications formelles en gestion de projet/programme : APM, Prince2 ou équivalent — **obligatoire**
+- Certifications formelles en gestion de projet/programme : APM, Prince2 ou équivalent - **obligatoire**
 - Expertise en implémentation de projets/programmes à grande échelle
 - Expérience avec contrats logistiques, WMS, OMS, automation
 - Expérience multisectorielle (E-Commerce, Santé, Retail, Aérospatiale, Alimentaire, Tech, Automobile)
@@ -39,6 +39,6 @@
 
 ## Contexte
 
-Poste au sein de CEVA Logistics (filiale CMA CGM Group). Scope global. Focus sur les lancements "zero defect" — démarrages de nouveaux contrats logistiques sans défaut opérationnel.
+Poste au sein de CEVA Logistics (filiale CMA CGM Group). Scope global. Focus sur les lancements "zero defect" - démarrages de nouveaux contrats logistiques sans défaut opérationnel.
 
 **Note** : CEVA Logistics est la maison mère de Colis Privé (employeur précédent de Fabrice, contentieux en cours). À évaluer avec prudence avant candidature.

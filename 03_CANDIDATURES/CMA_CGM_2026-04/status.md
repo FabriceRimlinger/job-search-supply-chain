@@ -9,4 +9,4 @@
 - Prochaine action : Personnaliser avec VULCAIN
 - Date de relance :
 - Relu et validé manuellement : [ ]
-- Commentaires : Lead via LinkedIn Jobs (job ID 4402373746). Poste Global Project Management Specialist — Customer Care Transformation. Siège Marseille, scope global.
+- Commentaires : Lead via LinkedIn Jobs (job ID 4402373746). Poste Global Project Management Specialist - Customer Care Transformation. Siège Marseille, scope global.

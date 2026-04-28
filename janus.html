@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JANUS — Candidatures</title>
+<title>JANUS - Candidatures</title>
 <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -27,7 +27,9 @@ header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cur
 
 /* Sidebar */
 .sidebar { width:240px; background:white; border-right:1px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
-.sidebar-hdr { padding:10px 12px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; }
+.sidebar-hdr { padding:10px 12px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:space-between; }
+.tree-toggle { font-size:10px; font-weight:500; color:#6b7280; background:#f3f4f6; border:1px solid #e5e7eb; border-radius:4px; padding:2px 7px; cursor:pointer; text-transform:none; letter-spacing:0; line-height:1.6; transition:all .15s; }
+.tree-toggle:hover { background:#e5e7eb; color:#374151; }
 .tree { flex:1; overflow-y:auto; padding:4px 0; user-select:none; }
 .sidebar-empty { padding:24px 14px; font-size:12px; color:#9ca3af; text-align:center; line-height:1.7; }
 .sidebar-empty code { background:#f3f4f6; padding:1px 5px; border-radius:3px; font-size:11px; }
@@ -150,14 +152,17 @@ table.log tr:hover td { background:#f9fafb; }
 
 <div class="main">
   <div class="sidebar">
-    <div class="sidebar-hdr">Candidatures</div>
+    <div class="sidebar-hdr">
+      <span>Candidatures</span>
+      <button class="tree-toggle" id="toggleTreeBtn" onclick="toggleAllFolders()" title="Développer / Replier tout">⊞ Développer</button>
+    </div>
     <div class="tree" id="tree">
       <div class="sidebar-empty">Ouvrez le dossier<br><code>Recherche Emploi Supply Chain</code><br>pour voir l'arborescence</div>
     </div>
   </div>
   <div class="editor-area">
     <div class="editor-toolbar" id="toolbar" style="display:none">
-      <span class="filename" id="currentFilename">—</span>
+      <span class="filename" id="currentFilename">-</span>
       <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
       <button class="tab-btn" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
       <button class="tab-btn active" id="tabPrev" onclick="switchTab('preview')">Aperçu</button>
@@ -199,7 +204,7 @@ table.log tr:hover td { background:#f9fafb; }
 <!-- Save dialog -->
 <div class="dialog" id="saveDialog">
   <h3>💾 Sauvegarder</h3>
-  <p id="saveInfo">—</p>
+  <p id="saveInfo">-</p>
   <input type="text" id="saveNote" placeholder="Note optionnelle" maxlength="120">
   <div class="btns">
     <button class="btn-cancel"  onclick="closeSave()">Annuler</button>
@@ -224,6 +229,7 @@ const LOG_KEY  = 'janus_log';
 const LANG_KEY = 'janus_lang';
 
 // ── State ──────────────────────────────────────────────────────────────────────
+let allExpanded = false;
 let rootHandle  = null;
 let saveMode    = 'fsa';
 let activeTab   = 'preview';
@@ -256,7 +262,7 @@ async function openDirectory() {
   }
 }
 
-// Recursive FSA scan — max 3 levels
+// Recursive FSA scan - max 3 levels
 async function buildChildren(dirHandle, basePath, depth) {
   if (depth > 3) return [];
   const nodes = [];
@@ -297,7 +303,7 @@ async function buildChildren(dirHandle, basePath, depth) {
 async function loadFromInput(files) {
   fileHandles = {}; fileOrig = {};
   const byFolder = {};
-  let rootName = '—';
+  let rootName = '-';
 
   for (const file of files) {
     if (!file.name.endsWith('.md')) continue;
@@ -423,6 +429,23 @@ function onFolderClick(path) {
   // Ask for language if not yet set
   const langs = getLangs();
   if (!langs[path]) { langPending = path; showLangDialog(path); }
+}
+
+function toggleAllFolders() {
+  allExpanded = !allExpanded;
+  setAllExpanded(treeNodes, allExpanded);
+  renderTree();
+  const btn = document.getElementById('toggleTreeBtn');
+  btn.textContent = allExpanded ? '⊟ Replier' : '⊞ Développer';
+}
+
+function setAllExpanded(nodes, state) {
+  for (const n of nodes) {
+    if (n.type === 'folder') {
+      n.expanded = state;
+      if (n.children) setAllExpanded(n.children, state);
+    }
+  }
 }
 
 function findNode(nodes, path) {
@@ -570,7 +593,7 @@ async function performSave(note = '') {
   const oldContent = fileOrig[currentPath] ?? '';
   const delta = newContent.length - oldContent.length;
   const parts = currentPath.split('/');
-  const folder = parts.length > 1 ? parts.slice(0,-1).join('/') : (rootHandle?.name ?? '—');
+  const folder = parts.length > 1 ? parts.slice(0,-1).join('/') : (rootHandle?.name ?? '-');
 
   try {
     const handle = fileHandles[currentPath];
@@ -625,10 +648,10 @@ function renderLog() {
   tbody.innerHTML = log.map(e => {
     const d  = new Date(e.timestamp);
     const dt = d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'}) + ' ' + d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
-    const delta = e.delta>0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta<0 ? `<span class="delta-neg">${e.delta}</span>` : '—';
+    const delta = e.delta>0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta<0 ? `<span class="delta-neg">${e.delta}</span>` : '-';
     return `<tr><td>${dt}</td><td><span class="badge badge-${e.author}">${e.author}</span></td>
     <td><span style="color:#9ca3af;font-size:11px">${e.folder}/</span>${e.file}</td>
-    <td>${delta}</td><td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">—</em>'}</td></tr>`;
+    <td>${delta}</td><td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">-</em>'}</td></tr>`;
   }).join('');
 }
 function clearLog()  { if (!confirm('Effacer tout l\'historique ?')) return; saveLD([]); renderLog(); showToast('Journal effacé'); }

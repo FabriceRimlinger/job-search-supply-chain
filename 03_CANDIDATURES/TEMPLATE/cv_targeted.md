@@ -2,7 +2,7 @@
 
 ## Hook 3 lignes
 
-> [Titre du poste ciblé] — [X] ans d'expérience [secteur/domaine].
+> [Titre du poste ciblé] - [X] ans d'expérience [secteur/domaine].
 > [Réalisation #1 chiffrée, la plus percutante pour CE poste spécifiquement].
 > [Réalisation #2 ou compétence différenciante alignée avec la JD].
 
@@ -29,15 +29,15 @@
 
 ## Profil ciblé
 
-[Résumé 3-4 lignes adapté à l'annonce — première personne, chiffres, sans buzzwords]
+[Résumé 3-4 lignes adapté à l'annonce - première personne, chiffres, sans buzzwords]
 
 ## Expériences clés réorientées
 
-### [Poste] — [Entreprise] ([dates])
+### [Poste] - [Entreprise] ([dates])
 - J'ai [action] → [résultat chiffré + contexte]
 - J'ai [action] → [résultat chiffré + contexte]
 
-### [Poste] — [Entreprise] ([dates])
+### [Poste] - [Entreprise] ([dates])
 - J'ai [action] → [résultat chiffré + contexte]
 
 ## Compétences techniques

@@ -1,4 +1,4 @@
-# INPUT — Dossier d'alimentation du profil
+# INPUT - Dossier d'alimentation du profil
 
 Déposez ici vos documents sources. JANUS les lira et construira automatiquement les fichiers de profil dans `01_PROFIL/`.
 
@@ -38,7 +38,7 @@ Déposez ici vos documents sources. JANUS les lira et construira automatiquement
 
 ## Règles importantes
 
-- JANUS ne **jamais invente ni amplifie** — il extrait fidèlement ce qui est écrit
+- JANUS ne **jamais invente ni amplifie** - il extrait fidèlement ce qui est écrit
 - En cas de doute sur une information, il la signale avec `[À CONFIRMER]`
 - Les documents restent dans `INPUT/processed/` à titre d'archive (ne pas supprimer)
 - Après mise à jour du profil, faire un `git commit + push` pour synchroniser avec les agents distants

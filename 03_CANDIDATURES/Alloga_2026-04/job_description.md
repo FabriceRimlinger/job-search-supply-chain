@@ -1,10 +1,10 @@
-# job_description — Alloga
+# job_description - Alloga
 
 ## Job Posting Information
 
 - **Company**: Alloga (subsidiary of Alliance Healthcare / Cencora)
 - **Role**: Portfolio Manager – Technology / Change & Transformation (Senior level)
-- **Location**: Marseille — Hybrid (on-site presence possible in Marseille)
+- **Location**: Marseille - Hybrid (on-site presence possible in Marseille)
 - **Contract type**: Permanent [TO CONFIRM]
 - **Publication date**: April 2026 (document received 16/04/2026)
 - **Source**: Document received directly (alloga tsfm.pdf)

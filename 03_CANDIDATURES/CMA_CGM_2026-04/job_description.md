@@ -1,13 +1,13 @@
-# job_description — CMA CGM
+# job_description - CMA CGM
 
 ## Informations de l'annonce
 
 - **Entreprise** : CMA CGM Group
-- **Poste** : Global Project Management Specialist — Customer Care Transformation
+- **Poste** : Global Project Management Specialist - Customer Care Transformation
 - **Localisation** : Marseille, Provence-Alpes-Côte d'Azur (siège)
-- **Type de contrat** : CDI — Temps plein
+- **Type de contrat** : CDI - Temps plein
 - **Date de publication** : Avril 2026
-- **Source** : LinkedIn Jobs — https://www.linkedin.com/jobs/view/4402373746/
+- **Source** : LinkedIn Jobs - https://www.linkedin.com/jobs/view/4402373746/
 
 ## Responsabilités principales
 
@@ -39,4 +39,4 @@
 
 ## Niveau & contexte
 
-Poste au sein de la direction Customer Care Transformation de CMA CGM — scope global, siège Marseille. Interface métier/IT, rôle orienté delivery et change adoption.
+Poste au sein de la direction Customer Care Transformation de CMA CGM - scope global, siège Marseille. Interface métier/IT, rôle orienté delivery et change adoption.
