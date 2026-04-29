@@ -1,6 +1,6 @@
 # Company Brief - Compagnie Fruitière
 
-**Mise à jour** : 28/04/2026 | Candidature spontanée
+**Mise à jour** : 29/04/2026 | Candidature spontanée
 
 ---
 
@@ -36,6 +36,24 @@
 **Difficultés de gestion de projets industriels** (source : Fabrice)
 - Contexte de tension sur l'exécution des projets industriels - opportunité directe pour le profil de Fabrice
 
+**Poste Directeur Technique vacant** (source : Massimiliano / Fabrice, 29/04/2026)
+- Olivier Marty (Directeur des Opérations / Directeur Technique, juin 2022 - juin 2025) a quitté CF
+- Un consultant externe basé à Toulouse couvre les projets techniques en intérim (nom inconnu)
+- CF n'a donc pas de DT interne en place → opportunité directe
+
+**Direction générale** (source : Fabrice, 29/04/2026)
+- Franck Brosse (DG CF) se remet d'un AVC → contexte de fragilité managériale au sommet
+
+**Prestataire froid : Quercy Réfrigération** (groupe Eiffage) (source : Fabrice, 29/04/2026)
+- Prestataire froid principal de CF
+- Pratique signalée : surdimensionnement des installations pour récupérer des certificats d'efficacité énergétique
+- Angle fort pour Fabrice : identifier et corriger ce type de dérive = économies directes sur CAPEX/OPEX
+
+**Projets industriels identifiés** (source : Fabrice, 29/04/2026)
+- **Port Vendres** : projet terminal frigorifique (en cours / à venir)
+- **Buéa (Cameroun) ou Abidjan (Côte d'Ivoire)** : projet terminal frigorifique
+- **Roumanie** : installations existantes ; mûrisserie au nord de Bucarest (site d'Afumati)
+
 **Changement d'auditeur** (MAZARS → EY Audit, juin 2025)
 - Signal possible de restructuration ou de montée en rigueur de la gouvernance
 
@@ -51,8 +69,8 @@ Filiale tech de CF fondée en 2017, 11-50 salariés. Plateforme agritech pour la
 |---------|------|----------------|--------|
 | **Thomas Geoffroy** | Head of Region SE France, AWS | tgeoffro@amazon.com | Introducteur - a fait l'intro Fabrice ↔ Mauran le 20/11/2025. Souhaite que Fabrice rencontre l'ExComm CF. |
 | **Benoît Mauran** | CEO, Farms Digital (filiale CF) | b.mauran@farms-digital.com | **Cible principale** - intro déjà faite, à relancer directement |
-| **Gautier Fischel** | VP Distribution & Marketing / Président CF France | linkedin.com/in/gautier-fischel | Cible secondaire - à solliciter après Mauran si pertinent |
-| **Massimiliano Castagna** | [À CONFIRMER] | linkedin.com/in/castagna-massimiliano-51282234 | Activé 28/04/2026 - introducteur complémentaire |
+| **Gautier Fischel** | VP Distribution & Marketing / Président CF France | linkedin.com/in/gautier-fischel | **Cible principale désormais** - contacté par Massimiliano le 29/04/2026 - RDV à organiser |
+| **Massimiliano Castagna** | [À CONFIRMER] | linkedin.com/in/castagna-massimiliano-51282234 | Activé 28/04/2026 - a fait l'intro vers Fischer le 29/04/2026 |
 
 **Stratégie :**
 1. Envoyer LM + CV directement à b.mauran@farms-digital.com (intro Thomas Geoffroy = ticket d'entrée)
@@ -77,3 +95,12 @@ Filiale tech de CF fondée en 2017, 11-50 salariés. Plateforme agritech pour la
 - Comment est organisé le pilotage des projets d'expansion Europe de l'Est ?
 - Quelle est la structure de décision pour les investissements CAPEX ?
 - Y a-t-il une équipe PMO / programme en place, ou c'est à construire ?
+- Où en est le projet de terminal frigorifique à Port Vendres, et qui le pilote actuellement ?
+- Quelle est la feuille de route pour les terminaux en Afrique (Buéa / Abidjan) ?
+- Comment est gérée la relation avec Quercy Réfrigération sur les projets en cours - y a-t-il un suivi indépendant des spécifications techniques ?
+
+## Points de vigilance pour le RDV
+
+- **Ne pas mentionner la maladie de Franck Brosse** - information sensible, ne pas aborder sauf si la partie l'évoque
+- **Consultant Toulouse** : ne pas nommer mais possible d'indiquer qu'une transition propre avec le prestataire actuel sera assurée
+- **Quercy Réfrigération** : sujet délicat (groupe Eiffage = partenaire stratégique CF potentiel) - aborder sous l'angle "optimisation de la relation MOA/MOE" plutôt que critique frontale
