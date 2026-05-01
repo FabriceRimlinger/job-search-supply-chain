@@ -1,65 +1,79 @@
 # PAPI-I - Profil de personnalité au travail
 
-> Source : Test PAPI-I Cubiks, passé le 24 janvier 2014 (juste avant l'entrée chez Amazon).
-> **Attention** : valide 12 mois selon Cubiks - à utiliser comme contexte de fond, pas comme vérité absolue.
+> Source originale : Test PAPI-I Cubiks, passé le 24 janvier 2014 (juste avant l'entrée chez Amazon).
+> **Mise à jour** : Interview MINERVE, 29 avril 2026 - profil reconstruit sur la base d'exemples récents (Colis Privé 2023-2026).
 > Usage recommandé : MINERVE (préparation entretiens comportementaux), coaching JANUS.
 
 ---
 
-## Synthèse des 7 dimensions
+## Synthèse des 7 dimensions - Version 2026
 
 ### 1. Influence et Leadership
-- Apprécie fortement être en position de contrôle et d'influence
-- Cherche les rôles à responsabilité - ne s'impose qu'en cas de nécessité
-- Confiant dans son impact sur autrui mais pas autoritaire par défaut
-- **Watch point** : peut trouver difficile de suivre des décisions prises sans son implication
+
+- Leadership par adhésion volontaire : réunit les parties prenantes en face-à-face pour tester la pertinence du projet, puis demande qui est intéressé et disponible
+- Implique les managers hiérarchiques dès le début (ne contourne pas, co-construit) - accord collectif sur périmètre et livrables
+- S'impose quand nécessaire, pas par défaut - inchangé depuis 2014
+- **Watch point** : peut trouver difficile de suivre des décisions prises sans son implication - toujours pertinent
 
 ### 2. Organisation et structure
-- Flexible et adaptable dans l'organisation matérielle
-- Attentif au détail, vérifie - prend de la fierté dans la qualité
-- Planification et anticipation importantes, mais à l'aise avec l'imprévu
-- **Watch point** : peut trouver difficile de travailler sous délais serrés sans temps de vérification
+
+- Système personnel de knowledge management piloté par IA (self-made) : rapports et checklists quotidiens
+- Construit ses propres outils plutôt que d'adopter les standards existants
+- Ce qui coûte le plus d'énergie : la coordination administrative (planification de réunions, préparation d'agendas) - pas la complexité intellectuelle
+- **Watch point** : l'overhead de coordination peut être un frein - à anticiper en déléguant ou en automatisant
 
 ### 3. Rapport aux idées et au changement
-- Très orienté idées nouvelles et création de solutions - pensée conceptuelle profonde
-- Besoin de variété et de changement - s'ennuie en mode routinier
-- Multi-projets simultanés naturel
-- **Watch point** : peut déléguer l'application pratique des idées (préfère la conception à l'exécution détaillée)
+
+- Ne sépare plus conception et exécution : quick wins en parallèle du diagnostic, 6-pager Amazon comme document de roadmap validé avec le CODIR
+- Démarre par des interviews terrain pour identifier les gains rapides avant de formaliser la stratégie
+- **Evolution vs 2014** : ne délègue plus l'exécution détaillée - assume les deux en parallèle
+- **Watch point** : besoin de variété et d'innovation - les environnements très routiniers restent peu stimulants
 
 ### 4. Relation aux autres
-- Discret et modeste - ne cherche pas à éclipser
-- Travail en équipe fort - fait passer l'intérêt collectif avant le sien
-- Chaleureux mais garde une certaine distance professionnelle
-- **Watch point** : peut manquer d'assurance dans les situations de prise de parole publique
+
+- 1:1 hebdomadaires avec les N-1 - cadence structurée et non négociable
+- Attentif aux signaux non verbaux (attitudes, comportements) pour détecter les difficultés
+- Posture de service : demande systématiquement "comment puis-je t'aider ?"
+- Solicite activement du feedback de ses collaborateurs
+- **Evolution vs 2014** : nettement plus proactif et accessible dans la relation managériale - la "distance professionnelle" de 2014 a disparu
+- A l'aise en prise de parole publique - confirmé 2026
 
 ### 5. Prise de décision et rythme
-- Approche prudente et réfléchie - évalue toutes les conséquences avant de décider
-- Équilibre vitesse/prudence selon le contexte
-- **Watch point** : peut ne pas être à l'aise pour décider très rapidement sans phase de réflexion
+
+- Framework two-way door / one-way door (Amazon) : décide vite si réversible, temporise et escalade si irréversible ou coûteux
+- Évalue d'abord le coût de l'inaction avant d'agir
+- Pour les décisions à fort engagement : cherche l'approbation des supérieurs
+- **Evolution vs 2014** : même prudence naturelle, mais désormais structurée dans un framework communicable - atout en entretien
 
 ### 6. Expression des opinions
-- Direct mais diplomatique - argumente sans imposer
-- Contrôle ses émotions mais fait preuve de spontanéité
-- N'entre en conflit que si absolument nécessaire
+
+- "Disagree and Commit" : exprime le désaccord en privé (ne cherche pas le conflit public), adhère à 100% une fois la décision prise
+- Respectueux de la hiérarchie dans la forme, direct sur le fond
+- Inchangé depuis 2014 - mais désormais formulé de manière valorisable
 
 ### 7. Orientation résultats
-- Se fixe des objectifs réalistes et réalisables
-- Très autonome - peu besoin de validation externe ou de reconnaissance de la hiérarchie
-- Attentif à l'équilibre vie pro/perso
-- **Watch point** : peut contester l'autorité ; peu enclin à faire du reporting spontané
+
+- Motivé par la construction de quelque chose de nouveau (innovation) plutôt que par l'atteinte d'objectifs prédéfinis par autrui
+- Explique le "pourquoi" des projets à ses équipes et parties prenantes
+- Utilise des GanttCharts et des plans B pour rassurer la hiérarchie sur la timeline
+- **Evolution vs 2014** : reporting proactif acquis - la communication sur la progression est devenue naturelle (Gantt, plan B, executive updates)
+- Autonomie forte - toujours pertinent
+- **Watch point résiduel** : peut contester l'autorité si la décision lui semble incohérente - géré par le Disagree and Commit
 
 ---
 
 ## Usage pour entretiens (MINERVE)
 
 **Forces à valoriser :**
-- Leadership situationnel (s'impose quand nécessaire, pas par défaut) → convient aux rôles de PM transversal sans autorité hiérarchique directe
-- Orientation idées + data → cohérent avec profil "Invent & Simplify" Amazon
-- Autonomie forte → argument pour les rôles à fort ownership sans micro-management
-- Multi-projets → naturel pour des portfolios complexes
+
+- Leadership par adhésion et co-construction - idéal pour les rôles transversaux sans autorité hiérarchique directe (type DT, Programme Director)
+- Framework de décision clair (two-way/one-way door) → formulation directement utilisable en entretien
+- "Disagree and Commit" → atout Amazon bien ancré, pas un watch point
+- Autonomie + reporting proactif (Gantt, plans B) → élimine l'objection "trop autonome pour rendre compte"
+- Innovation + exécution simultanée (6-pager + quick wins en parallèle) → profil complet conception ET delivery
 
 **Points de vigilance à préparer :**
-- "Reporting spontané limité" → préparer des exemples de communication proactive (SHIELD, executive reporting Dole/Amazon)
-- "Peut contester l'autorité" → reformuler en LP "Have Backbone, Disagree and Commit" - c'est un atout si bien présenté
-- "Prise de parole publique" → préparer une anecdote de présentation C-level (Dole CEO/CFO, Amazon SteerCo)
-- "Délègue l'exécution détaillée" → équilibrer avec exemples de dive deep (SHIELD, SfE)
+
+- "Overhead de coordination" (réunions, agendas) → montrer comment tu as délégué ou automatisé cette partie
+- "Environnements routiniers peu stimulants" → préparer comment tu maintiens l'engagement sur les phases opérationnelles longues
+- "Prise de parole publique" → pas un frein, confirmé 2026. Préparer une anecdote de présentation C-level (Dole CEO/CFO, Amazon SteerCo, CODIR Colis Privé) pour illustrer positivement.

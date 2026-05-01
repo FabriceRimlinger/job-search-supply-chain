@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-28
 - Date d'envoi : CV envoyé à Massimiliano Castagna le 2026-04-28 (mise en relation)
-- Statut : Entretien planifié
+- Statut : Entretien préparé
 - Langue : fr 🇫🇷
 - Prochaine action : Organiser le RDV avec Gautier Fischer (contacté par Massimiliano Castagna le 2026-04-29)
 - Date de relance :
