@@ -6,51 +6,75 @@
 
 ---
 
-## 🔍 LinkedIn Research - Les Interviewers
+## 🔍 LinkedIn Research - Les Interviewers (PROFILS ACTUALISÉS)
 
-### Mamoudou Traore (Head of TSFM Delivery)
+### Mamoudou Traore - Director of Information Technology (Alloga, depuis sep 2025)
 **LinkedIn** : https://www.linkedin.com/in/mamoudoutraore/
 
-**À chercher sur son profil** :
-- Durée chez Alloga/Cencora et rôle exact (Head of TSFM Delivery = responsable de la livraison des projets)
-- Background avant Alloga (secteur pharma? 3PL? transformation?)
-- Compétences mises en avant (delivery management, risk, operations, supply chain)
-- Ses projets mentionnés ou recommandations reçues (mode de travail, culture, priorités)
+**Profil clé** :
+- **Titre actuel** : Director of IT (Alloga, 9 mois) - gère TSF-M (The Software Factory Marseille, ~30 personnes)
+- **Responsabilités** : Portfolio governance, EU project delivery, budget ownership, ATLAS stack (ERP, Client Gateway, B2B, EDI), security/resilience rollout (SSO/MFA, cyber, encryption)
+- **Background réglementé** : CIO chez GSA Healthcare (pharma, 100M€, 2021-2024, SAP S/4 HANA, Azure cloud), Deputy CIO chez LCH bank (90 staff, 20M€ budget, NIST/ISO27001, cybersecurity)
+- **25+ ans** : Transition Manager, CIO, Digital Director roles (Barrière, AXA, Monoprix, lastminute.com, Ubisoft)
+- **Compétences clés** : ERP (SAP), Cloud Architecture, DevOps, Agile, Portfolio Governance, Cybersecurity, Budget management
+- **Langues** : English, Français
 
-**Dynamique d'entretien** : Mamoudou pilotera probablement la partie **"can you deliver?"** — il cherchera à comprendre ta capacité opérationnelle, ton expérience de gestion de risques, ton approche au delivery sous contrainte (pharma, régulation). Montre-lui de la structure, des gestes de reporting clairs, des risques anticipés.
+**Dynamique d'entretien** : Mamoudou pilotera **"can you deliver and manage risk?"** — il évalue ta capacité opérationnelle, résilience technique, gestion de risques IT/réglementaire, stakeholder coordination sous contrainte. Il pense architecture, timeline réaliste, mitigation risk.
 
-**Point de connexion possible** : Si son background inclut transformation/expansion, mentionne tes expériences similaires (Infarm 72M€, Colis Privé M&A, Amazon SOP 36 mois).
+**Angles d'attaque pour lui** :
+- Parle sa langue : **portfolio governance structure, risk register, dependency mapping, validation phases (IQ/OQ/PQ pour GDP), timeline réalisme, technical architecture complexity**
+- Références pertinentes : Amazon €40M/1200 projects (BI + governance à scale), Infarm multi-country IT coordination, SHIELD adoption (100% stakeholders, technical enablement)
+- Question à poser : *"You've been building the TSF-M IT capability over 9 months — what's been the biggest technical or governance challenge, and how has Alloga approached it?"* → Montre tu penses infrastructure/delivery, pas juste procédure
+- Red flag à éviter : parler de "procédure" ou "process" sans ancrer dans la réalité tech/timeline. Mamoudou veut du concret, des nombres, des risques anticipés.
 
 ---
 
-### Mercedes Garcia (Senior Programme Manager)
+### Mercedes Garcia - Senior Programme Manager (Alliance Healthcare/Alloga)
 **LinkedIn** : https://www.linkedin.com/in/mercedes-garcia-5191582/
 
-**À chercher sur son profil** :
-- Background (secteur, programme scale, durée chez Alloga)
-- Titres précédents (programme management, PMO, operations?)
-- Compétences clés (stakeholder management, multi-country, change management)
-- Si elle a des projets ou domaines spécialisés (WMS? integrations? transformation?)
-- Endorsements reçues (BI? leadership? regulatory?)
+**Profil clé** :
+- **À Alliance Healthcare** : Récemment (context: Alliance Healthcare est parent group d'Alloga)
+- **Tagline** : "Business transformation programme manager energised by ambiguity and with a real passion for enabling people, function and businesses achieve their goals"
+- **Background spécialisé** :
+  - Legal Entity Carve-out (Mercedes-Benz Trucks UK, 2021-2023, CFO/COO reporting) — interim + target operating models, transition planning, governance forums
+  - Global Finance Transformation (2019-2021, ERP roadmap, cloud ERP selection)
+  - Global Digital Product & Capability (2018-2019, APAC/Iberia/LATAM, digital journey ownership)
+  - Merlin Entertainments Global Transformation (2016-2017, retail + F&B, multi-brand: LEGOLAND, Alton Towers, Madame Tussaud's)
+  - Phone House M&A, Joint Ventures, Divestment (2012-2015, Nordics merger, Media Markt Store-in-Store pilot)
+  - Principal PM: SEPA Compliance, Workforce Management Transformation (5 yrs 9 mois)
+- **Certification** : Managing Successfull Programmes Practitioner (APM, 2011)
+- **Langues** : Spanish, English
 
-**Dynamique d'entretien** : Mercedes pilotera probablement **"what value will you bring?"** et la dimension stakeholder management (comment tu vas travailler avec son équipe, les autres fonctions, les clients). Elle cherchera probablement à évaluer ta capacité à "shape" le portefeuille et non pas juste l'exécuter.
+**Dynamique d'entretien** : Mercedes pilotera **"what value will you bring? Can you engage and shape?"** — elle évalue ta capacité à **enabler stakeholders**, structurer programmes complexes, adapter approches à contextes différents (interim vs target states), gérer ambiguité. Elle pense people first, puis structure.
 
-**Point de connexion possible** : Si elle a du background en transformation ou multi-pays, tu peux mentionner SHIELD (adoption par 100% stakeholders), Infarm (multi-cultural teams DE/UK/DK/FR), Amazon EMEA reporting.
+**Angles d'attaque pour elle** :
+- Parle sa langue : **stakeholder enablement, vision clarity, interim + target operating models, change adoption, programme shaping (not just execution), people-focused delivery, governance forums**
+- Références pertinentes : SHIELD adoption narrative (100% stakeholder engagement, training, feedback loops), Milee integration (300 employees, continuité opérationnelle, staff engagement), Amazon pan-European leadership (multi-regional coordination, C-level reporting)
+- Question à poser : *"Having worked on carve-outs and major transformations, how do you see programme structure and stakeholder enablement differ between Alloga's current phase (stabilisation) and the growth/expansion phase Cencora is targeting?"* → Montre tu penses vision + people + structure, pas juste execution
+- Red flag à éviter : parler de "process conformance" ou "risk mitigation" sans anchor dans human/organizational change. Mercedes veut de l'engagement, de la vision clarity, et des gens motivés.
 
 ---
 
-### Stratégie combinée Mamoudou + Mercedes
+### Stratégie d'entretien combinée (Mamoudou + Mercedes)
 
-**Avant l'entretien** (tu as 5 min de tech check) :
-1. Lis les deux profils LinkedIn (10 min max)
-2. Note : secteur d'origine, durée à Alloga, un point de carrière intéressant pour chacun
-3. Prépare **une question personnelle pour chacun** :
-   - À Mamoudou : "I see you've been driving TSFM Delivery — what's been your biggest challenge in operationalising transformation at Alloga?" (montre intérêt pour son rôle, prépare-toi à des réponses sur delivery pain points)
-   - À Mercedes : "With your experience in programme management, how do you see the portfolio shaping Alloga's growth over the next 2-3 years?" (montre intérêt stratégique, invite-la à parler de vision)
+**Division de rôles attendue** :
+- **Mamoudou** = technical delivery, architecture, risk, timeliness ✓
+- **Mercedes** = programme shaping, stakeholder enablement, interim/target states, change readiness ✓
+
+**Avant l'entretien** (5-10 min tech check) :
+1. Relire cette section (2 min)
+2. Prépare **une phrase clé pour chacun** :
+   - **Mamoudou** : "I see the TSF-M is managing portfolio governance and ATLAS stack complexity — my SHIELD experience at Amazon showed me the power of BI + clear governance structure to unblock delivery at scale."
+   - **Mercedes** : "Your background on entity carve-outs and capability set-up aligns with Alloga's growth — I've managed similar interim→target state transitions, and stakeholder enablement is always the linchpin."
 
 **Pendant l'entretien** :
-- If Mamoudou talks about a specific delivery challenge, reference your Infarm or Amazon programme experience (build credibility on his language)
-- If Mercedes talks about stakeholder management or change adoption, reference SHIELD impact or Milee integration (show you understand multi-functional dynamics)
+- **Si Mamoudou ask about technical depth** : Reference Infarm (€72M, 4 countries, ERP/infrastructure), Amazon (€40M portfolio, BI/SQL backbone, cross-site dependency management)
+- **Si Mercedes ask about people/change** : Reference SHIELD rollout (adoption 100%, training loops, peer feedback "revolutionised how we operate"), Milee (300 staff, zero incidents, >95% retention, stakeholder trust)
+- **Si l'un ask "why Alloga?"** : réponse combinée : "You're at an inflection point — stabilising delivery (Mamoudou's turf) while expanding growth (Mercedes' turf). My portfolio + transformation experience spans both, and Marseille is home."
+
+**Tone** :
+- Avec Mamoudou : direct, chiffré, réaliste sur timeline et risques. Respect pour la complexité technique.
+- Avec Mercedes : warm, vision-forward, focus sur enabling teams. Respect pour la people dimension.
 
 ---
 
