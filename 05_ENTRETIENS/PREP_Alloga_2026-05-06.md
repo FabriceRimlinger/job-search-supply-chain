@@ -6,6 +6,54 @@
 
 ---
 
+## 🔍 LinkedIn Research - Les Interviewers
+
+### Mamoudou Traore (Head of TSFM Delivery)
+**LinkedIn** : https://www.linkedin.com/in/mamoudoutraore/
+
+**À chercher sur son profil** :
+- Durée chez Alloga/Cencora et rôle exact (Head of TSFM Delivery = responsable de la livraison des projets)
+- Background avant Alloga (secteur pharma? 3PL? transformation?)
+- Compétences mises en avant (delivery management, risk, operations, supply chain)
+- Ses projets mentionnés ou recommandations reçues (mode de travail, culture, priorités)
+
+**Dynamique d'entretien** : Mamoudou pilotera probablement la partie **"can you deliver?"** — il cherchera à comprendre ta capacité opérationnelle, ton expérience de gestion de risques, ton approche au delivery sous contrainte (pharma, régulation). Montre-lui de la structure, des gestes de reporting clairs, des risques anticipés.
+
+**Point de connexion possible** : Si son background inclut transformation/expansion, mentionne tes expériences similaires (Infarm 72M€, Colis Privé M&A, Amazon SOP 36 mois).
+
+---
+
+### Mercedes Garcia (Senior Programme Manager)
+**LinkedIn** : https://www.linkedin.com/in/mercedes-garcia-5191582/
+
+**À chercher sur son profil** :
+- Background (secteur, programme scale, durée chez Alloga)
+- Titres précédents (programme management, PMO, operations?)
+- Compétences clés (stakeholder management, multi-country, change management)
+- Si elle a des projets ou domaines spécialisés (WMS? integrations? transformation?)
+- Endorsements reçues (BI? leadership? regulatory?)
+
+**Dynamique d'entretien** : Mercedes pilotera probablement **"what value will you bring?"** et la dimension stakeholder management (comment tu vas travailler avec son équipe, les autres fonctions, les clients). Elle cherchera probablement à évaluer ta capacité à "shape" le portefeuille et non pas juste l'exécuter.
+
+**Point de connexion possible** : Si elle a du background en transformation ou multi-pays, tu peux mentionner SHIELD (adoption par 100% stakeholders), Infarm (multi-cultural teams DE/UK/DK/FR), Amazon EMEA reporting.
+
+---
+
+### Stratégie combinée Mamoudou + Mercedes
+
+**Avant l'entretien** (tu as 5 min de tech check) :
+1. Lis les deux profils LinkedIn (10 min max)
+2. Note : secteur d'origine, durée à Alloga, un point de carrière intéressant pour chacun
+3. Prépare **une question personnelle pour chacun** :
+   - À Mamoudou : "I see you've been driving TSFM Delivery — what's been your biggest challenge in operationalising transformation at Alloga?" (montre intérêt pour son rôle, prépare-toi à des réponses sur delivery pain points)
+   - À Mercedes : "With your experience in programme management, how do you see the portfolio shaping Alloga's growth over the next 2-3 years?" (montre intérêt stratégique, invite-la à parler de vision)
+
+**Pendant l'entretien** :
+- If Mamoudou talks about a specific delivery challenge, reference your Infarm or Amazon programme experience (build credibility on his language)
+- If Mercedes talks about stakeholder management or change adoption, reference SHIELD impact or Milee integration (show you understand multi-functional dynamics)
+
+---
+
 ## 5 Questions Comportementales Probables + Réponses STAR
 
 ### 1. **"Tell us about a time when you had to manage a large, complex portfolio with competing priorities and stakeholders at executive level. How did you drive decisions?"**
