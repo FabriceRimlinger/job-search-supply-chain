@@ -6,6 +6,17 @@
 
 ---
 
+## Mise à jour MINERVE - 05/05/2026 (veille d'entretien)
+
+**Nouveaux éléments à intégrer dans tes réponses :**
+
+- **Rôle confirmé actif** : offre publiée aujourd'hui sur LinkedIn (Alliance Healthcare / Cencora) - 8 candidats seulement. Le poste n'est pas pourvu. Aucune pression à baisser tes exigences.
+- **FR/EN explicitement requis** : mention "English and French language skills" dans le posting LinkedIn - ton trilinguisme FR/EN/ES est un différenciant fort. A mentionner naturellement si la question "why you" arrive.
+- **Nouvelle métrique AMZL à utiliser** : après 2 ans de déploiement, AMZL assurait **+75% des livraisons Amazon** dans les principales villes IT/ES. Ajoutable dans la réponse STAR Q1 (portfolio complexe) pour renforcer l'angle "résultats mesurables".
+- **Sparklines for Excel** : add-in open-source VBA adopté par US Army, HSBC, Fujitsu, EADS - anecdote différenciante si la question "data skills" ou "technical creativity" émerge avec Mamoudou.
+
+---
+
 ## 🔍 LinkedIn Research - Les Interviewers (PROFILS ACTUALISÉS)
 
 ### Mamoudou Traore - Director of Information Technology (Alloga, depuis sep 2025)
