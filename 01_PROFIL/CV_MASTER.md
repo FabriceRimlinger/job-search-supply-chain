@@ -54,16 +54,17 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
 **10/2018 – 08/2021 | Aix-en-Provence, France (Remote)**
 
-- Géré plus de 1200 Due Diligence Environnementales annuellement pour l'Immobilier Amazon en EMEA, avec un budget de **40M€/an**, dirigeant une équipe de 10 risk managers et 30+ consultants
+- Géré plus de 1200 Due Diligence annuellement pour l'Immobilier Amazon en EMEA, avec un budget de **40M€/an**, dirigeant une équipe de 10 risk managers et 30+ consultants - scope : environnemental, technique, EV requirements, permitting, acoustique, trafic
 - Conçu et déployé SHIELD - plateforme globale de knowledge management / BI pour la Due Diligence, adoptée par toutes les parties prenantes EMEA
 - Développé des stratégies de mitigation des risques pour améliorer les résultats projets et la conformité réglementaire
 
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- Pionnier du déploiement du réseau de livraison last mile Amazon en Italie et Espagne - **15 stations lancées en 2 ans**, toutes opérationnelles pour la peak season
-- Coordonné 15+ équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires, Process & méthodes)
-- Standardisé les playbooks, outils et processus d'expansion AMZL pour l'EMEA
+- Pionnier du déploiement du réseau de livraison last mile Amazon en Italie et Espagne - **15 stations lancées en 2 ans**, toutes opérationnelles pour la peak season (sites ~10 000m² chacun)
+- Coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires, Process & méthodes)
+- Après 2 ans, AMZL assure **plus de 75% des livraisons Amazon** dans les principales villes d'Italie et d'Espagne
+- Créé le Launch Playbook AMZL et structuré le Plan of Record sur 3 ans pour l'expansion EU
 - Piloté les programmes d'expansion EU, axés sur la planification capacitaire et la topologie réseau long terme
 
 ### Head of Transportation Technology - South EU - Amazon
@@ -144,6 +145,7 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 ## Compétences techniques
 
 - **Data & BI** : Claude Code, Excel VBA avancé, PowerBI, Microstrategy, PowerQuery, SQL, Data visualization, Tableau
+- **Open Source** : "Sparklines for Excel" - add-in de data-visualisation Excel (SourceForge), adopté par Manhattan Chase, Fujitsu, US Army, HSBC, Schneider Electric, EADS
 - **Outils** : Salesforce, MS Project, Jira, AutoCAD (certifié), Cognos
 - **Logistique** : last mile, network planning, capacity planning, WMS, TMS, expansion AMZL, vessel scheduling, port operations
 - **Transformation** : PMO, change management, intégration post-acquisition, M&A

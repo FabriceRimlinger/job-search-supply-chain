@@ -7,7 +7,9 @@
 - **Location**: Marseille - Hybrid (on-site presence possible in Marseille)
 - **Contract type**: Permanent [TO CONFIRM]
 - **Publication date**: April 2026 (document received 16/04/2026)
-- **Source**: Document received directly (alloga tsfm.pdf)
+- **Source**: Document received directly (alloga tsfm.pdf) + offre LinkedIn Alliance Healthcare publiée le 2026-05-05 (linkedin.com/jobs/view/4408163844)
+- **Langue requise** : Anglais ET Français (mention explicite dans le posting LinkedIn)
+- **Concurrence LinkedIn** : 8 candidats au 2026-05-05 (très faible - offre fraiche)
 
 ## Role Summary
 

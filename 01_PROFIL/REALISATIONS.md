@@ -15,7 +15,7 @@
 
 5. **Intégration de 300 employés** suite à l'acquisition de Milee par Colis Privé : gestion des négociations juridiques, modélisation P&L, alignement des processus, continuité opérationnelle garantie - Director of Transformation, 2023-2024
 
-6. **Déploiement de 15 stations de livraison last mile en 2 ans** (AMZL Italie et Espagne), en coordonnant 15+ équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires) - Amazon Logistics, 2016-2018
+6. **Déploiement de 15 stations de livraison last mile en 2 ans** (AMZL Italie et Espagne), en coordonnant 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires) - résultat : AMZL assure **plus de 75% des livraisons Amazon** dans les principales villes IT/ES - Amazon Logistics, 2016-2018
 
 7. **Pilotage d'un CAPEX de 72M€** pour le déploiement des infrastructures d'agriculture verticale INFARM dans 4 pays EU (DE, UK, DK, FR), avec une équipe de 16 ingénieurs et techniciens - Infarm, 2021-2022
 
