@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-27
 - Date d'envoi :
-- Statut : À traiter
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Vérifier si offre toujours active (expirée sur le site) - chercher via LinkedIn ou contact direct
 - Date de relance :

@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-28
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Envoyer candidature via LinkedIn - candidater vite (offre 4 semaines)
 - Date de relance :

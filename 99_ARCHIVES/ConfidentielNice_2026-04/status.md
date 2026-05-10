@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-27
 - Date d'envoi :
-- Statut : À traiter
+- Statut : Abandonnée
 - Langue : fr 🇫🇷
 - Prochaine action : Identifier l'entreprise et retrouver l'URL source de l'offre
 - Date de relance :

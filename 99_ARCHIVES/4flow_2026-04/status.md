@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-28
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : en 🇺🇸 (CV) / fr 🇫🇷 (LM)
 - Prochaine action : Identifier le Managing Director / Country Manager 4flow France - trouver email de contact
 - Date de relance :

@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-28
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : fr 🇫🇷
 - Prochaine action : Décision go/no-go Fabrice (voir fit_gap ci-dessous)
 - Date de relance :
