@@ -735,9 +735,8 @@ function renderNode(n,depth,filter) {
       if (cd && cd.status && cd.status !== filter) return '';
     }
     const open=n.expanded!==false;
-    const langs=getLangs();
-    const lang=langs[n.path];
-    const flag=lang==='fr'?'🇫🇷':lang==='en'?'🇺🇸':'';
+    const cdLang=candidatureData[n.path]?.langue||getLangs()[n.path]||'';
+    const flag=cdLang.includes('🇫🇷')?'🇫🇷':cdLang.includes('🇺🇸')?'🇺🇸':cdLang==='fr'?'🇫🇷':cdLang==='en'?'🇺🇸':'';
     const click=n.isCandidature?`onFolderClick('${esc(n.path)}')`:`toggleFolder('${esc(n.path)}')`;
     let badges='';
     if (n.isCandidature) {
@@ -774,7 +773,9 @@ function toggleFolder(path) {
 
 function onFolderClick(path) {
   toggleFolder(path);
-  if (!getLangs()[path]) { langPending=path; showLangDialog(path); }
+  const cdLang=candidatureData[path]?.langue||'';
+  const hasLang=getLangs()[path]||cdLang.includes('🇫🇷')||cdLang.includes('🇺🇸');
+  if (!hasLang) { langPending=path; showLangDialog(path); }
 }
 
 function toggleAllFolders() {
