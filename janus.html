@@ -17,8 +17,9 @@ header h1 { font-size:15px; font-weight:700; letter-spacing:2px; color:#e2e8f0; 
 .author-label { font-size:11px; color:#94b3d4; white-space:nowrap; }
 header select { background:#2d4f73; color:#e2e8f0; border:1px solid #3a6491; padding:5px 10px; border-radius:6px; font-size:13px; cursor:pointer; }
 .mode-badge { font-size:11px; padding:3px 9px; border-radius:10px; font-weight:500; white-space:nowrap; }
-.mode-fsa { background:#065f46; color:#6ee7b7; }
-.mode-dl  { background:#92400e; color:#fde68a; }
+.mode-fsa    { background:#065f46; color:#6ee7b7; }
+.mode-server { background:#065f46; color:#6ee7b7; }
+.mode-dl     { background:#92400e; color:#fde68a; }
 header .btn { color:white; border:none; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:12px; font-weight:500; transition:background .15s; white-space:nowrap; }
 .btn-open { background:#2563eb; } .btn-open:hover { background:#1d4ed8; }
 .btn-csv  { background:#2d4f73; } .btn-csv:hover  { background:#3a6491; }
@@ -557,6 +558,10 @@ async function applyQuickStatus() {
 
 // ── Open ──────────────────────────────────────────────────────────────────────
 async function openDirectory() {
+  if (window.location.protocol.startsWith('http')) {
+    await loadFromServer();
+    return;
+  }
   if ('showDirectoryPicker' in window) {
     saveMode = 'fsa';
     try {
@@ -571,6 +576,56 @@ async function openDirectory() {
     const inp = document.getElementById('dirInput');
     inp.setAttribute('webkitdirectory',''); inp.onchange = e => loadFromInput(e.target.files); inp.click();
   }
+}
+
+// ── Server mode (localhost HTTP) ──────────────────────────────────────────────
+async function loadFromServer() {
+  saveMode = 'server';
+  fileHandles = {}; fileOrig = {};
+  document.getElementById('rootName').textContent = 'Recherche Emploi Supply Chain';
+  setModeBadge();
+  showToast('Chargement...');
+
+  const SKIP = new Set(['.git','.claude','INPUT','99_ARCHIVES','node_modules','__pycache__']);
+
+  async function scanDir(rel) {
+    const url = '/' + rel + (rel ? '/' : '');
+    try {
+      const html = await (await fetch(url)).text();
+      const doc  = new DOMParser().parseFromString(html,'text/html');
+      for (const a of doc.querySelectorAll('a[href]')) {
+        const href = a.getAttribute('href');
+        if (!href || href.startsWith('?') || href === '../' || href.startsWith('/')) continue;
+        const name = href.replace(/\/$/,'');
+        if (href.endsWith('/')) {
+          if (!SKIP.has(name) && !name.startsWith('.'))
+            await scanDir(rel ? rel+'/'+name : name);
+        } else if (href.endsWith('.md')) {
+          const fp = rel ? rel+'/'+href : href;
+          try {
+            fileOrig[fp]    = await (await fetch('/'+fp)).text();
+            fileHandles[fp] = { _serverMode: true };
+          } catch(e) {}
+        }
+      }
+    } catch(e) { console.warn('scan:', url, e); }
+  }
+
+  await scanDir('');
+
+  const byFolder = {};
+  for (const path of Object.keys(fileOrig)) {
+    const parts  = path.split('/');
+    const folder = parts.length > 1 ? parts.slice(0,-1).join('/') : '';
+    if (!byFolder[folder]) byFolder[folder] = [];
+    byFolder[folder].push({type:'file', name:parts[parts.length-1], path});
+  }
+
+  treeNodes = buildTreeFromPaths(byFolder);
+  renderTree();
+  autoLoadFirst();
+  await loadCandidatureData();
+  showToast('✓ ' + Object.keys(fileOrig).length + ' fichiers chargés');
 }
 
 async function buildChildren(dirHandle, basePath, depth) {
@@ -834,7 +889,11 @@ async function performSave(note='') {
   const folder=parts.length>1?parts.slice(0,-1).join('/'):(rootHandle?.name??'-');
   try {
     const handle=fileHandles[currentPath];
-    if (handle._fileObj) {
+    if (saveMode==='server') {
+      const resp=await fetch('/'+currentPath,{method:'PUT',body:newC});
+      if (!resp.ok) throw new Error('PUT failed: '+resp.status);
+      showToast(`✓ ${baseName(currentPath)} sauvegardé`);
+    } else if (handle._fileObj) {
       const a=document.createElement('a');
       a.href=URL.createObjectURL(new Blob([newC],{type:'text/markdown;charset=utf-8'}));
       a.download=baseName(currentPath); a.click();
@@ -886,8 +945,9 @@ document.getElementById('overlay').onclick=closeDialogs;
 
 function setModeBadge() {
   const b=document.getElementById('modeBadge'); b.style.display='inline';
-  if (saveMode==='fsa'){b.className='mode-badge mode-fsa';b.textContent='✓ Écriture directe';}
-  else {b.className='mode-badge mode-dl';b.textContent='⬇ Mode téléchargement';}
+  if (saveMode==='fsa')    {b.className='mode-badge mode-fsa';   b.textContent='✓ Écriture directe';}
+  else if (saveMode==='server'){b.className='mode-badge mode-server';b.textContent='✓ Serveur local';}
+  else                     {b.className='mode-badge mode-dl';    b.textContent='⬇ Mode téléchargement';}
 }
 
 // ── Log ───────────────────────────────────────────────────────────────────────
@@ -932,6 +992,7 @@ document.addEventListener('keydown',e=>{
 });
 
 renderLog();
+if (window.location.protocol.startsWith('http')) openDirectory();
 </script>
 </body>
 </html>
