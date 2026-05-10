@@ -1,47 +1,45 @@
-# job_description
+# job_description - CEVA Logistics
 
 ## Informations de l'annonce
 
-- Entreprise : CEVA Logistics
+- Entreprise : CEVA Logistics (groupe CMA CGM)
 - Poste : Global Contract Logistics Program & System Director
-- Localisation : Paris, Île-de-France, France (localisation flexible selon candidat retenu)
-- Type de contrat : Non précisé
-- Date de publication : ~2026-04-24 (il y a 2 semaines au 08/05/2026)
-- Source : LinkedIn - linkedin.com/jobs/view/4403726648
+- Localisation : Paris, Île-de-France, France (flexible selon candidat retenu)
+- Type de contrat : CDI - Temps plein
+- Date de publication : Avril 2026
+- Source : LinkedIn - https://www.linkedin.com/jobs/view/4403726648
+- Date de découverte : 2026-05-11
 
 ## Responsabilités principales
 
-- **Zero Defect Start Up (ZDS)** : responsable de la fonction ZDS globalement pour CEVA Contract Logistics
-- **Projets globaux** : implémentation des projets CL globaux (Optymee, Dock Appointment System/DAS, phases Pilot et PoC)
-- **Infinity Loop** : livraison des éléments d'implémentation de l'Infinity Loop, améliorations stratégiques globales
-- **Leadership** : management direct de l'équipe ZDS et Project Managers + animation de la Global ZDS Community
-- **CL Systems** : gestion des systèmes Contract Logistics incluant WMS legacy et systèmes d'efficacité CL
+- Diriger la fonction **Zero Defect Start Up (ZDS)** à l'échelle mondiale
+- Gérer l'implémentation de projets globaux : Optymee, Dock Appointment System (DAS)
+- Piloter la livraison des éléments d'implémentation de l'**Infinity Loop**
+- Assurer le leadership d'une équipe de Project Managers + animation de la communauté ZDS mondiale
+- Superviser les systèmes Contract Logistics : WMS legacy, systèmes d'efficacité CL
 
 ## Exigences clés
 
-- Qualifications formelles en Project/Program Management (APM, Prince2 ou équivalent)
-- Expert en implémentation de projets/programmes
-- Expérience de projets Contract Logistics incluant WMS, OMS, Automation
-- Expérience multi-secteurs : E-Commerce, Healthcare, Consumer Retail, Aerospace, Food, Technology, Automotive
-- Maîtrise des outils de Project/Program Management
-- Collaboration Tooling : Jira, Confluence, Smartsheet
-- Desirable : technology insertion AI and Robotics
+- Certifications gestion de projet : APM, Prince2 ou équivalent
+- Expertise confirmée en implémentation de projets / programmes complexes
+- Expérience Contract Logistics, WMS, OMS, automation
+- Expérience multi-secteurs : E-Commerce, Healthcare, Retail, Aérospatiale, Alimentaire, Technologie, Automobile
 
 ## Compétences demandées
 
-- Program & Project Management (APM, Prince2)
-- Contract Logistics / WMS / OMS / Automation
-- Zero Defect Start Up methodology
-- Leadership équipes PMO globales
-- CL Systems (legacy WMS, efficiency systems)
-- AI & Robotics (souhaitable)
+- Outils de gestion de projet (Jira, Confluence, Smartsheet)
+- Leadership et management d'équipe internationale
+- Connaissance des systèmes logistiques (WMS, OMS)
+- Intégration technologique IA et robotique (souhaitable)
 
 ## Mots-clés ATS
 
-- Contract Logistics, WMS, OMS, Automation
-- Zero Defect Start Up, ZDS
-- Program Management, Project Management, APM, Prince2
-- Jira, Confluence, Smartsheet
-- Infinity Loop, CL Systems, Transition capability
-- Technology insertion, AI, Robotics
-- Multi-vertical : E-Commerce, Food, Healthcare, Automotive, Aerospace
+Program Management | Project Implementation | WMS | OMS | Contract Logistics | Systems Director | Zero Defect Start Up | ZDS | Infinity Loop | Supply Chain | Leadership | Multi-sector | Global
+
+## Contexte & notes JANUS
+
+- Filiale logistique de CMA CGM - envergure mondiale
+- Rôle centré sur les lancements "zero defect" de nouveaux contrats logistiques
+- Scope global : multi-secteurs, multi-pays
+- Paris mentionné mais localisation flexible - à confirmer pour Marseille
+- Lien CEVA ↔ CMA CGM (déjà une candidature CMA CGM active : CMA_CGM_ProjectManagement_2026-04)
