@@ -19,36 +19,58 @@ header select { background:#2d4f73; color:#e2e8f0; border:1px solid #3a6491; pad
 .mode-badge { font-size:11px; padding:3px 9px; border-radius:10px; font-weight:500; white-space:nowrap; }
 .mode-fsa { background:#065f46; color:#6ee7b7; }
 .mode-dl  { background:#92400e; color:#fde68a; }
-header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:background .15s; white-space:nowrap; }
+header .btn { color:white; border:none; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:12px; font-weight:500; transition:background .15s; white-space:nowrap; }
 .btn-open { background:#2563eb; } .btn-open:hover { background:#1d4ed8; }
 .btn-csv  { background:#2d4f73; } .btn-csv:hover  { background:#3a6491; }
+.btn-log  { background:#374151; } .btn-log:hover  { background:#4b5563; }
+
+/* View nav */
+.view-nav { background:#fff; border-bottom:2px solid #e5e7eb; display:flex; align-items:center; padding:0 16px; flex-shrink:0; }
+.view-btn { padding:9px 16px; border:none; background:none; font-size:13px; font-weight:500; color:#6b7280; cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all .15s; display:flex; align-items:center; gap:5px; }
+.view-btn:hover { color:#1e3a5f; }
+.view-btn.active { color:#1e3a5f; border-bottom-color:#2563eb; }
+.alert-count { background:#ef4444; color:white; font-size:10px; padding:1px 6px; border-radius:10px; font-weight:700; min-width:16px; text-align:center; }
 
 .main { display:flex; flex:1; overflow:hidden; }
 
 /* Sidebar */
-.sidebar { width:240px; background:white; border-right:1px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
-.sidebar-hdr { padding:10px 12px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; justify-content:space-between; }
-.tree-toggle { font-size:10px; font-weight:500; color:#6b7280; background:#f3f4f6; border:1px solid #e5e7eb; border-radius:4px; padding:2px 7px; cursor:pointer; text-transform:none; letter-spacing:0; line-height:1.6; transition:all .15s; }
-.tree-toggle:hover { background:#e5e7eb; color:#374151; }
+.sidebar { width:260px; background:white; border-right:1px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
+.sidebar-hdr { padding:8px 10px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; gap:5px; }
+.sidebar-hdr > span { flex-shrink:0; }
+.status-filter { font-size:11px; background:#f9fafb; border:1px solid #e5e7eb; border-radius:4px; padding:2px 4px; color:#374151; flex:1; min-width:0; outline:none; }
+.status-filter:focus { border-color:#2563eb; }
+.tree-toggle { font-size:10px; font-weight:500; color:#6b7280; background:#f3f4f6; border:1px solid #e5e7eb; border-radius:4px; padding:2px 6px; cursor:pointer; flex-shrink:0; transition:all .15s; }
+.tree-toggle:hover { background:#e5e7eb; }
 .tree { flex:1; overflow-y:auto; padding:4px 0; user-select:none; }
 .sidebar-empty { padding:24px 14px; font-size:12px; color:#9ca3af; text-align:center; line-height:1.7; }
 .sidebar-empty code { background:#f3f4f6; padding:1px 5px; border-radius:3px; font-size:11px; }
 
-/* Generic tree row */
-.tree-row { display:flex; align-items:center; gap:6px; cursor:pointer; transition:background .1s; border-left:3px solid transparent; }
+/* Tree rows */
+.tree-row { display:flex; align-items:center; gap:4px; cursor:pointer; transition:background .1s; border-left:3px solid transparent; }
 .tree-row:hover { background:#f3f4f6; }
 .tree-row.active { background:#eff6ff; border-left-color:#2563eb; }
 .tree-row .row-icon { font-size:13px; flex-shrink:0; }
-.tree-row .row-label { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.tree-row .row-label { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:12px; }
 .tree-row .dirty-dot { width:6px; height:6px; border-radius:50%; background:#f59e0b; flex-shrink:0; display:none; }
 .tree-row.dirty .dirty-dot { display:block; }
-.tree-row.file-row { font-size:12px; color:#4b5563; padding:6px 8px; }
+.tree-row.file-row { color:#4b5563; padding:5px 8px; }
 .tree-row.file-row.active { color:#2563eb; font-weight:500; }
-.tree-row.folder-row { font-size:12px; font-weight:600; color:#374151; padding:8px 8px; }
-.tree-row .caret { font-size:10px; color:#9ca3af; width:11px; flex-shrink:0; transition:transform .15s; display:inline-block; }
+.tree-row.folder-row { font-weight:600; color:#374151; padding:7px 8px; }
+.tree-row .caret { font-size:10px; color:#9ca3af; width:11px; flex-shrink:0; transition:transform .15s; }
 .tree-row.closed .caret { transform:rotate(-90deg); }
-.lang-flag { font-size:14px; flex-shrink:0; }
+.lang-flag { font-size:12px; flex-shrink:0; }
 .tree-children { overflow:hidden; transition:max-height .2s ease; }
+
+/* Tree badges */
+.status-pill { font-size:9px; font-weight:700; padding:1px 4px; border-radius:6px; white-space:nowrap; flex-shrink:0; letter-spacing:.2px; }
+.score-mini { font-size:9px; font-weight:700; padding:1px 4px; border-radius:4px; flex-shrink:0; }
+.score-high { background:#d1fae5; color:#065f46; }
+.score-mid  { background:#fef3c7; color:#92400e; }
+.score-low  { background:#fee2e2; color:#991b1b; }
+.alert-dot-tree { width:6px; height:6px; border-radius:50%; background:#ef4444; flex-shrink:0; }
+
+/* Content area */
+.content-area { flex:1; display:flex; overflow:hidden; }
 
 /* Editor */
 .editor-area { flex:1; display:flex; flex-direction:column; overflow:hidden; background:white; }
@@ -61,7 +83,11 @@ header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cur
 .save-btn { background:#10b981; color:white; border:none; padding:6px 16px; border-radius:6px; cursor:pointer; font-size:13px; font-weight:500; transition:background .15s; }
 .save-btn:hover { background:#059669; }
 .save-btn:disabled { background:#d1d5db; cursor:default; }
-.editor-container { flex:1; overflow:hidden; }
+.quick-status-wrap { display:flex; align-items:center; gap:4px; }
+.quick-status-label { font-size:11px; color:#9ca3af; white-space:nowrap; }
+.quick-status { font-size:12px; background:#f9fafb; border:1px solid #e5e7eb; border-radius:6px; padding:4px 7px; color:#374151; cursor:pointer; outline:none; }
+.quick-status:focus { border-color:#2563eb; }
+.editor-container { flex:1; overflow:hidden; position:relative; }
 #editor  { width:100%; height:100%; padding:18px 22px; border:none; outline:none; font-family:'Monaco','Menlo','Consolas',monospace; font-size:13px; line-height:1.8; resize:none; color:#1f2937; background:white; display:none; }
 #preview { width:100%; height:100%; padding:24px 36px; overflow-y:auto; line-height:1.8; font-size:14px; background:white; display:none; }
 #preview h1 { font-size:22px; color:#1e3a5f; border-bottom:2px solid #e5e7eb; padding-bottom:10px; margin:0 0 16px; }
@@ -85,6 +111,41 @@ header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cur
 .empty-state p { font-size:14px; line-height:1.7; max-width:260px; }
 .empty-state strong { color:#374151; }
 
+/* Pipeline view */
+#pipelineView { flex:1; overflow:auto; padding:20px; background:#f0f2f5; display:none; }
+.pipeline-section-title { font-size:11px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:1px; margin-bottom:10px; }
+.kanban { display:flex; gap:12px; align-items:flex-start; padding-bottom:8px; }
+.kanban-col { width:195px; flex-shrink:0; background:white; border-radius:10px; border:1px solid #e5e7eb; overflow:hidden; }
+.kanban-col-header { padding:9px 12px; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #f3f4f6; }
+.kanban-count { font-size:10px; font-weight:700; padding:2px 6px; border-radius:8px; }
+.kanban-card { padding:9px 11px; border-bottom:1px solid #f9fafb; cursor:pointer; transition:background .1s; }
+.kanban-card:hover { background:#f9fafb; }
+.kanban-card:last-child { border-bottom:none; }
+.kanban-card.card-alert { border-left:3px solid #ef4444; padding-left:8px; }
+.card-header { display:flex; align-items:flex-start; justify-content:space-between; gap:4px; margin-bottom:2px; }
+.card-company { font-size:12px; font-weight:600; color:#1f2937; line-height:1.3; }
+.card-flag { font-size:11px; flex-shrink:0; }
+.card-date { font-size:10px; color:#9ca3af; margin-bottom:4px; }
+.card-score { font-size:10px; font-weight:700; padding:2px 5px; border-radius:5px; display:inline-block; margin-bottom:3px; }
+.card-action { font-size:10px; color:#6b7280; font-style:italic; line-height:1.4; }
+.kanban-card-closed { opacity:.55; }
+.pipeline-empty { padding:40px; text-align:center; color:#9ca3af; font-size:14px; }
+
+/* Alerts view */
+#alertsView { flex:1; overflow:auto; padding:20px; background:#f0f2f5; display:none; }
+.alerts-wrap { max-width:680px; }
+.alerts-header { font-size:11px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:1px; margin-bottom:12px; }
+.alert-item { display:flex; align-items:flex-start; gap:10px; padding:11px 13px; border-radius:8px; margin-bottom:8px; cursor:pointer; transition:opacity .1s; border:1px solid transparent; }
+.alert-item:hover { opacity:.85; }
+.alert-danger  { background:#fee2e2; border-color:#fca5a5; }
+.alert-warning { background:#fef3c7; border-color:#fde68a; }
+.alert-info    { background:#dbeafe; border-color:#93c5fd; }
+.alert-icon { font-size:15px; flex-shrink:0; padding-top:1px; }
+.alert-content { flex:1; }
+.alert-msg { font-size:13px; font-weight:500; color:#1f2937; margin-bottom:2px; }
+.alert-agent { font-size:11px; color:#6b7280; }
+.alerts-empty { text-align:center; padding:60px 20px; font-size:14px; color:#6b7280; }
+
 /* Dialogs */
 .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.35); z-index:99; }
 .dialog { display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:24px; border-radius:12px; box-shadow:0 20px 60px rgba(0,0,0,.2); z-index:100; }
@@ -104,15 +165,16 @@ header .btn { color:white; border:none; padding:6px 14px; border-radius:6px; cur
 #langDialog .lang-opt span { display:block; font-size:11px; color:#6b7280; margin-top:4px; font-weight:600; }
 
 /* Log */
-.log-panel { height:185px; background:white; border-top:2px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
+.log-panel { height:180px; background:white; border-top:2px solid #e5e7eb; display:flex; flex-direction:column; flex-shrink:0; }
 .log-hdr { padding:7px 16px; font-size:11px; font-weight:600; color:#9ca3af; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid #e5e7eb; display:flex; align-items:center; gap:10px; }
 .log-hdr span { color:#374151; }
 .log-filter { padding:3px 10px; border:1px solid #e5e7eb; border-radius:12px; font-size:12px; outline:none; background:#f9fafb; }
 .log-filter:focus { border-color:#2563eb; background:white; }
-.log-actions { margin-left:auto; display:flex; gap:8px; }
-.log-actions button { font-size:11px; cursor:pointer; background:none; border:1px solid #e5e7eb; border-radius:4px; padding:2px 8px; color:#6b7280; }
+.log-actions { margin-left:auto; display:flex; gap:6px; }
+.log-actions button { font-size:11px; cursor:pointer; background:none; border:1px solid #e5e7eb; border-radius:4px; padding:2px 8px; color:#6b7280; transition:all .15s; }
 .log-actions button:hover { background:#f3f4f6; }
 .log-actions .clear-btn:hover { color:#ef4444; border-color:#fca5a5; background:#fef2f2; }
+.log-actions .savelog-btn:hover { color:#059669; border-color:#6ee7b7; background:#d1fae5; }
 .log-table { flex:1; overflow-y:auto; }
 table.log { width:100%; border-collapse:collapse; font-size:12px; }
 table.log th { position:sticky; top:0; background:#f9fafb; padding:6px 14px; text-align:left; color:#9ca3af; font-weight:500; border-bottom:1px solid #e5e7eb; z-index:1; }
@@ -124,11 +186,11 @@ table.log tr:hover td { background:#f9fafb; }
 .badge-VULCAIN{background:#fee2e2;color:#991b1b} .badge-MINERVE{background:#ede9fe;color:#5b21b6}
 .badge-FIDES  {background:#d1fae5;color:#065f46} .badge-JANUS  {background:#e0f2fe;color:#0369a1}
 .delta-pos{color:#10b981} .delta-neg{color:#ef4444}
-.note-cell{color:#6b7280;font-style:italic;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.note-cell{color:#6b7280;font-style:italic;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 ::-webkit-scrollbar{width:6px;height:6px} ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:3px} ::-webkit-scrollbar-thumb:hover{background:#9ca3af}
-.toast{position:fixed;bottom:200px;right:20px;background:#1e293b;color:white;padding:10px 18px;border-radius:8px;font-size:13px;z-index:200;transform:translateY(20px);opacity:0;transition:all .25s;pointer-events:none}
+.toast{position:fixed;bottom:196px;right:20px;background:#1e293b;color:white;padding:10px 18px;border-radius:8px;font-size:13px;z-index:200;transform:translateY(20px);opacity:0;transition:all .25s;pointer-events:none}
 .toast.show{transform:translateY(0);opacity:1}
 </style>
 </head>
@@ -138,44 +200,67 @@ table.log tr:hover td { background:#f9fafb; }
   <h1>⚖ JANUS</h1><span class="sep">/</span>
   <span class="root-name" id="rootName">Ouvrez le dossier du projet</span>
   <div class="author-wrap">
-    <span class="author-label">👤 Auteur log :</span>
+    <span class="author-label">👤 Auteur :</span>
     <select id="authorSelect">
       <option>Fabrice</option><option>JANUS</option><option>AURORA</option>
       <option>VULCAIN</option><option>MINERVE</option><option>FIDES</option>
     </select>
   </div>
   <span class="mode-badge" id="modeBadge" style="display:none"></span>
-  <button class="btn btn-csv"  onclick="exportLog()">⬇ Log CSV</button>
-  <button class="btn btn-open" onclick="openDirectory()">📂 Ouvrir dossier</button>
+  <button class="btn btn-log"  onclick="saveLogToFile()">💾 Log→MD</button>
+  <button class="btn btn-csv"  onclick="exportLog()">⬇ CSV</button>
+  <button class="btn btn-open" onclick="openDirectory()">📂 Ouvrir</button>
   <input type="file" id="dirInput" style="display:none" multiple accept=".md">
 </header>
+
+<div class="view-nav">
+  <button class="view-btn active" id="viewFiles"    onclick="switchView('editor')">📁 Fichiers</button>
+  <button class="view-btn"        id="viewPipeline" onclick="switchView('pipeline')">📊 Pipeline</button>
+  <button class="view-btn"        id="viewAlerts"   onclick="switchView('alerts')">
+    🔔 Alertes <span id="alertCount" class="alert-count" style="display:none"></span>
+  </button>
+</div>
 
 <div class="main">
   <div class="sidebar">
     <div class="sidebar-hdr">
       <span>Candidatures</span>
-      <button class="tree-toggle" id="toggleTreeBtn" onclick="toggleAllFolders()" title="Développer / Replier tout">⊞ Développer</button>
+      <select class="status-filter" id="statusFilter" onchange="renderTree()" title="Filtrer par statut">
+        <option value="">Tous</option>
+        <option>À traiter</option><option>Documents prêts</option><option>Envoyée</option>
+        <option>À relancer</option><option>Entretien planifié</option><option>Entretien préparé</option>
+        <option>Entretien passé</option><option>Refusée</option><option>Abandonnée</option><option>Gagnée</option>
+      </select>
+      <button class="tree-toggle" id="toggleTreeBtn" onclick="toggleAllFolders()" title="Développer / Replier">⊞</button>
     </div>
     <div class="tree" id="tree">
-      <div class="sidebar-empty">Ouvrez le dossier<br><code>Recherche Emploi Supply Chain</code><br>pour voir l'arborescence</div>
+      <div class="sidebar-empty">Ouvrez le dossier<br><code>Recherche Emploi Supply Chain</code></div>
     </div>
   </div>
-  <div class="editor-area">
-    <div class="editor-toolbar" id="toolbar" style="display:none">
-      <span class="filename" id="currentFilename">-</span>
-      <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
-      <button class="tab-btn" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
-      <button class="tab-btn active" id="tabPrev" onclick="switchTab('preview')">Aperçu</button>
-      <button class="save-btn" id="saveBtn" onclick="triggerSave()" disabled>Sauvegarder</button>
-    </div>
-    <div class="editor-container">
-      <div class="empty-state" id="emptyState">
-        <div class="icon">📁</div>
-        <p>Ouvrez <strong>Recherche Emploi Supply Chain</strong> puis sélectionnez un fichier</p>
+  <div class="content-area">
+    <div class="editor-area" id="editorArea">
+      <div class="editor-toolbar" id="toolbar" style="display:none">
+        <span class="filename" id="currentFilename">-</span>
+        <span class="unsaved-badge" id="unsavedBadge" style="display:none">● Non sauvegardé</span>
+        <div class="quick-status-wrap" id="quickStatusWrap" style="display:none">
+          <span class="quick-status-label">Statut :</span>
+          <select class="quick-status" id="quickStatus" onchange="applyQuickStatus()"></select>
+        </div>
+        <button class="tab-btn" id="tabEdit" onclick="switchTab('edit')">Éditer</button>
+        <button class="tab-btn active" id="tabPrev" onclick="switchTab('preview')">Aperçu</button>
+        <button class="save-btn" id="saveBtn" onclick="triggerSave()" disabled>Sauvegarder</button>
       </div>
-      <textarea id="editor" spellcheck="true"></textarea>
-      <div id="preview"></div>
+      <div class="editor-container">
+        <div class="empty-state" id="emptyState">
+          <div class="icon">📁</div>
+          <p>Ouvrez <strong>Recherche Emploi Supply Chain</strong> puis sélectionnez un fichier</p>
+        </div>
+        <textarea id="editor" spellcheck="true"></textarea>
+        <div id="preview"></div>
+      </div>
     </div>
+    <div id="pipelineView"></div>
+    <div id="alertsView"></div>
   </div>
 </div>
 
@@ -184,6 +269,7 @@ table.log tr:hover td { background:#f9fafb; }
     <span>Journal des modifications</span>
     <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer par fichier, auteur, note..." oninput="renderLog()">
     <div class="log-actions">
+      <button class="savelog-btn" onclick="saveLogToFile()" title="Sauvegarder log en .md">→ MD</button>
       <button onclick="exportLog()">CSV</button>
       <button class="clear-btn" onclick="clearLog()">Effacer</button>
     </div>
@@ -200,28 +286,23 @@ table.log tr:hover td { background:#f9fafb; }
 </div>
 
 <div class="overlay" id="overlay"></div>
-
-<!-- Save dialog -->
 <div class="dialog" id="saveDialog">
   <h3>💾 Sauvegarder</h3>
   <p id="saveInfo">-</p>
   <input type="text" id="saveNote" placeholder="Note optionnelle" maxlength="120">
   <div class="btns">
-    <button class="btn-cancel"  onclick="closeSave()">Annuler</button>
+    <button class="btn-cancel" onclick="closeSave()">Annuler</button>
     <button class="btn-confirm" onclick="confirmSave()">Sauvegarder</button>
   </div>
 </div>
-
-<!-- Language dialog -->
 <div class="dialog" id="langDialog">
   <h3>🌐 Langue de cette candidature</h3>
-  <p id="langFolderName">Sélectionnez la langue pour les documents de cette candidature.</p>
+  <p id="langFolderName">Sélectionnez la langue.</p>
   <div class="lang-opts">
     <div class="lang-opt" onclick="setLang('fr')">🇫🇷<span>Français</span></div>
     <div class="lang-opt" onclick="setLang('en')">🇺🇸<span>English</span></div>
   </div>
 </div>
-
 <div class="toast" id="toast"></div>
 
 <script>
@@ -234,27 +315,252 @@ let rootHandle  = null;
 let saveMode    = 'fsa';
 let activeTab   = 'preview';
 let currentPath = null;
-let fileHandles = {};  // path -> FSA handle | { _fileObj }
-let fileOrig    = {};  // path -> content at last save
-let treeNodes   = [];  // root children
-let langPending = null; // folder path awaiting lang selection
+let fileHandles = {};
+let fileOrig    = {};
+let treeNodes   = [];
+let langPending = null;
+let viewMode    = 'editor';
+let candidatureData = {};
+let alertsData  = [];
 
-const FILE_ICONS  = {status:'📊',job_description:'📋',fit_gap:'🎯',cv_targeted:'📄',cover_letter:'✉️',company_brief:'🏢',README:'📖',CATALOGUE:'📚',CV_MASTER:'📄',BIO_EXECUTIVE:'🎯',REALISATIONS:'⭐',CRITERES:'🎯'};
-const FILE_ORDER  = ['status','job_description','fit_gap','cv_targeted','cover_letter','company_brief'];
-const SKIP_DIRS   = ['.git','node_modules','__pycache__','.claude','INPUT','99_ARCHIVES'];
+// ── Constants ─────────────────────────────────────────────────────────────────
+const FILE_ICONS = {status:'📊',job_description:'📋',fit_gap:'🎯',cv_targeted:'📄',cover_letter:'✉️',company_brief:'🏢',README:'📖',CATALOGUE:'📚',CV_MASTER:'📄',BIO_EXECUTIVE:'🎯',REALISATIONS:'⭐',CRITERES:'🎯'};
+const FILE_ORDER = ['status','job_description','fit_gap','cv_targeted','cover_letter','company_brief'];
+const SKIP_DIRS  = ['.git','node_modules','__pycache__','.claude','INPUT','99_ARCHIVES'];
+const STATUSES   = ['À traiter','Documents prêts','Envoyée','À relancer','Entretien planifié','Entretien préparé','Entretien passé','Refusée','Abandonnée','Gagnée'];
+const STATUS_META = {
+  'À traiter':          {color:'#6b7280',bg:'#f3f4f6',short:'TR'},
+  'Documents prêts':    {color:'#d97706',bg:'#fef3c7',short:'DOC'},
+  'Envoyée':            {color:'#2563eb',bg:'#dbeafe',short:'ENV'},
+  'À relancer':         {color:'#7c3aed',bg:'#ede9fe',short:'REL'},
+  'Entretien planifié': {color:'#059669',bg:'#d1fae5',short:'ENT'},
+  'Entretien préparé':  {color:'#065f46',bg:'#a7f3d0',short:'PRE'},
+  'Entretien passé':    {color:'#0369a1',bg:'#e0f2fe',short:'PAS'},
+  'Refusée':            {color:'#dc2626',bg:'#fee2e2',short:'REF'},
+  'Abandonnée':         {color:'#9ca3af',bg:'#f3f4f6',short:'ABD'},
+  'Gagnée':             {color:'#047857',bg:'#d1fae5',short:'GAG'},
+};
+
+// ── Status parsing ────────────────────────────────────────────────────────────
+function parseStatusContent(content) {
+  const get = label => {
+    const m = content.match(new RegExp('^-\\s*' + label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:\\s*(.+)$','m'));
+    return m ? m[1].trim() : null;
+  };
+  const status          = get('Statut');
+  const dateEnvoi       = get("Date d'envoi");
+  const dateRelance     = get('Date de relance');
+  const prochaineAction = get('Prochaine action');
+  const langue          = get('Langue');
+  const dateDecouv      = get('Date de découverte');
+  const scoreMatch = content.match(/(?:score\s*(?:fit\s*)?6d)\s*[:\-]\s*(\d+)\/60/i) || content.match(/(\d+)\/60/);
+  const score = scoreMatch ? parseInt(scoreMatch[1]) : null;
+  const fbMatch = content.match(/avant le (\d{2}\/\d{2}\/(?:\d{4}|\d{2}))/i);
+  const feedbackDate = fbMatch ? fbMatch[1] : null;
+  return {status,dateEnvoi,dateRelance,dateDecouv,prochaineAction,langue,score,feedbackDate};
+}
+
+function parseDateISO(s) {
+  if (!s) return null;
+  const m = String(s).match(/(\d{4})-(\d{2})-(\d{2})/);
+  return m ? new Date(+m[1],+m[2]-1,+m[3]) : null;
+}
+function parseDateFR(s) {
+  if (!s) return null;
+  const m = String(s).match(/(\d{2})\/(\d{2})\/(\d{2,4})/);
+  if (!m) return null;
+  return new Date(m[3].length===2?2000+parseInt(m[3]):+m[3],+m[2]-1,+m[1]);
+}
+function daysDiff(d) {
+  const t = new Date(); t.setHours(0,0,0,0);
+  return Math.floor((t - d) / 86400000);
+}
+function companyFromPath(p) {
+  return p.split('/').pop().replace(/_\d{4}-\d{2}$/, '').replace(/_/g, ' ');
+}
+function scoreColor(sc) {
+  if (sc === null || sc === undefined) return null;
+  return sc >= 50 ? {bg:'#d1fae5',fg:'#065f46'} : sc >= 40 ? {bg:'#fef3c7',fg:'#92400e'} : {bg:'#fee2e2',fg:'#991b1b'};
+}
+
+// ── Load candidature data ─────────────────────────────────────────────────────
+async function loadCandidatureData() {
+  if (saveMode !== 'fsa') return;
+  candidatureData = {};
+  const paths = Object.keys(fileHandles).filter(p => p.split('/').pop() === 'status.md' && p.includes('/'));
+  for (const sp of paths) {
+    try {
+      const f = await fileHandles[sp].getFile();
+      candidatureData[sp.replace(/\/status\.md$/,'')] = parseStatusContent(await f.text());
+    } catch(e) {}
+  }
+  computeAlerts();
+  renderTree();
+  updateAlertBadge();
+  if (viewMode==='pipeline') renderPipelineView();
+  if (viewMode==='alerts')   renderAlertsView();
+}
+
+// ── Alerts ────────────────────────────────────────────────────────────────────
+function computeAlerts() {
+  alertsData = [];
+  const today = new Date(); today.setHours(0,0,0,0);
+  Object.entries(candidatureData).forEach(([path,d]) => {
+    const co = companyFromPath(path);
+    if (d.dateRelance && d.dateRelance.length > 5) {
+      const rel = parseDateISO(d.dateRelance);
+      if (rel && rel < today && ['Envoyée','À relancer'].includes(d.status))
+        alertsData.push({type:'danger',msg:`${co} — Relance prévue le ${d.dateRelance} (retard : ${daysDiff(rel)}j)`,path,action:'FIDES'});
+    }
+    if (d.status==='Envoyée' && d.dateEnvoi && d.dateEnvoi.length > 5) {
+      const env = parseDateISO(d.dateEnvoi);
+      if (env) {
+        const age = daysDiff(env);
+        if (age > 30) alertsData.push({type:'warning',msg:`${co} — Envoyée il y a ${age}j — archiver ?`,path,action:'JANUS'});
+        else if (age > 7 && !d.dateRelance) alertsData.push({type:'warning',msg:`${co} — Envoyée il y a ${age}j, relance non programmée`,path,action:'FIDES'});
+      }
+    }
+    if (d.feedbackDate) {
+      const fb = parseDateFR(d.feedbackDate);
+      if (fb) {
+        const days = Math.floor((fb - today) / 86400000);
+        if (days < 0)      alertsData.push({type:'danger', msg:`${co} — Feedback attendu le ${d.feedbackDate} (dépassé de ${-days}j)`,path,action:'JANUS'});
+        else if (days <= 3) alertsData.push({type:'warning',msg:`${co} — Feedback attendu le ${d.feedbackDate} (dans ${days}j)`,path,action:'JANUS'});
+        else if (days <= 7) alertsData.push({type:'info',  msg:`${co} — Feedback attendu le ${d.feedbackDate} (dans ${days}j)`,path});
+      }
+    }
+    if (d.status==='Documents prêts' && d.dateDecouv && d.dateDecouv.length > 5) {
+      const dec = parseDateISO(d.dateDecouv);
+      if (dec && daysDiff(dec) > 7)
+        alertsData.push({type:'info',msg:`${co} — Documents prêts depuis ${daysDiff(dec)}j, non envoyés`,path,action:'VULCAIN'});
+    }
+  });
+  alertsData.sort((a,b) => ({'danger':0,'warning':1,'info':2}[a.type]) - ({'danger':0,'warning':1,'info':2}[b.type]));
+}
+
+function updateAlertBadge() {
+  const n = alertsData.filter(a => a.type==='danger').length;
+  const el = document.getElementById('alertCount');
+  el.textContent = n; el.style.display = n > 0 ? 'inline' : 'none';
+}
+
+// ── View switching ────────────────────────────────────────────────────────────
+function switchView(mode) {
+  viewMode = mode;
+  document.getElementById('editorArea').style.display   = mode==='editor'   ? 'flex'  : 'none';
+  document.getElementById('pipelineView').style.display  = mode==='pipeline' ? 'block' : 'none';
+  document.getElementById('alertsView').style.display    = mode==='alerts'   ? 'block' : 'none';
+  ['viewFiles','viewPipeline','viewAlerts'].forEach(id => document.getElementById(id).classList.remove('active'));
+  document.getElementById(mode==='editor'?'viewFiles':mode==='pipeline'?'viewPipeline':'viewAlerts').classList.add('active');
+  if (mode==='pipeline') renderPipelineView();
+  if (mode==='alerts')   renderAlertsView();
+}
+
+// ── Pipeline / Kanban ─────────────────────────────────────────────────────────
+function renderPipelineView() {
+  const ACTIVE = ['À traiter','Documents prêts','Envoyée','À relancer','Entretien planifié','Entretien préparé','Entretien passé'];
+  const CLOSED = ['Refusée','Abandonnée','Gagnée'];
+  const grouped = {}; [...ACTIVE,...CLOSED].forEach(s => grouped[s]=[]);
+  Object.entries(candidatureData).forEach(([path,d]) => {
+    const k = d.status||'À traiter'; if (grouped[k]) grouped[k].push({path,...d});
+  });
+  const aCols = ACTIVE.filter(s => grouped[s].length > 0);
+  const cCols = CLOSED.filter(s => grouped[s].length > 0);
+  if (!aCols.length && !cCols.length) {
+    document.getElementById('pipelineView').innerHTML = '<div class="pipeline-empty">Ouvrez un dossier pour afficher le pipeline</div>';
+    return;
+  }
+  const cardHtml = (c, closed) => {
+    const co = companyFromPath(c.path);
+    const dt = c.path.split('/').pop().match(/_(\d{4}-\d{2})$/)?.[1]||'';
+    const flag = c.langue?.includes('🇫🇷')?'🇫🇷':c.langue?.includes('🇺🇸')?'🇺🇸':'';
+    const sc = scoreColor(c.score);
+    const sHtml = sc ? `<div><span class="card-score" style="background:${sc.bg};color:${sc.fg}">${c.score}/60</span></div>` : '';
+    const aText = c.prochaineAction ? c.prochaineAction.substring(0,55)+(c.prochaineAction.length>55?'…':'') : '';
+    const hasAlert = alertsData.some(a => a.path===c.path);
+    return `<div class="kanban-card${closed?' kanban-card-closed':''}${hasAlert?' card-alert':''}" onclick="openCandidatureFolder('${esc(c.path)}')">
+      <div class="card-header"><span class="card-company">${co}</span><span class="card-flag">${flag}</span></div>
+      ${dt?`<div class="card-date">${dt}</div>`:''}
+      ${sHtml}
+      ${aText?`<div class="card-action">${aText}</div>`:''}
+    </div>`;
+  };
+  const colHtml = (status, closed) => {
+    const meta = STATUS_META[status];
+    return `<div class="kanban-col">
+      <div class="kanban-col-header" style="color:${meta.color}">
+        <span>${status}</span>
+        <span class="kanban-count" style="background:${meta.bg};color:${meta.color}">${grouped[status].length}</span>
+      </div>
+      ${grouped[status].map(c => cardHtml(c, closed)).join('')}
+    </div>`;
+  };
+  document.getElementById('pipelineView').innerHTML = `<div style="padding:20px;overflow-x:auto">
+    <div class="pipeline-section-title">Pipeline actif</div>
+    <div class="kanban">${aCols.map(s=>colHtml(s,false)).join('')}</div>
+    ${cCols.length?`<div class="pipeline-section-title" style="margin-top:22px">Fermées</div>
+    <div class="kanban">${cCols.map(s=>colHtml(s,true)).join('')}</div>`:''}
+  </div>`;
+}
+
+function openCandidatureFolder(folderPath) {
+  switchView('editor');
+  const sp = folderPath + '/status.md';
+  if (fileHandles[sp]) loadFile(sp);
+}
+
+// ── Alerts view ───────────────────────────────────────────────────────────────
+function renderAlertsView() {
+  const el = document.getElementById('alertsView');
+  if (!alertsData.length) {
+    el.innerHTML = '<div class="alerts-empty">✅ Aucune alerte active — pipeline en ordre</div>'; return;
+  }
+  const icons = {danger:'🔴',warning:'🟡',info:'🔵'};
+  el.innerHTML = `<div class="alerts-wrap" style="padding:20px">
+    <div class="alerts-header">${alertsData.length} alerte(s)</div>` +
+    alertsData.map(a => `<div class="alert-item alert-${a.type}" onclick="openCandidatureFolder('${esc(a.path)}')">
+      <span class="alert-icon">${icons[a.type]}</span>
+      <div class="alert-content">
+        <div class="alert-msg">${a.msg}</div>
+        ${a.action?`<div class="alert-agent">→ ${a.action}</div>`:''}
+      </div>
+    </div>`).join('') + '</div>';
+}
+
+// ── Quick status edit ─────────────────────────────────────────────────────────
+function setupQuickStatus(path) {
+  const wrap = document.getElementById('quickStatusWrap');
+  const sel  = document.getElementById('quickStatus');
+  if (!path.endsWith('status.md')) { wrap.style.display='none'; return; }
+  const cd = candidatureData[path.replace('/status.md','')];
+  sel.innerHTML = STATUSES.map(s=>`<option${cd?.status===s?' selected':''}>${s}</option>`).join('');
+  wrap.style.display = 'flex';
+}
+
+async function applyQuickStatus() {
+  if (!currentPath?.endsWith('status.md')) return;
+  const nv = document.getElementById('quickStatus').value;
+  const ed = document.getElementById('editor');
+  let c = ed.value;
+  if (/^- Statut\s*:/m.test(c)) c = c.replace(/^(- Statut\s*:).*/m, `$1 ${nv}`);
+  else c = c.replace(/^(## Suivi.*$)/m, `$1\n\n- Statut : ${nv}`);
+  ed.value = c;
+  if (activeTab==='preview') updatePreview();
+  updateDirtyState();
+  showToast(`Statut → ${nv} (non sauvegardé)`);
+}
 
 // ── Open ──────────────────────────────────────────────────────────────────────
-
 async function openDirectory() {
   if ('showDirectoryPicker' in window) {
     saveMode = 'fsa';
     try {
-      rootHandle = await window.showDirectoryPicker({ mode:'readwrite' });
-      treeNodes = await buildChildren(rootHandle, '', 0);
+      rootHandle = await window.showDirectoryPicker({mode:'readwrite'});
+      treeNodes  = await buildChildren(rootHandle,'',0);
       document.getElementById('rootName').textContent = rootHandle.name;
-      setModeBadge(); renderTree();
-      autoLoadFirst();
-    } catch(e) { if (e.name !== 'AbortError') console.error(e); }
+      setModeBadge(); renderTree(); autoLoadFirst();
+      await loadCandidatureData();
+    } catch(e) { if (e.name!=='AbortError') console.error(e); }
   } else {
     saveMode = 'download';
     const inp = document.getElementById('dirInput');
@@ -262,427 +568,361 @@ async function openDirectory() {
   }
 }
 
-// Recursive FSA scan - max 3 levels
 async function buildChildren(dirHandle, basePath, depth) {
   if (depth > 3) return [];
-  const nodes = [];
-  const entries = [];
-  for await (const [name, handle] of dirHandle.entries()) entries.push([name, handle]);
-
-  for (const [name, handle] of entries.sort((a,b) => a[0].localeCompare(b[0]))) {
-    if (name.startsWith('.') || SKIP_DIRS.includes(name)) continue;
-
-    if (handle.kind === 'directory') {
-      const path = basePath ? `${basePath}/${name}` : name;
-      const children = await buildChildren(handle, path, depth + 1);
-      if (children.length > 0) {
-        const hasStat = children.some(c => c.type === 'file' && c.name === 'status.md');
-        nodes.push({ type:'folder', name, path, handle, expanded: false, isCandidature: hasStat, children });
+  const nodes=[], entries=[];
+  for await (const [name,handle] of dirHandle.entries()) entries.push([name,handle]);
+  for (const [name,handle] of entries.sort((a,b)=>a[0].localeCompare(b[0]))) {
+    if (name.startsWith('.')||SKIP_DIRS.includes(name)) continue;
+    if (handle.kind==='directory') {
+      const path = basePath?`${basePath}/${name}`:name;
+      const children = await buildChildren(handle,path,depth+1);
+      if (children.length>0) {
+        const hasStat = children.some(c=>c.type==='file'&&c.name==='status.md');
+        nodes.push({type:'folder',name,path,handle,expanded:false,isCandidature:hasStat,children});
       }
-    } else if (handle.kind === 'file' && name.endsWith('.md')) {
-      const path = basePath ? `${basePath}/${name}` : name;
-      fileHandles[path] = handle;
-      nodes.push({ type:'file', name, path, handle });
+    } else if (handle.kind==='file'&&name.endsWith('.md')) {
+      const path = basePath?`${basePath}/${name}`:name;
+      fileHandles[path]=handle;
+      nodes.push({type:'file',name,path,handle});
     }
   }
-
-  // Sort: folders first, then files in logical order
-  return nodes.sort((a, b) => {
-    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
-    if (a.type === 'file') {
-      const ai = FILE_ORDER.findIndex(o => a.name.includes(o));
-      const bi = FILE_ORDER.findIndex(o => b.name.includes(o));
-      if (ai !== -1 && bi !== -1) return ai - bi;
-      if (ai !== -1) return -1; if (bi !== -1) return 1;
+  return nodes.sort((a,b)=>{
+    if (a.type!==b.type) return a.type==='folder'?-1:1;
+    if (a.type==='file') {
+      const ai=FILE_ORDER.findIndex(o=>a.name.includes(o));
+      const bi=FILE_ORDER.findIndex(o=>b.name.includes(o));
+      if (ai!==-1&&bi!==-1) return ai-bi;
+      if (ai!==-1) return -1; if (bi!==-1) return 1;
     }
     return a.name.localeCompare(b.name);
   });
 }
 
-// Firefox input fallback
 async function loadFromInput(files) {
-  fileHandles = {}; fileOrig = {};
-  const byFolder = {};
-  let rootName = '-';
-
+  fileHandles={}; fileOrig={};
+  const byFolder={};
+  let rootName='-';
   for (const file of files) {
     if (!file.name.endsWith('.md')) continue;
-    const parts = (file.webkitRelativePath || file.name).split('/');
-    rootName = parts[0];
-    const content = await file.text();
-    const path = parts.slice(1).join('/') || file.name;
-    fileHandles[path] = { _fileObj: file };
-    fileOrig[path] = content;
-    const folder = parts.length > 2 ? parts.slice(1, -1).join('/') : '';
-    if (!byFolder[folder]) byFolder[folder] = [];
-    byFolder[folder].push({ type:'file', name: parts[parts.length-1], path });
+    const parts=(file.webkitRelativePath||file.name).split('/');
+    rootName=parts[0];
+    const content=await file.text();
+    const path=parts.slice(1).join('/')||file.name;
+    fileHandles[path]={_fileObj:file}; fileOrig[path]=content;
+    const folder=parts.length>2?parts.slice(1,-1).join('/'):'';
+    if (!byFolder[folder]) byFolder[folder]=[];
+    byFolder[folder].push({type:'file',name:parts[parts.length-1],path});
   }
-
-  // Build simple tree from byFolder
-  treeNodes = buildTreeFromPaths(byFolder);
-  document.getElementById('rootName').textContent = rootName;
+  treeNodes=buildTreeFromPaths(byFolder);
+  document.getElementById('rootName').textContent=rootName;
   setModeBadge(); renderTree(); autoLoadFirst();
 }
 
 function buildTreeFromPaths(byFolder) {
-  const nodes = [];
-  const folders = Object.keys(byFolder).sort();
-  const topFolders = [...new Set(folders.map(f => f.split('/')[0]).filter(Boolean))];
-
-  // Flat files
-  if (byFolder['']) {
-    byFolder[''].forEach(f => nodes.push(f));
-  }
-
-  topFolders.forEach(top => {
-    const children = [];
-    folders.filter(f => f === top || f.startsWith(top + '/')).forEach(f => {
-      if (f === top) {
-        byFolder[f].forEach(file => children.push(file));
-      } else {
-        const sub = f.slice(top.length + 1);
-        const subNode = { type:'folder', name: sub, path: `${top}/${sub}`, expanded:true, isCandidature: byFolder[f].some(x => x.name==='status.md'), children: byFolder[f] };
-        children.push(subNode);
-      }
+  const nodes=[];
+  const folders=Object.keys(byFolder).sort();
+  const topFolders=[...new Set(folders.map(f=>f.split('/')[0]).filter(Boolean))];
+  if (byFolder['']) byFolder[''].forEach(f=>nodes.push(f));
+  topFolders.forEach(top=>{
+    const children=[];
+    folders.filter(f=>f===top||f.startsWith(top+'/')).forEach(f=>{
+      if (f===top) byFolder[f].forEach(file=>children.push(file));
+      else { const sub=f.slice(top.length+1); children.push({type:'folder',name:sub,path:`${top}/${sub}`,expanded:true,isCandidature:byFolder[f].some(x=>x.name==='status.md'),children:byFolder[f]}); }
     });
-    nodes.push({ type:'folder', name: top, path: top, expanded: true, isCandidature: false, children });
+    nodes.push({type:'folder',name:top,path:top,expanded:true,isCandidature:false,children});
   });
   return nodes;
 }
 
 function autoLoadFirst() {
-  const first = findFirstFile(treeNodes);
-  if (first) loadFile(first.path);
+  const first=findFirstFile(treeNodes); if (first) loadFile(first.path);
 }
-
 function findFirstFile(nodes) {
   for (const n of nodes) {
-    if (n.type === 'file') return n;
-    if (n.type === 'folder') { const f = findFirstFile(n.children || []); if (f) return f; }
+    if (n.type==='file') return n;
+    if (n.type==='folder') { const f=findFirstFile(n.children||[]); if(f) return f; }
   }
   return null;
 }
 
 // ── Tree render ───────────────────────────────────────────────────────────────
-
 function renderTree() {
-  const container = document.getElementById('tree');
-  if (!treeNodes.length) {
-    container.innerHTML = '<div class="sidebar-empty">Aucun fichier .md trouvé</div>';
-    return;
-  }
-  container.innerHTML = renderNodes(treeNodes, 0);
+  const container=document.getElementById('tree');
+  const filter=document.getElementById('statusFilter')?.value||'';
+  if (!treeNodes.length) { container.innerHTML='<div class="sidebar-empty">Aucun fichier .md trouvé</div>'; return; }
+  container.innerHTML=renderNodes(treeNodes,0,filter);
 }
 
-function renderNodes(nodes, depth) {
-  return nodes.map(n => renderNode(n, depth)).join('');
-}
+function renderNodes(nodes,depth,filter) { return nodes.map(n=>renderNode(n,depth,filter)).join(''); }
 
-function renderNode(n, depth) {
-  const pad = 8 + depth * 14;
-  if (n.type === 'file') {
-    const iconKey = Object.keys(FILE_ICONS).find(k => n.name.includes(k));
-    const icon = iconKey ? FILE_ICONS[iconKey] : '📝';
-    const active = n.path === currentPath ? 'active' : '';
-    const dirty  = n.path === currentPath && isDirty() ? 'dirty' : '';
-    const label  = n.name.replace('.md','');
+function renderNode(n,depth,filter) {
+  const pad=8+depth*14;
+  if (n.type==='file') {
+    const iconKey=Object.keys(FILE_ICONS).find(k=>n.name.includes(k));
+    const icon=iconKey?FILE_ICONS[iconKey]:'📝';
+    const active=n.path===currentPath?'active':'';
+    const dirty=n.path===currentPath&&isDirty()?'dirty':'';
     return `<div class="tree-row file-row ${active} ${dirty}" data-path="${esc(n.path)}" onclick="loadFile('${esc(n.path)}')" style="padding-left:${pad}px">
       <span class="row-icon">${icon}</span>
-      <span class="row-label" title="${n.name}">${label}</span>
+      <span class="row-label" title="${n.name}">${n.name.replace('.md','')}</span>
       <span class="dirty-dot"></span>
     </div>`;
   } else {
-    const open  = n.expanded !== false;
-    const cls   = open ? '' : 'closed';
-    const langs = getLangs();
-    const lang  = langs[n.path];
-    const flag  = lang === 'fr' ? '🇫🇷' : lang === 'en' ? '🇺🇸' : '';
-    const childrenHTML = renderNodes(n.children || [], depth + 1);
-    const maxH  = open ? '9999px' : '0';
-    const click = n.isCandidature
-      ? `onFolderClick('${esc(n.path)}')`
-      : `toggleFolder('${esc(n.path)}')`;
-    return `<div class="tree-row folder-row ${cls}" id="fr-${esc(n.path)}" onclick="${click}" style="padding-left:${pad}px">
-      <span class="caret">▾</span>
-      <span class="row-icon">📁</span>
+    if (filter && n.isCandidature) {
+      const cd=candidatureData[n.path];
+      if (cd && cd.status && cd.status !== filter) return '';
+    }
+    const open=n.expanded!==false;
+    const langs=getLangs();
+    const lang=langs[n.path];
+    const flag=lang==='fr'?'🇫🇷':lang==='en'?'🇺🇸':'';
+    const click=n.isCandidature?`onFolderClick('${esc(n.path)}')`:`toggleFolder('${esc(n.path)}')`;
+    let badges='';
+    if (n.isCandidature) {
+      const cd=candidatureData[n.path];
+      if (cd?.status) {
+        const meta=STATUS_META[cd.status];
+        if (meta) badges+=`<span class="status-pill" style="background:${meta.bg};color:${meta.color}">${meta.short}</span>`;
+      }
+      if (cd?.score!==null&&cd?.score!==undefined) {
+        const sc=scoreColor(cd.score);
+        if(sc) badges+=`<span class="score-mini ${cd.score>=50?'score-high':cd.score>=40?'score-mid':'score-low'}">${cd.score}</span>`;
+      }
+      if (alertsData.some(a=>a.path===n.path)) badges+=`<span class="alert-dot-tree"></span>`;
+    }
+    return `<div class="tree-row folder-row${open?'':' closed'}" id="fr-${esc(n.path)}" onclick="${click}" style="padding-left:${pad}px">
+      <span class="caret">▾</span><span class="row-icon">📁</span>
       <span class="row-label" title="${n.name}">${n.name}</span>
-      ${flag ? `<span class="lang-flag">${flag}</span>` : ''}
+      ${badges}${flag?`<span class="lang-flag">${flag}</span>`:''}
     </div>
-    <div class="tree-children" id="fc-${esc(n.path)}" style="max-height:${maxH}">${childrenHTML}</div>`;
+    <div class="tree-children" id="fc-${esc(n.path)}" style="max-height:${open?'9999px':'0'}">${renderNodes(n.children||[],depth+1,filter)}</div>`;
   }
 }
 
 function esc(s) { return s.replace(/'/g,"&#39;").replace(/"/g,'&quot;'); }
 
 function toggleFolder(path) {
-  const node = findNode(treeNodes, path);
-  if (!node) return;
-  node.expanded = !node.expanded;
-  const fc  = document.getElementById(`fc-${path}`);
-  const row = document.getElementById(`fr-${path}`);
-  if (fc)  fc.style.maxHeight  = node.expanded ? '9999px' : '0';
-  if (row) row.classList.toggle('closed', !node.expanded);
+  const node=findNode(treeNodes,path); if (!node) return;
+  node.expanded=!node.expanded;
+  const fc=document.getElementById(`fc-${path}`);
+  const row=document.getElementById(`fr-${path}`);
+  if (fc)  fc.style.maxHeight=node.expanded?'9999px':'0';
+  if (row) row.classList.toggle('closed',!node.expanded);
 }
 
 function onFolderClick(path) {
   toggleFolder(path);
-  // Ask for language if not yet set
-  const langs = getLangs();
-  if (!langs[path]) { langPending = path; showLangDialog(path); }
+  if (!getLangs()[path]) { langPending=path; showLangDialog(path); }
 }
 
 function toggleAllFolders() {
-  allExpanded = !allExpanded;
-  setAllExpanded(treeNodes, allExpanded);
-  renderTree();
-  const btn = document.getElementById('toggleTreeBtn');
-  btn.textContent = allExpanded ? '⊟ Replier' : '⊞ Développer';
+  allExpanded=!allExpanded;
+  setAllExpanded(treeNodes,allExpanded); renderTree();
+  document.getElementById('toggleTreeBtn').textContent=allExpanded?'⊟':'⊞';
 }
-
-function setAllExpanded(nodes, state) {
-  for (const n of nodes) {
-    if (n.type === 'folder') {
-      n.expanded = state;
-      if (n.children) setAllExpanded(n.children, state);
-    }
-  }
+function setAllExpanded(nodes,state) {
+  nodes.forEach(n=>{ if(n.type==='folder'){n.expanded=state;setAllExpanded(n.children||[],state);} });
 }
-
-function findNode(nodes, path) {
+function findNode(nodes,path) {
   for (const n of nodes) {
-    if (n.path === path) return n;
-    if (n.children) { const found = findNode(n.children, path); if (found) return found; }
+    if (n.path===path) return n;
+    if (n.children) { const f=findNode(n.children,path); if(f) return f; }
   }
   return null;
 }
-
 function refreshTreeUI() {
-  // Only update active/dirty without full re-render
-  document.querySelectorAll('.tree-row.file-row').forEach(el => {
-    const p = el.dataset.path;
-    el.classList.toggle('active', p === currentPath);
-    el.classList.toggle('dirty',  p === currentPath && isDirty());
+  document.querySelectorAll('.tree-row.file-row').forEach(el=>{
+    el.classList.toggle('active',el.dataset.path===currentPath);
+    el.classList.toggle('dirty', el.dataset.path===currentPath&&isDirty());
   });
 }
 
 // ── Language dialog ───────────────────────────────────────────────────────────
-
 function getLangs() { try { return JSON.parse(localStorage.getItem(LANG_KEY)||'{}'); } catch { return {}; } }
-
 function showLangDialog(path) {
-  const folderName = path.split('/').pop();
-  document.getElementById('langFolderName').textContent = `Candidature : ${folderName}`;
-  showOverlay();
-  document.getElementById('langDialog').style.display = 'block';
+  document.getElementById('langFolderName').textContent=`Candidature : ${path.split('/').pop()}`;
+  showOverlay(); document.getElementById('langDialog').style.display='block';
 }
-
 async function setLang(lang) {
   if (!langPending) return;
-  const langs = getLangs();
-  langs[langPending] = lang;
-  localStorage.setItem(LANG_KEY, JSON.stringify(langs));
-
-  // Write Langue field to status.md if accessible (FSA mode)
-  await writeLangToStatus(langPending, lang);
-
-  langPending = null;
-  closeDialogs();
-  renderTree();
-  showToast(lang === 'fr' ? '🇫🇷 Français enregistré dans status.md' : '🇺🇸 English saved to status.md');
+  const langs=getLangs(); langs[langPending]=lang;
+  localStorage.setItem(LANG_KEY,JSON.stringify(langs));
+  await writeLangToStatus(langPending,lang);
+  langPending=null; closeDialogs(); renderTree();
+  showToast(lang==='fr'?'🇫🇷 Français enregistré':'🇺🇸 English saved');
 }
-
-async function writeLangToStatus(folderPath, lang) {
-  if (saveMode !== 'fsa') return;
-  const statusPath = Object.keys(fileHandles).find(p => p.startsWith(folderPath + '/') && p.endsWith('status.md'));
-  if (!statusPath) return;
-  const handle = fileHandles[statusPath];
+async function writeLangToStatus(folderPath,lang) {
+  if (saveMode!=='fsa') return;
+  const sp=Object.keys(fileHandles).find(p=>p.startsWith(folderPath+'/')&&p.endsWith('status.md'));
+  if (!sp) return;
   try {
-    const file = await handle.getFile();
-    let content = await file.text();
-    const value = lang === 'fr' ? 'fr 🇫🇷' : 'en 🇺🇸';
-    if (/^- Langue :/m.test(content)) {
-      content = content.replace(/^- Langue :.*$/m, `- Langue : ${value}`);
-    } else {
-      // Insert after "- Statut :" line
-      content = content.replace(/(^- Statut :.*$)/m, `$1\n- Langue : ${value}`);
-    }
-    const w = await handle.createWritable();
-    await w.write(content); await w.close();
-    fileOrig[statusPath] = content;
-    // If currently viewing status.md, refresh editor
-    if (currentPath === statusPath) {
-      document.getElementById('editor').value = content;
-      if (activeTab === 'preview') updatePreview();
-      updateDirtyState();
-    }
-  } catch(e) { console.warn('Could not write lang to status.md:', e); }
+    let c=await (await fileHandles[sp].getFile()).text();
+    const val=lang==='fr'?'fr 🇫🇷':'en 🇺🇸';
+    if (/^- Langue :/m.test(c)) c=c.replace(/^- Langue :.*$/m,`- Langue : ${val}`);
+    else c=c.replace(/(^- Statut :.*$)/m,`$1\n- Langue : ${val}`);
+    const w=await fileHandles[sp].createWritable(); await w.write(c); await w.close();
+    fileOrig[sp]=c;
+    if (currentPath===sp) { document.getElementById('editor').value=c; if(activeTab==='preview') updatePreview(); updateDirtyState(); }
+  } catch(e) { console.warn(e); }
 }
 
 // ── Load file ─────────────────────────────────────────────────────────────────
-
 async function loadFile(path) {
-  if (currentPath && isDirty()) {
+  if (currentPath&&isDirty()) {
     if (!confirm(`"${baseName(currentPath)}" a des modifications non sauvegardées.\nQuitter sans sauvegarder ?`)) return;
   }
-  const handle = fileHandles[path];
-  if (!handle) return;
-
+  const handle=fileHandles[path]; if (!handle) return;
   let content;
-  if (handle._fileObj) {
-    content = fileOrig[path] ?? '';
-  } else {
-    const f = await handle.getFile();
-    content = await f.text();
-    fileOrig[path] = content;
-  }
-
-  currentPath = path;
-  document.getElementById('editor').value = content;
-  document.getElementById('currentFilename').textContent = path;
-  document.getElementById('toolbar').style.display = 'flex';
-  document.getElementById('emptyState').style.display = 'none';
-  document.getElementById('editor').style.display  = activeTab === 'edit'    ? 'block' : 'none';
-  document.getElementById('preview').style.display = activeTab === 'preview' ? 'block' : 'none';
-  if (activeTab === 'preview') updatePreview();
-  updateDirtyState();
-  refreshTreeUI();
+  if (handle._fileObj) content=fileOrig[path]??'';
+  else { const f=await handle.getFile(); content=await f.text(); fileOrig[path]=content; }
+  currentPath=path;
+  document.getElementById('editor').value=content;
+  document.getElementById('currentFilename').textContent=path;
+  document.getElementById('toolbar').style.display='flex';
+  document.getElementById('emptyState').style.display='none';
+  document.getElementById('editor').style.display  =activeTab==='edit'?'block':'none';
+  document.getElementById('preview').style.display =activeTab==='preview'?'block':'none';
+  if (activeTab==='preview') updatePreview();
+  setupQuickStatus(path);
+  updateDirtyState(); refreshTreeUI();
 }
 
-function baseName(path) { return path.split('/').pop(); }
+function baseName(p) { return p.split('/').pop(); }
 
 // ── Editor / Save ─────────────────────────────────────────────────────────────
-
-function isDirty() {
-  if (!currentPath) return false;
-  return document.getElementById('editor').value !== (fileOrig[currentPath] ?? '');
-}
+function isDirty() { return currentPath && document.getElementById('editor').value!==(fileOrig[currentPath]??''); }
 function updateDirtyState() {
-  const d = isDirty();
-  document.getElementById('unsavedBadge').style.display = d ? 'inline' : 'none';
-  document.getElementById('saveBtn').disabled = !d;
+  const d=isDirty();
+  document.getElementById('unsavedBadge').style.display=d?'inline':'none';
+  document.getElementById('saveBtn').disabled=!d;
   refreshTreeUI();
 }
 function switchTab(tab) {
-  activeTab = tab;
-  document.getElementById('tabEdit').classList.toggle('active', tab==='edit');
-  document.getElementById('tabPrev').classList.toggle('active', tab==='preview');
-  document.getElementById('editor').style.display  = tab==='edit'    ? 'block' : 'none';
-  document.getElementById('preview').style.display = tab==='preview' ? 'block' : 'none';
+  activeTab=tab;
+  document.getElementById('tabEdit').classList.toggle('active',tab==='edit');
+  document.getElementById('tabPrev').classList.toggle('active',tab==='preview');
+  document.getElementById('editor').style.display  =tab==='edit'?'block':'none';
+  document.getElementById('preview').style.display =tab==='preview'?'block':'none';
   if (tab==='preview') updatePreview();
   if (tab==='edit') document.getElementById('editor').focus();
 }
 function updatePreview() {
-  document.getElementById('preview').innerHTML = marked.parse(document.getElementById('editor').value || '');
+  document.getElementById('preview').innerHTML=marked.parse(document.getElementById('editor').value||'');
 }
 function triggerSave() {
-  if (!currentPath || !isDirty()) return;
-  document.getElementById('saveInfo').textContent = `Fichier : ${currentPath}`;
-  document.getElementById('saveNote').value = '';
-  showOverlay();
-  document.getElementById('saveDialog').style.display = 'block';
-  setTimeout(() => document.getElementById('saveNote').focus(), 50);
+  if (!currentPath||!isDirty()) return;
+  document.getElementById('saveInfo').textContent=`Fichier : ${currentPath}`;
+  document.getElementById('saveNote').value='';
+  showOverlay(); document.getElementById('saveDialog').style.display='block';
+  setTimeout(()=>document.getElementById('saveNote').focus(),50);
 }
 function closeSave() { closeDialogs(); }
-async function confirmSave() {
-  closeDialogs();
-  await performSave(document.getElementById('saveNote').value.trim());
-}
-async function performSave(note = '') {
+async function confirmSave() { closeDialogs(); await performSave(document.getElementById('saveNote').value.trim()); }
+async function performSave(note='') {
   if (!currentPath) return;
-  const newContent = document.getElementById('editor').value;
-  const oldContent = fileOrig[currentPath] ?? '';
-  const delta = newContent.length - oldContent.length;
-  const parts = currentPath.split('/');
-  const folder = parts.length > 1 ? parts.slice(0,-1).join('/') : (rootHandle?.name ?? '-');
-
+  const newC=document.getElementById('editor').value;
+  const oldC=fileOrig[currentPath]??'';
+  const delta=newC.length-oldC.length;
+  const parts=currentPath.split('/');
+  const folder=parts.length>1?parts.slice(0,-1).join('/'):(rootHandle?.name??'-');
   try {
-    const handle = fileHandles[currentPath];
+    const handle=fileHandles[currentPath];
     if (handle._fileObj) {
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(new Blob([newContent],{type:'text/markdown;charset=utf-8'}));
-      a.download = baseName(currentPath); a.click();
-      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+      const a=document.createElement('a');
+      a.href=URL.createObjectURL(new Blob([newC],{type:'text/markdown;charset=utf-8'}));
+      a.download=baseName(currentPath); a.click();
+      setTimeout(()=>URL.revokeObjectURL(a.href),5000);
       showToast(`⬇ ${baseName(currentPath)} téléchargé`);
     } else {
-      const w = await handle.createWritable();
-      await w.write(newContent); await w.close();
+      const w=await handle.createWritable(); await w.write(newC); await w.close();
       showToast(`✓ ${baseName(currentPath)} sauvegardé`);
     }
-    fileOrig[currentPath] = newContent;
-    addLogEntry({ timestamp: new Date().toISOString(), author: document.getElementById('authorSelect').value,
-      folder, file: baseName(currentPath), charsBefore: oldContent.length, charsAfter: newContent.length, delta, note });
+    fileOrig[currentPath]=newC;
+    addLogEntry({timestamp:new Date().toISOString(),author:document.getElementById('authorSelect').value,
+      folder,file:baseName(currentPath),charsBefore:oldC.length,charsAfter:newC.length,delta,note});
     updateDirtyState();
+    if (currentPath.endsWith('status.md')) {
+      const fp=currentPath.replace('/status.md','');
+      candidatureData[fp]=parseStatusContent(newC);
+      computeAlerts(); renderTree(); updateAlertBadge();
+      if (viewMode==='pipeline') renderPipelineView();
+      if (viewMode==='alerts')   renderAlertsView();
+    }
   } catch(e) { alert(`Erreur : ${e.message}`); }
 }
 
-// ── Overlay / dialogs ─────────────────────────────────────────────────────────
-
-function showOverlay() { document.getElementById('overlay').style.display = 'block'; }
-function closeDialogs() {
-  document.getElementById('overlay').style.display = 'none';
-  document.getElementById('saveDialog').style.display = 'none';
-  document.getElementById('langDialog').style.display = 'none';
+// ── Log save to file ──────────────────────────────────────────────────────────
+async function saveLogToFile() {
+  if (saveMode!=='fsa'||!rootHandle) { showToast('Mode FSA requis (ouvrir un dossier)'); return; }
+  const log=getLog(); if (!log.length) { showToast('Aucune entrée à sauvegarder'); return; }
+  const date=new Date().toISOString().slice(0,10);
+  let md=`# Journal JANUS — ${date}\n\n| Date | Heure | Auteur | Dossier | Fichier | Δ | Note |\n|---|---|---|---|---|---|---|\n`;
+  log.forEach(e=>{
+    const d=new Date(e.timestamp);
+    md+=`| ${d.toLocaleDateString('fr-FR')} | ${d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})} | ${e.author} | ${e.folder} | ${e.file} | ${e.delta>0?'+'+e.delta:e.delta} | ${e.note||''} |\n`;
+  });
+  try {
+    const fh=await rootHandle.getFileHandle(`janus_log_${date}.md`,{create:true});
+    const w=await fh.createWritable(); await w.write(md); await w.close();
+    showToast(`✓ janus_log_${date}.md sauvegardé`);
+  } catch(e) { showToast(`Erreur : ${e.message}`); }
 }
-document.getElementById('overlay').onclick = closeDialogs;
 
-// ── Mode badge ────────────────────────────────────────────────────────────────
+// ── Overlay / dialogs ─────────────────────────────────────────────────────────
+function showOverlay() { document.getElementById('overlay').style.display='block'; }
+function closeDialogs() {
+  document.getElementById('overlay').style.display='none';
+  document.getElementById('saveDialog').style.display='none';
+  document.getElementById('langDialog').style.display='none';
+}
+document.getElementById('overlay').onclick=closeDialogs;
 
 function setModeBadge() {
-  const b = document.getElementById('modeBadge');
-  b.style.display = 'inline';
-  if (saveMode === 'fsa') { b.className='mode-badge mode-fsa'; b.textContent='✓ Écriture directe'; }
-  else { b.className='mode-badge mode-dl'; b.textContent='⬇ Mode téléchargement'; }
+  const b=document.getElementById('modeBadge'); b.style.display='inline';
+  if (saveMode==='fsa'){b.className='mode-badge mode-fsa';b.textContent='✓ Écriture directe';}
+  else {b.className='mode-badge mode-dl';b.textContent='⬇ Mode téléchargement';}
 }
 
 // ── Log ───────────────────────────────────────────────────────────────────────
-
-function getLog()   { try { return JSON.parse(localStorage.getItem(LOG_KEY)||'[]'); } catch { return []; } }
-function saveLD(e)  { localStorage.setItem(LOG_KEY, JSON.stringify(e)); }
-function addLogEntry(entry) { const log = getLog(); log.unshift({id:Date.now(),...entry}); saveLD(log); renderLog(); }
-
+function getLog()  { try { return JSON.parse(localStorage.getItem(LOG_KEY)||'[]'); } catch { return []; } }
+function saveLD(e) { localStorage.setItem(LOG_KEY,JSON.stringify(e)); }
+function addLogEntry(entry) { const log=getLog(); log.unshift({id:Date.now(),...entry}); saveLD(log); renderLog(); }
 function renderLog() {
-  const filter = document.getElementById('logFilter').value.toLowerCase();
-  const log = getLog().filter(e => !filter || [e.file,e.author,e.note,e.folder].some(v=>v?.toLowerCase().includes(filter)));
-  const tbody = document.getElementById('logBody');
-  if (!log.length) { tbody.innerHTML = '<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>'; return; }
-  tbody.innerHTML = log.map(e => {
-    const d  = new Date(e.timestamp);
-    const dt = d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'}) + ' ' + d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
-    const delta = e.delta>0 ? `<span class="delta-pos">+${e.delta}</span>` : e.delta<0 ? `<span class="delta-neg">${e.delta}</span>` : '-';
+  const filter=document.getElementById('logFilter').value.toLowerCase();
+  const log=getLog().filter(e=>!filter||[e.file,e.author,e.note,e.folder].some(v=>v?.toLowerCase().includes(filter)));
+  const tbody=document.getElementById('logBody');
+  if (!log.length){tbody.innerHTML='<tr><td colspan="5" class="no-entries">Aucune modification enregistrée</td></tr>';return;}
+  tbody.innerHTML=log.map(e=>{
+    const d=new Date(e.timestamp);
+    const dt=d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'})+' '+d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
+    const delta=e.delta>0?`<span class="delta-pos">+${e.delta}</span>`:e.delta<0?`<span class="delta-neg">${e.delta}</span>`:'-';
     return `<tr><td>${dt}</td><td><span class="badge badge-${e.author}">${e.author}</span></td>
     <td><span style="color:#9ca3af;font-size:11px">${e.folder}/</span>${e.file}</td>
     <td>${delta}</td><td class="note-cell" title="${e.note||''}">${e.note||'<em style="color:#d1d5db">-</em>'}</td></tr>`;
   }).join('');
 }
-function clearLog()  { if (!confirm('Effacer tout l\'historique ?')) return; saveLD([]); renderLog(); showToast('Journal effacé'); }
-function exportLog() {
-  const log = getLog(); if (!log.length) { showToast('Aucune entrée'); return; }
-  const rows = [['Date','Heure','Auteur','Dossier','Fichier','Δ','Note']];
-  log.forEach(e => { const d=new Date(e.timestamp); rows.push([d.toLocaleDateString('fr-FR'),d.toLocaleTimeString('fr-FR'),e.author,e.folder,e.file,e.delta>0?`+${e.delta}`:e.delta,e.note||'']); });
-  const csv = rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
-  const a = document.createElement('a'); a.href=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
-  a.download=`janus_log_${new Date().toISOString().slice(0,10)}.csv`; a.click(); showToast('Log exporté');
+function clearLog(){if(!confirm('Effacer tout l\'historique ?'))return;saveLD([]);renderLog();showToast('Journal effacé');}
+function exportLog(){
+  const log=getLog();if(!log.length){showToast('Aucune entrée');return;}
+  const rows=[['Date','Heure','Auteur','Dossier','Fichier','Δ','Note']];
+  log.forEach(e=>{const d=new Date(e.timestamp);rows.push([d.toLocaleDateString('fr-FR'),d.toLocaleTimeString('fr-FR'),e.author,e.folder,e.file,e.delta>0?`+${e.delta}`:e.delta,e.note||'']);});
+  const csv=rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
+  a.download=`janus_log_${new Date().toISOString().slice(0,10)}.csv`;a.click();showToast('Log exporté');
 }
 
 // ── Utils ─────────────────────────────────────────────────────────────────────
-
-function showToast(msg) {
-  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
-  setTimeout(()=>t.classList.remove('show'), 2500);
+function showToast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2500);
 }
 
-// ── Events ────────────────────────────────────────────────────────────────────
-
-document.getElementById('editor').addEventListener('input', () => {
-  updateDirtyState(); if (activeTab==='preview') updatePreview();
-});
-document.addEventListener('keydown', e => {
-  if ((e.ctrlKey||e.metaKey) && e.key==='s') {
-    e.preventDefault();
-    if (document.getElementById('saveDialog').style.display!=='block') triggerSave();
-  }
-  if (e.key==='Enter' && document.getElementById('saveDialog').style.display==='block') { e.preventDefault(); confirmSave(); }
-  if (e.key==='Escape') closeDialogs();
+document.getElementById('editor').addEventListener('input',()=>{updateDirtyState();if(activeTab==='preview')updatePreview();});
+document.addEventListener('keydown',e=>{
+  if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();if(document.getElementById('saveDialog').style.display!=='block')triggerSave();}
+  if(e.key==='Enter'&&document.getElementById('saveDialog').style.display==='block'){e.preventDefault();confirmSave();}
+  if(e.key==='Escape')closeDialogs();
 });
 
 renderLog();

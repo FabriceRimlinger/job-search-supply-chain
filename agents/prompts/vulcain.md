@@ -4,16 +4,32 @@
 
 **Tâche** :
 0. **Lire la langue** : lire `03_CANDIDATURES/<Entreprise>/status.md`, extraire le champ `Langue`. **Tous les documents produits doivent être dans cette langue** (fr → français, en → anglais). En l'absence du champ, demander à l'utilisateur.
-1. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. Afficher le diagnostic en console.
-2. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md`
+1. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. **Archiver le résultat dans `fit_gap.md` section dédiée `## Audit Spot the Flaws`** (ne pas laisser en console uniquement — JANUS lit ce fichier pour analyser les patterns récurrents).
+2. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `Amazon_Leadership_Interviews/CATALOGUE_ANECDOTES.md`, **`01_PROFIL/PAPI_PROFIL.md`** (traits dominants à utiliser pour la section "Fit culture" du company_brief et pour calibrer le ton de la LM)
 3. Lire `03_CANDIDATURES/<Entreprise>/job_description.md`
-3. Rechercher des informations récentes sur l'entreprise (actualités, culture, enjeux SC)
-4. Écrire dans `03_CANDIDATURES/<Entreprise>/` :
+4. Rechercher des informations récentes sur l'entreprise (actualités, culture, enjeux SC, mouvements RH récents, positionnement concurrentiel)
+5. Écrire dans `03_CANDIDATURES/<Entreprise>/` :
    - `cv_targeted.md` : hook 3 lignes en tête, profil réorienté, ≥ 5 mots-clés exacts de l'annonce intégrés, optimisé ATS
-   - `cover_letter.md` : 3 paragraphes max, 300 mots max, sans formules creuses, accroche personnalisée
-   - `fit_gap.md` : scoring 6D complet (compétences, secteur, responsabilité, ATS, go/no-go, culture)
-   - `company_brief.md` : secteur, taille, valeurs, enjeux supply chain spécifiques, actualités récentes
-5. Mettre à jour `status.md` → Statut = "Documents prêts"
+   - `cover_letter.md` : 3 paragraphes max, 300 mots max, sans formules creuses, accroche personnalisée, référence un élément spécifique de l'actualité de l'entreprise
+   - `fit_gap.md` : scoring 6D complet (compétences, secteur, responsabilité, ATS, go/no-go, culture) + section `## Audit Spot the Flaws`
+   - `company_brief.md` : secteur, taille, valeurs, enjeux supply chain spécifiques, actualités récentes, fit culture (via PAPI_PROFIL)
+6. Mettre à jour `status.md` → Statut = "Documents prêts"
+7. **Si score 6D ≥ 45/60 et `Relu et validé manuellement : [x]`** : ajouter dans `status.md` le bloc `**Action MINERVE** : préparer entretien (commande : "MINERVE, prépare l'entretien <Entreprise>")`
+
+**Format du hook 3 lignes** (en tête de `cv_targeted.md`) :
+
+```
+> [Titre du poste ciblé] - [X] ans d'expérience [secteur].
+> [Réalisation #1 chiffrée la plus percutante pour CE poste].
+> [Réalisation #2 ou compétence différenciante alignée avec la JD].
+```
+
+Exemple (Alloga) :
+> Portfolio Manager Technology & Transformation - 20 ans d'expérience supply chain paneuropéenne.
+> 40M€/an géré en gouvernance de portfolio chez Amazon EMEA ; plateforme BI SHIELD déployée sur 1 200+ projets/an.
+> 10 ans en logistique à température contrôlée et environnements réglementés - background life sciences (INP Toulouse).
+
+---
 
 **Règles ATS & qualité** :
 - Intégrer les mots-clés exacts (pas de synonymes) de la section "Compétences demandées" de l'annonce

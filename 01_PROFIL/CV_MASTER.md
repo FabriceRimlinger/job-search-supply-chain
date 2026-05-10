@@ -54,18 +54,20 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
 **10/2018 – 08/2021 | Aix-en-Provence, France (Remote)**
 
-- Géré plus de 1200 Due Diligence annuellement pour l'Immobilier Amazon en EMEA, avec un budget de **40M€/an**, dirigeant une équipe de 10 risk managers et 30+ consultants - scope : environnemental, technique, EV requirements, permitting, acoustique, trafic
-- Conçu et déployé SHIELD - plateforme globale de knowledge management / BI pour la Due Diligence, adoptée par toutes les parties prenantes EMEA
+- Géré plus de 1200 Due Diligence annuellement pour l'Immobilier Amazon en EMEA et MENA (business lines : Core, ATS, AMZL, GSF), avec un budget de **40M€/an**, dirigeant une équipe de 10 risk managers et 30+ consultants - scope : environnemental, technique, EV requirements, permitting, acoustique, trafic
+- Conçu et déployé SHIELD - plateforme globale de knowledge management / BI pour la Due Diligence, adoptée par toutes les parties prenantes EMEA, incluant la conception UI/UX et le product management (SIM, SHIELD) en méthodes Agile
+- Piloté l'activité testfits/layouts : 157 validations d'implantation conduites en S2 2020 sur 108 sites uniques (Sortation Centers et centres de tri Core)
 - Développé des stratégies de mitigation des risques pour améliorer les résultats projets et la conformité réglementaire
 
-### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
+### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics *(New Countries Expansion Lead)*
 **04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
 
 - Pionnier du déploiement du réseau de livraison last mile Amazon en Italie et Espagne - **15 stations lancées en 2 ans**, toutes opérationnelles pour la peak season (sites ~10 000m² chacun)
-- Coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires, Process & méthodes)
+- Managé 5 launch managers et coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires, Process & méthodes)
 - Après 2 ans, AMZL assure **plus de 75% des livraisons Amazon** dans les principales villes d'Italie et d'Espagne
+- Supervisé la supply chain des équipements des nouvelles stations (du sourcing à la livraison, incluant pièces détachées et consommables) ; recruté des managers seniors pour les équipes de lancement
 - Créé le Launch Playbook AMZL et structuré le Plan of Record sur 3 ans pour l'expansion EU
-- Piloté les programmes d'expansion EU, axés sur la planification capacitaire et la topologie réseau long terme
+- Piloté les programmes d'expansion de AMZL EU (last mile), axés sur la planification capacitaire, l'amélioration continue et la topologie réseau long terme
 
 ### Head of Transportation Technology - South EU - Amazon
 **04/2014 – 03/2016 | Paris, France**
@@ -114,6 +116,7 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 - GPS : sélection logiciel/matériel, négociation fournisseurs, déploiement et intégration ERP - **600 camions équipés**
 - Défini les KPIs, documentation et formation utilisateurs
 - Mis en place plusieurs outils de suivi de productivité, capacity planning, optimisation picking et analyse livraisons - **+25% de productivité entrepôt**
+- Automatisé les rapports standards (datamining, extractions SQL, requêtes Excel) pour la direction logistique
 - Responsable de la conformité ERP du département mûrissage (Fruidor), implémentation et formation entrepôts
 
 *Note : Gap 08/2005–06/2006 = expédition Traversée Nord-Sud des Andes (alpinisme haute altitude)*
@@ -121,7 +124,7 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 ### Project Manager - Geest / Primaflor
 **12/2001 – 05/2002 | Pulpi, Espagne**
 
-- Supervisé l'installation d'une usine pilote de salade fraîche découpée (12 employés)
+- Supervisé l'installation d'une usine pilote de salade fraîche découpée (12 employés) - **réduction des coûts logistiques de 50%** via la conception de l'unité de conditionnement fresh produce
 - Conduit les essais production et commercial pour clients UK
 
 ### Product Manager / Analyst - Pascual Hermanos
@@ -147,8 +150,8 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 - **Data & BI** : Claude Code, Excel VBA avancé, PowerBI, Microstrategy, PowerQuery, SQL, Data visualization, Tableau
 - **Open Source** : "Sparklines for Excel" - add-in de data-visualisation Excel (SourceForge), adopté par Manhattan Chase, Fujitsu, US Army, HSBC, Schneider Electric, EADS
 - **Outils** : Salesforce, MS Project, Jira, AutoCAD (certifié), Cognos
-- **Logistique** : last mile, network planning, capacity planning, WMS, TMS, expansion AMZL, vessel scheduling, port operations
-- **Transformation** : PMO, change management, intégration post-acquisition, M&A
+- **Logistique** : last mile, network planning, capacity planning, WMS, TMS, expansion AMZL, vessel scheduling, port operations, EDI, testfit / facility layout, commissioning, material handling equipment, BoM
+- **Transformation** : PMO, change management, intégration post-acquisition, M&A, Agile
 - **Automatisation** : AI forecasting, RPA, call bots, processus de décision data-driven
 
 ## Compétences comportementales
@@ -180,6 +183,12 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 | Espagnol | Langue maternelle (C2) |
 | Allemand | Bonne maîtrise |
 | Catalan | Bonne maîtrise |
+
+---
+
+## Mobilité internationale
+
+24 ans de résidence à l'étranger dans 6 pays : Cameroun (5 ans), Espagne (7 ans), Maroc (2 ans), Amérique du Sud (2 ans), USA (1 an), UK (1 an).
 
 ---
 

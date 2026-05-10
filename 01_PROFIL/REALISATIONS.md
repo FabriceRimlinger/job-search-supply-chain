@@ -11,7 +11,7 @@
 
 3. **Conception et déploiement de SHIELD** - plateforme BI globale de Due Diligence adoptée par l'ensemble des parties prenantes Amazon EMEA. Reconnu par les pairs comme ayant "révolutionné le fonctionnement de l'équipe" et "rendu l'onboarding des nouveaux collaborateurs considérablement plus facile" - Amazon, 2019-2021. *(Source : Forte 2021, peers feedback)*
 
-4. **Gestion d'un budget de 40M€/an** pour plus de 1200 Due Diligence Environnementales EMEA, avec une équipe de 10 risk managers et 30+ consultants, en maintenant conformité réglementaire totale - Amazon, 2018-2021
+4. **Gestion d'un budget de 40M€/an** pour plus de 1200 Due Diligence Environnementales EMEA et MENA, avec une équipe de 10 risk managers et 30+ consultants, en maintenant conformité réglementaire totale. Volume géré x5 en 3 ans (133 sites en 2018 → 686 sites en 2020) avec une équipe quasi-stable - Amazon, 2018-2021
 
 5. **Intégration de 300 employés** suite à l'acquisition de Milee par Colis Privé : gestion des négociations juridiques, modélisation P&L, alignement des processus, continuité opérationnelle garantie - Director of Transformation, 2023-2024
 
@@ -25,6 +25,8 @@
 
 10. **Restructuration de 5 sites Dole Romania** post-acquisition : réduction des effectifs de 50%, réhabilitation de 2 installations (Constanța, Bucharest), maintien de la performance opérationnelle - Dole Europe, 2009-2010
 
+11. **Réduction de 50% des coûts logistiques** via la conception et installation d'une unité pilote de conditionnement de salade fraîche (12 employés) - Geest / Primaflor, 2001-2002
+
 ---
 
 ## Points forts récurrents (Amazon Forte reviews 2019-2023)
@@ -37,3 +39,13 @@
 - **"Revolutionised how the team operates using data"** - Forte 2021
 - **"Extraordinary experience - precious resource to understand and solve business critical situations"** - Forte 2020
 - **Rating Exceeds 2021** - niveau de performance le plus élevé avant promotion chez Amazon
+
+---
+
+## Verbatims externes - Enquête satisfaction Amazon DD (sept-oct 2020)
+
+*Source : enquête menée auprès des stakeholders Amazon (Acquisitions, Development, Engineering) — distinct des Forte reviews*
+
+- "Supportive, engaged and reactive team"
+- "Team's expertise is widely recognized"
+- "Provides accurate and comprehensive reports"

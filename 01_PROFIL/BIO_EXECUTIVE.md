@@ -2,7 +2,7 @@
 
 ## Positionnement
 
-Dirigeant supply chain et transformation opérationnelle avec 20 ans d'expérience dans des environnements logistiques complexes et internationaux - Amazon (10 ans), Colis Privé, Infarm, Dole Europe. Trilingue (FR/EN/ES), à l'aise dans des contextes multiculturels et multi-pays (EU, EMEA).
+Dirigeant supply chain et transformation opérationnelle avec 20 ans d'expérience dans des environnements logistiques complexes et internationaux - Amazon (10 ans), Colis Privé, Infarm, Dole Europe. Trilingue (FR/EN/ES), 24 ans de résidence à l'étranger dans 6 pays (Cameroun, Espagne, Maroc, Amérique du Sud, USA, UK) - parfaitement à l'aise dans des contextes multiculturels et multi-pays (EU, EMEA, MENA).
 
 ## Forces principales
 
@@ -16,7 +16,7 @@ Propriétaire de plateformes BI (SHIELD chez Amazon, solutions BI chez Colis Pri
 Portfolios de 40M€/an (Amazon EMEA) à 72M€ (Infarm EU). Expérience PMO, planification long-terme (36 mois), gestion des risques et conformité réglementaire.
 
 **4. Leadership transversal & international**
-Direction d'équipes de 16 à 30+ personnes, coordination de 15+ équipes cross-fonctionnelles. Stakeholder management jusqu'au niveau C dans des structures matricielles EMEA.
+Direction d'équipes de 16 à 30+ personnes, coordination de 15+ équipes cross-fonctionnelles. Stakeholder management jusqu'au niveau C dans des structures matricielles EMEA. Pionnier de nouveaux marchés (New Countries Expansion Lead, AMZL Italie et Espagne) dans des environnements sans infrastructure existante.
 
 ## Réalisations différenciantes
 
