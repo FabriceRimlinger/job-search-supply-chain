@@ -835,7 +835,7 @@ async function loadFile(path) {
   }
   const handle=fileHandles[path]; if (!handle) return;
   let content;
-  if (handle._fileObj) content=fileOrig[path]??'';
+  if (handle._fileObj || handle._serverMode) content=fileOrig[path]??'';
   else { const f=await handle.getFile(); content=await f.text(); fileOrig[path]=content; }
   currentPath=path;
   document.getElementById('editor').value=content;
