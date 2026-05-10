@@ -1,4 +1,4 @@
-# Fit-Gap Analysis - CEVA Logistics
+# Fit-Gap Analysis - CEVA Logistics — 45/60
 ## Global Contract Logistics Program & System Director
 
 **Scoring date**: 2026-05-08

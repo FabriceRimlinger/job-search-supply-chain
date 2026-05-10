@@ -1,4 +1,4 @@
-# fit_gap - Analyse de correspondance
+# fit_gap - Analyse de correspondance — [X/60]
 
 ## Score global : [X/60]
 

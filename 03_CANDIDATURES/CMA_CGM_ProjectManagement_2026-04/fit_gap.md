@@ -1,4 +1,4 @@
-# fit_gap - CMA CGM Global Project Management Specialist
+# fit_gap - CMA CGM Global Project Management Specialist — 50/60
 
 ## Overall Score: 50/60
 

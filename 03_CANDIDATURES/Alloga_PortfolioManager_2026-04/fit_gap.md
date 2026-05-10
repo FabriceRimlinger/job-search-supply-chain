@@ -1,4 +1,4 @@
-# fit_gap - Alloga Portfolio Manager Technology / Change & Transformation
+# fit_gap - Alloga Portfolio Manager Technology / Change & Transformation — 46/60
 
 ## Overall Score: 46/60
 

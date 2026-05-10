@@ -1,4 +1,4 @@
-# fit_gap - JD Logistics Head of Last Mile & Delivery Operations France
+# fit_gap - JD Logistics Head of Last Mile & Delivery Operations France — 48/60
 
 ## Overall Score: 48/60
 
