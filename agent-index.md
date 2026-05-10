@@ -6,7 +6,7 @@ Table de routage des 5 agents. Toutes les définitions canoniques vivent dans `a
 
 | Agent | Rôle | Déclenchement | Protocole | Commande |
 |---|---|---|---|---|
-| **JANUS** | Coach & Orchestrateur | "JANUS, fais le point" / tout contexte de coordination | `agents/prompts/janus.md` | `/janus [args]` |
+| **JANUS** | Coach & Orchestrateur | Interlocuteur par défaut — actif sans commande (voir `CLAUDE.md`) | `agents/prompts/janus.md` | — (défaut) |
 | **AURORA** | Veille & Sourcing | "AURORA, lance la veille" / planifié lun–ven 8h | `agents/prompts/aurora.md` | `/aurora` |
 | **VULCAIN** | Personnalisation | "VULCAIN, personnalise ma candidature pour [Entreprise]" | `agents/prompts/vulcain.md` | `/vulcain [Entreprise]` |
 | **MINERVE** | Préparation entretien | "MINERVE, prépare l'entretien [Entreprise]" / simulation / debrief | `agents/prompts/minerve.md` | `/minerve [Entreprise]` |

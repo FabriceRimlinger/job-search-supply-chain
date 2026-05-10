@@ -42,6 +42,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - `01_PROFIL/BIO_EXECUTIVE.md` - pitch exécutif 1 page
 - `01_PROFIL/REALISATIONS.md` - 10 réalisations chiffrées
 - `01_PROFIL/CRITERES_CIBLES.md` - critères go/no-go (localisation, salaire, contrat, culture d'entreprise, ...)
+- `01_PROFIL/PAPI_PROFIL.md` - profil de personnalité PAPI-I (usage : MINERVE entretiens comportementaux, coaching JANUS)
 - `02_CIBLES/POSTES_IDEAUX.md` - profils de poste ciblés
 
 ---
@@ -96,7 +97,7 @@ Les déclencheurs sont insensibles à la casse. Les formulations ci-dessus sont 
 
 Protocole complet : lire `agents/prompts/aurora.md`
 
-Tâches : veille quotidienne (lun–ven), traitement des URLs manuelles dans `URLS_A_TRAITER.md`, qualification des offres (pré-score express, anti-doublon), création des dossiers, mise à jour `ENTREPRISES.md`.
+Tâches : veille quotidienne (lun–ven), traitement des URLs manuelles dans `02_CIBLES/URLS_A_TRAITER.md`, qualification des offres (pré-score express, anti-doublon), création des dossiers, mise à jour `02_CIBLES/ENTREPRISES.md`.
 
 ---
 
