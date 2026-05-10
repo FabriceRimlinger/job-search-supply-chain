@@ -6,7 +6,7 @@
 - Date d'envoi : CV envoyé à Massimiliano Castagna le 2026-04-28 (mise en relation)
 - Statut : Entretien préparé
 - Langue : fr 🇫🇷
-- Prochaine action : Organiser le RDV avec Gautier Fischer (contacté par Massimiliano Castagna le 2026-04-29)
+- Prochaine action : Entretien le 2026-05-11 à 15h30 - Gautier Fischel (VP Distribution & Marketing / Président CF France) + Yann LeCozic (VP Transport)
 - Date de relance :
 - Relu et validé manuellement : [ ]
 - Commentaires : Candidature spontanée. Angle : carburant/flotte = M€ EBIT pour CF (angle identifié par Thomas Geoffroy, AWS). Intro Fabrice ↔ Mauran déjà faite le 20/11/2025 par Thomas Geoffroy (Head of Region SE France, AWS). Mauran = CEO Farms Digital (filiale tech CF). Thomas souhaite que Fabrice rencontre l'ExComm CF. Connexion directe : CF client ColdEnergy 2012-2014 (SAV mûrisseries).

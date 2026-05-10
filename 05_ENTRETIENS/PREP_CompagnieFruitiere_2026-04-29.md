@@ -1,9 +1,71 @@
 # PREP ENTRETIEN - Compagnie Fruitière
-**Date de préparation** : 29/04/2026
-**Interlocuteur probable** : Gautier Fischel - VP Distribution & Marketing / Président CF France (ESSEC 2001-2005)
-**Format attendu** : 1er échange exploratoire 30-60 min (intro via Massimiliano Castagna)
+**Date de préparation** : 29/04/2026 — **Mise à jour JANUS** : 10/05/2026
+**Interlocuteurs confirmés** :
+- Gautier Fischel - VP Distribution & Marketing / Président CF France (ESSEC 2001-2005)
+- **Yann Le Cozic - DG Transit Fruits / VP Transport ExComm CF** (né 1971, en poste depuis juillet 2015)
+**Date** : 11/05/2026 à 15h30
+**Format attendu** : Entretien à deux interlocuteurs - format probablement plus structuré qu'un 1-on-1 exploratoire
 **Poste visé** : Directeur Technique / Directeur de Projets Industriels (rôle vacant depuis juin 2025)
 **Langue** : Français
+
+---
+
+## YANN LE COZIC - PROFIL & ANGLES
+
+### Qui est-il
+
+- DG de **Transit Fruits** (= EAGLE = Europe Africa Global Line Express), filiale transport du groupe CF depuis juillet 2015 (11 ans en poste)
+- Scope : agence maritime d'Africa Express Line (AEL) - 5 navires Méditerranée + logistique portuaire
+- Port-Vendres : 260 000 T fruits importés/an (Dakar, Abidjan, Tema, Douala, Agadir) + 50 000 T exports
+- CA Transit Fruits : **96M€ (2024)**, résultat net 4,2M€, 50-99 employés, Marseille
+- Statut AEO (Authorised Economic Operator) - fiabilité douanière reconnue
+- **Profil terrain, discret** : peu de personal branding LinkedIn, pas de résumé public. Homme d'opérations.
+- **RSE active** : s'investit personnellement dans le Fonds de Dotation CF - dons alimentaires (Banque Alimentaire BDR), programme culturel "La première fois par la mer" (enfants de quartiers populaires marseillais à La Criée). Ce n'est pas un rôle de façade - il relaie, il y participe.
+- Parcours pré-2015 non documenté publiquement [À CONFIRMER si l'échange l'amène à se présenter]
+
+### Ce qu'il vient chercher dans cet entretien
+
+LeCozic est DG opérationnel d'une filiale à 96M€ CA. Sa présence signifie que le rôle envisagé pour Fabrice a une **dimension transport/maritime directe**, pas seulement mûrisseries. Il évalue si Fabrice peut travailler en interface avec Transit Fruits : projets portuaires, specs techniques, flotte AEL.
+
+### Angles Fabrice vers LeCozic
+
+| Sujet | Ce que Fabrice apporte | Preuve |
+|-------|----------------------|--------|
+| Terminal portuaire | Dole Romania : terminal Constanța - vessel scheduling, flux entrant/sortant, optimisation stockage portuaire | "J'ai géré le terminal de Constanța pour Dole Romania - même logique que Port-Vendres, volume, froid, rotation navires" |
+| Carburant/flotte | Angle M€ EBIT identifié par Thomas Geoffroy - directement dans le scope AEL/Transit Fruits | "Sur une flotte de 5 navires, l'optimisation carburant représente plusieurs M€/an d'EBIT - c'est un levier que j'ai travaillé côté opérations" |
+| Specs MOA/MOE | Contre-expertise indépendante avant validation CAPEX - applicable au terminal frigorifique Port-Vendres | "Mon rôle serait de protéger CF côté MOA : cahier des charges indépendant des prestataires, validation des specs avant engagement" |
+| Performance douanière | Connaissance des contraintes AEO, conformité phytosanitaire (chaîne du froid à l'import) | ColdEnergy + Dole Europe |
+
+### Questions à poser à LeCozic
+
+1. **"Transit Fruits gère à la fois le maritime et la logistique terrestre depuis Port-Vendres - comment est organisée l'interface avec les opérations mûrisseries du groupe ?"**
+   *(Montre qu'on a compris la verticalité du modèle - et ouvre sur le rôle d'interface que Fabrice pourrait jouer)*
+
+2. **"Les perturbations maritimes depuis 2023 (Houthis, disponibilité conteneurs) ont-elles affecté vos rotations AEL sur la ligne Atlantique, ou votre route Afrique de l'Ouest est restée stable ?"**
+   *(La route Afrique de l'Ouest - Europe Atlantique est moins touchée que Suez, mais les coûts d'affrètement ont bougé. Montre qu'on connaît le contexte maritime global)*
+
+3. **"Le terminal frigorifique de Port-Vendres - est-ce un projet d'extension en cours, ou l'enjeu est plutôt l'optimisation des 260 000 T existantes ?"**
+   *(Ouvre directement sur un chantier potentiel pour Fabrice)*
+
+4. **"Sur la décarbonation de la flotte AEL, est-ce que CF a engagé une réflexion HVO/GNL, ou c'est encore à l'étude ?"**
+   *(La réglementation IMO 2030 impose des réductions d'émissions. LeCozic est directement exposé. Montre une lecture des enjeux réglementaires maritimes)*
+
+### Points de vigilance spécifiques LeCozic
+
+- Ne pas parler "mûrisseries uniquement" face à lui - son monde c'est le maritime et le portuaire
+- Valoriser l'expérience Constanța (terminal portuaire Dole Romania) comme référence directe
+- L'angle carburant/flotte est **son** budget opérationnel - le traiter comme levier M€, pas comme anecdote
+- Transit Fruits a un CA de 96M€ avec 50-99 personnes : organisation lean, il apprécie la rigueur opérationnelle
+
+---
+
+## DYNAMIQUE À DEUX INTERLOCUTEURS
+
+Fischel = vision Distribution/Marketing/ExComm. LeCozic = opérations transport/portuaire.
+
+**Règle d'or** : répondre aux deux registres sans jamais n'en ignorer un. Quand une réponse est technique/maritime, tourner le regard vers LeCozic. Quand une réponse est stratégique/développement, tourner vers Fischel.
+
+**Signe que ça marche bien** : les deux acquiescent en même temps. LeCozic hoche la tête sur la partie Constanța ; Fischel hoche la tête sur la partie Cracovie.
 
 ---
 
