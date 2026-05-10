@@ -123,7 +123,7 @@ Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), bro
 
 ## Conventions de nommage
 
-- Dossiers candidatures : `<Entreprise>_<YYYY-MM>` (ex : `Vinted_2026-04`)
+- Dossiers candidatures : `<Entreprise>_<PosteSlug>_<YYYY-MM>` (ex : `Vinted_SupplyChainDirector_2026-04`)
 - Fiches entretien : `PREP_<Entreprise>_<YYYY-MM-DD>`
 - Session logs : `session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_JANUS_<slug>.md`
 - Statuts valides : "À traiter" | "Documents prêts" | "Envoyée" | "À relancer" | "Entretien planifié" | "Entretien préparé" | "Entretien passé" | "Refusée" | "Abandonnée" | "Gagnée"
