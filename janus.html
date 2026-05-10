@@ -385,13 +385,18 @@ function scoreColor(sc) {
 
 // ── Load candidature data ─────────────────────────────────────────────────────
 async function loadCandidatureData() {
-  if (saveMode !== 'fsa') return;
   candidatureData = {};
   const paths = Object.keys(fileHandles).filter(p => p.split('/').pop() === 'status.md' && p.includes('/'));
   for (const sp of paths) {
     try {
-      const f = await fileHandles[sp].getFile();
-      candidatureData[sp.replace(/\/status\.md$/,'')] = parseStatusContent(await f.text());
+      let content;
+      if (saveMode === 'fsa') {
+        const f = await fileHandles[sp].getFile();
+        content = await f.text();
+      } else {
+        content = fileOrig[sp] ?? '';
+      }
+      candidatureData[sp.replace(/\/status\.md$/,'')] = parseStatusContent(content);
     } catch(e) {}
   }
   computeAlerts();
@@ -617,6 +622,7 @@ async function loadFromInput(files) {
   treeNodes=buildTreeFromPaths(byFolder);
   document.getElementById('rootName').textContent=rootName;
   setModeBadge(); renderTree(); autoLoadFirst();
+  await loadCandidatureData();
 }
 
 function buildTreeFromPaths(byFolder) {
