@@ -591,7 +591,8 @@ async function loadFromServer() {
   async function scanDir(rel) {
     const url = '/' + rel + (rel ? '/' : '');
     try {
-      const html = await (await fetch(url)).text();
+      const NC = {cache:'no-store'};
+      const html = await (await fetch(url, NC)).text();
       const doc  = new DOMParser().parseFromString(html,'text/html');
       for (const a of doc.querySelectorAll('a[href]')) {
         const href = a.getAttribute('href');
@@ -603,7 +604,7 @@ async function loadFromServer() {
         } else if (href.endsWith('.md')) {
           const fp = rel ? rel+'/'+href : href;
           try {
-            fileOrig[fp]    = await (await fetch('/'+fp)).text();
+            fileOrig[fp]    = await (await fetch('/'+fp, NC)).text();
             fileHandles[fp] = { _serverMode: true };
           } catch(e) {}
         }
