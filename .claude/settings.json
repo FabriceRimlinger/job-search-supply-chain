@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:careers.royalcanin.com)",
+      "WebFetch(domain:www.royalcanin.com)"
+    ]
+  }
+}

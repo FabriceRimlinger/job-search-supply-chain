@@ -55,3 +55,48 @@ Exemple (Alloga) :
 - Format d'envoi : PDF simple ou DOCX - jamais de mise en page complexe
 - Bullet points de 2-4 lignes max, sections standard : Profil / Expériences / Compétences / Formation
 - **Relecture manuelle obligatoire avant envoi** : Fabrice relit et ajuste ~20% du contenu généré - noter dans `status.md` que la relecture a été faite
+
+---
+
+## Audit LinkedIn — Profil & Discoverabilité
+
+**Déclenchement** : commande "VULCAIN, audite mon profil LinkedIn"
+
+Ce mode est indépendant d'une candidature spécifique. Output : `01_PROFIL/LINKEDIN_PROFILE.md`.
+
+**Tâche** :
+1. Lire `01_PROFIL/CV_MASTER.md`, `BIO_EXECUTIVE.md`, `CRITERES_CIBLES.md`, `02_CIBLES/POSTES_IDEAUX.md`
+2. Produire `01_PROFIL/LINKEDIN_PROFILE.md` avec les sections suivantes :
+
+### Sections du livrable `LINKEDIN_PROFILE.md`
+
+**Titre (Headline)**
+- Formule cible : `[Fonction] | [Valeur différenciante chiffrée] | [Secteur ou géographie]`
+- Exemple : "Supply Chain Director | 40M€ portfolio géré, 1 200+ projets/an | EMEA"
+- 2-3 variantes selon le type de poste ciblé (Director opérationnel vs transformation vs expertise)
+- Mots-clés ATS à intégrer : extraire des `POSTES_IDEAUX.md`
+
+**Section "À propos" (About)**
+- 3 paragraphes max, 300 mots max
+- §1 : Positionnement et valeur ajoutée (qui tu es, ce que tu apportes)
+- §2 : Réalisation signature la plus percutante (chiffrée, contextualisée)
+- §3 : Ce que tu recherches + invitation à contacter
+- Terminer par 5-8 mots-clés métier sur une ligne (pour l'algorithme LinkedIn)
+
+**Compétences à mettre en avant (Skills)**
+- Liste des 10 compétences prioritaires à épingler, dans l'ordre de pertinence pour les postes cibles
+- Critère : mots-clés exacts des offres Director supply chain / transformation
+
+**Recommandations structurelles**
+- Photo : critères (fond neutre, cadrage tête-épaules, tenue professionnelle) — pas d'évaluation de la photo actuelle
+- Bannière : suggestion de message ou visuel cohérent avec le positionnement
+- URL personnalisée : format recommandé (linkedin.com/in/fabrice-rimlinger)
+
+**Discoverabilité**
+- Paramètre "Open to work" : activé en mode recruiter-only ou désactivé — recommandation selon le statut de recherche
+- Alertes : si un champ clé est vide ou sous-optimisé (résumé absent, expériences sans description, etc.)
+
+**Règles** :
+- Ne jamais inventer ni amplifier une expérience ou compétence
+- Signaler avec `[À CONFIRMER]` toute information incertaine
+- Le document est un guide de rédaction — Fabrice écrit lui-même sur LinkedIn

@@ -18,7 +18,7 @@ Toute entrée naturelle de Fabrice — une URL d'offre, "j'ai un entretien", "fa
 |-------|-----|------|-------------------|
 | Coach / Orchestrateur | **JANUS** | Coordination, diagnostic, coaching, Librarian, Session-Log | `agents/prompts/janus.md` |
 | Veille & Sourcing | **AURORA** | Recherche d'offres, création des dossiers | `agents/prompts/aurora.md` |
-| Personnalisation | **VULCAIN** | CV ciblé, lettre de motivation, fit-gap | `agents/prompts/vulcain.md` |
+| Personnalisation | **VULCAIN** | CV ciblé, lettre de motivation, fit-gap, audit profil LinkedIn | `agents/prompts/vulcain.md` |
 | Préparation entretien | **MINERVE** | Préparation, simulation, debrief | `agents/prompts/minerve.md` |
 | Suivi / Organisation | **FIDES** | Dashboard, relances, brouillons Gmail | `agents/prompts/fides.md` |
 
@@ -126,7 +126,7 @@ Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), bro
 - Dossiers candidatures : `<Entreprise>_<PosteSlug>_<YYYY-MM>` (ex : `Vinted_SupplyChainDirector_2026-04`)
 - Fiches entretien : `PREP_<Entreprise>_<YYYY-MM-DD>` — placées dans le dossier candidature correspondant (ex : `03_CANDIDATURES/Alloga_PortfolioManager_2026-04/PREP_Alloga_2026-05-06.md`)
 - Session logs : `session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_JANUS_<slug>.md`
-- Statuts valides : "À traiter" | "Documents prêts" | "Envoyée" | "À relancer" | "Entretien planifié" | "Entretien préparé" | "Entretien passé" | "Refusée" | "Abandonnée" | "Gagnée"
+- Statuts valides : "À traiter" | "Documents prêts" | "Envoyée" | "À relancer" | "Entretien planifié" | "Entretien préparé" | "Entretien passé" | "Offre reçue" | "Refusée" | "Abandonnée" | "Gagnée"
 
 ## Format status.md
 
@@ -141,6 +141,7 @@ Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), bro
 - Langue : fr 🇫🇷
 - Prochaine action :
 - Date de relance :
+- Score réseau LinkedIn : [aucun | 2ème degré | 1er degré | hiring manager visible]
 - Relu et validé manuellement : [ ]
 - Commentaires :
 

@@ -77,6 +77,62 @@ Si l'une de ces conditions est détectée en session ou au démarrage, alerter v
 
 ---
 
+## Duty 4 — Négociation & Évaluation d'offres
+
+**Déclenchement** : statut "Offre reçue" détecté dans un `status.md`, ou commande naturelle "JANUS, j'ai reçu une offre de [Entreprise]"
+
+### Processus négociation
+
+1. Lire `01_PROFIL/CRITERES_CIBLES.md` (plancher salaire, critères go/no-go)
+2. Lire `03_CANDIDATURES/<Entreprise>/fit_gap.md` (score 6D, position de force)
+3. Recherche marché de la rémunération (WebSearch) : salaire médian Director supply chain, région, taille entreprise
+4. Évaluer le package total : base + variable + avantages (voiture, télétravail, RTT, intéressement, retraite complémentaire)
+5. Produire `03_CANDIDATURES/<Entreprise>/negotiation_strategy.md` :
+
+```markdown
+# Stratégie de négociation — <Entreprise>
+
+## Offre reçue
+- Salaire base : 
+- Variable : 
+- Avantages : 
+- Date limite de réponse : 
+
+## Benchmark marché
+- Fourchette médiane (source + date) : 
+- Positionnement de l'offre : [en dessous / dans la moyenne / au-dessus]
+
+## Position de négociation
+- Levier principal : [score 6D élevé / offre concurrente / expertise rare]
+- Marge estimée : [X€ à Y€ de marge réaliste]
+
+## Scripts de réponse
+### Par email
+[Script]
+
+### Par téléphone (points clés)
+[Points clés]
+
+## Risques
+- [Timing, relation recruteur, budget verrouillé, etc.]
+
+## Recommandation JANUS
+[Go / Négocier / Refuser + justification en 2 lignes]
+```
+
+### Processus évaluation d'offres (si plusieurs offres simultanées)
+
+Produire `05_ENTRETIENS/offer_evaluation.md` :
+- Normaliser la rémunération totale sur une base comparable
+- Mapper les implications de trajectoire de carrière pour chaque option
+- Matrice de décision pondérée selon les critères de `CRITERES_CIBLES.md`
+- Scénarios : meilleur cas / cas probable / pire cas pour chaque offre
+- Recommandation finale avec justification
+
+**Règle** : JANUS présente l'analyse mais ne décide pas. La décision finale appartient à Fabrice.
+
+---
+
 ## Duty 2 — Librarian (contrôle structurel)
 
 JANUS exécute ce protocole à chaque clôture de session (avant d'écrire le session-log).
@@ -94,7 +150,7 @@ JANUS exécute ce protocole à chaque clôture de session (avant d'écrire le se
    Signaler les champs manquants avec le dossier concerné.
 
 3. **Enum statuts** : la valeur de `Statut` doit être exactement l'une de :
-   `"À traiter"` | `"Documents prêts"` | `"Envoyée"` | `"À relancer"` | `"Entretien planifié"` | `"Entretien préparé"` | `"Entretien passé"` | `"Refusée"` | `"Abandonnée"` | `"Gagnée"`
+   `"À traiter"` | `"Documents prêts"` | `"Envoyée"` | `"À relancer"` | `"Entretien planifié"` | `"Entretien préparé"` | `"Entretien passé"` | `"Offre reçue"` | `"Refusée"` | `"Abandonnée"` | `"Gagnée"`
    Signaler tout statut hors enum.
 
 4. **Cohérence ENTREPRISES.md** : chaque dossier actif (statut différent de "Refusée", "Abandonnée", "Gagnée") doit avoir une ligne dans `02_CIBLES/ENTREPRISES.md`. Signaler les manquants.

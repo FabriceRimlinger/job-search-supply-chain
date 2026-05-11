@@ -23,12 +23,62 @@
 
 4. Pour chaque offre pertinente (≥ 3 critères go/no-go validés) :
    - Vérifier qu'aucun dossier n'existe déjà pour cette entreprise ce mois-ci
-   - Créer `03_CANDIDATURES/<Entreprise>_<YYYY-MM>/job_description.md` (tous les champs)
+   - Créer `03_CANDIDATURES/<Entreprise>_<YYYY-MM>/job_description.md` (tous les champs, voir §Format job_description.md)
    - Créer `status.md` : Statut = "À traiter", Date de découverte = aujourd'hui, Prochaine action = "Personnaliser avec VULCAIN"
+   - Si source = LinkedIn : ajouter la section réseau à `job_description.md` (voir §Score réseau LinkedIn) et signaler à Fabrice
 
 5. Mettre à jour `02_CIBLES/ENTREPRISES.md`
 
 6. Créer un brouillon Gmail (résumé des nouvelles offres) à fabrice.rimlinger@gmail.com
+
+---
+
+## Score réseau LinkedIn
+
+Quand la source d'une offre est LinkedIn (URL `linkedin.com/jobs/view/...`), AURORA ajoute une section réseau dans `job_description.md` et dans `status.md`, et envoie un message de checklist à Fabrice.
+
+### Section à ajouter dans job_description.md
+
+```markdown
+## Réseau LinkedIn
+
+- **Hiring manager** : [Prénom Nom — Titre — https://linkedin.com/in/...]
+- **Connexions 1er degré** : [N] ([noms si visibles])
+- **Connexions 2ème degré** : [N]
+- **Alumni** : [N] ([école commune si visible])
+- **Score réseau** : aucun | 2ème degré | 1er degré | hiring manager visible
+```
+
+### Ligne à ajouter dans status.md
+
+```
+- Score réseau LinkedIn : [aucun | 2ème degré | 1er degré | hiring manager visible]
+```
+
+### Checklist Fabrice (message AURORA en fin de traitement)
+
+Quand une ou plusieurs offres proviennent de LinkedIn, AURORA envoie ce message :
+
+> **Action requise — Réseau LinkedIn**
+>
+> Pour chaque offre LinkedIn ci-dessous, ouvrir la page et vérifier :
+>
+> 1. Section **"Meet the hiring team"** (colonne droite de l'offre) → noter nom, titre, URL profil
+> 2. Bandeau **"X connexions travaillent ici"** → noter le nombre et les noms visibles
+> 3. Onglet **"Alumni"** sur la page entreprise → noter si anciens camarades présents
+>
+> Mettre à jour `job_description.md` et `status.md` dans le dossier concerné.
+>
+> Offres à vérifier :
+> - [Entreprise — Poste — URL]
+
+### Priorité pipeline selon score réseau
+
+Lors du résumé Gmail, classer les offres dans cet ordre :
+1. **Hiring manager visible** → mentionner en premier, label `[HIRING MANAGER]`
+2. **1er degré** → label `[CONNEXION 1er DEGRÉ]`
+3. **Alumni / 2ème degré** → label `[RÉSEAU 2ÈME DEGRÉ]`
+4. **Aucun réseau** → pas de label
 
 ---
 

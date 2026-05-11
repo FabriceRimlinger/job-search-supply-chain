@@ -32,3 +32,40 @@ Rôles de direction en transformation, excellence opérationnelle, PMO ou supply
 ## Valeur ajoutée pour l'entreprise cible
 
 Capacité à structurer, piloter et livrer des programmes de transformation complexes, tout en maintenant la performance opérationnelle quotidienne. Alliance rare entre vision stratégique, maîtrise analytique et exécution terrain.
+
+---
+
+# BIO_EXECUTIVE - Executive Pitch (English - US)
+
+## Positioning
+
+Supply chain and operations executive with a 20-year track record delivering large-scale transformation programs in complex, international environments - Amazon (10 years), Colis Privé (CEVA Logistics / CMA CGM Group), Infarm, Dole Europe. Trilingual (French / English / Spanish). 24 years of international residency across 6 countries. Proven ability to lead in multicultural, cross-functional organizations across EU, EMEA, and MENA.
+
+## Core Strengths
+
+**1. Operational Transformation & Excellence**
+Led post-acquisition integration of 300 employees with zero operational disruption, launched 15 last-mile delivery stations in 2 years, and cut manual workload by 40% through AI forecasting, RPA, and automation at scale.
+
+**2. Analytics & Business Intelligence**
+Built BI platforms from the ground up - SHIELD at Amazon (1,200+ projects/year, adopted across all EMEA business lines) and data solutions at Colis Privé. Proficient in SQL, Power BI, Microstrategy, Excel VBA, and data-driven decision-making frameworks.
+
+**3. Capital Program & Portfolio Management**
+Managed portfolios ranging from €40M/year (Amazon EMEA due diligence) to €72M CAPEX (Infarm EU). Strong PMO and long-range planning experience (36-month horizon), risk management, and regulatory compliance across multiple countries.
+
+**4. Cross-Functional & International Leadership**
+Directed teams of 16 to 30+ direct reports, coordinated 15+ cross-functional workstreams. C-suite stakeholder management in matrixed EMEA organizations. Pioneered new markets as New Countries Expansion Lead, building Amazon's last-mile network in Italy and Spain from scratch.
+
+## Differentiating Achievements
+
+- €550K/year Customer Service cost reduction (-20%) while growing volume 7.5%
+- Launched 15 Amazon delivery stations (Italy + Spain) in under 2 years - all peak-ready
+- SHIELD: EMEA-wide BI platform, 1,200+ due diligence projects/year, €40M annual budget
+- Post-M&A integration of 300 employees with full operational continuity (250K deliveries/day)
+
+## Target Roles
+
+Senior director positions in supply chain transformation, operational excellence, PMO, or last-mile logistics with European or international scope. Environments where data, innovation, and measurable impact drive strategic decisions.
+
+## Value Proposition
+
+A rare combination of strategic vision, analytical depth, and hands-on execution - equally at home in C-suite program steering and warehouse commissioning. Builds teams, platforms, and processes that outlast the project.

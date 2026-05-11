@@ -13,3 +13,4 @@ desktop.ini
 # Fichiers sensibles
 *.env
 secrets.*
+.mcp.json
