@@ -6,7 +6,7 @@
 - Date d'envoi :
 - Statut : Documents prêts
 - Langue : en 🇺🇸
-- Prochaine action : Personnaliser avec VULCAIN
+- Prochaine action : Relecture manuelle CV + LM, vérifier réseau LinkedIn, puis envoyer
 - Date de relance :
 - Relu et validé manuellement : [ ]
 - Commentaires : Offre LinkedIn jobs/view/4403726648. Dossier recréé à zéro le 11/05/2026. Lien groupe : CMA CGM (candidature active CMA_CGM_ProjectManagement_2026-04 - vérifier cohérence stratégie double candidature même groupe).

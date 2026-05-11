@@ -6,7 +6,7 @@
 - Date d'envoi :
 - Statut : Documents prêts
 - Langue : en 🇺🇸
-- Prochaine action : Personnaliser avec VULCAIN
+- Prochaine action : Relecture manuelle CV + LM, puis envoyer (dossier en attente depuis 27/04 - 14j)
 - Date de relance :
 - Relu et validé manuellement : [ ]
 - Commentaires : Lead via LinkedIn Jobs (job ID 4402373746). Poste Global Project Management Specialist - Customer Care Transformation. Siège Marseille, scope global.
