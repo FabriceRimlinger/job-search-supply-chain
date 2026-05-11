@@ -21,6 +21,14 @@ Lire `agents/prompts/janus.md §Duty 2` et exécuter la checklist complète :
 
 Corriger les anomalies non-ambiguës. Signaler les autres à Fabrice.
 
+**Vérification cohérence documentation** : lire `CLAUDE.md`, `00_README.md` et `agent-index.md` et vérifier :
+
+- Références à des fichiers supprimés ou déplacés
+- Conventions de nommage non reflétées
+- Nouveaux fichiers/dossiers créés en session non documentés
+
+Corriger directement les incohérences non-ambiguës. Signaler les mises à jour de contenu substantielles à Fabrice.
+
 ---
 
 ### Étape 2 — Session-Log
