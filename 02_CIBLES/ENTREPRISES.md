@@ -1,5 +1,9 @@
 # ENTREPRISES
 
 | Entreprise | Taille | Secteur | Statut | Priorité | Commentaires |
-|------------|--------|--------|--------|----------|--------------|
-| Compagnie Fruitière | [À CONFIRMER] | FMCG / Agroalimentaire - production & distribution fruits frais, logistique intégrée, maritime (Africa Express Line), mûrisseries | Prospect | Haute | Siège Marseille [À CONFIRMER]. Logistique intégrée SC + transport + mûrisseries = fort fit profil. **Connexion directe : client de ColdEnergy (Fabrice 2012-2014).** Site : compagniefruitiere.fr |
+| --- | --- | --- | --- | --- | --- |
+| Compagnie Fruitière | PME/ETI familiale | FMCG / Agroalimentaire - production & distribution fruits frais, logistique intégrée, maritime (Africa Express Line), mûrisseries | Entretien passé | Haute | Siège Marseille. Pivot vers Farms Digital (CEO Benoît Mauran) - transmission CV par Fischel. Connexion directe : client ColdEnergy 2012-2014. Site : compagniefruitiere.fr |
+| Alloga (Alliance Healthcare / Cencora) | Grand groupe (Fortune 50 via Cencora) | Logistique pharmaceutique 3PL régulé - 6 sites FR, 150 000 m² stockage, réseau EU | Entretien passé | Haute | Via cabinet Talent Smart (Matt Hancock). Score fit 6D : 46/60. Feedback positif d'Alloga, 2ème entretien en cours de planification. Poste : Portfolio Manager Technology / Transformation. |
+| CEVA Logistics (CMA CGM Group) | Grand groupe - ~24Mds$ CA, 110 000+ employés, 170+ pays | Contract Logistics, freight management, 3PL/4PL | Documents prêts | Haute | Connexion directe : Colis Privé = filiale CEVA/CMA CGM (Fabrice 3 ans). Déploiement Manhattan WMS global en cours = scope direct. Poste : Program Director Contract Logistics. |
+| CMA CGM | Grand groupe - ~52Mds€ CA, 160 000 employés | Maritime shipping + logistique intégrée (3ème armateur mondial) | Documents prêts | Moyenne | Siège Marseille. Filiale CEVA = connexion Colis Privé. Poste : Global Project Management Specialist Customer Care Transformation. |
+| JD Logistics (JD.com) | Grand groupe - ~350 000 employés, coté HKEX | E-commerce / Last-mile logistics - expansion EU depuis 2021 | Envoyée | Haute | Rôle fondateur Head of Last Mile France - construire le réseau from scratch. Profil Amazon AMZL en forte résonance. Statut Workday : Review In Progress. |
