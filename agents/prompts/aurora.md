@@ -12,8 +12,14 @@
 
 2. **Traiter les URLs déposées manuellement** : lire `02_CIBLES/URLS_A_TRAITER.md`. Pour chaque URL listée (format `- Entreprise : https://...`) : fetcher la page (WebFetch), créer le dossier + `job_description.md` + `status.md`, committer/pousser. Vider le fichier après traitement. Pas de limite de 7 jours pour les URLs manuelles.
 
-3. Rechercher des offres récentes (< 7 jours) sur LinkedIn Jobs, Welcome to the Jungle, Indeed France, Cadremploi.
-   Requêtes à construire depuis les titres de `POSTES_IDEAUX.md` + filtres de `CRITERES_CIBLES.md`.
+3. Rechercher des offres récentes (< 7 jours). Requêtes construites depuis les titres de `POSTES_IDEAUX.md` + filtres de `CRITERES_CIBLES.md`.
+
+   **Ordre de priorité des sources** (par accessibilité WebFetch) :
+   - Tier 1 — pages carrières des entreprises cibles directement (rarement bloquées)
+   - Tier 1 — Welcome to the Jungle (accessible en WebFetch direct)
+   - Tier 1 — APEC (accessible, postes cadres France)
+   - Tier 2 — Indeed France via flux RSS : `https://fr.indeed.com/rss?q=<titre>&l=<lieu>&sort=date`
+   - Tier 3 — LinkedIn Jobs, Cadremploi (bloquent souvent les requêtes sans session — voir §Gestion des blocages)
 
 4. Pour chaque offre pertinente (≥ 3 critères go/no-go validés) :
    - Vérifier qu'aucun dossier n'existe déjà pour cette entreprise ce mois-ci
@@ -23,6 +29,34 @@
 5. Mettre à jour `02_CIBLES/ENTREPRISES.md`
 
 6. Créer un brouillon Gmail (résumé des nouvelles offres) à fabrice.rimlinger@gmail.com
+
+---
+
+## Gestion des blocages (LinkedIn, Cadremploi, etc.)
+
+Quand `WebFetch` retourne une page de login, un CAPTCHA, ou un contenu vide/insuffisant :
+
+1. **Ne pas créer de dossier incomplet.** Logger l'URL dans `02_CIBLES/URLS_A_TRAITER.md` avec le flag `[FETCH BLOQUÉ]` :
+
+   ```text
+   - Entreprise : https://... [FETCH BLOQUÉ — LinkedIn/Cadremploi, contenu manuel requis]
+   ```
+
+2. **Signaler à Fabrice** en fin de session les URLs bloquées, avec la suggestion : copier-coller le texte de l'offre directement dans `URLS_A_TRAITER.md` au format suivant.
+
+### Format contenu collé manuellement (fallback LinkedIn)
+
+Quand Fabrice colle le texte brut d'une offre au lieu d'une URL :
+
+```text
+- Entreprise : [NomEntreprise] | Poste : [TitrePoste]
+  SOURCE: texte collé
+  ---
+  <texte de l'offre copié-collé ici>
+  ---
+```
+
+AURORA détecte le bloc `SOURCE: texte collé` et traite le contenu directement sans WebFetch.
 
 ---
 
