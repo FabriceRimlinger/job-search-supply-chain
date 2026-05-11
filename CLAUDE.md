@@ -124,7 +124,7 @@ Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), bro
 ## Conventions de nommage
 
 - Dossiers candidatures : `<Entreprise>_<PosteSlug>_<YYYY-MM>` (ex : `Vinted_SupplyChainDirector_2026-04`)
-- Fiches entretien : `PREP_<Entreprise>_<YYYY-MM-DD>`
+- Fiches entretien : `PREP_<Entreprise>_<YYYY-MM-DD>` — placées dans le dossier candidature correspondant (ex : `03_CANDIDATURES/Alloga_PortfolioManager_2026-04/PREP_Alloga_2026-05-06.md`)
 - Session logs : `session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_JANUS_<slug>.md`
 - Statuts valides : "À traiter" | "Documents prêts" | "Envoyée" | "À relancer" | "Entretien planifié" | "Entretien préparé" | "Entretien passé" | "Refusée" | "Abandonnée" | "Gagnée"
 
@@ -143,4 +143,18 @@ Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), bro
 - Date de relance :
 - Relu et validé manuellement : [ ]
 - Commentaires :
+
+---
+
+## Debrief entretien <N> — <YYYY-MM-DD>
+
+**Intervieweurs** : <Prénom Nom (titre)>
+
+### Impression générale
+### Questions posées
+### Points positifs
+### Points à améliorer
+### Ce que Fabrice a appris sur le poste
 ```
+
+**`05_ENTRETIENS/`** ne contient que les fichiers globaux : `FINAL-REPORT.md` et `PREP_GENERALE.md`. Les fichiers `PREP_<Entreprise>_<YYYY-MM-DD>.md` et les debriefs sont dans le dossier candidature concerné.

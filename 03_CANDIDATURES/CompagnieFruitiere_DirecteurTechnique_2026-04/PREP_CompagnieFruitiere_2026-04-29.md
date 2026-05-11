@@ -41,8 +41,8 @@ LeCozic est DG opérationnel d'une filiale à 96M€ CA. Sa présence signifie q
 1. **"Transit Fruits gère à la fois le maritime et la logistique terrestre depuis Port-Vendres - comment est organisée l'interface avec les opérations mûrisseries du groupe ?"**
    *(Montre qu'on a compris la verticalité du modèle - et ouvre sur le rôle d'interface que Fabrice pourrait jouer)*
 
-2. **"Les perturbations maritimes depuis 2023 (Houthis, disponibilité conteneurs) ont-elles affecté vos rotations AEL sur la ligne Atlantique, ou votre route Afrique de l'Ouest est restée stable ?"**
-   *(La route Afrique de l'Ouest - Europe Atlantique est moins touchée que Suez, mais les coûts d'affrètement ont bougé. Montre qu'on connaît le contexte maritime global)*
+2. **"La crise Houthis/Suez ne touche pas votre route Atlantique directement, mais les coûts d'affrètement reefer et la disponibilité des navires ont bougé globalement depuis 2023 - comment AEL a absorbé ça ?"**
+   *(CF ne passe pas par Suez - toute mention directe des Houthis comme menace CF serait maladroite. En revanche le marché du reefer a été perturbé indirectement. Angle juste : coûts d'affrètement + disponibilité flotte, pas la route elle-même.)*
 
 3. **"Le terminal frigorifique de Port-Vendres - est-ce un projet d'extension en cours, ou l'enjeu est plutôt l'optimisation des 260 000 T existantes ?"**
    *(Ouvre directement sur un chantier potentiel pour Fabrice)*
@@ -219,8 +219,8 @@ Ces questions montrent une lecture de l'environnement externe du groupe - à dos
 - **"L'ouverture à Cracovie en juillet 2024, c'est un pari sur le marché polonais seul, ou est-ce que vous regardez déjà l'Ukraine comme marché potentiel à horizon 3-5 ans ?"**
    *(La reconstruction ukrainienne sera un marché massif dès la fin du conflit. La Pologne est la porte d'entrée naturelle. Montre une lecture géopolitique à moyen terme que peu de candidats auront. Fischel est VP Distribution & Marketing - c'est exactement son registre.)*
 
-- **"Africa Express Line - est-ce que les perturbations sur les routes maritimes mondiales depuis 2023 ont affecté vos rotations, et est-ce que ça a accéléré une réflexion sur la flotte ou les routes ?"**
-   *(Les attaques Houthis en mer Rouge ont désorganisé le shipping mondial. La route Afrique de l'Ouest → Europe (Atlantique) est moins directement touchée que la route Asie → Europe via Suez, mais les coûts d'affrètement et la disponibilité des conteneurs ont été affectés globalement. AEL = filiale maritime propre de CF, c'est un actif stratégique. La question montre qu'on a compris la verticalité du modèle CF.)*
+- **"Africa Express Line - votre route Atlantique ne passe pas par Suez, mais la crise reefer mondiale depuis 2023 a-t-elle pesé sur vos coûts d'affrètement ou la disponibilité des navires, et est-ce que ça a accéléré une réflexion sur la flotte ?"**
+   *(CF ne passe pas par Suez - confirmé sur la carte des activités CF. Ne jamais formuler les Houthis comme une menace directe CF. Angle correct : marché mondial du reefer perturbé indirectement + coûts. AEL = filiale maritime propre, c'est un actif stratégique. La question montre qu'on a compris la verticalité du modèle CF sans commettre d'erreur factuelle.)*
 
 - **"Est-ce que CF regarde les nouvelles variétés résistantes à la Sigatoka pour réduire les traitements fongicides - ou est-ce que la pression réglementaire européenne sur les résidus de pesticides n'est pas encore un sujet dans votre roadmap ?"**
    *(Les règlements EU sur les MRL - Maximum Residue Levels - se durcissent. La Sigatoka noire nécessite de nombreux traitements. Une variété plus résistante = moins de traitements = meilleure conformité réglementaire + réduction de coûts. Angle ESG + compétitivité. Écouter si CF est en avance ou en retard sur ce sujet.)*

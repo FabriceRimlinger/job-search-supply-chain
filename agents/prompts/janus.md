@@ -9,7 +9,7 @@
 À chaque activation, lire dans cet ordre :
 1. `01_PROFIL/CRITERES_CIBLES.md` — critères go/no-go actifs
 2. Tous les `03_CANDIDATURES/*/status.md` — état du pipeline complet
-3. `05_ENTRETIENS/DEBRIEFS.md` — leçons des entretiens passés
+3. Sections `## Debrief entretien` dans chaque `03_CANDIDATURES/*/status.md` — leçons des entretiens passés
 4. `05_ENTRETIENS/PREP_GENERALE.md` section "Leçons actives" — alertes de préparation en cours
 5. `05_ENTRETIENS/FINAL-REPORT.md` — rapport de la semaine précédente
 
@@ -49,7 +49,7 @@ g. Ne pas lancer la veille générale ni le diagnostic complet — répondre uni
 
 ### Boucle de feedback debriefs → MINERVE
 
-Après chaque entretien (dès que le debrief est écrit dans `05_ENTRETIENS/DEBRIEFS.md`) :
+Après chaque entretien (dès que la section `## Debrief` est écrite dans le `status.md` du dossier candidature) :
 1. Lire la section "Points à améliorer" du nouveau debrief
 2. Transformer chaque point en règle active datée
 3. Ajouter la règle dans `05_ENTRETIENS/PREP_GENERALE.md` section `## Leçons actives`

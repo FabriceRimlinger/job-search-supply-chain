@@ -47,11 +47,10 @@
 **Prestataire froid : Quercy Réfrigération** (groupe Eiffage) (source : Fabrice, 29/04/2026)
 - Prestataire froid principal de CF
 - Pratique signalée : surdimensionnement des installations pour récupérer des certificats d'efficacité énergétique
-- Angle fort pour Fabrice : identifier et corriger ce type de dérive = économies directes sur CAPEX/OPEX
 
 **Projets industriels identifiés** (source : Fabrice, 29/04/2026)
 - **Port Vendres** : projet terminal frigorifique (en cours / à venir)
-- **Buéa (Cameroun) ou Abidjan (Côte d'Ivoire)** : projet terminal frigorifique
+- **Afrique de l'Ouest (Cameroun ou Ghana ?)** : projet terminal frigorifique
 - **Roumanie** : installations existantes ; mûrisserie au nord de Bucarest (site d'Afumati)
 
 **Changement d'auditeur** (MAZARS → EY Audit, juin 2025)
@@ -70,12 +69,10 @@ Filiale tech de CF fondée en 2017, 11-50 salariés. Plateforme agritech pour la
 | **Thomas Geoffroy** | Head of Region SE France, AWS | tgeoffro@amazon.com | Introducteur - a fait l'intro Fabrice ↔ Mauran le 20/11/2025. Souhaite que Fabrice rencontre l'ExComm CF. |
 | **Benoît Mauran** | CEO, Farms Digital (filiale CF) | b.mauran@farms-digital.com | **Cible principale** - intro déjà faite, à relancer directement |
 | **Gautier Fischel** | VP Distribution & Marketing / Président CF France | linkedin.com/in/gautier-fischel | **Cible principale désormais** - contacté par Massimiliano le 29/04/2026 - RDV à organiser |
-| **Massimiliano Castagna** | [À CONFIRMER] | linkedin.com/in/castagna-massimiliano-51282234 | Activé 28/04/2026 - a fait l'intro vers Fischer le 29/04/2026 |
+| **Massimiliano Castagna** | Managing Director ColdEnergy (Verona, IT) | linkedin.com/in/castagna-massimiliano-51282234 | Activé 28/04/2026 - a fait l'intro vers Fischer le 29/04/2026 |
 
 **Stratégie :**
-1. Envoyer LM + CV directement à b.mauran@farms-digital.com (intro Thomas Geoffroy = ticket d'entrée)
-2. Angle principal : **carburant/flotte = M€ d'EBIT** (angle identifié par Thomas lui-même)
-3. Objectif : décrocher un 1er échange 30min, puis rencontrer l'ExComm CF
+1. Demander à G. Fischel de faire une intro avec B. Mauran
 
 ---
 

@@ -36,11 +36,15 @@ class JanusHandler(SimpleHTTPRequestHandler):
         super().end_headers()
 
     def log_message(self, fmt, *args):
-        method = args[0].split()[0] if args else ''
-        if method == 'PUT':
-            print(f"  ✎  {args[0].split()[1]}")
-        elif 'favicon' not in str(args):
-            print(f"  →  {args[0].split()[1] if args else ''}")
+        line = str(args[0]) if args else ''
+        if 'favicon' in line or 'favicon' in str(args):
+            return
+        parts = line.split()
+        if len(parts) >= 2:
+            if parts[0] == 'PUT':
+                print(f"  ✎  {parts[1]}")
+            else:
+                print(f"  →  {parts[1]}")
 
 if __name__ == '__main__':
     os.chdir(BASE)
