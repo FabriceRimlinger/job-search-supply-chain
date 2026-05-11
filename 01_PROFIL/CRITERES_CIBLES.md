@@ -18,4 +18,4 @@
 
 - Postes purement opérationnels sans dimension transformation/stratégie
 - Environnements sans culture data ou analytique
-- [À COMPLÉTER selon vos préférences]
+- Postes dont le critère central et éliminatoire est **SAP spécifiquement** (S/4HANA, SAP ERP, SAP Basis) — Fabrice a de l'expérience ERP/WMS/solutions métier (Pomona GPS/ERP, WMS Bargosa, SHIELD, Manhattan WMS context) mais pas sur SAP. Les offres transformation digitale ERP non-SAP restent éligibles.
