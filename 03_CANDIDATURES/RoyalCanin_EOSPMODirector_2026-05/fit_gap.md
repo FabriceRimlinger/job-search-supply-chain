@@ -37,7 +37,7 @@ Le CV ne mentionne pas explicitement Waterfall. Mentionner dans le CV le déploi
 
 ### Points forts sous-utilisés pour ce poste
 
-- **ColdEnergy 2012-2014 : client direct Royal Canin** — anecdote différenciante à placer en LM
+- **Background agronome INP Toulouse + Dole Europe 8 ans** — crédibilité FMCG terrain rare chez un PMO Director, à valoriser en LM
 - **SHIELD = gouvernance programme multi-stakeholders** — analogie directe avec le rôle de "tour de contrôle" EOS
 - **Amazon SC Planning 36-month SOP** — planification intégrée à l'échelle EU, exactement ce que "integrated planning" pilier EOS requiert
 - **Trilingue FR/EN/ES + allemand** — programme global EU, valeur réelle dans un contexte Royal Canin Aimargues/Paris/Londres

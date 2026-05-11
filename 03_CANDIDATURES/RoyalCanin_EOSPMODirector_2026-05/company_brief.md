@@ -13,11 +13,13 @@
 EOS (Enterprise Operating System) = programme de transformation pluriannuel lancé en 2023.
 
 **3 piliers :**
+
 - **Digital Core** : ERP SAP S/4HANA - standardisation radicale des processus end-to-end
 - **Digital Growth** : CRM Salesforce - transformation commerciale
 - **End-to-End Planning** : OMP (One Market Platform) - planification intégrée supply chain
 
 **Objectifs :**
+
 - Digitaliser le modèle opératoire central de Royal Canin à l'échelle mondiale
 - Adopter les best practices SAP CPG Industry Now / EML
 - Réduire les risques de continuité opérationnelle
@@ -37,6 +39,7 @@ EOS (Enterprise Operating System) = programme de transformation pluriannuel lanc
 ## Culture Royal Canin / Mars
 
 **Valeurs Mars :** Quality, Responsibility, Mutuality, Efficiency, Freedom
+
 - Entreprise familiale = horizon long terme, investissement durable, pas de pression trimestrielle
 - "Pet care" = mission avec sens, forte adhésion des collaborateurs
 - Organisation décentralisée mais standards mondiaux rigoureux
@@ -55,11 +58,12 @@ EOS (Enterprise Operating System) = programme de transformation pluriannuel lanc
 | "Disagree and Commit" | Culture Mars : expression du désaccord en amont, adhésion totale une fois décidé |
 | FMCG authentique (Dole, Pomona, ColdEnergy - client RC direct) | Royal Canin valorise la compréhension terrain de la filière agri-food |
 
-## Connexion directe Fabrice ↔ Royal Canin
+## Connexion Fabrice ↔ Royal Canin
 
-- **ColdEnergy 2012-2014** : Fabrice = Owner / Technico-Commercial ColdEnergy France. Client direct : Compagnie Fruitière, Dole, Fruidor - **et mûrisseries Royal Canin** [À CONFIRMER si des contrats RC existent dans les archives ColdEnergy]. A valoriser en LM si confirmé.
-- **Background agronome INP Toulouse** : légitimité native dans la filière FMCG / agri-food
-- **Salesforce dans les outils** : relevance pour le pilier Digital Growth EOS
+- **Background agronome INP Toulouse** : légitimité native dans la filière FMCG / agri-food — crédibilité terrain que la majorité des PMO Director n'ont pas
+- **Dole Europe 8 ans** : mûrisseries, CAPEX industriels, réseau EU 25 sites — secteur adjacent à Royal Canin (banana nutrition animale = même filière agri-food premium)
+- **Salesforce dans les outils** : relevance directe pour le pilier Digital Growth EOS
+- Note : ColdEnergy (2012-2014) n'avait pas de contrat Royal Canin — ne pas utiliser comme angle
 
 ## Actualité récente (2025-2026)
 
