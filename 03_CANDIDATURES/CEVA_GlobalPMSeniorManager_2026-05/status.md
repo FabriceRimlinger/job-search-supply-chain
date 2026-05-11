@@ -4,9 +4,10 @@
 
 - Date de découverte : 2026-05-11
 - Date d'envoi :
-- Statut : À traiter
+- Statut : Documents prêts
 - Langue : fr 🇫🇷
-- Prochaine action : Personnaliser avec VULCAIN
+- Prochaine action : Relecture manuelle CV + LM, vérifier réseau LinkedIn, puis envoyer
+- Score 6D VULCAIN : 42/60 (Candidature avec adaptation)
 - Date de relance :
 - Score réseau LinkedIn : [À VÉRIFIER - connexion indirecte forte via Colis Privé = filiale CEVA/CMA CGM]
 - Pré-score AURORA : GO (localisation ✅ / niveau ✅ / secteur ✅)

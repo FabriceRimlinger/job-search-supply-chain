@@ -4,9 +4,10 @@
 
 - Date de découverte : 2026-05-11
 - Date d'envoi :
-- Statut : À traiter
+- Statut : Documents prêts
 - Langue : fr 🇫🇷 / en 🇬🇧 (bilingue - offre postée en FR et EN)
-- Prochaine action : Personnaliser avec VULCAIN
+- Prochaine action : Relecture manuelle CV + LM - VALIDER la pertinence de candidater (score 30/60)
+- Score 6D VULCAIN : 30/60 (En dessous du seuil "À éviter" - décision Fabrice requise)
 - Date de relance :
 - Score réseau LinkedIn : [À VÉRIFIER]
 - Pré-score AURORA : GO borderline (localisation ✅ remote FR / niveau ✅ Director / secteur ✅ régulé)
