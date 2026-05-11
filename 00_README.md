@@ -1,126 +1,113 @@
 # Recherche Emploi Supply Chain
 
-Ce projet est conçu pour piloter ta recherche d'emploi en supply chain avec une organisation claire, des agents dédiés et un workflow réutilisable.
+Projet de pilotage de la recherche d'emploi de Fabrice Rimlinger en supply chain, orchestré par une équipe de 5 agents IA spécialisés.
 
-## Objectif
+## Les 5 agents
 
-Permettre la gestion complète du cycle de candidature :
-- sourcing des offres
-- qualification des cibles
-- personnalisation des documents
-- suivi des candidatures
-- préparation des entretiens
+| Agent | Rôle | Commande |
+| --- | --- | --- |
+| **JANUS** | Coach & Orchestrateur — actif par défaut | — |
+| **AURORA** | Veille & Sourcing d'offres | `/aurora` |
+| **VULCAIN** | Personnalisation CV / lettre / fit-gap | `/vulcain` |
+| **MINERVE** | Préparation entretiens | `/minerve` |
+| **FIDES** | Suivi pipeline & relances | `/fides` |
+
+Protocoles complets : `agents/prompts/<agent>.md` — table de routage : `agent-index.md`
+
+---
 
 ## Structure du projet
 
 ```
 Recherche Emploi Supply Chain/
-├── 00_README.md                 # Index + workflow
+├── 00_README.md
+├── CLAUDE.md                        # Instructions agents (source de vérité)
+├── agent-index.md                   # Routing table + propriété des fichiers
+├── janus.html                       # Dashboard web local (localhost:8765)
+│
 ├── 01_PROFIL/
-│   ├── CV_MASTER.md             # CV source unique
-│   ├── BIO_EXECUTIVE.md         # Pitch 1 page
-│   ├── REALISATIONS.md          # 10 bullet points clés
-│   └── CRITERES_CIBLES.md       # Go/no-go
+│   ├── CV_MASTER.md                 # CV source unique
+│   ├── BIO_EXECUTIVE.md             # Pitch exécutif 1 page
+│   ├── REALISATIONS.md              # 10 réalisations chiffrées
+│   ├── CRITERES_CIBLES.md           # Critères go/no-go
+│   └── PAPI_PROFIL.md               # Profil de personnalité PAPI-I
+│
 ├── 02_CIBLES/
-│   ├── ENTREPRISES.md           # Tableau cibles
-│   └── POSTES_IDEAUX.md         # Job descriptions types
+│   ├── ENTREPRISES.md               # Pipeline cibles entreprises
+│   ├── POSTES_IDEAUX.md             # Profils de poste ciblés
+│   └── URLS_A_TRAITER.md            # Backlog URLs AURORA
+│
 ├── 03_CANDIDATURES/
-│   ├── TEMPLATE/                # Modèle pour nouvelles
-│   │   ├── job_description.md
-│   │   ├── cv_targeted.md
-│   │   └── cover_letter.md
-│   └── Vinted_2026-04/          # Exemple avec vos candidatures
+│   ├── TEMPLATE/                    # Modèle dossier candidature
+│   └── <Entreprise>_<Poste>_YYYY-MM/
 │       ├── job_description.md
 │       ├── company_brief.md
 │       ├── fit_gap.md
-│       ├── cv_vinted.md
-│       ├── lm_vinted.md
-│       └── status.md
+│       ├── cv_targeted.md
+│       ├── cover_letter.md
+│       ├── status.md                # Statut + debrief entretien(s)
+│       └── PREP_<Entreprise>_YYYY-MM-DD.md   # Fiche entretien (MINERVE)
+│
 ├── 04_RESEAUX/
-│   ├── RECRUTEURS.md            # Tableau contacts
-│   └── MESSAGES_MODELE.md       # Templates LinkedIn/email
+│   ├── RECRUTEURS.md                # Contacts recruteurs
+│   ├── REFERENCES.md                # Références professionnelles
+│   └── MESSAGES_MODELE.md           # Templates LinkedIn/email
+│
 ├── 05_ENTRETIENS/
-│   ├── PREP_GENERALE.md         # Questions communes
-│   └── DEBRIEFS.md              # Notes post-entretien
-├── 06_MARCHE/
-│   └── SYNTHESE_LOGISTIQUE.md   # Tendances, salaires
-└── 99_ARCHIVES/
-    └── README.md               # Archive des dossiers fermés
+│   ├── PREP_GENERALE.md             # Leçons actives + questions types
+│   └── FINAL-REPORT.md              # Rapport hebdomadaire pipeline
+│
+├── INPUT/
+│   ├── raw/                         # Déposer CV/bilan à intégrer ici
+│   └── processed/                   # Fichiers traités par JANUS
+│
+├── session-logs/YYYY/MM/            # Logs de session JANUS
+└── 99_ARCHIVES/                     # Dossiers candidatures fermées
 ```
-
-## Workflow agent
-
-### 1. Préparer le profil central
-
-Fais de `01_PROFIL/CV_MASTER.md` ton CV source unique. Ce document contient toutes tes expériences, compétences et réalisations.
-
-- `BIO_EXECUTIVE.md` : présentation courte et percutante
-- `REALISATIONS.md` : 10 réalisations impactantes en supply chain
-- `CRITERES_CIBLES.md` : impératifs de recherche (localisation, type de contrat, salaire, culture d'entreprise, ...)
-
-### 2. Qualifier le marché et les cibles
-
-- `02_CIBLES/ENTREPRISES.md` : liste des entreprises prioritaires
-- `02_CIBLES/POSTES_IDEAUX.md` : typologies de poste recherchées
-- `06_MARCHE/SYNTHESE_LOGISTIQUE.md` : tendances du marché, attentes RH et fourchettes salariales
-
-### 3. Sourcer les opportunités
-
-Le rôle de l'agent veille est de collecter les annonces, d'identifier les cibles pertinentes et d'alimenter `03_CANDIDATURES/TEMPLATE/job_description.md`.
-
-### 4. Personnaliser les candidatures
-
-L'agent personnalisation prend en entrée la fiche poste, ton CV source et ton pitch exécutif pour produire :
-
-- `cv_targeted.md`
-- `cover_letter.md`
-- `fit_gap.md`
-- `company_brief.md`
-
-Pour chaque nouvelle candidature, crée un dossier dédié sous `03_CANDIDATURES/`.
-
-### 5. Suivre les candidatures
-
-Crée un fichier `status.md` dans chaque dossier de candidature pour suivre :
-- statut (envoyée, relancée, entretien, refusée, gagnée)
-- prochains pas
-- date de relance
-
-Mets à jour `04_RESEAUX/RECRUTEURS.md` avec les contacts de recruteurs et `MESSAGES_MODELE.md` avec les messages de relance ou d'approche.
-
-### 6. Préparer et capitaliser sur les entretiens
-
-- `05_ENTRETIENS/PREP_GENERALE.md` : questions types, argumentaire, pitch
-- `05_ENTRETIENS/DEBRIEFS.md` : retours après entretien et points d'amélioration
-
-### 7. Archiver et optimiser
-
-- `99_ARCHIVES/README.md` : conserver les candidatures closes et les versions historiques de documents
-- Archive les dossiers de candidatures non retenues ou terminées pour garder le workspace propre
-
-## Rôle des agents
-
-### Agent veille & sourcing
-Responsable de la recherche active d'offres, du filtrage selon tes critères et de la première qualification.
-
-### Agent personnalisation
-Responsable de l'adaptation du contenu de candidature aux attentes de chaque annonce.
-
-### Agent préparation entretien
-Responsable de la préparation spécifique au poste, des simulations d'entretien et de la capitalisation post-entretien.
-
-### Agent organisation / suivi
-Responsable de l'état des candidatures, du suivi des relances et de la mise à jour des contacts.
-
-## Mode d'emploi rapide
-
-1. Mets à jour `01_PROFIL/*`
-2. Identifie les cibles dans `02_CIBLES/*`
-3. Récupère une annonce et remplis `03_CANDIDATURES/TEMPLATE/job_description.md`
-4. Génère un dossier de candidature ciblée
-5. Note l'état dans `status.md`
-6. Prépare l'entretien et écris le debrief
 
 ---
 
-Ce README est ton guide central pour organiser une recherche d'emploi structurée en supply chain. Reviens-y à chaque étape pour garder le processus aligné et efficace.
+## Workflow
+
+### 1. Profil central
+`01_PROFIL/CV_MASTER.md` est la source unique. Tous les documents de candidature en sont extraits — jamais modifiés directement.
+
+Pour intégrer un nouveau CV ou bilan : déposer dans `INPUT/raw/` puis demander à JANUS de construire le profil.
+
+### 2. Sourcer les offres — AURORA
+
+- Veille automatique lun-ven
+- Dépôt manuel d'URLs dans `02_CIBLES/URLS_A_TRAITER.md`
+- AURORA qualifie, crée le dossier dans `03_CANDIDATURES/`, met à jour `ENTREPRISES.md`
+
+### 3. Personnaliser — VULCAIN
+
+- Score fit 6D (score/60)
+- Produit `cv_targeted.md`, `cover_letter.md`, `fit_gap.md`, `company_brief.md`
+- Si score ≥ 45 + validé manuellement : notifie MINERVE
+
+### 4. Suivre — FIDES
+
+- Dashboard pipeline bi-hebdomadaire (lun + jeu)
+- Relances automatiques (max 2)
+- Brouillons Gmail
+- Alimente `05_ENTRETIENS/FINAL-REPORT.md` (pipeline brut — JANUS complète l'analyse)
+
+### 5. Préparer les entretiens — MINERVE
+
+- Fiche `PREP_<Entreprise>_YYYY-MM-DD.md` dans le dossier candidature
+- Simulation d'entretien
+- Debrief → section `## Debrief entretien` dans `status.md` → JANUS met à jour `PREP_GENERALE.md §Leçons actives`
+
+### 6. Orchestrer — JANUS
+
+- Interlocuteur par défaut à chaque session
+- Librarian : contrôle structurel à chaque clôture
+- Session-log : `session-logs/YYYY/MM/YYYY-MM-DD-HH-MM_JANUS_<slug>.md`
+- Commande `/close-session` pour clôturer
+
+---
+
+## Statuts valides
+
+`À traiter` | `Documents prêts` | `Envoyée` | `À relancer` | `Entretien planifié` | `Entretien préparé` | `Entretien passé` | `Refusée` | `Abandonnée` | `Gagnée`
