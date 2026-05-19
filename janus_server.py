@@ -4,7 +4,7 @@
 import os, sys
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-PORT = 8765
+PORT = 8766
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 class JanusHandler(SimpleHTTPRequestHandler):
