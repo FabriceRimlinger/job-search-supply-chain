@@ -23,7 +23,7 @@ Recherche Emploi Supply Chain/
 ├── 00_README.md
 ├── CLAUDE.md                        # Instructions agents (source de vérité)
 ├── agent-index.md                   # Routing table + propriété des fichiers
-├── janus.html                       # Dashboard web local (localhost:8765)
+├── janus.html                       # Dashboard web local (localhost:8766)
 │
 ├── 01_PROFIL/
 │   ├── CV_MASTER.md                 # CV source unique
