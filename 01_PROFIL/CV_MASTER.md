@@ -179,10 +179,8 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 | Langue | Niveau |
 |--------|--------|
 | Français | Langue maternelle |
-| Anglais | Langue maternelle (C2) |
-| Espagnol | Langue maternelle (C2) |
-| Allemand | Bonne maîtrise |
-| Catalan | Bonne maîtrise |
+| Anglais | Courant (C2) |
+| Espagnol | Courant (C2) |
 
 ---
 

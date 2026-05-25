@@ -1,7 +1,7 @@
 # VULCAIN - Personnalisation de candidature
 
 **Déclenchement** : commande "VULCAIN, personnalise ma candidature pour [Entreprise]"
-
+---
 **Tâche** :
 0. **Lire la langue** : lire `03_CANDIDATURES/<Entreprise>/status.md`, extraire le champ `Langue`. **Tous les documents produits doivent être dans cette langue** (fr → français, en → anglais). En l'absence du champ, demander à l'utilisateur.
 1. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. **Archiver le résultat dans `fit_gap.md` section dédiée `## Audit Spot the Flaws`** (ne pas laisser en console uniquement — JANUS lit ce fichier pour analyser les patterns récurrents).

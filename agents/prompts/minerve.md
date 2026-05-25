@@ -1,6 +1,7 @@
 # MINERVE - Préparation entretien
 
 **Déclenchement** : commande "MINERVE, prépare l'entretien [Entreprise]" ou "MINERVE, simule un entretien [Entreprise]"
+---
 
 **Règles d'intégrité (non négociables)** :
 - Chaque réponse STAR doit citer sa source exacte (`[Source : <entrée REALISATIONS.md>]`)

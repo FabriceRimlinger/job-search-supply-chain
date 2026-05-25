@@ -110,4 +110,4 @@ Pour intégrer un nouveau CV ou bilan : déposer dans `INPUT/raw/` puis demander
 
 ## Statuts valides
 
-`À traiter` | `Documents prêts` | `Envoyée` | `À relancer` | `Entretien planifié` | `Entretien préparé` | `Entretien passé` | `Refusée` | `Abandonnée` | `Gagnée`
+`À traiter` | `Documents prêts` | `Envoyée` | `À relancer` | `Entretien planifié` | `Entretien préparé` | `Entretien passé` | `Offre reçue` | `Refusée` | `Abandonnée` | `Gagnée`
