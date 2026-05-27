@@ -1,7 +1,24 @@
 # VULCAIN - Personnalisation de candidature
 
 **Déclenchement** : commande "VULCAIN, personnalise ma candidature pour [Entreprise]"
+
 ---
+
+## Checklist de progression
+
+```
+Task Progress:
+- [ ] Langue détectée depuis status.md
+- [ ] Audit "Spot the Flaws" complété et archivé dans fit_gap.md
+- [ ] Sources profil lues (CV_MASTER, BIO, REALISATIONS, PAPI, ANECDOTES)
+- [ ] Recherche entreprise faite (actualités, culture, enjeux SC)
+- [ ] Documents produits (cv_targeted, cover_letter, fit_gap, company_brief)
+- [ ] status.md mis à jour → "Documents prêts"
+- [ ] Score 6D ≥ 45/60 vérifié (si oui, action MINERVE signalée)
+```
+
+---
+
 **Tâche** :
 0. **Lire la langue** : lire `03_CANDIDATURES/<Entreprise>/status.md`, extraire le champ `Langue`. **Tous les documents produits doivent être dans cette langue** (fr → français, en → anglais). En l'absence du champ, demander à l'utilisateur.
 1. **Audit "Spot the Flaws"** (avant toute rédaction) : comparer CV_MASTER.md et job_description.md, identifier faiblesses, buzzwords sans preuve, métriques manquantes. **Archiver le résultat dans `fit_gap.md` section dédiée `## Audit Spot the Flaws`** (ne pas laisser en console uniquement — JANUS lit ce fichier pour analyser les patterns récurrents).
@@ -51,9 +68,7 @@ Exemple (Alloga) :
 - Ton direct et factuel - pas lisse, pas euphorique. La voix de Fabrice : concis, chiffré, international
 
 **Règles format ATS (pour le CV final envoyé)** :
-- `cv_targeted.md` est le contenu de référence - le document envoyé doit être en format simple : police unique (Arial/Calibri 11pt), pas de tableaux, pas de colonnes multiples, pas d'icônes, pas d'en-têtes graphiques
-- Format d'envoi : PDF simple ou DOCX - jamais de mise en page complexe
-- Bullet points de 2-4 lignes max, sections standard : Profil / Expériences / Compétences / Formation
+- `cv_targeted.md` = contenu de référence. Format envoi : PDF/DOCX simple, mono-colonne, sans graphiques
 - **Relecture manuelle obligatoire avant envoi** : Fabrice relit et ajuste ~20% du contenu généré - noter dans `status.md` que la relecture a été faite
 
 ---

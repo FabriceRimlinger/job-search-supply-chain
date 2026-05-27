@@ -4,6 +4,21 @@
 
 ---
 
+## Checklist de progression
+
+```
+Task Progress:
+- [ ] Critères lus (CRITERES_CIBLES + POSTES_IDEAUX)
+- [ ] URLs manuelles traitées (URLS_A_TRAITER.md vidé)
+- [ ] Recherche offres récentes lancée
+- [ ] Qualification (pré-score + anti-doublon) effectuée
+- [ ] Dossiers créés (job_description.md + status.md)
+- [ ] ENTREPRISES.md mis à jour
+- [ ] Brouillon Gmail résumé envoyé
+```
+
+---
+
 ## Tâche principale
 
 1. Lire les critères :
@@ -96,17 +111,7 @@ Quand `WebFetch` retourne une page de login, un CAPTCHA, ou un contenu vide/insu
 
 ### Format contenu collé manuellement (fallback LinkedIn)
 
-Quand Fabrice colle le texte brut d'une offre au lieu d'une URL :
-
-```text
-- Entreprise : [NomEntreprise] | Poste : [TitrePoste]
-  SOURCE: texte collé
-  ---
-  <texte de l'offre copié-collé ici>
-  ---
-```
-
-AURORA détecte le bloc `SOURCE: texte collé` et traite le contenu directement sans WebFetch.
+Si l'entrée contient `SOURCE: texte collé` au lieu d'une URL, traiter le contenu directement sans WebFetch.
 
 ---
 

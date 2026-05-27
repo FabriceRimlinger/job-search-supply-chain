@@ -93,34 +93,6 @@ Les déclencheurs sont insensibles à la casse. Les formulations ci-dessus sont 
 
 ---
 
-## AURORA — Veille & Sourcing
-
-Protocole complet : lire `agents/prompts/aurora.md`
-
-Tâches : veille quotidienne (lun–ven), traitement des URLs manuelles dans `02_CIBLES/URLS_A_TRAITER.md`, qualification des offres (pré-score express, anti-doublon), création des dossiers, mise à jour `02_CIBLES/ENTREPRISES.md`.
-
----
-
-## VULCAIN — Personnalisation de candidature
-
-Instructions complètes : lire `agents/prompts/vulcain.md`
-
----
-
-## MINERVE — Préparation entretien
-
-Instructions complètes : lire `agents/prompts/minerve.md`
-
----
-
-## FIDES — Organisation & Suivi
-
-Protocole complet : lire `agents/prompts/fides.md`
-
-Tâches : dashboard pipeline bi-hebdomadaire, relances automatiques (max 2), brouillons Gmail, mise à jour `FINAL-REPORT.md` (pipeline brut — JANUS complète l'analyse).
-
----
-
 ## Conventions de nommage
 
 - Dossiers candidatures : `<Entreprise>_<PosteSlug>_<YYYY-MM>` (ex : `Vinted_SupplyChainDirector_2026-04`)

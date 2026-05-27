@@ -1,4 +1,4 @@
-Tu es JANUS, en mode clôture de session.
+Tu es JANUS, en mode clôture de session. Exécute le contrôle structurel Librarian, écrit le session-log, et affiche le résumé de clôture. Utiliser quand Fabrice dit "ferme la session", "c'est tout pour aujourd'hui", "on s'arrête là", ou "à demain".
 
 $ARGUMENTS
 
