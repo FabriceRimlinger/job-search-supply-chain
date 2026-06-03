@@ -6,19 +6,43 @@
 - Date d'envoi : 2026-06-01
 - Statut : Offre reçue
 - Langue : en 🇺🇸
-- Prochaine action : Valider TJM 900€/j avec Matt Hancock — confirmer date de démarrage (8-15 juin)
-- Date de relance : 2026-06-04
+- Prochaine action : Formalisation contrat de portage Kiwee ↔ Talent Smart
+- Date de relance : 2026-06-09 (démarrage)
 - Score réseau LinkedIn : 1er degré (Matt Hancock — Talent Smart, contact actif)
 - Score fit 6D : 45/60
 - Relu et validé manuellement : [x]
-- Commentaires : Lead via Matt Hancock (Talent Smart) — même recruteur que Alloga_PortfolioManager_2026-04. Échange téléphonique le 01/06 avant envoi de l'email. TJM 900€/j, 3j/semaine, 6 mois, Marseille. Mission freelance acceptée par Fabrice.
+- Commentaires : Lead via Matt Hancock (Talent Smart) — même recruteur que Alloga_PortfolioManager_2026-04. Échange téléphonique le 01/06 avant envoi de l'email. Mission freelance acceptée par Fabrice.
+
+**Conditions contractuelles confirmées par Matt Hancock (03/06/2026) :**
+- Démarrage : mardi 9 juin 2026
+- Durée : 3 mois initialement, rolling (ex-6 mois — changement à noter)
+- TJM : 850€/j (accepté)
+- Rythme : 5j/semaine — dont 3j minimum en présentiel bureau Alloga Marseille (ex-3j/sem dans email Matt Hancock — clarification post-email)
+- Contact onboarding : Sarah Wysockyj — sarah.wysockyj@talent-smart.co.uk (Head of Administration, Talent Smart) — cc Matt Hancock
+- Démarrage confirmé : 9 juin 2026
+
+**Documents requis pour onboarding Talent Smart :**
+- [ ] Full name + middle names
+- [ ] Full address
+- [ ] DOB
+- [ ] Nationality
+- [ ] Right to work / Photo ID (passeport ou permis de conduire) + proof of address
+- [ ] Limited Company bank details
+- [ ] Limited Company Certificate
+- [ ] Valid Insurance Certificates (RC Pro)
+- [ ] Confirmation of contact details
+- [ ] 2 références : (1) Bernard de Guillebon ✓ — (2) Roberto Gonzales (AMZL Head of Expansion EU, Amazon) ✓
+
+**Contact Kiwee (portage salarial) :**
+- Marion Warnery — mwarnery@kiwee.services — +33 6 58 54 57 73
+- Statut (03/06) : contactée, mise en relation directe avec Talent Smart pour échange contractuel
 
 **Contacts Alloga / Cencora identifiés :**
 - Mamoudou Traore — Head of TSFM Delivery (Alloga) — rencontré mai 2026 entretien Portfolio Manager
 - Mercedes Garcia — Senior Programme Manager (Alloga) — rencontrée mai 2026 entretien Portfolio Manager
 - Jeremy Ehlers — Chief Information Officer / Senior Director / Technology Advisor & Mentor (Alloga) — entretien 03/06/2026, très positif, proposition mission formulée en séance
 - Baptiste — leader junior PM team Marseille (prénom uniquement, titre à confirmer) — cible principale coaching mission
-- Matt Broadway — Head of IT Products & Delivery (Cencora groupe, UK) — meeting prévu 04/06/2026. Profil IT delivery / applications / ERP. Côté Cencora groupe, pas opérationnel Alloga Marseille. linkedin.com/in/mattbroadway
+- Matt Broadway — Head of IT Products & Delivery (Cencora groupe, UK) — "Matt2" — meeting 04/06/2026. Profil IT delivery / applications / ERP. Côté Cencora groupe, pas opérationnel Alloga Marseille. linkedin.com/in/mattbroadway
 - Philippe Suet — Directeur des opérations / Relation clients / Formation — Dir. Customer Service Colis Privé jusqu'à août 2023, puis Cencora (2ème degré LinkedIn). **NE PAS CONTACTER** — contentieux potentiel avec Colis Privé.
 - Thierry Labadan — Responsable d'Exploitation Colis Privé en 2014 — connexion CP ancienne (2ème degré LinkedIn). Rôle actuel à confirmer.
 
@@ -73,9 +97,7 @@ Situation depuis 9 mois — équipe marseillaise en sous-performance :
 
 ### Prochaines étapes
 
-1. **Kiwee (portage salarial)** : contacter Kiwee pour ouvrir le dossier — conditions portage sur TJM 900€/j, 3j/semaine, 6 mois. Nécessaire avant signature contrat client. [BLOQUANT]
-2. **Meeting Matt2 (Alloga team, à identifier)** — 2026-06-04 [titre/rôle à confirmer]
-3. Matt Hancock confirme les conditions formelles (TJM, contrat) — relance 04/06
-3. Fabrice confirme date de démarrage (8 ou 15 juin)
-4. Demander accès gouvernance existante avant J+1 (docs, RACI, outils)
-5. Plan 30/60/90 jours rédigé → voir `PLAN_30_60_90.md`
+1. **Formalisation contrat de portage** : Kiwee ↔ Talent Smart en cours — attendre retour Marion Warnery [BLOQUANT]
+2. **Meeting Matt Broadway (Matt2)** — 04/06/2026 — Head of IT Products & Delivery, Cencora groupe UK
+3. Demander accès gouvernance existante avant J+1 (docs, RACI, outils)
+4. Plan 30/60/90 jours rédigé → voir `PLAN_30_60_90.md`

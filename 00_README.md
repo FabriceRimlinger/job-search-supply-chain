@@ -57,6 +57,9 @@ Recherche Emploi Supply Chain/
 │   ├── PREP_GENERALE.md             # Leçons actives + questions types
 │   └── FINAL-REPORT.md              # Rapport hebdomadaire pipeline
 │
+├── 06_ADMIN/                        # Pièces administratives fréquentes (contrats, portage, onboarding)
+│   └── README.md                    # Inventaire + documents manquants
+│
 ├── INPUT/
 │   ├── raw/                         # Déposer CV/bilan à intégrer ici
 │   └── processed/                   # Fichiers traités par JANUS
