@@ -294,6 +294,36 @@ Formation et adoption de SHIELD. *"Fabrice has transformed and grown the due dil
 
 ---
 
+## INSIST ON THE HIGHEST STANDARDS / HIRE AND DEVELOP
+
+### Anecdote - Amazon Transportation Tech : gouvernance PM team (2014-2016)
+**Tags** : #insist-standards #hire-develop #deliver-results · #amazon · #change-management #tool-build · #pm · #eu #multi-country · #logistics #last-mile · #non-amazon
+**Source** : Fabrice (session 2026-06-01)
+
+**S** : Head of Transportation Technology, Amazon South EU (2014-2016). Équipe de 5 PMs gérant l'onboarding des transporteurs (FR, IT, ES). Chaque PM travaillait à sa façon — pas de framework commun, pas de milestone tracking, pas de gouvernance formalisée.
+
+**T** : Structurer les façons de travailler de l'équipe PM pour garantir la cohérence des intégrations et la traçabilité des projets.
+
+**A** : Construit de zéro un framework de gouvernance : structure de milestones, validation gates, tracker de suivi de la phase budgétaire jusqu'à la livraison des deliverables + handover formel aux opérations logistiques. Déployé avec les PMs via coaching individuel, présence aux réunions projet, co-construction des artefacts.
+
+**R** : Toute l'équipe PM travaillait selon le même framework — du budget au handover ops. Traçabilité totale des projets d'intégration. **Anecdote idéale pour rôle PMO/Change Lead.**
+
+---
+
+### Anecdote - Amazon Real Estate : structuration équipe 3 → 10 (2018-2019)
+**Tags** : #insist-standards #hire-develop #invent-simplify · #amazon · #change-management #tool-build · #pm #team-10 · #emea · #real-estate #regulated · #non-amazon
+**Source** : Fabrice (session 2026-06-01)
+
+**S** : Head of Technical DD, Amazon EMEA. Équipe passée de 3 à 10 personnes en 3 mois. Aucun système structuré — chacun travaillait sur ses propres Excel.
+
+**T** : Construire un système de gouvernance scalable permettant l'onboarding rapide et la cohérence des livrables.
+
+**A** : Conçu de zéro : rituels hebdomadaires et mensuels, trackers projets, préparation des réunions stakeholders, deliverables formalisés à chaque milestone. Coaching individuel de chaque nouveau membre jusqu'à adoption complète.
+
+**R** : Équipe de 10 opérationnelle avec gouvernance uniforme — base qui a rendu SHIELD possible. **Utiliser en complément de SHIELD pour montrer la dimension "structuration d'équipe PM".**
+
+---
+
 ## Index rapide - Anecdotes polyvalentes
 
 | Anecdote | LPs couverts | Impact chiffré | Idéal pour |
@@ -303,5 +333,7 @@ Formation et adoption de SHIELD. *"Fabrice has transformed and grown the due dil
 | **550k€ Colis Privé** | Deliver · Frugality · Invent | 550k€/an, -40% tâches | Postes opérations/coûts |
 | **15 stations AMZL** | Deliver · Ownership · Think Big | 15 sites, 2 pays, 2 ans | Postes expansion/programme |
 | **Milee 300 employés** | Bias · Ownership · Deliver | 300p intégrés, 0 disruption | M&A, transformation |
+| **Transpo Tech PM governance** | Standards · Hire-Develop · Deliver | Framework PM complet, onboarding carriers | **PMO/Change Lead — équipe PM IT** |
+| **Real Estate 3→10** | Standards · Hire-Develop · Invent | Scaling x3.3 en 3 mois, 0 perte de cohérence | **PMO/Change Lead — structuration équipe** |
 
 **Pour entretiens non-Amazon** : remplacer "Andon cord" → "j'ai stoppé le lancement", "ATROPS" → "le système de routage des colis", "associates" → "équipes".
