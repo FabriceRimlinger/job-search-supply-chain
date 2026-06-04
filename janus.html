@@ -204,7 +204,11 @@ header .btn { color:var(--surface); border:none; padding:6px 12px; border-radius
 #langDialog .lang-opt span { display:block; font-size:11px; color:var(--muted); margin-top:4px; font-weight:600; }
 
 /* ── Log panel ───────────────────────────────────────────────────── */
-.log-panel { height:180px; background:var(--surface); border-top:1px solid var(--border); display:flex; flex-direction:column; flex-shrink:0; }
+.log-panel { height:180px; overflow:hidden; transition:height .2s ease; background:var(--surface); border-top:1px solid var(--border); display:flex; flex-direction:column; flex-shrink:0; }
+.log-panel.collapsed { height:38px; }
+.log-panel.collapsed .log-filter,.log-panel.collapsed .log-actions { display:none; }
+.log-toggle { background:none; border:none; cursor:pointer; color:var(--muted); font-size:14px; padding:0 4px; transition:transform .2s; line-height:1; }
+.log-panel.collapsed .log-toggle { transform:rotate(-90deg); }
 .log-hdr { padding:7px 16px; font-size:10px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; }
 .log-hdr span { color:var(--text); font-size:12px; font-weight:600; text-transform:none; letter-spacing:0; }
 .log-filter { padding:3px 10px; border:1px solid var(--border); border-radius:99px; font-size:12px; outline:none; background:var(--bg); color:var(--text); }
@@ -314,6 +318,7 @@ table.log tr:hover td { background:var(--bg); }
 
 <div class="log-panel">
   <div class="log-hdr">
+    <button class="log-toggle" onclick="toggleLog()" title="Réduire / Agrandir">▾</button>
     <span>Journal des modifications</span>
     <input class="log-filter" id="logFilter" type="text" placeholder="Filtrer par fichier, auteur, note..." oninput="renderLog()">
     <div class="log-actions">
@@ -1018,6 +1023,7 @@ function renderLog() {
   }).join('');
 }
 function clearLog(){if(!confirm('Effacer tout l\'historique ?'))return;saveLD([]);renderLog();showToast('Journal effacé');}
+function toggleLog(){const c=document.querySelector('.log-panel').classList.toggle('collapsed');try{localStorage.setItem('logCollapsed',c?'1':'0');}catch(e){}}
 function exportLog(){
   const log=getLog();if(!log.length){showToast('Aucune entrée');return;}
   const rows=[['Date','Heure','Auteur','Dossier','Fichier','Δ','Note']];
@@ -1041,6 +1047,7 @@ document.addEventListener('keydown',e=>{
 });
 
 renderLog();
+if (localStorage.getItem('logCollapsed')==='1') document.querySelector('.log-panel').classList.add('collapsed');
 if (window.location.protocol.startsWith('http')) openDirectory();
 </script>
 </body>
