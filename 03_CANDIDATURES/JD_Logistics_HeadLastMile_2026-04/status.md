@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-03-23
 - Date d'envoi : 2026-03-23
-- Statut : Envoyée
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Attendre retour JD - statut "Review In Progress" confirmé sur Workday
 - Date de relance : 2026-05-04 (si toujours pas de contact d'ici là)

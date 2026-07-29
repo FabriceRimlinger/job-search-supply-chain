@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-27
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Relecture manuelle CV + LM, puis envoyer (dossier en attente depuis 27/04 - 14j)
 - Date de relance :

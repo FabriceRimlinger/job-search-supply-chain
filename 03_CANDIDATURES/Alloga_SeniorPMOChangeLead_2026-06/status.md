@@ -4,10 +4,10 @@
 
 - Date de découverte : 2026-06-01
 - Date d'envoi : 2026-06-01
-- Statut : Offre reçue
+- Statut : Gagnée
 - Langue : en 🇺🇸
-- Prochaine action : Formalisation contrat de portage Kiwee ↔ Talent Smart
-- Date de relance : 2026-06-09 (démarrage)
+- Prochaine action : Mission en cours — suivi CRA mensuel Kiwee
+- Date de démarrage mission : 2026-06-09
 - Score réseau LinkedIn : 1er degré (Matt Hancock — Talent Smart, contact actif)
 - Score fit 6D : 45/60
 - Relu et validé manuellement : [x]

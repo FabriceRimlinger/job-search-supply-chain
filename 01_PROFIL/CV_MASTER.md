@@ -20,6 +20,13 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 
 ## Expériences professionnelles
 
+### Senior PMO & Change Lead - Alloga *(filiale Alliance Healthcare / Groupe Cencora)*
+**06/2026 – en cours | Marseille, France**
+- Mission de transformation organisationnelle : ancrage de nouvelles pratiques PMO et changement des méthodes de travail au sein des équipes IT et projets
+- Coaching individuel des leaders projet : milestone tracking, reportings stakeholders, gouvernance delivery, accountability
+- Conception et déploiement d'artefacts de gouvernance calibrés sur les standards IT Cencora groupe (UK)
+- Animation des rituels de pilotage et accompagnement du changement par présence terrain ("hearts and minds" leadership)
+
 ### Director Business Excellence - Colis Privé *(filiale CEVA Logistics / Groupe CMA CGM)*
 **05/2024 – 02/2026 | Marseille, France**
 *Livraisons B2C de colis ; 375 M€ CA ; 90+ millions de colis/an ; 250 à 300k colis/jour | 5 Hubs / 25 Stations / 27 satellites ; >1k employés ; >4k chauffeurs sous contrat ; >6k points relais*

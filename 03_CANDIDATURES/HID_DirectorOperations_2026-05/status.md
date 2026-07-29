@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-05-11
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Relecture manuelle CV + LM - VALIDER la pertinence de candidater (score 31/60)
 - Score 6D VULCAIN : 31/60 (En dessous du seuil "À éviter" - décision Fabrice requise)

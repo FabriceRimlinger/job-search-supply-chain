@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-05-25
 - Date d'envoi : 2026-05-25
-- Statut : Envoyée
+- Statut : Abandonnée
 - Langue : fr 🇫🇷
 - Prochaine action : Relance si pas de réponse sous 7-10 jours (vers 2026-06-04)
 - Date de relance : 2026-06-04

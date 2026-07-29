@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-05-11
 - Date d'envoi :
-- Statut : Documents prêts
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Prochaine action : Relecture manuelle CV + LM, vérifier réseau LinkedIn, puis envoyer
 - Date de relance :

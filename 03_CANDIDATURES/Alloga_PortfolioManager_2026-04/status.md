@@ -4,7 +4,7 @@
 
 - Date de découverte : 2026-04-17
 - Date d'envoi : 2026-04-19 (CV envoyé à Matt Hancock / Talent Smart)
-- Statut : Entretien passé
+- Statut : Abandonnée
 - Langue : en 🇺🇸
 - Date d'entretien 1 : 2026-05-06 à 11:30 (Teams) - avec Mamoudou Traore (Head of TSFM Delivery) et Mercedes Garcia (Senior Programme Manager)
 - Prochaine action : Attendre la planification du 2ème entretien par Matt Hancock
