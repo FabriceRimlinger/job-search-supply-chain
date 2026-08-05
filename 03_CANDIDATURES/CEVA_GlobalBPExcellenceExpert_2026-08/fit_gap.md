@@ -17,6 +17,13 @@
 
 Le fit culturel et sectoriel est le plus fort de tout le pipeline (continuité directe Colis Privé → CEVA groupe), mais le score global est tiré vers le bas par l'écart de niveau (Expert vs Director) et l'absence de certification Lean/Six Sigma formelle. Le réseau interne (ex-collègues Colis Privé, hiring manager 2ème degré) peut compenser ce score en accélérant l'accès à un entretien malgré le score sous 45.
 
+## Audit Spot the Flaws
+
+- **Lean/Six Sigma** : non mentionné dans cv_targeted comme compétence certifiée - la section "Key Skills" présente "Continuous improvement" et l'automatisation réelle (RPA, AI forecasting) sans revendiquer le vocabulaire Lean/Six Sigma que Fabrice ne détient pas formellement.
+- **WMS Matrix** : non revendiqué. Le CV mentionne Manhattan WMS et la conception d'un WMS code-barres (Bargosa) - expérience WMS réelle mais pas sur l'outil spécifique demandé.
+- **Titre "Expert" vs "Director"** : CV_MASTER conserve le titre Director - le profil et la LM assument la continuité de groupe (Colis Privé → CEVA) comme argument principal plutôt que de minimiser le niveau hiérarchique.
+- **Réseau interne** : hypothèse de contacts Colis Privé/CEVA non vérifiée formellement dans ce dossier - renvoi vers les dossiers CEVA antérieurs (05/2026) où des contacts ont pu être cartographiés, à vérifier avant envoi plutôt qu'affirmé ici.
+
 ## Gaps identifiés (à ne pas combler par invention)
 
 - Pas de certification Lean/Six Sigma - ne pas l'inventer, positionner sur la pratique réelle (amélioration continue, RPA, data-driven decision making) sans revendiquer le vocabulaire certifié.
