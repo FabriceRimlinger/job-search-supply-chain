@@ -17,6 +17,13 @@
 
 Meilleur score des candidatures en cours. Le retour chez Amazon capitalise sur 10 ans d'historique et une culture parfaitement connue. Le seul vrai gap est lexical/positionnement : le CV doit expliciter la compétence "fleet" (véhicules, capacité, pool management) qui existe dans le parcours de Fabrice mais n'est pas nommée ainsi - notamment via Pomona (600 camions équipés GPS), Dole (vessel scheduling, terminaux portuaires), et la supervision des équipements de stations AMZL.
 
+## Audit Spot the Flaws
+
+- **Mot-clé "fleet"** : absent du CV_MASTER original. Intégré dans le hook et le profil du cv_targeted via les expériences réelles (équipements stations AMZL, vessel scheduling Dole, GPS Pomona) - reformulation lexicale, pas invention d'expérience.
+- **Langue italienne** : tentative initiale d'ajouter "notions d'italien (2 ans à Milan)" dans cv_targeted - retirée après vérification, CV_MASTER ne liste que FR/EN/ES. Résidence à Milan ne prouve pas la compétence linguistique déclarée.
+- **Qualification préférée "Fleet Management experience"** : non revendiquée comme expérience directe - le cv_targeted présente des expériences adjacentes nommées explicitement comme telles (équipements, vessel scheduling), sans requalifier ces rôles en "Fleet Manager".
+- **Rémunération** : non mentionnée en LM, à clarifier en entretien uniquement.
+
 ## Gaps identifiés (à ne pas combler par invention)
 
 - Pas de titre "Fleet Manager" formel dans le parcours - à présenter comme compétence transverse démontrée, pas comme un intitulé de poste antérieur.
