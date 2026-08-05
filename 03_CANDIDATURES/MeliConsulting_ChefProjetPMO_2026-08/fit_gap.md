@@ -21,6 +21,14 @@ Match de compétences solide, mais écart de niveau hiérarchique significatif (
 
 **Recommandation** : à traiter comme candidature secondaire (score modéré, sous le seuil de priorité ≥45 utilisé pour Shiftmove). Clarifications à obtenir avant envoi si possible : (1) niveau réel de séniorité attendu et rattachement hiérarchique, (2) type de contrat (CDI Meli Consulting vs mission), (3) fourchette de rémunération.
 
+## Audit Spot the Flaws
+
+- **Titre CV vs titre poste** : CV_MASTER affiche "Director" - conservé tel quel dans cv_targeted.md (pas de dégradation artificielle), mais le hook et le profil repositionnent explicitement vers "PMO et chef de projet senior" pour coller au poste. Risque résiduel : le recruteur peut lire un déclassement volontaire ou une candidature de repli - à assumer en entretien plutôt qu'à masquer.
+- **SAP** : l'annonce mentionne SAP nommément. Fabrice n'a aucune expérience SAP directe (GPS/ERP Pomona, WMS Bargosa/Manhattan). Choix : ne pas mentionner SAP dans le CV/LM pour ne pas créer d'attente fausse - à clarifier oralement dès le premier échange si la question est posée frontalement.
+- **Secteur cosmétique** : aucune expérience directe. Pas de tentative de rapprochement forcé (ex : ne pas comparer banane/mûrissage à cosmétique) - le CV s'appuie sur la transférabilité méthodologique (PMO, S&OP, ERP) plutôt que sur une fausse proximité sectorielle.
+- **Métrique manquante** : aucun chiffre disponible sur le volume/budget de la mission Alloga en cours (mission récente, 2 mois d'ancienneté) - le cv_targeted reste descriptif sur ce poste, sans métrique inventée.
+- **Contrat/rémunération** : non mentionnés dans la LM, volontairement laissés pour l'entretien - cohérent avec les clarifications identifiées dans company_brief.md.
+
 ## Gaps identifiés (à ne pas combler par invention)
 
 - Pas d'expérience directe secteur cosmétique — à positionner via transférabilité FMCG/industriel.
