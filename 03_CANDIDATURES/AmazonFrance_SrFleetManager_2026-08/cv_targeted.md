@@ -46,7 +46,7 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
 **10/2018 - 08/2021 | Aix-en-Provence, France (Remote)**
-- Managed 1,200+ due diligences/year across EMEA/MENA, 40M€/year budget, team of 10 risk managers + 30 consultants
+- Managed 1,200+ due diligences/year across EMEA/MENA, 40M€/year budget, team of 10 risk managers + 30+ consultants
 
 ### Head of Last Mile Delivery Expansion South EU - Amazon Logistics (New Countries Expansion Lead)
 **04/2016 - 09/2018 | Milan, Italy / Madrid, Spain**

@@ -41,7 +41,7 @@ Amazon recherche un Sr Fleet Manager responsable de la sécurité, conformité e
 
 ## Réseau LinkedIn
 
-- **Hiring manager** : [À COMPLÉTER — vérifier "Meet the hiring team" sur la page]
+- **Hiring manager** : [À COMPLÉTER - vérifier "Meet the hiring team" sur la page]
 - **Connexions 1er degré** : [À COMPLÉTER] (Rajesh et autres visibles dans "People you can reach out to")
 - **Connexions 2ème degré** : [À COMPLÉTER]
 - **Alumni** : [À COMPLÉTER]
