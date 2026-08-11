@@ -1,13 +1,16 @@
-# REALISATIONS - 10 réalisations clés
+# REALISATIONS - 11 réalisations clés
+
+> ⚠️ **Audit de vérification mené le 2026-08-11 : voir `REALISATIONS_AUDIT.md`.**
+> Plusieurs chiffres de ce fichier sont contredits par les sources primaires (budget 40M€, 1200 DD/an, équipe de 10) et plusieurs citations sont mal attribuées. Les corrections n'ont pas été appliquées ici - elles appartiennent à Fabrice. Ne pas réutiliser ce fichier dans une candidature avant arbitrage.
 
 > Extraites fidèlement des CVs et des performance reviews Amazon Forte (2019-2023).
 > Performance reviews Amazon : rating "Exceeds" (2021) - niveau le plus élevé avant promotion.
 
 ---
 
-1. **Réduction de 20% du budget Service Client** (économies de 550k€/an) chez Colis Privé, dans un contexte de croissance d'activité de +7,5% - Director Business Excellence, 2024-présent
+1. **Réduction de 20% du budget Service Client** (économies de 550k€/an) chez Colis Privé, dans un contexte de croissance d'activité de +7,5% - Director Business Excellence, 2024-2026
 
-2. **Réduction de 40% des tâches manuelles** via le déploiement d'un programme d'automatisation (IA forecasting, RPA, call bots) sur l'ensemble des fonctions opérationnelles - Colis Privé, 2024-présent
+2. **Réduction de 40% des tâches manuelles** via le déploiement d'un programme d'automatisation (IA forecasting, RPA, call bots) sur l'ensemble des fonctions opérationnelles - Colis Privé, 2024-2026
 
 3. **Conception et déploiement de SHIELD** - plateforme BI globale de Due Diligence adoptée par l'ensemble des parties prenantes Amazon EMEA. Reconnu par les pairs comme ayant "révolutionné le fonctionnement de l'équipe" et "rendu l'onboarding des nouveaux collaborateurs considérablement plus facile" - Amazon, 2019-2021. *(Source : Forte 2021, peers feedback)*
 
