@@ -47,7 +47,7 @@
 
 ## Verbatims externes - Enquête satisfaction Amazon DD (sept-oct 2020)
 
-*Source : enquête menée auprès des stakeholders Amazon (Acquisitions, Development, Engineering) — distinct des Forte reviews*
+*Source : enquête menée auprès des stakeholders Amazon (Acquisitions, Development, Engineering) - distinct des Forte reviews*
 
 - "Supportive, engaged and reactive team"
 - "Team's expertise is widely recognized"
