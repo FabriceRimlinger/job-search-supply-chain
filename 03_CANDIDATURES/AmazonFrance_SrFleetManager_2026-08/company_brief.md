@@ -1,4 +1,4 @@
-# Company Brief — Amazon (Sr. Fleet Manager, Global Fleet)
+# Company Brief - Amazon (Sr. Fleet Manager, Global Fleet)
 
 ## Identité
 
@@ -7,7 +7,8 @@
 
 ## Poste et enjeux
 
-- Rôle régional France, Single-Threaded Leader pour les initiatives flotte.
+- Rôle régional France, Single-Threaded Leader pour les initiatives flotte. Rattaché à l'équipe **Corporate Operations**.
+- **3 sites de rattachement possibles** : Longvic (21), Marseille (13), Lyon (69) - affectation vraisemblablement décidée par Amazon.
 - Enjeux : conformité et sécurité de la flotte, disponibilité suffisante face à la volatilité de la demande (pics, ramps), arbitrages entre coût/qualité/vitesse dans des marchés à disponibilité de véhicules contrainte.
 - 20-30% de déplacements sur la région assignée.
 
@@ -18,6 +19,7 @@
 
 ## Points à clarifier avant/pendant le process
 
+- **Site de rattachement (Longvic / Marseille / Lyon) - question prioritaire.** Seul Marseille satisfait le critère dur de localisation. À poser dès le premier contact recruteur, avant tout investissement en préparation entretien.
 - Rattachement hiérarchique exact et périmètre géographique précis ("région assignée" non détaillée dans l'annonce).
 - Rémunération - bande Sr Manager Amazon France non communiquée publiquement.
 - Écart entre l'expérience "Fleet Management" pure (véhicules/leasing) demandée en qualification préférée et l'expérience adjacente de Fabrice (équipements, vessel scheduling) - à assumer directement en entretien plutôt qu'à minimiser.

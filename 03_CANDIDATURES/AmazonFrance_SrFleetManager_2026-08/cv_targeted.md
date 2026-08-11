@@ -1,8 +1,8 @@
-# CV ciblé — Amazon (Sr. Fleet Manager, Global Fleet)
+# Targeted CV - Amazon (Sr. Fleet Manager, Global Fleet)
 
-> Sr Fleet Manager - 10 ans chez Amazon, expert de l'expansion et de l'exploitation last-mile en EMEA.
-> Pionnier AMZL Italie/Espagne : 15 stations lancées en 2 ans, supervision complète des équipements et de la flotte de chaque site, du sourcing à la mise en service.
-> Vessel scheduling et gestion de terminaux portuaires chez Dole Europe - maîtrise de la gestion de capacité et d'actifs mobiles à grande échelle.
+> Sr Fleet Manager - 10 years at Amazon, expert in last-mile expansion and operations across EMEA.
+> AMZL pioneer in Italy and Spain: 15 delivery stations launched in 2 years, full ownership of each site's equipment and fleet, from sourcing to go-live.
+> Vessel scheduling and port terminal management at Dole Europe - large-scale capacity and mobile asset management.
 
 ## Fabrice Rimlinger
 
@@ -10,71 +10,77 @@ Director - Operations & Transformation / Business Excellence
 +33 (0)6 23 57 77 85 | fabrice@rimlinger.eu | linkedin.com/in/fabricerimlinger
 Marseille, France
 
-## Profil
+## Profile
 
-Dirigeant opérations et supply chain avec 10 ans chez Amazon (last-mile, transportation technology, real estate due diligence) et 20 ans au total dans des environnements logistiques internationaux. Expérience directe de la gestion de flotte et d'équipements mobiles à l'échelle : équipement de 600 véhicules (Pomona), vessel scheduling et terminaux portuaires (Dole Europe), supervision des équipements de 15 stations de livraison last-mile (Amazon AMZL). Habitué à l'arbitrage court/long terme entre demande et disponibilité d'actifs, à la gestion multi-stakeholders et aux environnements réglementés. Trilingue FR/EN/ES.
+Operations and supply chain leader with 10 years at Amazon (last-mile, transportation technology, real estate due diligence) and 20 years overall in international logistics environments. Hands-on experience managing fleets and mobile assets at scale: 600 vehicles fitted out (Pomona), vessel scheduling and port terminals (Dole Europe), equipment ownership across 15 last-mile delivery stations (Amazon AMZL). Used to arbitrating short- and long-term trade-offs between demand and asset availability, to multi-stakeholder management and to regulated environments. Trilingual FR/EN/ES.
 
-## Expérience professionnelle
+## Professional experience
 
-### Senior PMO & Change Lead - Alloga (filiale Alliance Healthcare / Groupe Cencora)
-**06/2026 – en cours | Marseille, France**
-- Mission de transformation organisationnelle : gouvernance projets IT, coaching des leaders projet, reporting stakeholders
+### Senior PMO & Change Lead - Alloga (Alliance Healthcare / Cencora Group)
+**06/2026 - present | Marseille, France**
+- Organisational transformation assignment: IT project governance, stakeholder reporting
+- **I run the delivery governance rituals and coach project leaders one-on-one** (milestone tracking, accountability, delivery governance) - I built the governance and communication materials that embed these new practices in the IT and project teams
+- Change management through field presence ("hearts and minds" leadership)
 
-### Director Business Excellence - Colis Privé (filiale CEVA Logistics / Groupe CMA CGM)
-**05/2024 – 02/2026 | Marseille, France**
-*375 M€ CA ; 90+ millions de colis/an ; >4k chauffeurs sous contrat*
-- Dirigé une équipe de 25 personnes, pilotage de la performance opérations et clients
-- Sponsorisé le déploiement de l'automatisation (IA forecasting, RPA), réduisant les tâches manuelles de **40%** et améliorant le niveau de service de **30%**
-- Réduit le budget Service Client de **20% (550k€/an d'économies)** malgré une hausse d'activité de 7,5%
+### Director Business Excellence - Colis Privé (CEVA Logistics / CMA CGM Group)
+**05/2024 - 02/2026 | Marseille, France**
+*375 M€ revenue; 90+ million parcels/year; 4k+ contracted drivers*
+- Led a team of 25, owning operational and customer performance
+- Sponsored the automation rollout (AI forecasting, RPA), cutting manual tasks by **40%** and improving service level by **30%**
+- Reduced the Customer Service budget by **20% (550k€/year saved)** despite a 7.5% increase in activity
 
 ### Director of Transformation - Colis Privé
-**07/2023 – 04/2024 | Marseille, France**
-- Conduit l'intégration de 300 employés et 30% des chauffeurs disponibles lors de l'acquisition du principal prestataire de livraison
-- Coordonné les équipes transversales pour assurer une exécution ininterrompue (250k livraisons/jour)
+**07/2023 - 04/2024 | Marseille, France**
+- Led the integration of 300 employees and 30% of available drivers following the acquisition of the main delivery contractor
+- Coordinated cross-functional teams to keep execution uninterrupted (250k deliveries/day)
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
-**08/2022 – 07/2023 | Luxembourg (Remote)**
-- Défini le plan d'expansion Amazon Fulfilment et Amazon Logistics sur 36 mois, EU
-- Piloté des scénarios de réaffectation sur 80+ bâtiments Amazon EU
+**08/2022 - 07/2023 | Luxembourg (Remote)**
+- Defined the 36-month Amazon Fulfilment and Amazon Logistics expansion plan across the EU
+- Ran reallocation scenarios across 80+ Amazon EU buildings
 
 ### Director of Expansion & Industrial Integration - Infarm
-**06/2021 – 07/2022 | Berlin, Allemagne**
-- Dirigé l'installation d'infrastructures à travers l'EU (DE, UK, DK, FR) - CAPEX 72M€, équipe de 16 ingénieurs/techniciens
+**06/2021 - 07/2022 | Berlin, Germany**
+- Led infrastructure installation across the EU (DE, UK, DK, FR) - 72M€ CAPEX, team of 16 engineers and technicians
+- **Ran the training and mentoring programmes** to raise the technical team's skill level across 4 countries
 
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
-**10/2018 – 08/2021 | Aix-en-Provence, France (Remote)**
-- Géré plus de 1200 Due Diligence/an EMEA/MENA, budget 40M€/an, équipe de 10 risk managers + 30+ consultants
+**10/2018 - 08/2021 | Aix-en-Provence, France (Remote)**
+- Managed 1,200+ due diligences/year across EMEA/MENA, 40M€/year budget, team of 10 risk managers + 30 consultants
 
 ### Head of Last Mile Delivery Expansion South EU - Amazon Logistics (New Countries Expansion Lead)
-**04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
-- Pionnier du réseau de livraison last mile Amazon en Italie et Espagne - **15 stations lancées en 2 ans**, toutes opérationnelles pour la peak season
-- **Supervisé la supply chain des équipements des nouvelles stations** (du sourcing à la livraison, pièces détachées et consommables) - gestion directe de la disponibilité et de la conformité des actifs de chaque site
-- Managé 5 launch managers et coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires)
-- Après 2 ans, AMZL assure plus de **75% des livraisons Amazon** dans les principales villes d'Italie et d'Espagne
+**04/2016 - 09/2018 | Milan, Italy / Madrid, Spain**
+- Pioneered Amazon's last-mile delivery network in Italy and Spain - **15 stations launched in 2 years**, all operational for peak season
+- **Owned the equipment supply chain for the new stations** (from sourcing to delivery, spare parts and consumables) - direct ownership of each site's asset **availability** and compliance
+- Sized station capacity to absorb **activity peaks and ramp-ups** (peak season), and handled **operational escalations** directly with stations and transport providers
+- Managed 5 launch managers and coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, contractors)
+- After 2 years, AMZL handled more than **75% of Amazon deliveries** in the main cities of Italy and Spain
 
 ### Head of Transportation Technology South EU - Amazon
-**04/2014 – 03/2016 | Paris, France**
-- Piloté l'intégration technique des transporteurs commerciaux et nouveaux services de livraison en France, Italie et Espagne
-- Managé une équipe de 5 chefs de projet
+**04/2014 - 03/2016 | Paris, France**
+- Led the technical integration of commercial carriers and new delivery services in France, Italy and Spain
+- Managed a team of 5 project managers
 
-*Postes antérieurs (2001-2014) : détails sur demande.*
+*Earlier roles (2001-2014): details on request.*
 
-**Expérience flotte/actifs mobiles antérieure (différenciant direct pour ce poste) :**
-- Supply-chain Manager - Dole Europe (2011-2012, Bucarest) : gestion des terminaux portuaires et sites de stockage (Bulgarie, Ukraine, Roumanie), **vessel scheduling**, propriétaire du CAPEX et du roadmap de maintenance - **réduction des coûts de 30% pour une hausse des volumes de 50%**
-- Supply Chain Project Manager - Pomona (2002-2005) : sélection et déploiement GPS/ERP sur **600 camions équipés**, définition des KPIs flotte
+**Earlier fleet / mobile asset experience (direct differentiator for this role):**
+- Supply Chain Manager - Dole Europe (2011-2012, Bucharest): port terminal and storage site management (Bulgaria, Ukraine, Romania), **vessel scheduling**, owner of CAPEX and the maintenance roadmap - **30% cost reduction against a 50% volume increase**
+- Supply Chain Project Manager - Pomona (2002-2005): GPS/ERP selection and rollout across **600 fitted trucks**, fleet KPI definition, **user documentation and training** (drivers and operations)
 
-## Compétences clés
+## Key skills
 
-- **Fleet & asset management** : équipement de flotte (600 véhicules Pomona), vessel scheduling et gestion de terminaux (Dole), supervision équipements de stations (AMZL)
-- **Single-Threaded Leadership / gestion de programmes régionaux** : lancement d'initiatives multi-sites, arbitrages court/long terme sur la disponibilité d'actifs
-- **Stakeholder management** : coordination interne/externe, négociation, influence sans autorité hiérarchique directe
-- **Compliance & safety** : due diligence réglementaire (Amazon EMEA/MENA), conformité industrielle (Infarm)
-- **Data & BI** : SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA
+- **Fleet & asset management**: fleet fit-out (600 Pomona vehicles), vessel scheduling and terminal management (Dole), station equipment ownership (AMZL)
+- **Single-threaded leadership / regional programme management**: multi-site initiative launches, short- and long-term trade-offs on asset availability
+- **Stakeholder management**: internal and external coordination, negotiation, influence without direct authority
+- **Training & communication**: delivering training sessions and delivery governance rituals (Alloga, Infarm), building the matching communication and training materials (PMO governance, Pomona GPS fleet user documentation)
+- **Demand and pipeline management**: asset pool and pipeline tracking, shortage arbitration, operational escalations, activity peaks and ramp-ups
+- **Compliance & safety**: regulatory due diligence (Amazon EMEA/MENA), industrial compliance (Infarm)
+- **Data & BI**: SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA
 
-## Langues
+## Languages
 
-Français (langue maternelle) - Anglais (courant, C2) - Espagnol (courant, C2)
+French (native) - English (fluent, C2) - Spanish (fluent, C2). French and English both above the required C1 level; Spanish covers the role's preferred qualification.
 
-## Formation
+## Education
 
-Ingénieur agronome - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Master of Science, Économie et Management de l'agroindustrie
+Agricultural Engineer - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Master of Science, Agri-industry Economics and Management
