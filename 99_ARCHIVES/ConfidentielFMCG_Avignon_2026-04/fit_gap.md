@@ -8,7 +8,7 @@
 
 | Compétence demandée | Niveau Fabrice | Preuve |
 |---------------------|---------------|--------|
-| Direction opérations multi-sites | ✅ Fort | Colis Privé (5 hubs, 25 stations), Amazon AMZL (15 sites), Infarm (4 pays) |
+| Direction opérations multi-sites | ✅ Fort | Colis Privé (5 hubs, 25 stations), Amazon AMZL (10 sites), Infarm (4 pays) |
 | Amélioration continue / optimisation | ✅ Fort | +25% productivité Pomona, -20% coûts CS Colis Privé (550k€/an), -40% tâches manuelles |
 | Management d'équipes opérationnelles | ✅ Fort | 25 personnes (Colis Privé), 16 ingénieurs (Infarm), 10 risk managers + 30 consultants (Amazon) |
 | Gestion budgets / CAPEX investissements | ✅ Fort | 72M€ (Infarm), 40M€/an (Amazon EMEA), 2M€ (ColdEnergy) |
@@ -37,7 +37,7 @@
 | Critère | Évaluation |
 |---------|-----------|
 | Niveau Director | ✅ Titre et scope cohérents |
-| Multi-sites (3 sites industriels) | ✅ Comparable - Colis Privé (30 sites), Amazon (15 sites) - nature différente (logistique vs production) |
+| Multi-sites (3 sites industriels) | ✅ Comparable - Colis Privé (30 sites), Amazon (10 sites) - nature différente (logistique vs production) |
 | Reporting C-level | ✅ Fort - Executive reporting chez Amazon, Colis Privé |
 | Scope décisionnel réel | ✅ Oui - P&L, budgets, investissements |
 | Leadership de transformation | ✅ Fort - Milee (300 personnes), SHIELD, automatisation CS |

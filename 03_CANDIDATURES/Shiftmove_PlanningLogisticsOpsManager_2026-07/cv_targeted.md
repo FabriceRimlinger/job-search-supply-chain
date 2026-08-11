@@ -56,7 +56,7 @@ Operations and transformation executive with 20 years designing operating models
 - I defined the 36-month expansion SOP for Amazon Fulfilment and Amazon Logistics across EU and piloted reallocation of 80+ buildings, with **executive reporting dashboards** (SNN4) guiding EU compliance decisions. → Long-range planning, data-driven decisions, executive reporting.
 
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics (04/2016 - 09/2018, Milan / Madrid)
-- I launched **15 last-mile stations in 2 years** (IT/ES), coordinating 19 cross-functional workstreams (Real Estate, Construction, Legal, HR, IT, vendors, Process); AMZL reached 75%+ of Amazon deliveries in major IT/ES cities. → Cross-functional integration, operating model rollout at scale, fleet/last-mile domain.
+- I launched **10 last-mile stations in 2 years** (IT/ES), coordinating 19 cross-functional workstreams (Real Estate, Construction, Legal, HR, IT, vendors, Process); AMZL reached 75%+ of Amazon deliveries in major IT/ES cities. → Cross-functional integration, operating model rollout at scale, fleet/last-mile domain.
 - I managed the **supply chain of station equipment** end-to-end (procurement, inventory, spare parts, consumables) and the fleet operations topology. → Hardware lifecycle procurement + inventory control.
 
 ### Supply Chain Project Manager - Pomona (07/2002 - 07/2005, Antony)
@@ -69,7 +69,7 @@ Operations and transformation executive with 20 years designing operating models
 ## Compétences techniques
 
 - **Operational platforms & business product ownership** : CRM (investment-tracking platform, product owner, Agile, UI/UX), Salesforce, ERP (Pomona GPS, WMS Bargosa), BI ownership (Colis Privé)
-- **Telematics / fleet management** : GPS tracking deployment 600 vehicles, fleet operations (AMZL 15 stations, Colis Privé 300 vehicles), ERP/software/hardware integration
+- **Telematics / fleet management** : GPS tracking deployment 600 vehicles, fleet operations (AMZL 10 stations, Colis Privé 300 vehicles), ERP/software/hardware integration
 - **Hardware lifecycle** : procurement, inventory, spare parts (AMZL station equipment), asset management & maintenance roadmap (CAPEX 30-100M€/yr, Dole Europe)
 - **Data & BI** : SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA, Claude Code, Tableau
 - **Transformation** : PMO, post-M&A integration, change management, operating model design, Lean, continuous improvement

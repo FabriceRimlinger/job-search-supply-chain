@@ -28,7 +28,7 @@ Tous les rôles sont Directors fonctionnels. Le rôle DG implique la responsabil
 
 **3. Métriques CV orientées coûts, pas croissance CA**
 L'ensemble du CV est axé réduction de coûts et efficacité opérationnelle. MINT cherche quelqu'un pour doubler le CA. La narration actuelle n'adresse pas directement la croissance revenue.
-- Mitigation : reformuler l'amélioration NPS/service Colis Privé en termes de rétention client et contribution à la croissance. Insister sur les déploiements (15 stations AMZL = expansion commerciale).
+- Mitigation : reformuler l'amélioration NPS/service Colis Privé en termes de rétention client et contribution à la croissance. Insister sur les déploiements (10 stations AMZL = expansion commerciale).
 
 **4. Buzzword "développement commercial" sans preuve directe**
 À ne pas utiliser tel quel dans la LM sans exemple concret - red flag recruteur.

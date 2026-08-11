@@ -49,7 +49,7 @@ _À compléter par MINERVE lors de la prochaine préparation_
 > "Je vise une rémunération autour de 120k€ brut, en cohérence avec les benchmarks du marché pour un profil Director / Head of en logistique et supply chain avec un scope EU/global. Ce chiffre est ouvert à discussion selon le périmètre exact du rôle et le package global (variable, benefits, mobilité)."
 
 **Arguments de valeur différenciante** :
-- Scope international démontré (Amazon EU, AMZL 15 stations, Luxembourg, Berlin, Milan, Madrid)
+- Scope international démontré (Amazon EU, AMZL 10 stations, Luxembourg, Berlin, Milan, Madrid)
 - Bilingue FR/EN opérationnel (entretiens en anglais, livrables en anglais)
 - Profil hybride opérationnel + transformation (rare sur le marché SC)
 - Expérience programme complexe avec résultats chiffrés (réductions coûts, gains KPIs)

@@ -1,7 +1,7 @@
 # Targeted CV - Amazon (Sr. Fleet Manager, Global Fleet)
 
 > Sr Fleet Manager - 10 years at Amazon, expert in last-mile expansion and operations across EMEA.
-> AMZL pioneer in Italy and Spain: 10 delivery stations launched from scratch (6 Italy, 4 Spain), full ownership of each site's equipment and vehicle fleet, from sourcing to go-live.
+> AMZL pioneer in Italy and Spain: 10 delivery stations launched from scratch (6 Spain, 4 Italy), full ownership of each site's equipment and vehicle fleet, from sourcing to go-live.
 > Director of Business Excellence at Colis Privé: performance of a network running 300 in-house and 4,000 contracted drivers daily - the same hybrid own-capacity-plus-partner model AMZL runs with its DSPs.
 
 ## Fabrice Rimlinger
@@ -50,7 +50,7 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Head of Last Mile Delivery Expansion South EU - Amazon Logistics (New Countries Expansion Lead)
 **04/2016 - 09/2018 | Milan, Italy / Madrid, Spain**
-- Pioneered Amazon's last-mile delivery network in Italy and Spain - **10 stations launched from scratch (6 Italy, 4 Spain)**, all operational for peak season, sites of ~10,000 m² each
+- Pioneered Amazon's last-mile delivery network in Italy and Spain - **10 stations launched from scratch (6 Spain, 4 Italy)**, all operational for peak season, sites of ~10,000 m² each
 - **Owned the equipment supply chain for the new stations** (from sourcing to delivery, spare parts and consumables) - direct ownership of each site's asset **availability** and compliance
 - Sized station capacity to absorb **activity peaks and ramp-ups** (peak season), and handled **operational escalations** directly with stations and transport providers
 - Managed 5 launch managers and coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, contractors)

@@ -25,7 +25,7 @@ Programme governance director with 20 years of proven delivery in complex, multi
 ## Key Achievements
 
 - **40M€/year portfolio governance** — Amazon EMEA, 1,200+ environmental and technical due diligence projects annually across EMEA and MENA. Designed and deployed SHIELD, a global BI platform for programme tracking and knowledge management, adopted by all stakeholders. Volume scaled 5x in 3 years (133 sites 2018 → 686 sites 2020) with a near-stable team.
-- **Programme transformation delivery** — 15 AMZL delivery stations launched in 2 years (Italy + Spain), coordinating 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, Process). All sites operational before peak season. Playbooks deployed to AMZL EMEA.
+- **Programme transformation delivery** — 10 AMZL delivery stations launched in 2 years (Italy + Spain), coordinating 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, Process). All sites operational before peak season. Playbooks deployed to AMZL EMEA.
 - **Operational transformation** — 550k€/year savings at Colis Privé (Director Business Excellence), deploying AI forecasting, RPA, and call bots; 40% reduction in manual tasks; 30% improvement in service level.
 - **CAPEX programme execution** — 72M€ CAPEX deployment across 4 EU countries (Germany, UK, Denmark, France) at Infarm, managing a team of 16 engineers; 30-100M€/year industrial investment portfolio at Dole Europe (25 mûrisseries).
 - **Long-range integrated planning** — Defined Amazon EU supply chain 36-month expansion SOP; launched pilot projects on reallocation of 80+ buildings across EU network.
@@ -69,7 +69,7 @@ Programme governance director with 20 years of proven delivery in complex, multi
 ### Head of Last Mile Delivery Expansion — South EU — Amazon Logistics
 **Apr 2016 – Sep 2018 | Milan, Italy / Madrid, Spain**
 
-- Pioneered Amazon last-mile network in Italy and Spain — **15 stations launched in 2 years**, all operational for peak season
+- Pioneered Amazon last-mile network in Italy and Spain — **10 stations launched in 2 years**, all operational for peak season
 - Coordinated 19 cross-functional teams; created the AMZL Launch Playbook deployed across EMEA
 - Post-launch: AMZL covering **75%+ of Amazon deliveries** in major Italian and Spanish cities
 

@@ -58,7 +58,7 @@ I led a 25-person team accountable for internal operations performance and exter
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
 **04/2016 - 09/2018 | Milan, Italy / Madrid, Spain**
 
-- Pioneered AMZL network deployment in Italy and Spain: 15 stations launched in 2 years, all peak-season ready - coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, suppliers)
+- Pioneered AMZL network deployment in Italy and Spain: 10 stations launched in 2 years, all peak-season ready - coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, suppliers)
 - Created the AMZL Launch Playbook and 3-year Plan of Record for EU expansion - adopted EMEA-wide after initial deployment
 - After 2 years, AMZL handled more than 75% of Amazon deliveries in major Italian and Spanish cities
 

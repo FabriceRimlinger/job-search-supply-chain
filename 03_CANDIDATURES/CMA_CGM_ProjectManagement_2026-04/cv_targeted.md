@@ -55,7 +55,7 @@ Global Project Management Specialist with 20 years of pan-European logistics exp
 ### Head of AMZL Expansion - South EU - Amazon Logistics (04/2016 – 09/2018)
 *Pioneer programme - Italy & Spain, 0 to operational in 2 years*
 
-- **Programme delivery**: launched **15 last-mile delivery stations in 2 years** across Italy and Spain, coordinating 15+ cross-functional teams
+- **Programme delivery**: launched **10 last-mile delivery stations in 2 years** across Italy and Spain, coordinating 15+ cross-functional teams
 - **Transformation**: standardised AMZL expansion playbooks and processes subsequently deployed across EMEA
 - **Stakeholder management**: aligned Real Estate, Construction, Legal, HR, IT and delivery partners across two countries
 

@@ -91,7 +91,7 @@ Ce n'est pas un entretien classique sur offre publiée. C'est une rencontre expl
 | Expertise filière | Pomona/Fruidor (1er mûrissier France), Dole Europe (25 mûrisseries EU), ColdEnergy (SAV mûrisseries CF), INP Toulouse | Je connais leur métier de l'intérieur |
 | CAPEX grandes envergures | Dole Europe : 30-100M€/an d'investissements industriels ; Infarm : 72M€ CAPEX 4 pays EU | Dimensionné pour les projets CF |
 | Europe de l'Est | Dole Romania 2009-2012 : Constanța, Bucarest, restructuration 5 sites, -30% coûts +50% volumes, coordination Bulgarie/Ukraine | Cracovie, Afumati - terrain connu |
-| Redressement opérationnel | Dole Romania post-acquisition, Colis Privé -20% coûts ; Amazon AMZL 15 sites en 2 ans | Exactement ce dont CF a besoin |
+| Redressement opérationnel | Dole Romania post-acquisition, Colis Privé -20% coûts ; Amazon AMZL 10 sites en 2 ans | Exactement ce dont CF a besoin |
 | Performance énergétique mûrisseries | ColdEnergy : SAV équipements froid, chiffrage projets, spécifications techniques ; maîtrise de l'optimisation énergie (ventilation, pilotage CO2/éthylène, variateurs) | Angle direct vs Quercy Réfrigération |
 | Multi-pays, multiculturel | EMEA Amazon, Infarm DE/UK/DK/FR, Dole Balkans, Pomona Espagne | Organisation internationale CF |
 
@@ -138,10 +138,10 @@ Ce n'est pas un entretien classique sur offre publiée. C'est une rencontre expl
 ### Q4 - "Comment gérez-vous un projet quand les délais sont non négociables ?"
 
 **Réponse recommandée (STAR)** :
-- **Situation** : Chez Amazon AMZL (2016-2018), je devais livrer 15 stations last-mile opérationnelles en Italie et Espagne avant le peak de Noël. Tout retard = perte de revenus directe pour Amazon.
+- **Situation** : Chez Amazon AMZL (2016-2018), je devais livrer 10 stations last-mile opérationnelles en Italie et Espagne avant le peak de Noël. Tout retard = perte de revenus directe pour Amazon.
 - **Tâche** : Coordonner 15+ équipes transversales (Immobilier, Construction, Juridique, RH, IT) avec des délais durs.
 - **Action** : J'ai mis en place un war room hebdomadaire avec tableau de bord RAL (Red/Amber/Green) par projet et par équipe. J'ai défini un chemin critique non négociable et les conditions de déclenchement d'escalade. J'ai standardisé un playbook d'ouverture de site qui a ensuite été déployé à l'échelle EMEA.
-- **Résultat** : 15 sites livrés en 2 ans, 2 sites dépassant les objectifs initiaux, tous opérationnels pour le peak.
+- **Résultat** : 10 sites livrés en 2 ans, 2 sites dépassant les objectifs initiaux, tous opérationnels pour le peak.
 
 ---
 
@@ -266,7 +266,7 @@ Les 8 risques critiques de la filière banane intégrée, et le positionnement n
 |----------|----------|
 | **72M€** | CAPEX Infarm - 4 pays EU - 16 ingénieurs |
 | **30-100M€/an** | Budget investissements industriels Dole Europe - 25 mûrisseries |
-| **15 sites** | AMZL Italie + Espagne en 2 ans |
+| **10 sites** | AMZL Italie + Espagne en 2 ans |
 | **-30% coûts / +50% volumes** | Dole Romania 5 sites restructurés |
 | **-20% budget opérationnel** | Colis Privé - 550k€/an économisés |
 | **25 ans** | Ancienneté dans la filière fruits & légumes |

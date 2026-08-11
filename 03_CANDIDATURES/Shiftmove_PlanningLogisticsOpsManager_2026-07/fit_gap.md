@@ -40,7 +40,7 @@
 
 ## Points à valoriser dans le CV et la LM
 
-- **Accroche fleet ops client** : "j'ai géré la fleet operations que Shiftmove veut digitaliser - 15 stations AMZL IT/ES, 250k colis/j Colis Privé, 4k chauffeurs. Je connais les 70% d'entreprises sous spreadsheets, j'en étais."
+- **Accroche fleet ops client** : "j'ai géré la fleet operations que Shiftmove veut digitaliser - 10 stations AMZL IT/ES, 250k colis/j Colis Privé, 4k chauffeurs. Je connais les 70% d'entreprises sous spreadsheets, j'en étais."
 - **Post-M&A transformation** : 300 employés intégrés (Colis Privé/Milee) avec continuité opérationnelle totale - exactement le défi Ocean+Optimum.
 - **Business owner plateforme** : SHIELD conçu from scratch, déployé EMEA, adopté toutes business lines - preuve capability Praxedo business ownership.
 - **KPI + exec reporting** : 40M€/an portfolio Amazon, dashboards EMEA, gouvernance C-level.

@@ -49,7 +49,7 @@ J'ai dirigé une équipe de 25 personnes, propriétaire de la performance opéra
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
 **04/2016 - 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- J'ai coordonné 19 équipes transversales pour déployer 15 stations AMZL en Italie et Espagne en 2 ans
+- J'ai coordonné 19 équipes transversales pour déployer 10 stations AMZL en Italie et Espagne en 2 ans
 - Créé le Launch Playbook et le Plan of Record sur 3 ans pour l'expansion EU - standard work déployé à l'échelle EMEA
 
 ### Director of Expansion & Industrial Integration - Infarm

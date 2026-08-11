@@ -69,7 +69,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 ### Head of Last-Mile Delivery Expansion — Amazon Logistics South EU
 **04/2016 – 09/2018 | Milan, Italy / Madrid, Spain**
 
-- Launched 15 delivery stations in 2 years across Italy and Spain with no existing AMZL infrastructure — embedded consistent ways of working across 5 launch managers and 19 cross-functional teams from scratch, every launch
+- Launched 10 delivery stations in 2 years across Italy and Spain with no existing AMZL infrastructure — embedded consistent ways of working across 5 launch managers and 19 cross-functional teams from scratch, every launch
 - Created the AMZL Launch Playbook — the governance artifact that standardized how all EU stations are launched; deployed across EMEA after the initial release
 - Coached launch managers through repeated high-stakes launches, building their project governance capabilities under peak season deadlines
 

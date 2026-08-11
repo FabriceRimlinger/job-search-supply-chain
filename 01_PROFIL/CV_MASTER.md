@@ -14,7 +14,7 @@
 
 ## Résumé professionnel
 
-Directeur Operations & Supply Chain avec 20 ans de track record dans la transformation opérationnelle, le déploiement de réseaux logistiques et la gestion de programmes industriels complexes en Europe et EMEA. Résultats prouvés : 15 stations Amazon lancées en 2 ans, 550k€/an d'économies chez Colis Privé, 72M€ CAPEX chez Infarm, 30 à 100M€/an d'investissements industriels chez Dole Europe. Trilingue FR/EN/ES - background logistique, agroalimentaire, last-mile et transformation opérationnelle.
+Directeur Operations & Supply Chain avec 20 ans de track record dans la transformation opérationnelle, le déploiement de réseaux logistiques et la gestion de programmes industriels complexes en Europe et EMEA. Résultats prouvés : 10 stations Amazon lancées en 2 ans, 550k€/an d'économies chez Colis Privé, 72M€ CAPEX chez Infarm, 30 à 100M€/an d'investissements industriels chez Dole Europe. Trilingue FR/EN/ES - background logistique, agroalimentaire, last-mile et transformation opérationnelle.
 
 ---
 
@@ -69,7 +69,7 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics *(New Countries Expansion Lead)*
 **04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- Pionnier du déploiement du réseau de livraison last mile Amazon en Italie et Espagne - **15 stations lancées en 2 ans**, toutes opérationnelles pour la peak season (sites ~10 000m² chacun)
+- Pionnier du déploiement du réseau de livraison last mile Amazon en Italie et Espagne - **10 stations lancées en 2 ans** (6 Espagne, 4 Italie), toutes opérationnelles pour la peak season (sites ~10 000m² chacun)
 - Managé 5 launch managers et coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires, Process & méthodes)
 - Après 2 ans, AMZL assure **plus de 75% des livraisons Amazon** dans les principales villes d'Italie et d'Espagne
 - Supervisé la supply chain des équipements des nouvelles stations (du sourcing à la livraison, incluant pièces détachées et consommables) ; recruté des managers seniors pour les équipes de lancement

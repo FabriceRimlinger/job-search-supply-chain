@@ -3,7 +3,7 @@
 ---
 
 > Directeur Général - 20 ans d'expérience en management opérationnel, transformation et pilotage de la croissance.
-> J'ai managé 40 personnes, géré des budgets jusqu'à 72M€, et structuré les opérations de 15 stations livrées en 2 ans - résultats systématiquement atteints.
+> J'ai managé 40 personnes, géré des budgets jusqu'à 72M€, et structuré les opérations de 10 stations livrées en 2 ans - résultats systématiquement atteints.
 > Cycliste compétiteur (ancien Elite, VTT et route) - je connais et pratique le produit que MINT vend.
 
 ---
@@ -51,7 +51,7 @@ Je rejoins MINT Bikes parce que j'y vois un projet entrepreneurial rare : une pr
 ### Head of Last Mile Delivery Expansion South EU - Amazon Logistics
 **04/2016 - 09/2018 | Milan / Madrid**
 
-- J'ai piloté le déploiement du réseau de livraison last mile Amazon en Italie et Espagne : 15 stations lancées en 2 ans (sites ~10 000m² chacun), toutes opérationnelles pour la peak season
+- J'ai piloté le déploiement du réseau de livraison last mile Amazon en Italie et Espagne : 10 stations lancées en 2 ans (sites ~10 000m² chacun), toutes opérationnelles pour la peak season
 - J'ai managé 5 launch managers et coordonné 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT, prestataires)
 - Résultat : AMZL assure plus de 75% des livraisons Amazon dans les principales villes IT/ES - de 0% à leader en 2 ans
 - J'ai créé le Launch Playbook AMZL et structuré le plan d'expansion EU sur 3 ans

@@ -1,6 +1,6 @@
 > Global Contract Logistics Program & System Director - 20 years in supply chain transformation and program delivery, including 3 years as Director at Colis Privé (CEVA Logistics / CMA CGM Group).
 > Built SHIELD - BI platform standardising 1,200+ Due Diligence projects/year across Amazon EMEA; drove 40% reduction in manual operations via AI forecasting, RPA and automation.
-> Zero-defect program rollout track record: 15 AMZL stations launched across Italy and Spain in 2 years; 300-person M&A integration with full operational continuity at 250k deliveries/day.
+> Zero-defect program rollout track record: 10 AMZL stations launched across Italy and Spain in 2 years; 300-person M&A integration with full operational continuity at 250k deliveries/day.
 
 ---
 
@@ -13,7 +13,7 @@ linkedin.com/in/fabricerimlinger | Trilingual FR/EN/ES
 
 ## Professional Summary
 
-Operations Director with 20 years driving supply chain transformation, program management and systems deployment at scale across EMEA. Proven track record in contract logistics (Colis Privé / CEVA Logistics), zero-defect program rollout (Amazon AMZL 15 stations, 2 years), BI platform development (SHIELD, Amazon EMEA), and automation-led operational improvement (AI, RPA, -40% manual tasks). Led teams of up to 25 direct + 30 consultants; managed portfolios up to 40M€/year. Multi-sector: E-Commerce, last-mile, FMCG, agriculture, real estate. Executive reporting: CEO/CFO, EMEA SteerCo, CODIR.
+Operations Director with 20 years driving supply chain transformation, program management and systems deployment at scale across EMEA. Proven track record in contract logistics (Colis Privé / CEVA Logistics), zero-defect program rollout (Amazon AMZL 10 stations, 2 years), BI platform development (SHIELD, Amazon EMEA), and automation-led operational improvement (AI, RPA, -40% manual tasks). Led teams of up to 25 direct + 30 consultants; managed portfolios up to 40M€/year. Multi-sector: E-Commerce, last-mile, FMCG, agriculture, real estate. Executive reporting: CEO/CFO, EMEA SteerCo, CODIR.
 
 ---
 
@@ -58,7 +58,7 @@ Operations Director with 20 years driving supply chain transformation, program m
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
 **Apr 2016 – Sep 2018 | Milan, Italy / Madrid, Spain**
 
-- Pioneered Amazon last-mile delivery network deployment in Italy and Spain: **15 stations launched in 2 years**, all operational for peak season (sites ~10,000m² each) - zero-defect launch discipline
+- Pioneered Amazon last-mile delivery network deployment in Italy and Spain: **10 stations launched in 2 years**, all operational for peak season (sites ~10,000m² each) - zero-defect launch discipline
 - Managed 5 launch managers and coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, vendors, Process)
 - Created the AMZL Launch Playbook and structured the 3-year Plan of Record for EU expansion
 - After 2 years, AMZL handled **more than 75% of Amazon deliveries** in major Italian and Spanish cities

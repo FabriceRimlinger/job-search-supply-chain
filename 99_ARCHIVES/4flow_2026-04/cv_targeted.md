@@ -44,7 +44,7 @@ What sets me apart in a 4PL context: I have been on the operational side of the 
 ### Head of AMZL Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan / Madrid**
 
-- Built Amazon's last-mile delivery network in Italy and Spain from scratch: **15 operational sites in 2 years**, all peak-season ready, playbooks standardised for EMEA rollout
+- Built Amazon's last-mile delivery network in Italy and Spain from scratch: **10 operational sites in 2 years**, all peak-season ready, playbooks standardised for EMEA rollout
 - Coordinated 15+ cross-functional teams (Real Estate, Construction, Legal, HR, IT, carriers)
 
 ### Director of Expansion & Industrial Integration - Infarm

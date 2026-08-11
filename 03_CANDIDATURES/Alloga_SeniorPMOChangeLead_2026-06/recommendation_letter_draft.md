@@ -34,7 +34,7 @@ Head of Last-Mile Expansion EU, Amazon Logistics
 
 To the Hiring Team at Alloga,
 
-I worked with Fabrice Rimlinger during the Amazon Logistics expansion across Southern Europe (2016–2018), where he led the launch of 15 delivery stations across Italy and Spain, coordinating 19 cross-functional teams from scratch.
+I worked with Fabrice Rimlinger during the Amazon Logistics expansion across Southern Europe (2016–2018), where he led the launch of 10 delivery stations across Italy and Spain, coordinating 19 cross-functional teams from scratch.
 
 What defined Fabrice in that period was how he built consistent ways of working across teams that had never worked together before. He created the AMZL Launch Playbook — still the EU standard for station openings — by coaching launch managers one by one through repeated high-stakes launches, under pressure and tight deadlines. He did not manage from a distance. He was in the room, building the governance and the people simultaneously.
 

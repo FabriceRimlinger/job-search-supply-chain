@@ -53,3 +53,26 @@ Deux fois dans la même session, un score 6D portait une justification devenue f
 2. **Fabrice** : ajouter si possible une actualité Amazon France Transport / flotte vérifiée dans la lettre - aucune source fiable disponible à la rédaction, rien n'a été inventé.
 3. Poser la question du site de rattachement dès le premier contact recruteur.
 4. **MINERVE** : préparation entretien à déclencher seulement après relecture validée (score 48/60 ≥ 45).
+
+---
+
+## Addendum - correction repo-wide du nombre de stations AMZL (2026-08-11, fin de session)
+
+**Type d'entrée** : `realignment` (correction factuelle de portée repo)
+
+**Le fait corrigé** : les stations AMZL lancées en Italie et Espagne sont au nombre de **10, dont 6 en Espagne et 4 en Italie**. Tous les fichiers du repo affirmaient 15 depuis l'origine.
+
+**Comment c'est sorti** : Fabrice l'a signalé spontanément en commentant le dossier Amazon, pas à la suite d'une vérification. Sa première formulation ("Spain and Italy w/ respectively 4 and 6") a été comprise comme 4 Espagne / 6 Italie, puis inversée par sa demande suivante ("4 IT, 6 ES"). Répartition tranchée explicitement avant d'écrire : **6 Espagne, 4 Italie**. Le dossier Amazon, déjà rédigé sur 6 IT / 4 ES, a été inversé.
+
+**Portée de la correction** : 48 fichiers - fichiers profil (`CV_MASTER.md`, `BIO_EXECUTIVE.md`, `REALISATIONS.md`, `LINKEDIN_PROFILE.md`, `CATALOGUE_ANECDOTES.md` dont le tag `#15-stations` devenu `#10-stations`), tous les dossiers de candidature actifs, `99_ARCHIVES/`, `05_ENTRETIENS/PREP_GENERALE.md`, les CV HTML, et le sous-projet `claude-linkedin-assistant/`.
+
+**Ce qui n'a pas été touché, volontairement** :
+- Les **session-logs** : archives historiques, on ne réécrit pas le passé.
+- Les mentions de **"15+ équipes transversales"** : claim distinct (nombre d'équipes coordonnées, 19 au CV_MASTER), sans rapport avec le nombre de stations. Vérifié une par une, 9 occurrences préservées.
+- Les affirmations **"2 centres au-delà des objectifs initiaux"** (JD Logistics `cover_letter.md` et `cv_targeted.md`, Compagnie Fruitière `cv_targeted.md` et fiche PREP). Ce récit supposait une cible de 13 pour 15 livrées. Avec 10 livrées, la cible deviendrait 8 - non vérifiable, donc laissé en l'état et signalé. **[À CONFIRMER] avec Fabrice.**
+
+**Ce que ça coûte** : des candidatures déjà envoyées annonçaient 15 (Alloga Portfolio Manager, dont l'entretien est passé ; JD Logistics ; CEVA ; Compagnie Fruitière ; Shiftmove, refusée). Les fichiers sont désormais corrigés, mais **ce qui est parti est parti**. Si le sujet revient en entretien sur un de ces dossiers, la position honnête est de corriger de soi-même.
+
+**Leçon de process** : un chiffre repris de fichier en fichier sans source primaire s'est propagé dans 48 fichiers et plusieurs candidatures envoyées avant d'être remis en cause - par Fabrice, pas par un contrôle. Les réalisations chiffrées de `REALISATIONS.md` mériteraient une passe de vérification à la source, indépendamment de toute candidature.
+
+**Autres confirmations de Fabrice** enregistrées le même jour : pas de propriété de la flotte chez Colis Privé (directeur de la performance), aucune expérience d'achat ni de leasing de véhicules, Pomona trop ancien pour porter un argument. Score Amazon ramené de 48 à 47/60 en conséquence.

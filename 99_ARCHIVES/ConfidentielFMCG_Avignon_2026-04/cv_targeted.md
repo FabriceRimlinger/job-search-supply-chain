@@ -42,7 +42,7 @@ Dirigeant orienté résultats avec une double compétence rare : **ingénieur ag
 ### Head of AMZL Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan / Madrid**
 
-- J'ai déployé le réseau de livraison last-mile Amazon en Italie et Espagne : **15 sites opérationnels en 2 ans**, en coordonnant 15+ équipes cross-fonctionnelles (Immobilier, Construction, Juridique, RH, IT)
+- J'ai déployé le réseau de livraison last-mile Amazon en Italie et Espagne : **10 sites opérationnels en 2 ans**, en coordonnant 15+ équipes cross-fonctionnelles (Immobilier, Construction, Juridique, RH, IT)
 - J'ai standardisé les playbooks et processus d'expansion AMZL, déployés ensuite à l'échelle EMEA
 
 ### Head of Technical & Environmental Real Estate - Amazon

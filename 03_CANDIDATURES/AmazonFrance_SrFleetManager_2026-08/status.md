@@ -7,7 +7,7 @@
 - Statut : Documents prêts (v2 anglaise, 2026-08-11)
 - Langue : en 🇬🇧 (décision Fabrice 2026-08-11 : toute la correspondance Amazon en anglais. Documents sortants - cv_targeted, cover_letter - en anglais ; fit_gap et company_brief restent en français, usage interne)
 - Canal de candidature : amazon.jobs direct (Job ID 10492642) - preferer au apply LinkedIn
-- **Incohérence repo ouverte** : nombre de stations AMZL = 10 confirmé par Fabrice (6 IT, 4 ES). Documents Amazon alignés ; fichiers profil et 15 autres dossiers portent toujours 15. Correction repo-wide en attente de sa décision
+- Nombre de stations AMZL : **10 (6 ES, 4 IT)**, correction repo-wide appliquée le 2026-08-11
 - **Question bloquante recruteur** : site de rattachement (Longvic / Marseille / Lyon) - seul Marseille satisfait le critère dur de localisation
 - Prochaine action : Relecture manuelle par Fabrice, puis envoi. **Action MINERVE** : préparer entretien dès invitation (score 6D ≥45) - commande "MINERVE, prépare l'entretien AmazonFrance_SrFleetManager".
 - Date de relance :

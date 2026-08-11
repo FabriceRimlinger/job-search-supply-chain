@@ -43,7 +43,7 @@ Supply chain and logistics professional with 20+ years of operational experience
 ### Head of AMZL Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan / Madrid**
 
-- Designed and deployed Amazon's last-mile delivery **network architecture** for Italy and Spain: site selection, capacity modelling, carrier integration, process design - **15 operational sites in 2 years**
+- Designed and deployed Amazon's last-mile delivery **network architecture** for Italy and Spain: site selection, capacity modelling, carrier integration, process design - **10 operational sites in 2 years**
 - Standardised network design playbooks subsequently rolled out across EMEA
 
 ### Director of Expansion & Industrial Integration - Infarm

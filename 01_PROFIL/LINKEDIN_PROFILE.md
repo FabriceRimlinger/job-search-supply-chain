@@ -16,7 +16,7 @@ LinkedIn alloue 220 caractères. Formule utilisée : `[Fonction] | [Valeur diff�
 
 ### Variante A — Orientée Last-Mile / Operations Director
 ```
-Operations & Transformation Director | 15 delivery stations launched, AI-driven -40% manual workload | EU/EMEA
+Operations & Transformation Director | 10 delivery stations launched, AI-driven -40% manual workload | EU/EMEA
 ```
 *Usage* : offres Last Mile, Delivery Network, Head of Operations
 
@@ -46,7 +46,7 @@ Limite LinkedIn : 2 600 caractères (~400 mots). Objectif ici : 280-300 mots, to
 
 Operations and supply chain director with 20 years of track record in operational transformation, logistics network deployment, and complex program management across Europe and EMEA - Amazon (10 years), Colis Privé, Infarm, Dole Europe. Trilingual FR/EN/ES. At home in high-complexity, data-driven, multicultural environments.
 
-At Amazon EMEA, I managed a portfolio of 1,200+ due diligence projects per year across all business lines, with a €40M annual budget. I designed and deployed SHIELD - a custom BI and knowledge management platform adopted by all EMEA stakeholders. Earlier, as Last-Mile Expansion Lead for South EU, I launched 15 Amazon delivery stations in Italy and Spain in under 2 years - all operational for peak season, AMZL covering 75%+ of Amazon deliveries in major cities within 2 years. At Colis Privé, I drove a 20% reduction in Customer Service costs (€550k/year) while activity grew 7.5%, by deploying AI forecasting, RPA and call bots that cut manual workload by 40%.
+At Amazon EMEA, I managed a portfolio of 1,200+ due diligence projects per year across all business lines, with a €40M annual budget. I designed and deployed SHIELD - a custom BI and knowledge management platform adopted by all EMEA stakeholders. Earlier, as Last-Mile Expansion Lead for South EU, I launched 10 Amazon delivery stations in Italy and Spain in under 2 years - all operational for peak season, AMZL covering 75%+ of Amazon deliveries in major cities within 2 years. At Colis Privé, I drove a 20% reduction in Customer Service costs (€550k/year) while activity grew 7.5%, by deploying AI forecasting, RPA and call bots that cut manual workload by 40%.
 
 I'm looking for Director-level roles in transformation, operational excellence, PMO, or last-mile supply chain with a European or international scope. If you're scaling a logistics network, restructuring a program portfolio, or building a data-driven operations team - I'd be happy to connect.
 

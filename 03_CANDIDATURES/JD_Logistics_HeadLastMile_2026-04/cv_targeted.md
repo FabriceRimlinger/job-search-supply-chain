@@ -3,7 +3,7 @@
 ## Hook
 
 > Head of Last Mile & Delivery Operations France - 20 years of pan-European logistics, including pioneering Amazon's AMZL last-mile network in Southern Europe.
-> Launched 15 Amazon delivery stations in Italy and Spain in 2 years - 2 additional centres beyond targets, all on-time for peak seasons.
+> Launched 10 Amazon delivery stations in Italy and Spain in 2 years - 2 additional centres beyond targets, all on-time for peak seasons.
 > Director of Operations, Colis Privé: 25 stations, >4,000 contracted drivers, 90M parcels/year across France.
 
 ---
@@ -16,7 +16,7 @@ Last-mile delivery · delivery station · sortation · dispatch · logistics ope
 
 ## Targeted Profile
 
-Senior logistics leader with 20 years of pan-European experience, specialising in last-mile network launch, scale-up and operational excellence. Pioneered Amazon's AMZL delivery network in Italy and Spain (15 stations, 2 years), then led operations and transformation at Colis Privé (25 stations, >4,000 contracted drivers, 90M parcels/year). Deep expertise in French labour law and transport compliance through direct M&A integration experience. Known for building operational systems and playbooks that scale. Trilingual FR/EN/ES, based in Marseille.
+Senior logistics leader with 20 years of pan-European experience, specialising in last-mile network launch, scale-up and operational excellence. Pioneered Amazon's AMZL delivery network in Italy and Spain (10 stations, 2 years), then led operations and transformation at Colis Privé (25 stations, >4,000 contracted drivers, 90M parcels/year). Deep expertise in French labour law and transport compliance through direct M&A integration experience. Known for building operational systems and playbooks that scale. Trilingual FR/EN/ES, based in Marseille.
 
 ---
 
@@ -40,7 +40,7 @@ Senior logistics leader with 20 years of pan-European experience, specialising i
 ### Head of AMZL Expansion - South EU - Amazon Logistics (04/2016 – 09/2018)
 *Pioneer last-mile network - Italy & Spain, 0 to operational*
 
-- **Network launch**: deployed **15 delivery stations in 2 years** across Italy and Spain - **2 additional centres beyond initial targets**, all launched on-time for **Amazon peak seasons (year-end holidays)**
+- **Network launch**: deployed **10 delivery stations in 2 years** across Italy and Spain - **2 additional centres beyond initial targets**, all launched on-time for **Amazon peak seasons (year-end holidays)**
 - **Delivery station operations**: end-to-end setup of sortation, dispatch, routing and tracking operations for each station from Day 1
 - **Cross-functional leadership**: coordinated 15+ teams simultaneously (Real Estate, Construction, IT, HR, Legal, DSPs) across 2 countries
 - **Playbook development**: standardised AMZL expansion processes subsequently deployed across EMEA

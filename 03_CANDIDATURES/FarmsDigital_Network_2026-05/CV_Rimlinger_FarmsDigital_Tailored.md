@@ -46,7 +46,7 @@ Directeur Operations & Supply Chain avec **20 ans d'expérience en agriculture e
 ### Head of Last Mile Delivery Expansion — South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- **Pionnier du déploiement réseau last mile Amazon** en Italie et Espagne — **15 stations lancées en 2 ans**
+- **Pionnier du déploiement réseau last mile Amazon** en Italie et Espagne — **10 stations lancées en 2 ans**
 - Managé 5 launch managers et 19 équipes transversales (Immobilier, RH, IT, Juridique, Prestataires)
 - **75% des livraisons Amazon** assurées par le réseau après 2 ans
 
@@ -167,5 +167,5 @@ Directeur Operations & Supply Chain avec **20 ans d'expérience en agriculture e
 ✓ **20+ ans agriculture** — toute la chaîne : production frais, mûrissage, post-récolte, logistique, export  
 ✓ **Expérience Espagne & Europe** — marchés clés, réseaux, contexte local  
 ✓ **Tech-savvy** — IA, automation, ERP, WMS, digital transformation  
-✓ **Expansion de réseaux** — 15 stations lancées en 2 ans, 72M€ CAPEX Infarm, restructurations  
+✓ **Expansion de réseaux** — 10 stations lancées en 2 ans, 72M€ CAPEX Infarm, restructurations  
 ✓ **Data-driven operations** — BI, forecasting, optimisation, +25% à 50% improvements

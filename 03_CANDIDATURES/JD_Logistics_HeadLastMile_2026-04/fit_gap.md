@@ -19,7 +19,7 @@
 
 ## Strong Matches
 
-- **Amazon AMZL pioneer**: 15 stations launched in 2 years, IT + ES - this is exactly what JD is doing in France. No other candidate likely has this credential combined with French operations experience
+- **Amazon AMZL pioneer**: 10 stations launched in 2 years, IT + ES - this is exactly what JD is doing in France. No other candidate likely has this credential combined with French operations experience
 - **Colis Privé operational ownership**: 25 stations, >4,000 contracted drivers, 90M parcels/year - proven scale in the French last-mile market specifically
 - **French labour law**: led integration of 300 employees under French labour law, union negotiations, social plan - the most feared compliance dimension for a Chinese company entering France
 - **Startup-to-scale playbook**: standardised AMZL processes deployed EMEA-wide - exactly what JD needs to build in France

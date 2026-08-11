@@ -39,7 +39,7 @@ Dirigeant orienté résultats, spécialisé dans la livraison de programmes indu
 ### Head of AMZL Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan / Madrid**
 
-- J'ai déployé le réseau de livraison last-mile Amazon en Italie et Espagne : **15 sites opérationnels livrés en 2 ans**, dont 2 centres dépassant les objectifs initiaux, tous prêts pour la peak season
+- J'ai déployé le réseau de livraison last-mile Amazon en Italie et Espagne : **10 sites opérationnels livrés en 2 ans**, dont 2 centres dépassant les objectifs initiaux, tous prêts pour la peak season
 - J'ai coordonné 15+ équipes transversales (Immobilier, Construction, Juridique, RH, IT) et standardisé les playbooks d'expansion déployés ensuite à l'échelle EMEA
 
 ### Head of Technical & Environmental Real Estate - Amazon EMEA

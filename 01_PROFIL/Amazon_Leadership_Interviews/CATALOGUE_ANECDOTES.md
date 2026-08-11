@@ -30,7 +30,7 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 | **Compétences** | #data #bi #vba #automation #rpa #ai #escalation #negotiation #pm #change-management |
 | **Périmètre** | #emea #eu #france #multi-country #team-25 #team-16 #team-10 #budget-40m |
 | **Secteur** | #logistics #last-mile #pharma #supply-chain #real-estate #cold-chain #agri #e-commerce #regulated |
-| **Impact** | #savings-550k #cost-20pct #tasks-40pct #100k-downloads #15-stations #2m-revenue |
+| **Impact** | #savings-550k #cost-20pct #tasks-40pct #100k-downloads #10-stations #2m-revenue |
 | **Format entretien** | #polyvalent #amazon-only #non-amazon #chiffres-forts #leadership-solo |
 
 ---
@@ -131,17 +131,17 @@ grep -B 2 "#budget-40m\|#savings-550k\|#100k-downloads" CATALOGUE_ANECDOTES.md
 
 ---
 
-### Anecdote B - 15 stations AMZL en 2 ans (Italie et Espagne)
-**Tags** : #deliver-results #ownership #think-big · #amazon · #launch #planning · #pm #escalation · #eu #multi-country · #logistics #last-mile · #15-stations · #polyvalent #chiffres-forts
+### Anecdote B - 10 stations AMZL en 2 ans (Italie et Espagne)
+**Tags** : #deliver-results #ownership #think-big · #amazon · #launch #planning · #pm #escalation · #eu #multi-country · #logistics #last-mile · #10-stations · #polyvalent #chiffres-forts
 **Source** : CV
 
 **S** : Head of AMZL Expansion South EU, Amazon Logistics (2016-2018). Mission pionnière : déployer le réseau last mile Amazon en Italie et Espagne, marchés sans infrastructure AMZL.
 
-**T** : Lancer 15 stations en 2 ans en coordonnant des équipes sans expérience AMZL dans 2 pays.
+**T** : Lancer 10 stations en 2 ans en coordonnant des équipes sans expérience AMZL dans 2 pays.
 
 **A** : Coordonné 15+ équipes transversales. Standardisé les playbooks, outils et processus pour rendre le déploiement reproductible.
 
-**R** : **15 stations livrées en 2 ans.** Playbooks déployés ensuite à l'échelle EMEA.
+**R** : **10 stations livrées en 2 ans.** Playbooks déployés ensuite à l'échelle EMEA.
 
 ---
 
@@ -331,7 +331,7 @@ Formation et adoption de SHIELD. *"Fabrice has transformed and grown the due dil
 | **DCT1 Barcelona** | Bias · Backbone · Ownership · Deliver · Customer | Lancement J+1, 0 impact | Tout entretien executive |
 | **SfE / SHIELD** | Invent · Dive Deep · Learn · Standards | 100k downloads, 40M€ géré | Postes data/transformation |
 | **550k€ Colis Privé** | Deliver · Frugality · Invent | 550k€/an, -40% tâches | Postes opérations/coûts |
-| **15 stations AMZL** | Deliver · Ownership · Think Big | 15 sites, 2 pays, 2 ans | Postes expansion/programme |
+| **10 stations AMZL** | Deliver · Ownership · Think Big | 10 sites, 2 pays, 2 ans | Postes expansion/programme |
 | **Milee 300 employés** | Bias · Ownership · Deliver | 300p intégrés, 0 disruption | M&A, transformation |
 | **Transpo Tech PM governance** | Standards · Hire-Develop · Deliver | Framework PM complet, onboarding carriers | **PMO/Change Lead — équipe PM IT** |
 | **Real Estate 3→10** | Standards · Hire-Develop · Invent | Scaling x3.3 en 3 mois, 0 perte de cohérence | **PMO/Change Lead — structuration équipe** |

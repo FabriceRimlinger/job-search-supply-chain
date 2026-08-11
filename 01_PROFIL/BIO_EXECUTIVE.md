@@ -7,7 +7,7 @@ Dirigeant supply chain et transformation opérationnelle avec 20 ans d'expérien
 ## Forces principales
 
 **1. Transformation & excellence opérationnelle**
-Pilotage de programmes de transformation à fort impact : intégration post-acquisition (300 personnes), déploiement de 15 stations last mile en 2 ans, réduction de 40% des tâches manuelles via IA et RPA.
+Pilotage de programmes de transformation à fort impact : intégration post-acquisition (300 personnes), déploiement de 10 stations last mile en 2 ans, réduction de 40% des tâches manuelles via IA et RPA.
 
 **2. Analytics & BI**
 Propriétaire de plateformes BI (SHIELD chez Amazon, solutions BI chez Colis Privé). Maîtrise des outils data (SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA). Décisions systématiquement ancrées dans la donnée.
@@ -21,7 +21,7 @@ Direction d'équipes de 16 à 30+ personnes, coordination de 15+ équipes cross-
 ## Réalisations différenciantes
 
 - 550k€/an d'économies sur le Service Client (-20%) en contexte de croissance
-- Déploiement AMZL pionnier : 15 stations livrées en 2 ans (IT + ES)
+- Déploiement AMZL pionnier : 10 stations livrées en 2 ans (IT + ES)
 - SHIELD : plateforme BI Due Diligence déployée à l'échelle EMEA Amazon
 - Intégration de 300 employés post-M&A avec continuité opérationnelle totale
 
@@ -44,7 +44,7 @@ Supply chain and operations executive with a 20-year track record delivering lar
 ## Core Strengths
 
 **1. Operational Transformation & Excellence**
-Led post-acquisition integration of 300 employees with zero operational disruption, launched 15 last-mile delivery stations in 2 years, and cut manual workload by 40% through AI forecasting, RPA, and automation at scale.
+Led post-acquisition integration of 300 employees with zero operational disruption, launched 10 last-mile delivery stations in 2 years, and cut manual workload by 40% through AI forecasting, RPA, and automation at scale.
 
 **2. Analytics & Business Intelligence**
 Built BI platforms from the ground up - SHIELD at Amazon (1,200+ projects/year, adopted across all EMEA business lines) and data solutions at Colis Privé. Proficient in SQL, Power BI, Microstrategy, Excel VBA, and data-driven decision-making frameworks.
@@ -58,7 +58,7 @@ Directed teams of 16 to 30+ direct reports, coordinated 15+ cross-functional wor
 ## Differentiating Achievements
 
 - €550K/year Customer Service cost reduction (-20%) while growing volume 7.5%
-- Launched 15 Amazon delivery stations (Italy + Spain) in under 2 years - all peak-ready
+- Launched 10 Amazon delivery stations (Italy + Spain) in under 2 years - all peak-ready
 - SHIELD: EMEA-wide BI platform, 1,200+ due diligence projects/year, €40M annual budget
 - Post-M&A integration of 300 employees with full operational continuity (250K deliveries/day)
 

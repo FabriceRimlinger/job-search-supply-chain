@@ -11,7 +11,7 @@ Benoît,
 
 Merci pour ce déjeuner, j'ai trouvé l'échange passionnant. Farms Digital adresse un vrai besoin sur un marché mondial et la dynamique commerciale que tu décris est un excellent signal.
 
-Le point qui m'a le plus interpellé, c'est le défi de scaling que tu anticipais : quand le pipeline commercial accélère, le goulot se forme souvent sur le déploiement terrain - audits, setup, suivi des prospects jusqu'à la signature, puis accompagnement des phases d'intégration. C'est exactement le type de problème que j'ai résolu à plusieurs reprises : chez Amazon en déployant 15 stations en 2 ans avec 19 équipes transversales, chez Infarm en structurant le rollout EU sur 4 pays (72M de CAPEX), ou chez Colis Privé en intégrant 300 personnes post-acquisition sans rupture opérationnelle.
+Le point qui m'a le plus interpellé, c'est le défi de scaling que tu anticipais : quand le pipeline commercial accélère, le goulot se forme souvent sur le déploiement terrain - audits, setup, suivi des prospects jusqu'à la signature, puis accompagnement des phases d'intégration. C'est exactement le type de problème que j'ai résolu à plusieurs reprises : chez Amazon en déployant 10 stations en 2 ans avec 19 équipes transversales, chez Infarm en structurant le rollout EU sur 4 pays (72M de CAPEX), ou chez Colis Privé en intégrant 300 personnes post-acquisition sans rupture opérationnelle.
 
 Ce que je pourrais apporter concrètement à Farms Digital :
 - Structurer les process de setup et d'audit pour qu'ils passent à l'échelle sans multiplier les effectifs

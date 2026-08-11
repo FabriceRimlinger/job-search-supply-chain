@@ -106,7 +106,7 @@ Pas de concurrent frontal sur le créneau exact "SaaS gestion plantation banani�
 
 ## Fit avec Fabrice
 
-- Structuration de process de déploiement à l'échelle (Amazon 15 stations, Infarm 4 pays)
+- Structuration de process de déploiement à l'échelle (Amazon 10 stations, Infarm 4 pays)
 - Pilotage de phases d'intégration complexes (Colis Privé M&A 300 personnes)
 - Background agro/agroalimentaire (Dole, Geest/Primaflor, INP Toulouse)
 - Trilingue FR/EN/ES - indispensable pour les marchés tropicaux internationaux

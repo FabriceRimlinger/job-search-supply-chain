@@ -10,7 +10,7 @@
 
 Directeur transformation et excellence opérationnelle avec 20 ans de track record dans le pilotage de la performance, la transformation stratégique et le programme management complexe en environnement logistique international - Amazon (10 ans), Colis Privé (filiale CEVA/CMA CGM), Infarm, Dole Europe. Expert en stakeholder management jusqu'au C-suite dans des structures matricielles EMEA. Trilingue FR/EN/ES.
 
-Approche systématiquement data-driven : construction et ownership de plateformes BI (SHIELD, Colis Privé), dashboards de performance, analyses statistiques pour supporter la prise de décision exécutive. Expérience confirmée en change management et transformation : intégration post-acquisition de 300 personnes, déploiement de réseaux opérationnels 0 to 15 stations en 24 mois, réduction de 40% des tâches manuelles via automatisation IA/RPA.
+Approche systématiquement data-driven : construction et ownership de plateformes BI (SHIELD, Colis Privé), dashboards de performance, analyses statistiques pour supporter la prise de décision exécutive. Expérience confirmée en change management et transformation : intégration post-acquisition de 300 personnes, déploiement de réseaux opérationnels 0 to 10 stations en 24 mois, réduction de 40% des tâches manuelles via automatisation IA/RPA.
 
 Compétences en business finance : modélisation P&L (acquisition Milee), planification et suivi CAPEX 30-100M€/an (Dole Europe), gestion portfolio opérationnel 40M€/an (Amazon EMEA).
 
@@ -51,7 +51,7 @@ J'ai dirigé une équipe de 25 personnes, propriétaire de la performance opéra
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
 **04/2016 - 09/2018 | Milan, Italie / Madrid, Espagne**
 
-- J'ai pionneré le déploiement AMZL en Italie et Espagne : 15 stations lancées en 2 ans, toutes opérationnelles peak season - coordination de 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT)
+- J'ai pionneré le déploiement AMZL en Italie et Espagne : 10 stations lancées en 2 ans, toutes opérationnelles peak season - coordination de 19 équipes transversales (Immobilier, Construction, Juridique, RH, IT)
 - Créé le Launch Playbook AMZL et le Plan of Record sur 3 ans pour l'expansion EU - adopté à l'échelle EMEA ; présenté le programme au SteerCo EU trimestriellement
 
 ### Director of Expansion & Industrial Integration - Infarm
