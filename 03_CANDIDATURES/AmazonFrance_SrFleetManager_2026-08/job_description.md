@@ -2,11 +2,12 @@
 
 - **Entreprise** : Amazon (Amazon France Transport SAS)
 - **Poste** : Sr. Fleet Manager, Global Fleet
-- **Localisation** : Marseille, Provence-Alpes-Côte d'Azur, France - basé sur une station de livraison, 20-30% de déplacements sur la région assignée
+- **Localisation** : 3 sites possibles - Longvic (21), Marseille (13), Lyon (69). Basé sur une station de livraison, 20-30% de déplacements sur la région assignée
 - **Contrat** : Full-time
 - **Date de découverte** : 2026-08-05 (offre postée il y a 2 semaines)
-- **URL source** : LinkedIn (capture FireShot "Sr. Fleet Manager, Global Fleet - Amazon")
-- **Job ID** : A10631533
+- **Équipe** : Corporate Operations
+- **URL source** : amazon.jobs (capture 2026-08-11) + LinkedIn (capture initiale 2026-08-05)
+- **Job ID** : 10492642 (amazon.jobs) / A10631533 (ref LinkedIn)
 
 ## Description du poste
 
@@ -25,17 +26,18 @@ Amazon recherche un Sr Fleet Manager responsable de la sécurité, conformité e
 ### Qualifications de base
 - Bachelor's degree
 - Expérience à influencer et interagir avec des équipes transversales
-- Expérience prouvée dans l'industrie logistique
+- Expérience en logistique **ou** expérience dans un rôle opérationnel
 - Expérience opérationnelle et management d'opérations complexes
 - Capacité à travailler efficacement avec organisations, niveaux de management, cultures et personnalités variés
 - Excellentes compétences de communication, rigueur
-- Autonomie en environnement rapide et en évolution ; français et anglais requis
+- Preuve de capacité à animer des sessions de formation et à créer les supports de communication/formation correspondants
+- Français et anglais niveau **C1 ou supérieur** (oral, écrit, lecture)
 
 ### Qualifications préférées
 - Master's degree ou MBA
 - Expérience en Fleet Management
-- Background en mobilité (ex : car leasing/automotive)
-- Italien ou portugais un plus
+- Expérience dans les services de mobilité (location automobile / secteur automobile)
+- Italien, espagnol ou portugais un plus
 
 ## Réseau LinkedIn
 
