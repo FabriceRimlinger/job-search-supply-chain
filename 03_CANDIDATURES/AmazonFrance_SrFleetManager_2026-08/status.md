@@ -7,6 +7,7 @@
 - Statut : Documents prêts (v2 anglaise, 2026-08-11)
 - Langue : en 🇬🇧 (décision Fabrice 2026-08-11 : toute la correspondance Amazon en anglais. Documents sortants - cv_targeted, cover_letter - en anglais ; fit_gap et company_brief restent en français, usage interne)
 - Canal de candidature : amazon.jobs direct (Job ID 10492642) - preferer au apply LinkedIn
+- **[À CONFIRMER] Fabrice** : (1) nombre de stations AMZL - il indique 4 ES + 6 IT = 10, les fichiers profil portent 15 partout ; documents Amazon alignés sur 10, reste du repo non touché. (2) Périmètre véhicules réel chez Colis Privé (achat/leasing/maintenance/télématique) - conditionne une remontée du score Compétences 8 → 9. Détail dans fit_gap.md
 - **Question bloquante recruteur** : site de rattachement (Longvic / Marseille / Lyon) - seul Marseille satisfait le critère dur de localisation
 - Prochaine action : Relecture manuelle par Fabrice, puis envoi. **Action MINERVE** : préparer entretien dès invitation (score 6D ≥45) - commande "MINERVE, prépare l'entretien AmazonFrance_SrFleetManager".
 - Date de relance :

@@ -1,8 +1,8 @@
 # Targeted CV - Amazon (Sr. Fleet Manager, Global Fleet)
 
 > Sr Fleet Manager - 10 years at Amazon, expert in last-mile expansion and operations across EMEA.
-> AMZL pioneer in Italy and Spain: 15 delivery stations launched in 2 years, full ownership of each site's equipment and fleet, from sourcing to go-live.
-> Vessel scheduling and port terminal management at Dole Europe - large-scale capacity and mobile asset management.
+> AMZL pioneer in Italy and Spain: 10 delivery stations launched from scratch (6 Italy, 4 Spain), full ownership of each site's equipment and vehicle fleet, from sourcing to go-live.
+> At Colis Privé, operational performance across a network running 300 in-house and 4,000 contracted drivers daily - the same hybrid own-fleet-plus-partner model as AMZL and its DSPs.
 
 ## Fabrice Rimlinger
 
@@ -12,7 +12,7 @@ Marseille, France
 
 ## Profile
 
-Operations and supply chain leader with 10 years at Amazon (last-mile, transportation technology, real estate due diligence) and 20 years overall in international logistics environments. Hands-on experience managing fleets and mobile assets at scale: 600 vehicles fitted out (Pomona), vessel scheduling and port terminals (Dole Europe), equipment ownership across 15 last-mile delivery stations (Amazon AMZL). Used to arbitrating short- and long-term trade-offs between demand and asset availability, to multi-stakeholder management and to regulated environments. Trilingual FR/EN/ES.
+Operations and supply chain leader with 10 years at Amazon (last-mile, transportation technology, real estate due diligence) and 20 years overall in international logistics environments. Hands-on experience managing fleets and mobile assets at scale: 600 vehicles fitted out (Pomona), vessel scheduling and port terminals (Dole Europe), equipment and vehicle fleet ownership across 10 last-mile delivery stations launched from scratch (Amazon AMZL Italy and Spain). Used to arbitrating short- and long-term trade-offs between demand and asset availability, to multi-stakeholder management and to regulated environments. Trilingual FR/EN/ES.
 
 ## Professional experience
 
@@ -24,8 +24,8 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Director Business Excellence - Colis Privé (CEVA Logistics / CMA CGM Group)
 **05/2024 - 02/2026 | Marseille, France**
-*375 M€ revenue; 90+ million parcels/year; 4k+ contracted drivers*
-- Led a team of 25, owning operational and customer performance
+*375 M€ revenue; 90+ million parcels/year; 250-300k parcels/day; 5 hubs / 25 stations / 27 satellites; 300 in-house drivers and 4,000+ contracted drivers on the road daily*
+- Led a team of 25, owning operational and customer performance across a network delivering 250-300k parcels/day with **300 in-house drivers and 4,000+ contracted drivers on the road daily** - daily arbitration between volume demand and available delivery capacity across in-house and subcontracted resources
 - Sponsored the automation rollout (AI forecasting, RPA), cutting manual tasks by **40%** and improving service level by **30%**
 - Reduced the Customer Service budget by **20% (550k€/year saved)** despite a 7.5% increase in activity
 
@@ -50,7 +50,7 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Head of Last Mile Delivery Expansion South EU - Amazon Logistics (New Countries Expansion Lead)
 **04/2016 - 09/2018 | Milan, Italy / Madrid, Spain**
-- Pioneered Amazon's last-mile delivery network in Italy and Spain - **15 stations launched in 2 years**, all operational for peak season
+- Pioneered Amazon's last-mile delivery network in Italy and Spain - **10 stations launched from scratch (6 Italy, 4 Spain)**, all operational for peak season, sites of ~10,000 m² each
 - **Owned the equipment supply chain for the new stations** (from sourcing to delivery, spare parts and consumables) - direct ownership of each site's asset **availability** and compliance
 - Sized station capacity to absorb **activity peaks and ramp-ups** (peak season), and handled **operational escalations** directly with stations and transport providers
 - Managed 5 launch managers and coordinated 19 cross-functional teams (Real Estate, Construction, Legal, HR, IT, contractors)
@@ -69,7 +69,7 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ## Key skills
 
-- **Fleet & asset management**: fleet fit-out (600 Pomona vehicles), vessel scheduling and terminal management (Dole), station equipment ownership (AMZL)
+- **Fleet & asset management**: delivery capacity across 300 in-house and 4,000+ contracted drivers (Colis Privé), station equipment and vehicle fleet stand-up across 10 AMZL launches, fleet fit-out of 600 vehicles (Pomona), vessel scheduling and terminal management (Dole)
 - **Single-threaded leadership / regional programme management**: multi-site initiative launches, short- and long-term trade-offs on asset availability
 - **Stakeholder management**: internal and external coordination, negotiation, influence without direct authority
 - **Training & communication**: delivering training sessions and delivery governance rituals (Alloga, Infarm), building the matching communication and training materials (PMO governance, Pomona GPS fleet user documentation)

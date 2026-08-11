@@ -2,11 +2,11 @@
 
 Dear Hiring Team,
 
-Your Sr Fleet Manager opening for the France region takes me back to ground I know well. Between 2016 and 2018, as Head of Last Mile Delivery Expansion South EU, I launched 15 AMZL stations in Italy and Spain in two years, with full ownership of each site's equipment from sourcing to go-live. Asset availability, compliance, sizing for activity peaks and ramp-ups, running operational escalations with the stations: that is the daily job your posting describes.
+Your Sr Fleet Manager opening for the France region takes me back to ground I know well. Between 2016 and 2018, as Head of Last Mile Delivery Expansion South EU, I launched 10 AMZL stations from scratch, 6 in Italy and 4 in Spain, owning each site's equipment and vehicle fleet from sourcing to go-live. Standing up the fleet a new station needs, keeping it available and compliant, sizing for activity peaks and ramp-ups, running operational escalations: that is what launching a country network actually consists of, and it is what your posting describes.
 
-I have applied the same demand-versus-capacity arbitration in other settings: vessel scheduling and port terminal management at Dole Europe, where I cut costs by 30% against a 50% volume increase; GPS and ERP rollout across 600 trucks at Pomona, where I also wrote the documentation and trained the users. That last point maps directly onto your requirement to deliver training sessions and build the supporting materials. It is what I do today at Alloga, where I run the delivery governance rituals and built the governance materials that embed new working practices in the teams.
+More recently at Colis Privé I owned operational performance across a network delivering 250-300k parcels a day with 300 in-house drivers and over 4,000 contracted drivers on the road daily. That is the same hybrid model of own capacity plus delivery partners that AMZL runs with its DSPs, and the same daily arbitration between volatile demand and available capacity in a market where vehicles are constrained.
 
-Ten years at Amazon mean I can be operational without a cultural learning curve. I am based in Marseille and available for the 20 to 30% travel required. I would welcome the chance to discuss the intended home station for this role and how my background can serve the Global Fleet team.
+On your requirement to deliver training sessions and build the supporting materials: I rolled out GPS and ERP across 600 trucks at Pomona, where I wrote the user documentation and trained drivers and operations myself. It is also what I do today at Alloga, running the delivery governance rituals and building the materials that embed new practices in the teams. Ten years at Amazon mean I can be operational without a cultural learning curve. I am based in Marseille and available for the 20 to 30% travel required, and I would welcome a conversation about the intended home station for this role.
 
 Best regards,
 Fabrice Rimlinger
