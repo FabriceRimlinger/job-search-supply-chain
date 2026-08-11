@@ -2,7 +2,7 @@
 
 > Sr Fleet Manager - 10 years at Amazon, expert in last-mile expansion and operations across EMEA.
 > AMZL pioneer in Italy and Spain: 10 delivery stations launched from scratch (6 Italy, 4 Spain), full ownership of each site's equipment and vehicle fleet, from sourcing to go-live.
-> At Colis Privé, operational performance across a network running 300 in-house and 4,000 contracted drivers daily - the same hybrid own-fleet-plus-partner model as AMZL and its DSPs.
+> Director of Business Excellence at Colis Privé: performance of a network running 300 in-house and 4,000 contracted drivers daily - the same hybrid own-capacity-plus-partner model AMZL runs with its DSPs.
 
 ## Fabrice Rimlinger
 
@@ -12,7 +12,7 @@ Marseille, France
 
 ## Profile
 
-Operations and supply chain leader with 10 years at Amazon (last-mile, transportation technology, real estate due diligence) and 20 years overall in international logistics environments. Hands-on experience managing fleets and mobile assets at scale: 600 vehicles fitted out (Pomona), vessel scheduling and port terminals (Dole Europe), equipment and vehicle fleet ownership across 10 last-mile delivery stations launched from scratch (Amazon AMZL Italy and Spain). Used to arbitrating short- and long-term trade-offs between demand and asset availability, to multi-stakeholder management and to regulated environments. Trilingual FR/EN/ES.
+Operations and supply chain leader with 10 years at Amazon (last-mile, transportation technology, real estate due diligence) and 20 years overall in international logistics environments. Hands-on experience standing up and steering delivery capacity at scale: equipment and vehicle fleet stand-up across 10 last-mile delivery stations launched from scratch (Amazon AMZL Italy and Spain), then performance ownership of a 4,300-driver delivery network (Colis Privé). Used to arbitrating short- and long-term trade-offs between demand and asset availability, to multi-stakeholder management and to regulated environments. Trilingual FR/EN/ES.
 
 ## Professional experience
 
@@ -69,10 +69,11 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ## Key skills
 
-- **Fleet & asset management**: delivery capacity across 300 in-house and 4,000+ contracted drivers (Colis Privé), station equipment and vehicle fleet stand-up across 10 AMZL launches, fleet fit-out of 600 vehicles (Pomona), vessel scheduling and terminal management (Dole)
+- **Fleet stand-up & asset management**: station equipment and vehicle fleet stand-up across 10 AMZL launches, vessel scheduling and terminal management (Dole), fleet fit-out of 600 vehicles (Pomona)
+- **Delivery network performance**: 250-300k parcels/day across 300 in-house and 4,000+ contracted drivers, arbitration between volume demand and available delivery capacity (Colis Privé)
 - **Single-threaded leadership / regional programme management**: multi-site initiative launches, short- and long-term trade-offs on asset availability
 - **Stakeholder management**: internal and external coordination, negotiation, influence without direct authority
-- **Training & communication**: delivering training sessions and delivery governance rituals (Alloga, Infarm), building the matching communication and training materials (PMO governance, Pomona GPS fleet user documentation)
+- **Training & communication**: running project-management training and delivery governance rituals for IT and project teams (Alloga), building the matching communication and training materials; training and mentoring programmes across 4 countries (Infarm)
 - **Demand and pipeline management**: asset pool and pipeline tracking, shortage arbitration, operational escalations, activity peaks and ramp-ups
 - **Compliance & safety**: regulatory due diligence (Amazon EMEA/MENA), industrial compliance (Infarm)
 - **Data & BI**: SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA
