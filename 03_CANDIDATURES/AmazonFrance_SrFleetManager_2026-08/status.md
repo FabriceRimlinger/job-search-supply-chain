@@ -6,6 +6,7 @@
 - Date d'envoi :
 - Statut : Documents prêts
 - Langue : fr 🇫🇷 (offre bilingue FR/EN, français requis)
+- Canal de candidature : amazon.jobs direct (Job ID 10492642) - preferer au apply LinkedIn
 - Prochaine action : Relecture manuelle par Fabrice, puis envoi. **Action MINERVE** : préparer entretien dès invitation (score 6D ≥45) - commande "MINERVE, prépare l'entretien AmazonFrance_SrFleetManager".
 - Date de relance :
 - Score réseau LinkedIn : aucun (à vérifier - "Rajesh et autres" visibles dans le réseau)
