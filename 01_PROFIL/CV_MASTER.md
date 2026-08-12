@@ -27,21 +27,18 @@ Directeur Operations & Supply Chain avec 20 ans de track record dans la transfor
 - Conception et déploiement d'artefacts de gouvernance calibrés sur les standards IT Cencora groupe (UK)
 - Animation des rituels de pilotage et accompagnement du changement par présence terrain ("hearts and minds" leadership)
 
-### Director Business Excellence - Colis Privé *(filiale CEVA Logistics / Groupe CMA CGM)*
-**05/2024 – 02/2026 | Marseille, France**
+### Directeur Business Excellence et Transformation - Colis Privé *(filiale CEVA Logistics / Groupe CMA CGM)*
+**07/2023 - 02/2026 | Marseille, France**
 *Livraisons B2C de colis ; 375 M€ CA ; 90+ millions de colis/an ; 250 à 300k colis/jour | 5 Hubs / 25 Stations / 27 satellites ; >1k employés ; >4k chauffeurs sous contrat ; >6k points relais*
+
+*Progression interne : Director of Transformation (07/2023 - 04/2024) puis Director Business Excellence (05/2024 - 02/2026). Regroupés en une seule expérience sur les CV.*
 
 - Dirigé une équipe de 25 personnes, responsable de la performance interne (opérations) et externe (clients), en pilotant l'excellence sur l'ensemble des fonctions
 - Promu la collecte de données avancée et l'analyse statistique pour soutenir la prise de décision projets et mettre en œuvre des solutions d'amélioration efficaces
 - Propriétaire des solutions de business intelligence
 - Sponsorisé le déploiement de l'automatisation incluant la prévision par IA, la RPA et les call bots, réduisant les tâches manuelles de **40%** et améliorant le niveau de service de **30%**
 - Réduit le budget Service Client de **20% (économies de 550k€/an)** malgré une hausse d'activité de 7,5% et plusieurs crises chez le prestataire externalisé
-
-### Director of Transformation - Colis Privé
-**07/2023 – 04/2024 | Marseille, France**
-
-- Conduit l'intégration de 300 employés lors de l'acquisition de notre principal prestataire de livraison (30% des chauffeurs disponibles)
-- Pris en charge : négociations juridiques, risk management, audits, modélisation P&L
+- Conduit l'intégration de 300 employés lors de l'acquisition de notre principal prestataire de livraison (30% des chauffeurs disponibles) : négociations juridiques, risk management, audits, modélisation P&L
 - Dirigé les équipes transversales pour aligner les processus et assurer une exécution opérationnelle ininterrompue (250k livraisons/jour)
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
