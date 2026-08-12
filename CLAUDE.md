@@ -53,6 +53,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - En cas de doute sur une information, la signaler avec `[À CONFIRMER]`.
 - Les documents de candidature doivent toujours passer une **vérification manuelle** avant envoi.
 - Le scoring 6D est utilisé pour toutes les analyses de fit (voir template `fit_gap.md`).
+- **Diplôme** : toujours écrire "Ingénieur Agronome (MSc)" (jamais "Agricultural Engineer" ni autre traduction), y compris dans les documents en anglais.
 - **Tirets** : utiliser uniquement `-` (tiret simple). Ne jamais utiliser `—` (tiret long/em dash) dans aucun document.
 
 ---

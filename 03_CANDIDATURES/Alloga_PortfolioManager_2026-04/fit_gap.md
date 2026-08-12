@@ -27,7 +27,7 @@
 
 ## Gaps to Address
 
-- **Pharma/GDP experience** (partially bridged): no direct pharma experience, but ~10 years in cold chain and perishables logistics (Dole Europe, Pomona, ColdEnergy) = cold chain, traceability, compliance in controlled environments. Life sciences academic background (Biochemistry + Agricultural Engineer). To be explicitly leveraged as a bridge to GDP
+- **Pharma/GDP experience** (partially bridged): no direct pharma experience, but ~10 years in cold chain and perishables logistics (Dole Europe, Pomona, ColdEnergy) = cold chain, traceability, compliance in controlled environments. Life sciences academic background (Biochemistry + Ingénieur Agronome). To be explicitly leveraged as a bridge to GDP
 - **Direct WMS/TMS/ERP**: indirect experience via Amazon and Colis Privé. Clarify specific systems used if applicable
 - **PMO certifications** (PMP/PRINCE2/MSP): none. Do not mention. Compensate with depth of operational experience (€40M/year, SHIELD, 1,200+ projects/year)
 

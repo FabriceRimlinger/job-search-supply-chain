@@ -86,7 +86,7 @@ J'ai dirigé une équipe de 25 personnes, propriétaire de la performance opéra
 
 ## Formation
 
-**Ingénieur agronome - Grande Ecole** - INP Toulouse / Ecole Nationale Supérieure Agronomique (1991-1994)
+**Ingénieur Agronome (MSc) - Grande Ecole** - INP Toulouse / Ecole Nationale Supérieure Agronomique (1991-1994)
 Master of Science, spécialisé Economie et Management de l'agroindustrie
 
 ---

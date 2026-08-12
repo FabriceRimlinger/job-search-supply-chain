@@ -112,7 +112,7 @@ Programme governance director with 20 years of proven delivery in complex, multi
 
 ## Education
 
-- **1991–1994** : Master of Science, Agronomy — INP Toulouse (École Nationale Supérieure Agronomique). Specialisation: Agroindustry Economics & Management
+- **1991–1994** : Ingénieur Agronome (MSc) - INP Toulouse (École Nationale Supérieure Agronomique). Specialisation: Agroindustry Economics & Management
 - **1989–1991** : BSc Biochemistry / Chemistry — Université des Sciences de Montpellier
 
 ---

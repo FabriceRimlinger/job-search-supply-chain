@@ -138,8 +138,8 @@ Directeur Operations & Supply Chain avec **20 ans d'expérience en agriculture e
 
 ## Formation
 
-- **1991 – 1994** : Ingénieur agronome - École Nationale Supérieure Agronomique (INP Toulouse)
-  Master of Science, spécialisé en Économie et Management de l'agroindustrie
+- **1991 – 1994** : Ingénieur Agronome (MSc) - École Nationale Supérieure Agronomique (INP Toulouse)
+  Spécialisation Économie et Management de l'agroindustrie
 - **1989 – 1991** : Licence Biochimie / Chimie - Université des Sciences de Montpellier
 
 ---

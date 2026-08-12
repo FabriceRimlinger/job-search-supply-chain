@@ -4,7 +4,7 @@
 
 ## HOOK
 
-Ingénieur agronome (INP Toulouse), 20 ans de direction des opérations dans des environnements **FMCG et agroalimentaires** complexes - Pomona, Dole, Amazon, Colis Privé. Directeur **multi-sites** avec track record prouvé en amélioration continue opérationnelle, gestion CAPEX et management d'équipes transversales. Trilingue FR/EN/ES, basé Marseille, mobilité Avignon et région PACA.
+Ingénieur Agronome (MSc) (INP Toulouse), 20 ans de direction des opérations dans des environnements **FMCG et agroalimentaires** complexes - Pomona, Dole, Amazon, Colis Privé. Directeur **multi-sites** avec track record prouvé en amélioration continue opérationnelle, gestion CAPEX et management d'équipes transversales. Trilingue FR/EN/ES, basé Marseille, mobilité Avignon et région PACA.
 
 ---
 
@@ -105,7 +105,7 @@ Dirigeant orienté résultats avec une double compétence rare : **ingénieur ag
 
 ## FORMATION
 
-- **1991 – 1994** : Ingénieur agronome - INP Toulouse (École Nationale Supérieure Agronomique)
+- **1991 – 1994** : Ingénieur Agronome (MSc) - INP Toulouse (École Nationale Supérieure Agronomique)
   MSc Économie et Management de l'agroindustrie
 - **1989 – 1991** : Licence Biochimie / Chimie - Université des Sciences de Montpellier
 

@@ -72,6 +72,6 @@ Senior logistics leader with 20 years of pan-European experience, specialising i
 
 ## Education & Languages
 
-- Agricultural Engineer - INP Toulouse / ENSAT (Master of Science, 1994)
+- Ingénieur Agronome (MSc) - INP Toulouse / ENSAT (1994)
 - BSc Biochemistry / Chemistry - Université des Sciences de Montpellier (1991)
 - French (native) · English (native) · Spanish (native) | German · Catalan (good command)

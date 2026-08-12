@@ -71,4 +71,4 @@ Français (langue maternelle) - Anglais (courant, C2) - Espagnol (courant, C2)
 
 ## Formation
 
-Ingénieur agronome - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Master of Science, Économie et Management de l'agroindustrie
+Ingénieur Agronome (MSc) - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Économie et Management de l'agroindustrie

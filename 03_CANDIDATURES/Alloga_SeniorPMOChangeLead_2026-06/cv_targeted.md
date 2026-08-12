@@ -101,7 +101,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 
 ## Education
 
-- **Agricultural Engineer (MSc)** — INP Toulouse, 1991–1994, Economics & Agribusiness Management
+- **Ingénieur Agronome (MSc)** — INP Toulouse, 1991–1994, Economics & Agribusiness Management
 - **Biochemistry / Chemistry** — Université des Sciences, Montpellier, 1989–1991
 
 ---

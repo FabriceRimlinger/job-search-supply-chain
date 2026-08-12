@@ -78,7 +78,7 @@ Operations and transformation executive with 20 years designing operating models
 
 ## Formation & Langues
 
-- **1991-1994** : Ingénieur Agronome (Agro-Industry Economics), INP Toulouse
+- **1991-1994** : Ingénieur Agronome (MSc) - Agro-Industry Economics, INP Toulouse
 - **1989-1991** : Biochemistry / Chemistry, Université des Sciences, Montpellier
 - **Languages** : French (native), English (C2), Spanish (C2). 24 years abroad, 6 countries
 - **Mobility** : EU (DE, UK, IT, ES, LU, RO). Marseille-based, hybrid setup aligned with Shiftmove (Marseille/Aix/Lyon + remote)

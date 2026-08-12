@@ -97,7 +97,7 @@ PMO, intégration post-acquisition (300 personnes), automatisation (RPA, IA, cal
 
 ## Formation
 
-- Ingénieur agronome - INP Toulouse (1991-1994) - Master of Science, Management de l'agroindustrie
+- Ingénieur Agronome (MSc) - INP Toulouse (1991-1994) - Management de l'agroindustrie
 - Licence Biochimie / Chimie - Université des Sciences de Montpellier (1989-1991)
 
 ---

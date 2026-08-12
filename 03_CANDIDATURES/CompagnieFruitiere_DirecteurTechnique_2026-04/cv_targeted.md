@@ -7,7 +7,7 @@
 
 ## PROFIL
 
-Ingénieur agronome, Directeur de programmes de transformation et d'expansion industrielle avec 20 ans d'expérience dans des environnements logistiques et agroalimentaires complexes. J'ai piloté des projets industriels multi-sites en Europe (CAPEX jusqu'à 72M€), déployé des réseaux de distribution de 0 à l'échelle dans 4 pays, et livré des programmes d'amélioration opérationnelle aux résultats mesurables. Disponible immédiatement.
+Ingénieur Agronome (MSc), Directeur de programmes de transformation et d'expansion industrielle avec 20 ans d'expérience dans des environnements logistiques et agroalimentaires complexes. J'ai piloté des projets industriels multi-sites en Europe (CAPEX jusqu'à 72M€), déployé des réseaux de distribution de 0 à l'échelle dans 4 pays, et livré des programmes d'amélioration opérationnelle aux résultats mesurables. Disponible immédiatement.
 
 Dirigeant orienté résultats, spécialisé dans la livraison de programmes industriels et d'expansion complexes dans des environnements sous pression. Reconnu pour ma capacité à structurer des projets flous, aligner des équipes transversales et livrer dans les délais et budgets. Trilingue FR/EN/ES, expérience EMEA, à l'aise dans des environnements multiculturels et multi-pays. Formation ingénieur agronome (INP Toulouse) - connaissance native de la filière fruits & légumes, mûrisseries et chaîne du froid.
 
@@ -114,7 +114,7 @@ Dirigeant orienté résultats, spécialisé dans la livraison de programmes indu
 
 ## FORMATION
 
-- **1991 – 1994** : Ingénieur agronome - INP Toulouse (ENSAT) | MSc Économie et Management de l'agroindustrie
+- **1991 – 1994** : Ingénieur Agronome (MSc) - INP Toulouse (ENSAT) | Économie et Management de l'agroindustrie
 - **1989 – 1991** : Licence Biochimie / Chimie - Université des Sciences de Montpellier
 
 ---

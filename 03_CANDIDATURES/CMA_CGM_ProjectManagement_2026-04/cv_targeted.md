@@ -86,6 +86,6 @@ No direct maritime experience - however: **20 years in global logistics** (B2C p
 
 ## Education & Languages
 
-- Agricultural Engineer - INP Toulouse (Master of Science, Food Economics & Management)
+- Ingénieur Agronome (MSc) - INP Toulouse (Food Economics & Management)
 - BSc Biochemistry / Chemistry - Université des Sciences de Montpellier
 - French · English · Spanish - native/bilingual levels

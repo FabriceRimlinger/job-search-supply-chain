@@ -76,12 +76,12 @@ Senior Portfolio Manager – Technology & Transformation with 20 years of pan-Eu
 
 **~10 years in cold chain and perishables logistics** (Dole Europe, Pomona Spain, ColdEnergy France): cold chain management, traceability, operational compliance in controlled environments - directly transferable to Alloga's GDP requirements.
 
-**Life sciences background**: Agricultural Engineer (INP Toulouse, Master of Science) + BSc Biochemistry/Chemistry - academic foundation aligned with pharma culture.
+**Life sciences background**: Ingénieur Agronome (MSc) (INP Toulouse) + BSc Biochemistry/Chemistry - academic foundation aligned with pharma culture.
 
 ---
 
 ## Education & Languages
 
-- Agricultural Engineer - INP Toulouse (Master of Science, Food Economics & Management)
+- Ingénieur Agronome (MSc) - INP Toulouse (Food Economics & Management)
 - BSc Biochemistry / Chemistry - Université des Sciences de Montpellier
 - French · English · Spanish - native/bilingual levels

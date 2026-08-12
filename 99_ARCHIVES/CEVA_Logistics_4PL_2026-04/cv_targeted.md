@@ -74,7 +74,7 @@ Supply chain and logistics professional with 20+ years of operational experience
 
 ## EDUCATION
 
-- **1991 – 1994** : Ingénieur Agronome - INP Toulouse | MSc Economics & Management
+- **1991 – 1994** : Ingénieur Agronome (MSc) - INP Toulouse | Economics & Management
 - **1989 – 1991** : BSc Biochemistry / Chemistry - University of Science, Montpellier
 
 ---

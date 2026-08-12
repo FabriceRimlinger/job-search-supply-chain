@@ -88,7 +88,7 @@ I led a 25-person team accountable for internal operations performance and exter
 
 ## Education
 
-**Agricultural Engineer (MSc) - Grande Ecole** - INP Toulouse / National School of Agronomy (1991-1994)
+**Ingénieur Agronome (MSc) - Grande Ecole** - INP Toulouse / National School of Agronomy (1991-1994)
 Master of Science, specialisation Economics and Management of Agro-industry
 
 ---

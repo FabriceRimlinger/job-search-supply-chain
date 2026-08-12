@@ -102,7 +102,7 @@ Operations Director with 20 years driving supply chain transformation, program m
 
 ## Education
 
-- **1991-1994** - MSc Agricultural Engineering - INP Toulouse (Agronomie, Economics & Management)
+- **1991-1994** - Ingénieur Agronome (MSc) - INP Toulouse (Agronomie, Economics & Management)
 - **1989-1991** - BSc Biochemistry / Chemistry - Université des Sciences de Montpellier
 
 ---

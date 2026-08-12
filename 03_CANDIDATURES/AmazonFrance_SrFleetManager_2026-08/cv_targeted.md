@@ -84,4 +84,4 @@ French (native) - English (fluent, C2) - Spanish (fluent, C2). French and Englis
 
 ## Education
 
-Agricultural Engineer - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Master of Science, Agri-industry Economics and Management
+Ingénieur Agronome (MSc) - École Nationale Supérieure Agronomique (INP Toulouse), 1994 - Agri-industry Economics and Management
