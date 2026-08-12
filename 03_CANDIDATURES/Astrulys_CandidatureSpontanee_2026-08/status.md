@@ -65,7 +65,17 @@ Astrulys retient le profil en vivier pour de potentielles missions de transforma
 [À COMPLÉTER par Fabrice]
 
 ### Ce que Fabrice a appris sur le cabinet
-[À COMPLÉTER par Fabrice] - notamment : taille, secteurs clients, positionnement, pipeline, modèle de facturation, TJM pratiqués.
+
+- **TJM pratiqués** : 700 à 900 €/jour
+- **Pipeline** : 3 clients
+
+[À COMPLÉTER par Fabrice] : taille du cabinet, secteurs des 3 clients, positionnement (conseil stratégique vs delivery), stade de maturité des 3 opportunités (signées, en négociation, prospects).
+
+### Lecture JANUS
+
+- **Le TJM est cohérent avec le marché mais sous le niveau Alloga.** Fabrice est actuellement à 850 €/j chez Alloga, soit le haut de la fourchette Astrulys. Une mission Astrulys serait au mieux à équivalence, plus probablement en dessous une fois la marge du cabinet prise. À travailler : se positionner explicitement en haut de fourchette (850-900) en s'appuyant sur le niveau Director et la mission en cours, pas sur le milieu.
+- **3 clients, c'est un pipeline étroit.** Pour un cabinet, cela veut dire que le déclenchement d'une mission dépend d'un nombre réduit de comptes. La probabilité qu'un besoin transformation tombe au bon moment et sur le bon profil est faible à court terme. Confirme le classement en vivier, pas en piste active.
+- **Le risque d'intermédiation** : en passant par un cabinet, Fabrice perd la relation directe au client final et une part du TJM. Comparé à un contrat direct comme Alloga (via Kiwee en portage), l'équation est moins favorable sauf si Astrulys apporte un accès client que Fabrice n'a pas seul.
 
 ---
 
