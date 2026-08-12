@@ -8,6 +8,7 @@
 - Langue : en 🇺🇸
 - Prochaine action : Mission en cours — suivi CRA mensuel Kiwee
 - Date de démarrage mission : 2026-06-09
+- Prolongation : +3 mois confirmée (annoncée le 2026-08-12) - échéance repoussée de ~09/09/2026 à ~09/12/2026
 - Score réseau LinkedIn : 1er degré (Matt Hancock — Talent Smart, contact actif)
 - Score fit 6D : 45/60
 - Relu et validé manuellement : [x]
