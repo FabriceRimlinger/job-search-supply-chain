@@ -45,6 +45,11 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - `01_PROFIL/PAPI_PROFIL.md` - profil de personnalité PAPI-I (usage : MINERVE entretiens comportementaux, coaching JANUS)
 - `02_CIBLES/POSTES_IDEAUX.md` - profils de poste ciblés
 
+CV génériques dérivés (produits depuis `CV_MASTER.md`, à ne pas confondre avec les sources de vérité) :
+
+- `01_PROFIL/CV_IT_TRANSFO_DIGITALE.md` / `.html` / `.pdf` - CV orienté transformation digitale et PMO, version FR
+- `01_PROFIL/CV_IT_DIGITAL_TRANSFORMATION_EN.md` / `.html` / `.pdf` - même CV, version EN (orthographe US)
+
 ---
 
 ## Règles absolues (tous les agents)
