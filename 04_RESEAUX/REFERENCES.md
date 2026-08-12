@@ -11,6 +11,7 @@ Contacts pouvant être fournis à un employeur sur demande.
 | Victor Esquivel | Victor.Esquivel@dole.com | +49 174 24 66 230 | President Dole Europe | N+1 | 2010 |
 | Roberto Gonzales | granadro@amazon.es | +34 627 47 57 76 | AMZL Head of Expansion EU | N-1 AMZL Expansion | 2017-2018 |
 | Frédéric Compain | frederic.compain@ulex.fr | +33 6 37 18 35 44 | Ulex / Voxibot - Dir. Commercial  | Fournisseur Callbot | 2025 |
+| Benito Diz | [À CONFIRMER] | [À CONFIRMER] | DSI Colis Privé | Pair - a introduit Fabrice chez Astrulys (08/2026) | 2023-2026 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 

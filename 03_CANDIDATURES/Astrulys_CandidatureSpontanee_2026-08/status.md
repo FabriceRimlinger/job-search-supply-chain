@@ -8,9 +8,9 @@
 - Langue : fr 🇫🇷
 - Prochaine action : Relance si pas de réponse
 - Date de relance : 2026-08-26
-- Score réseau LinkedIn : [À CONFIRMER] - lien avec Kaysser Agnouche à qualifier (1er degré, 2ème degré, ou contact à froid)
+- Score réseau LinkedIn : 1er degré - mise en relation par Benito Diz (DSI Colis Privé)
 - Relu et validé manuellement : [x]
-- Commentaires : Candidature spontanée. CV IT / transformation digitale (version FR) envoyé directement à **Kaysser Agnouche, fondateur d'Astrulys**. Cabinet de conseil spécialisé en transformation digitale, basé à Marseille. Pas d'offre publiée identifiée - approche directe fondateur.
+- Commentaires : Candidature spontanée. CV IT / transformation digitale (version FR) envoyé directement à **Kaysser Agnouche, fondateur d'Astrulys**. Cabinet de conseil spécialisé en transformation digitale, basé à Marseille. Pas d'offre publiée identifiée - approche directe fondateur. **Introduction chaude par Benito Diz, DSI de Colis Privé**, qui a travaillé avec Fabrice pendant la période Colis Privé (2023-2026).
 
 **Document envoyé** : `cv_envoye_Astrulys_2026-08-12.pdf` (copie exacte de `01_PROFIL/CV_IT_TRANSFO_DIGITALE.pdf`)
 
@@ -19,7 +19,8 @@
 ## Contexte
 
 **Entreprise** : Astrulys (astrulys.com) - cabinet de conseil en transformation digitale, Marseille.
-**Contact** : Kaysser Agnouche, fondateur.
+**Contact** : Kaysser Agnouche, fondateur. Contact 1er degré.
+**Introducteur** : Benito Diz, DSI Colis Privé - a mis Fabrice en relation. Référent interne implicite sur la valeur du profil côté IT.
 
 [À CONFIRMER] Informations à collecter avant tout entretien : taille du cabinet, secteurs clients, positionnement (conseil stratégique vs delivery), modèle de facturation, stade de croissance, besoins en recrutement réels.
 
@@ -30,6 +31,7 @@ Le CV envoyé positionne Fabrice sur l'interface métiers-IT en environnement in
 - **Profil client devenu consultant** : 20 ans côté donneur d'ordre (Amazon, CMA CGM/CEVA, Dole, Pomona). Un cabinet vend de la crédibilité terrain, et Fabrice a été l'acheteur de ce type de prestation - il a piloté 30+ consultants chez Amazon.
 - **Mission Alloga en cours** : preuve que le format mission/freelance fonctionne déjà (TJM 850€/j, prolongée de 3 mois en août 2026). Astrulys peut le voir comme un consultant immédiatement facturable plutôt que comme un candidat à intégrer.
 - **Ancrage Marseille** : Alloga, Colis Privé, CMA CGM, CEVA. Réseau local dense dans la logistique et le transport, secteurs porteurs pour un cabinet marseillais.
+- **Introduction par un DSI** : Benito Diz recommande implicitement le profil sur la dimension IT. C'est la meilleure caution possible auprès d'un cabinet de transformation digitale - un DSI qui a vu Fabrice travailler valide le point faible potentiel du CV (profil ops perçu comme non-IT).
 - **Sujets vendables** : PMO et gouvernance projet, déploiement ERP/WMS/TMS, BI et data, automatisation IA/RPA, intégration post-acquisition.
 
 ## Points de vigilance
@@ -41,7 +43,7 @@ Le CV envoyé positionne Fabrice sur l'interface métiers-IT en environnement in
 
 ## Prochaines étapes
 
-1. Qualifier le lien LinkedIn avec Kaysser Agnouche et le renseigner ci-dessus
+1. Remercier Benito Diz et lui demander le contexte : qu'a-t-il dit à Kaysser Agnouche, quel besoin a-t-il identifié ? Cette information conditionne tout le discours.
 2. Collecter les informations entreprise ([À CONFIRMER] ci-dessus) avant tout échange
 3. Si réponse positive : préparation entretien via MINERVE, axée sur la posture consultant et le modèle économique du cabinet
 4. Si silence au 2026-08-26 : relance courte, angle valeur ajoutée plutôt que relance de politesse
