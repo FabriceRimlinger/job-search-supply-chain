@@ -38,7 +38,7 @@ Business Process Excellence and transformation leader with 20 years of experienc
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
 **08/2022 – 07/2023 | Luxembourg (Remote)**
-- Defined the 36-month S&OP expansion plan for Amazon Fulfilment and Amazon Logistics, EU-wide
+- Defined the 36-month S&OP expansion plan for Amazon Fulfillment and Amazon Logistics, EU-wide
 - Launched and steered pilot projects on reallocation across 80+ Amazon EU buildings
 
 ### Director of Expansion & Industrial Integration - Infarm

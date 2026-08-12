@@ -22,7 +22,7 @@
 ### Buzzwords without proof in the base CV
 
 - **"Change management"**: listed in skills but no "Change Lead" title or explicit PM behavioral coaching example. Fix applied in cv_targeted: Director of Transformation framed as cultural change + ways of working embedding.
-- **"PMO"**: SHIELD reads as BI platform, not coaching-intensive PMO governance. Fix applied: reframed as governance artifact creation + adoption coaching programme (workshops, intake design, individual coaching).
+- **"PMO"**: SHIELD reads as BI platform, not coaching-intensive PMO governance. Fix applied: reframed as governance artifact creation + adoption coaching program (workshops, intake design, individual coaching).
 - **"Coaching / team development"**: present under Infarm and Amazon but buried. Fix: elevated as headline capability across all key roles.
 
 ### Metrics missing — addressed

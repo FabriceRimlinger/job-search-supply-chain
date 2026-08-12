@@ -10,13 +10,13 @@
 
 ## ATS Keywords Integrated (from job description)
 
-portfolio governance · stage gates · SteerCo · CapEx/OpEx · benefits realisation · RAID management · pan-European · regulated environment · cross-site · programme management · delivery assurance · audit trail · PMO
+portfolio governance · stage gates · SteerCo · CapEx/OpEx · benefits realisation · RAID management · pan-European · regulated environment · cross-site · program management · delivery assurance · audit trail · PMO
 
 ---
 
 ## Targeted Profile
 
-Senior Portfolio Manager – Technology & Transformation with 20 years of pan-European experience in complex, regulated logistics environments. Proven expertise in portfolio governance, financial management (€40M/year), benefits realisation and delivery assurance. Recognised for building reporting platforms and governance processes adopted at EMEA scale. Trilingual FR/EN/ES.
+Senior Portfolio Manager – Technology & Transformation with 20 years of pan-European experience in complex, regulated logistics environments. Proven expertise in portfolio governance, financial management (€40M/year), benefits realisation and delivery assurance. Recognized for building reporting platforms and governance processes adopted at EMEA scale. Trilingual FR/EN/ES.
 
 ---
 
@@ -25,7 +25,7 @@ Senior Portfolio Manager – Technology & Transformation with 20 years of pan-Eu
 ### Director Business Excellence - Colis Privé (05/2024 – 02/2026)
 *Operational transformation portfolio - regulated distribution environment*
 
-- **Portfolio governance**: led 25 staff across continuous improvement programmes covering all operational and client-facing functions
+- **Portfolio governance**: led 25 staff across continuous improvement programs covering all operational and client-facing functions
 - **Benefits realisation**: 20% reduction in Customer Service budget (€550k/year in savings), measured and tracked against defined KPIs
 - **CapEx/OpEx**: sponsored automation deployment (AI, RPA, call bots) - 40% reduction in manual tasks
 - **Delivery assurance**: regular executive reporting with clear narrative, decisions required, and risk mitigations
@@ -33,12 +33,12 @@ Senior Portfolio Manager – Technology & Transformation with 20 years of pan-Eu
 ### Director of Transformation - Colis Privé (07/2023 – 04/2024)
 *Post-acquisition integration - operational continuity in constrained environment*
 
-- **Programme management**: integration of 300 employees post-M&A with full operational continuity
+- **Program management**: integration of 300 employees post-M&A with full operational continuity
 - **RAID management**: concurrent management of legal, HR, operational and P&L risks
 - **Stakeholder management**: legal negotiations, cross-functional alignment, senior leadership reporting
 
 ### Senior Manager SC Long-term Planning & Risk Management - Amazon (08/2022 – 07/2023)
-*SC portfolio programmes - pan-EU scope*
+*SC portfolio programs - pan-EU scope*
 
 - **Portfolio shaping**: defined the 36-month SC expansion SOP for the EU
 - **Scenario planning**: benchmarked and launched pilot projects across 80+ Amazon EU buildings

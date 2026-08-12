@@ -14,12 +14,12 @@
 - **2026 Expansion**: Cencora is investing heavily in cold chain and specialist logistics - new 3PL site in France, expanded refrigerated/frozen capacities, cryogenic technology in the Netherlands
 - **Systems integration**: WMS/TMS/OMS, EDI/API with pharmaceutical laboratory clients, growing client onboarding pipeline
 - **Regulatory compliance**: GDP (Good Distribution Practice) environment, QMS, audit trail - strict, non-negotiable constraints
-- **Digitalisation**: Data reporting, automation, cyber-resilience, multi-country transformation projects
+- **Digitalization**: Data reporting, automation, cyber-resilience, multi-country transformation projects
 - **Competition**: Consolidating pharma 3PL market - Cencora/Alliance Healthcare vs. Movianto, STEF Santé; Alloga positioned as market leader
 
 ## Why This Role is Strategic
 
-The Portfolio Manager Technology/Transformation sits at the heart of Alloga's expansion and digitalisation phase. They drive the projects that secure revenue growth (new client onboarding) while maintaining GDP compliance - a high executive-visibility role within an organisation in active transformation.
+The Portfolio Manager Technology/Transformation sits at the heart of Alloga's expansion and digitalization phase. They drive the projects that secure revenue growth (new client onboarding) while maintaining GDP compliance - a high executive-visibility role within an organization in active transformation.
 
 ## Contacts & Context
 

@@ -8,7 +8,7 @@
 - **France footprint**: 6 distribution sites, 150,000 m² total storage, 4,500 m² cold chain (2–8°C), 3.5 million orders/year
 - **European network**: UK, Germany, Netherlands, Spain, Belgium, Portugal and more
 - **Recruitment contact**: Matt Hancock, Head of Recruitment, Talent Smart (UK)
-- **Internal contacts known**: Mamoudou Traore (Head of TSFM Delivery), Mercedes Garcia (Senior Programme Manager) — met Fabrice May 2026
+- **Internal contacts known**: Mamoudou Traore (Head of TSFM Delivery), Mercedes Garcia (Senior Program Manager) — met Fabrice May 2026
 
 ---
 

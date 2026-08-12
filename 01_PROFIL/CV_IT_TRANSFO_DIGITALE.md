@@ -1,6 +1,6 @@
 # Fabrice Rimlinger
 
-**Directeur Transformation Digitale & PMO | Data / BI / Change Management**
+**Directeur Transformation Digitale & PMO | Interface Métiers-IT | Data, Automatisation & Change**
 
 54 rue de la République, 13002 Marseille - +33 (0)6 23 57 77 85 - fabrice@rimlinger.eu
 LinkedIn : linkedin.com/in/fabricerimlinger - FR / EN (C2) / ES (C2)
@@ -9,17 +9,17 @@ LinkedIn : linkedin.com/in/fabricerimlinger - FR / EN (C2) / ES (C2)
 
 ## Profil
 
-20 ans de conduite de transformation en environnement industriel et logistique international, en lien étroit avec les activités IT. Déploiement d'ERP et de WMS, conception de plateformes BI/knowledge management, automatisation par IA et RPA, structuration de PMO et gouvernance projet aux standards groupe. Habitué au dialogue entre métier et IT : je traduis un besoin opérationnel en produit digital et je fais adopter l'outil sur le terrain. Aussi à l'aise devant un comité de direction que sur le terrain, toujours en relation étroite avec les équipes opérationnelles et les équipes IT. Basé à Marseille.
+Directeur Transformation Digitale & PMO avec 20+ ans d'expérience dans des environnements industriels, logistiques et supply chain internationaux. Expérience confirmée en déploiement ERP/WMS/TMS, plateformes BI et knowledge management, automatisation IA/RPA, intégration post-acquisition et gouvernance projet. Profil passerelle entre métiers et IT : capacité à transformer un besoin opérationnel en produit digital scalable, puis à en assurer l'adoption du comité de direction jusqu'au terrain. Basé à Marseille ; français, anglais et espagnol courants.
 
 ---
 
 ## Compétences
 
-- **Transformation & PMO** : gouvernance delivery, milestone tracking, reporting stakeholders, conduite du changement, coaching de chefs de projet, Agile, intégration post-acquisition
+- **Transformation & PMO** : gouvernance projet, suivi des jalons, reporting aux parties prenantes, conduite du changement, coaching de chefs de projet, Agile, intégration post-acquisition
 - **Data & BI** : PowerBI, Tableau, Microstrategy, Cognos, SQL, PowerQuery, Excel VBA avancé, data visualization, datamining
-- **Produit & digital** : product management, conception UI/UX, cahier des charges, sélection d'éditeurs, déploiement ERP / WMS / TMS, EDI
-- **Automatisation** : prévision par IA, RPA, call bots, processus de décision data-driven
-- **Leadership** : reporting comité de direction et communication C-level, équipes transversales jusqu'à 25 personnes en direct et 30+ consultants, management interculturel dans 7 pays
+- **Produit & digital** : product management, conception UI/UX, cahier des charges, sélection d'éditeurs, déploiement ERP / WMS / TMS, EDI ; add-in open source Sparklines for Excel (SourceForge - Fujitsu, HSBC, Schneider Electric)
+- **Automatisation** : prévision par IA, RPA, call bots, processus de décision pilotés par la donnée
+- **Leadership** : équipes transversales jusqu'à 25 personnes en direct et 30+ consultants, budgets pilotés jusqu'à 72 M€ CAPEX et 40 M€/an, management interculturel dans 7 pays
 - **Outils** : Jira, MS Project, Salesforce, Claude Code, AutoCAD (certifié)
 
 ---
@@ -29,7 +29,6 @@ LinkedIn : linkedin.com/in/fabricerimlinger - FR / EN (C2) / ES (C2)
 - **Amazon WW Expansion platform** : conception et déploiement d'une plateforme globale de knowledge management / BI chez Amazon, adoptée par toutes les parties prenantes EMEA. Product management et UI/UX en méthode Agile.
 - **Automatisation Colis Privé** : sponsor du déploiement IA / RPA / call bots. Tâches manuelles réduites de 40 %, niveau de service amélioré de 30 %, budget Service Client réduit de 20 % (550 k€/an d'économies) malgré +7,5 % d'activité.
 - **Déploiement WMS et TMS chez Pomona** : WMS conduit avec les équipes Méthodes et Process (+25 % de productivité entrepôt) ; TMS déployé sur 600 camions - planification de tournées, remontée de capteurs embarqués, gestion des véhicules, optimisation des process transport.
-- **Sparklines for Excel** : add-in open source de data-visualisation publié sur SourceForge, adopté par Fujitsu, HSBC, Schneider Electric, EADS, US Army.
 - **PMO Alloga / Cencora** : ancrage de nouvelles pratiques PMO au sein des équipes IT, artefacts de gouvernance calibrés sur les standards IT du groupe (UK), IA déployée dans les tâches quotidiennes (reporting projet personnalisé, standardisation sémantique).
 
 ---
@@ -41,23 +40,18 @@ LinkedIn : linkedin.com/in/fabricerimlinger - FR / EN (C2) / ES (C2)
 *Équipe IT Marseille : 80 personnes*
 - Transformation organisationnelle des équipes IT et projets : définition de processus, nouvelles pratiques PMO, changement des méthodes de travail
 - Implémentation de l'IA dans les tâches quotidiennes : reporting projet personnalisé, standardisation sémantique du référentiel projet
-- Coaching individuel des leaders projet : milestone tracking, reporting stakeholders, gouvernance delivery, accountability
+- Coaching individuel des leaders projet : suivi des jalons, reporting aux parties prenantes, gouvernance projet, responsabilisation
 - Conception et déploiement d'artefacts de gouvernance alignés sur les standards IT groupe
 - Conduite du changement et animation des rituels de pilotage par présence terrain
 
-### Director Business Excellence - Colis Privé (CEVA Logistics / CMA CGM)
-**05/2024 - 02/2026 | Marseille**
+### Directeur Business Excellence et Transformation - Colis Privé (CEVA Logistics / CMA CGM)
+**07/2023 - 02/2026 | Marseille**
 *375 M€ de CA, 90+ millions de colis/an, 5 hubs / 25 stations, 1 000+ employés*
-- Direction d'une équipe de 25 personnes sur la performance interne et client
-- Propriétaire des solutions de business intelligence du groupe
-- Promotion de la collecte de données avancée et de l'analyse statistique pour la décision projet
+- Direction d'une équipe de 25 personnes sur la performance interne (opérations) et externe (clients)
+- Responsable métier des solutions de business intelligence du groupe
 - Sponsor de l'automatisation (IA, RPA, call bots) : -40 % de tâches manuelles, +30 % de niveau de service
-- -20 % sur le budget Service Client, soit 550 k€/an d'économies
-
-### Director of Transformation - Colis Privé
-**07/2023 - 04/2024 | Marseille**
-- Intégration post-acquisition de 300 employés (principal prestataire de livraison, 30 % des chauffeurs)
-- Négociations juridiques, risk management, audits, modélisation P&L
+- -20 % sur le budget Service Client, soit 550 k€/an d'économies, malgré +7,5 % d'activité
+- Intégration post-acquisition de 300 employés (principal prestataire de livraison, 30 % des chauffeurs) : négociations juridiques, risk management, audits, modélisation P&L
 - Pilotage des équipes transversales pour aligner les processus sans interruption de service (250 000 livraisons/jour)
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
@@ -69,7 +63,7 @@ LinkedIn : linkedin.com/in/fabricerimlinger - FR / EN (C2) / ES (C2)
 **06/2021 - 07/2022 | Berlin**
 - Déploiement des infrastructures d'agriculture verticale en UE (DE, UK, DK, FR), CAPEX 72 M€
 - Management de 16 ingénieurs et techniciens
-- Mise en place du suivi de projet digital et des processus de décision data-driven
+- Mise en place du suivi de projet digital et des processus de décision pilotés par la donnée
 - Programmes de formation et de mentoring des équipes
 
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon

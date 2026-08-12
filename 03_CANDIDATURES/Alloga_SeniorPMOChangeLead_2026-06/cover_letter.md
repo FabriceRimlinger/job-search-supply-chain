@@ -6,7 +6,7 @@
 
 Hi Matt,
 
-I understand that Cencora will grow significantly in Europe in the next 18 months. When an organisation scales that fast, PM teams come under pressure, old habits persist, and governance gaps widen. That is exactly the environment where I have delivered the most.
+I understand that Cencora will grow significantly in Europe in the next 18 months. When an organization scales that fast, PM teams come under pressure, old habits persist, and governance gaps widen. That is exactly the environment where I have delivered the most.
 
 At Amazon, managing carrier integration projects across France, Italy and Spain, I built the governance framework for a team of project managers from scratch: milestone structure, validation gates, budget-to-delivery tracker, and formal handover to logistics operations. When I joined, each PM was working their own way, without shared artifacts or consistent controls. I drove the design and adoption of structured project lifecycle, that everyone aligned on.
 

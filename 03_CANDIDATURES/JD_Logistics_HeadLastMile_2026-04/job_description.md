@@ -36,4 +36,4 @@ Last-mile delivery · supply chain · logistics operations · French compliance 
 
 ## Context
 
-JD.com is China's largest direct-sales e-commerce company, expanding its logistics arm (JD Logistics) into Western Europe. This role builds out the France last-mile network - likely modelled on the Amazon AMZL playbook. Strong startup/scale-up energy within a large corporate.
+JD.com is China's largest direct-sales e-commerce company, expanding its logistics arm (JD Logistics) into Western Europe. This role builds out the France last-mile network - likely modeled on the Amazon AMZL playbook. Strong startup/scale-up energy within a large corporate.

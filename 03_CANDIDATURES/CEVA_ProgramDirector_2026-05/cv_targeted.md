@@ -27,32 +27,32 @@ Operations Director with 20 years driving supply chain transformation, program m
 - Sponsored deployment of AI forecasting, RPA and call bots across all operational functions, reducing manual tasks by **40%** and improving service level by **30%**
 - Reduced Customer Service budget by **20% (550k€/year savings)** despite +7.5% volume growth - through process redesign, automation and vendor renegotiation
 - Owner of BI solutions and data-driven decision frameworks at company level
-- Led integration of 300 employees post-acquisition of the main delivery provider (Milee): legal negotiations, P&L modelling, process alignment, zero disruption at 250k deliveries/day
+- Led integration of 300 employees post-acquisition of the main delivery provider (Milee): legal negotiations, P&L modeling, process alignment, zero disruption at 250k deliveries/day
 
 ### Director of Transformation - Colis Privé *(CEVA Logistics / CMA CGM Group)*
 **Jul 2023 – Apr 2024 | Marseille, France**
 
-- Managed M&A integration programme end-to-end: legal, risk, P&L, operational continuity
+- Managed M&A integration program end-to-end: legal, risk, P&L, operational continuity
 - Coordinated cross-functional teams across Operations, HR, Finance and IT to align processes and maintain 250k daily deliveries throughout
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
 **Aug 2022 – Jul 2023 | Luxembourg (Remote)**
 
-- Defined Amazon Fulfilment and Amazon Logistics 36-month expansion SOP across all EU activities
-- Launched and piloted reallocation scenarios for 80+ Amazon buildings across EU, using data-driven modelling (project management and scenario analysis)
+- Defined Amazon Fulfillment and Amazon Logistics 36-month expansion SOP across all EU activities
+- Launched and piloted reallocation scenarios for 80+ Amazon buildings across EU, using data-driven modeling (project management and scenario analysis)
 
 ### Director of Expansion & Industrial Integration - Infarm
 **Jun 2021 – Jul 2022 | Berlin, Germany**
 
 - Directed installation of INFARM vertical farming infrastructure across EU (DE, UK, DK, FR) - **CAPEX 72M€**
 - Managed a team of 16 engineers and technicians
-- Implemented digital project tracking and data-driven decision processes; ran training and mentoring programmes
+- Implemented digital project tracking and data-driven decision processes; ran training and mentoring programs
 
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
 **Oct 2018 – Aug 2021 | Aix-en-Provence, France (Remote)**
 
 - Managed 1,200+ Due Diligence annually for Amazon Real Estate EMEA and MENA (budget **40M€/year**), leading 10 risk managers and 30+ consultants - scope: environmental, technical, EV, permitting
-- Designed and deployed **SHIELD** - global BI / knowledge management platform for Due Diligence, adopted across all Amazon EMEA stakeholders. Recognised as having "revolutionised how the team operates." Volume scaled x5 in 3 years (133 sites 2018 → 686 sites 2020) with near-static headcount.
+- Designed and deployed **SHIELD** - global BI / knowledge management platform for Due Diligence, adopted across all Amazon EMEA stakeholders. Recognized as having "revolutionised how the team operates." Volume scaled x5 in 3 years (133 sites 2018 → 686 sites 2020) with near-static headcount.
 - Developed risk mitigation strategies improving project outcomes and regulatory compliance
 
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics
@@ -68,7 +68,7 @@ Operations Director with 20 years driving supply chain transformation, program m
 **Apr 2014 – Mar 2016 | Paris, France**
 
 - Led technical integration of commercial carriers and new delivery services (France, Italy, Spain): same-day, scheduled delivery
-- Managed a team of 5 Project Managers; implemented WMS-adjacent solutions to optimise last-mile delivery processes
+- Managed a team of 5 Project Managers; implemented WMS-adjacent solutions to optimize last-mile delivery processes
 
 ### Owner / Technico-Commercial - ColdEnergy France
 **2012 – 2014 | Aix-en-Provence, France**

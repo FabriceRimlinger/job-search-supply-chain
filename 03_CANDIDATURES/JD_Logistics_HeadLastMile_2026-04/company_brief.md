@@ -25,7 +25,7 @@
 ## Last-Mile Strategy
 
 - Own delivery stations rather than pure asset-light DSP model
-- Investment in technology: route optimisation, real-time tracking, automated sortation
+- Investment in technology: route optimization, real-time tracking, automated sortation
 - Focus on quality differentiation vs. existing players (La Poste, DPD, Colissimo)
 - Compliance with French labour law is a known challenge for Chinese companies entering France - major operational risk requiring experienced local leadership
 

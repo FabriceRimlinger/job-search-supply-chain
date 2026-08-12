@@ -17,7 +17,7 @@ Supply chain and logistics professional with 20+ years of operational experience
 **05/2024 – 02/2026 | Marseille, France**
 *B2C parcel delivery - 90M parcels/year - 5 Hubs / 25 Stations / 27 satellites - €375M revenue*
 
-- Designed and implemented an end-to-end operational transformation programme: process mapping, automation (AI, RPA, call bots), BI solutions - **40% reduction in manual workload**
+- Designed and implemented an end-to-end operational transformation program: process mapping, automation (AI, RPA, call bots), BI solutions - **40% reduction in manual workload**
 - Delivered **20% cost reduction (€550k/year savings)** through network reengineering and data-driven decision-making, despite +7.5% volume growth
 - Owner of BI platforms powering performance visibility across the full network (operations, client KPIs, financial reporting)
 - Deep knowledge of CEVA Logistics' operational model, standards and multi-provider ecosystem
@@ -25,12 +25,12 @@ Supply chain and logistics professional with 20+ years of operational experience
 ### Director of Transformation - Colis Privé
 **07/2023 – 04/2024 | Marseille, France**
 
-- Designed the integration blueprint for 300-employee post-acquisition (Milee): process mapping, P&L modelling, cross-functional alignment - operational continuity on 250,000 deliveries/day maintained
+- Designed the integration blueprint for 300-employee post-acquisition (Milee): process mapping, P&L modeling, cross-functional alignment - operational continuity on 250,000 deliveries/day maintained
 
 ### Senior Manager, SC Long-Term Planning & Risk Management - Amazon
 **08/2022 – 07/2023 | Luxembourg (Remote)**
 
-- **Designed Amazon's 36-month supply chain expansion SOP** across EU: network topology, capacity planning, scenario modelling on 80+ buildings
+- **Designed Amazon's 36-month supply chain expansion SOP** across EU: network topology, capacity planning, scenario modeling on 80+ buildings
 - Translated long-term strategic scenarios into actionable operational blueprints
 
 ### Head of Technical & Environmental Real Estate - Amazon EMEA
@@ -38,13 +38,13 @@ Supply chain and logistics professional with 20+ years of operational experience
 
 - Managed a portfolio of 1,200+ logistics infrastructure projects/year - **€40M/year budget** - across EMEA
 - Designed and deployed SHIELD, a BI governance platform for portfolio-level visibility, adopted by all Amazon EMEA stakeholders
-- Built cost modelling frameworks and risk-weighted decision tools for real estate and logistics investments
+- Built cost modeling frameworks and risk-weighted decision tools for real estate and logistics investments
 
 ### Head of AMZL Expansion - South EU - Amazon Logistics
 **04/2016 – 09/2018 | Milan / Madrid**
 
-- Designed and deployed Amazon's last-mile delivery **network architecture** for Italy and Spain: site selection, capacity modelling, carrier integration, process design - **10 operational sites in 2 years**
-- Standardised network design playbooks subsequently rolled out across EMEA
+- Designed and deployed Amazon's last-mile delivery **network architecture** for Italy and Spain: site selection, capacity modeling, carrier integration, process design - **10 operational sites in 2 years**
+- Standardized network design playbooks subsequently rolled out across EMEA
 
 ### Director of Expansion & Industrial Integration - Infarm
 **06/2021 – 07/2022 | Berlin (EU - DE, UK, DK, FR)**
@@ -54,7 +54,7 @@ Supply chain and logistics professional with 20+ years of operational experience
 ### Technical Sales / Pre-Sales - ColdEnergy France
 **2012 – 2014 | Aix-en-Provence**
 
-- **Pre-sales on technical logistics projects**: needs analysis, solution design, cost modelling, client presentations - for clients including Compagnie Fruitière, Dole, Fruidor, SIIM
+- **Pre-sales on technical logistics projects**: needs analysis, solution design, cost modeling, client presentations - for clients including Compagnie Fruitière, Dole, Fruidor, SIIM
 - Direct experience supporting RFQ/RFP processes with logistics solution proposals
 
 ---
@@ -63,8 +63,8 @@ Supply chain and logistics professional with 20+ years of operational experience
 
 | Area | Skills |
 |------|--------|
-| **Network & solution design** | End-to-end logistics design, network topology, capacity modelling, multi-provider coordination |
-| **Cost modelling** | P&L, CAPEX/OPEX frameworks, cost benchmarking, scenario analysis |
+| **Network & solution design** | End-to-end logistics design, network topology, capacity modeling, multi-provider coordination |
+| **Cost modeling** | P&L, CAPEX/OPEX frameworks, cost benchmarking, scenario analysis |
 | **4PL / supply chain** | Multi-modal transport, warehousing, last-mile, visibility, process mapping |
 | **Analytics & BI** | PowerBI, Tableau, SQL, Excel VBA (advanced), Microstrategy - data-driven decisions |
 | **RFQ / Pre-sales** | Solution architecture, client workshops, business case development |

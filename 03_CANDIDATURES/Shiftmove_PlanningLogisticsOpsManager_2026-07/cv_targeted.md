@@ -53,7 +53,7 @@ Operations and transformation executive with 20 years designing operating models
 - I ran 1,200+ due diligence projects/yr (€40M/yr budget), team of 10 risk managers + 30+ consultants, building **KPI frameworks** and **executive reporting dashboards** for EMEA/MENA leadership. → KPI frameworks, executive reporting, governance.
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk - Amazon (08/2022 - 07/2023, Luxembourg, remote)
-- I defined the 36-month expansion SOP for Amazon Fulfilment and Amazon Logistics across EU and piloted reallocation of 80+ buildings, with **executive reporting dashboards** (SNN4) guiding EU compliance decisions. → Long-range planning, data-driven decisions, executive reporting.
+- I defined the 36-month expansion SOP for Amazon Fulfillment and Amazon Logistics across EU and piloted reallocation of 80+ buildings, with **executive reporting dashboards** (SNN4) guiding EU compliance decisions. → Long-range planning, data-driven decisions, executive reporting.
 
 ### Head of Last Mile Delivery Expansion - South EU - Amazon Logistics (04/2016 - 09/2018, Milan / Madrid)
 - I launched **10 last-mile stations in 2 years** (IT/ES), coordinating 19 cross-functional workstreams (Real Estate, Construction, Legal, HR, IT, vendors, Process); AMZL reached 75%+ of Amazon deliveries in major IT/ES cities. → Cross-functional integration, operating model rollout at scale, fleet/last-mile domain.

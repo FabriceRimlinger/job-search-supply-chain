@@ -14,7 +14,7 @@ To the Hiring Team at Alloga,
 
 I worked directly with Fabrice Rimlinger from 2023 to 2026 at Colis Privé, where he held two Director roles reporting to me.
 
-Two examples stand out. First, he led the integration of 300 employees from an acquired company with a very different culture. He was physically present with teams, built trust before prescribing change, and delivered a fully aligned operation with no disruption to 250,000 daily deliveries — through people, not authority. Second, as Director of Business Excellence, he coached a 25-person team to new performance standards, cutting the Customer Service budget by 20% (€550k/year) while embedding an automation programme that reduced manual workload by 40%.
+Two examples stand out. First, he led the integration of 300 employees from an acquired company with a very different culture. He was physically present with teams, built trust before prescribing change, and delivered a fully aligned operation with no disruption to 250,000 daily deliveries — through people, not authority. Second, as Director of Business Excellence, he coached a 25-person team to new performance standards, cutting the Customer Service budget by 20% (€550k/year) while embedding an automation program that reduced manual workload by 40%.
 
 Fabrice listens before he prescribes. When a team resists, he stays close. I recommend him without reservation.
 

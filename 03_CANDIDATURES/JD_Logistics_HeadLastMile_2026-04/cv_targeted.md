@@ -10,7 +10,7 @@
 
 ## ATS Keywords Integrated (from job description)
 
-Last-mile delivery · delivery station · sortation · dispatch · logistics operations · team leadership · French labour law · transport compliance · cost optimisation · continuous improvement · operational excellence · supply chain
+Last-mile delivery · delivery station · sortation · dispatch · logistics operations · team leadership · French labour law · transport compliance · cost optimization · continuous improvement · operational excellence · supply chain
 
 ---
 
@@ -26,7 +26,7 @@ Senior logistics leader with 20 years of pan-European experience, specialising i
 *Last-mile delivery operations - 25 stations, >4,000 contracted drivers, 90M parcels/year, France*
 
 - **Operations leadership**: operational performance was my daily activity - full accountability for delivery KPIs, station performance and customer results across the entire Colis Privé network, leading a 25-person team
-- **Cost optimisation**: reduced Customer Care budget by **20% (€550k/year)** despite +7.5% volume growth
+- **Cost optimization**: reduced Customer Care budget by **20% (€550k/year)** despite +7.5% volume growth
 - **Automation & continuous improvement**: deployed AI forecasting, RPA and vocal call bot - **40% reduction in manual tasks**
 - **French labour law**: deep working knowledge from day-to-day management of a unionised French workforce
 
@@ -43,7 +43,7 @@ Senior logistics leader with 20 years of pan-European experience, specialising i
 - **Network launch**: deployed **10 delivery stations in 2 years** across Italy and Spain - **2 additional centres beyond initial targets**, all launched on-time for **Amazon peak seasons (year-end holidays)**
 - **Delivery station operations**: end-to-end setup of sortation, dispatch, routing and tracking operations for each station from Day 1
 - **Cross-functional leadership**: coordinated 15+ teams simultaneously (Real Estate, Construction, IT, HR, Legal, DSPs) across 2 countries
-- **Playbook development**: standardised AMZL expansion processes subsequently deployed across EMEA
+- **Playbook development**: standardized AMZL expansion processes subsequently deployed across EMEA
 - **Compliance**: managed local transport regulations, DSP contracts and labour frameworks in Italy and Spain
 
 ### Head of Transportation Technology - South EU - Amazon (04/2014 – 03/2016)

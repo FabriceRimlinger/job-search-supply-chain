@@ -8,8 +8,8 @@
 |-----------|-------|--------|
 | **Technical Skills** | 8/10 | PM excellent, BI/data exceptional (SHIELD, PowerBI, SQL), AI/automation proven (vocal call bot, RPA, AI forecasting). Gap: no maritime-specific systems |
 | **Sector Experience** | 8/10 | **Colis Privé is a CMA CGM Group company (CEVA Logistics subsidiary)** - Fabrice is already operating within the Group. Logistics 20 years. Maritime = new but irrelevant to a Customer Care Transformation role |
-| **Responsibility Level** | 9/10 | Specialist-level scope matches: global programme delivery, cross-functional coordination, executive reporting, team coaching |
-| **ATS Keywords** | 7/10 | Transformation, KPI, project management, AI, digitalisation, change management, cross-functional, leadership, customer care, call bot = strong. Knowledge management, simplification = to make explicit |
+| **Responsibility Level** | 9/10 | Specialist-level scope matches: global program delivery, cross-functional coordination, executive reporting, team coaching |
+| **ATS Keywords** | 7/10 | Transformation, KPI, project management, AI, digitalization, change management, cross-functional, leadership, customer care, call bot = strong. Knowledge management, simplification = to make explicit |
 | **Go/No-Go Criteria** | 9/10 | Marseille HQ = Fabrice's home city. Full-time CDI. Global scope. Salary to confirm |
 | **Culture & Fit** | 9/10 | **Already inside the Group** - cultural alignment demonstrated. Marseille-based. Long-tenure culture = not a risk since Fabrice is already a known contributor within CEVA/CMA CGM ecosystem |
 
@@ -20,7 +20,7 @@
 ## Strong Matches
 
 - **Already in the Group**: Colis Privé is a CEVA Logistics subsidiary - CMA CGM Group. Fabrice brings direct internal knowledge of Group culture, processes, and digital transformation priorities
-- **Vocal call bot implementation**: sponsored and delivered AI vocal call bot at Colis Privé - the most direct analogue to CMA CGM's customer care digitalisation agenda
+- **Vocal call bot implementation**: sponsored and delivered AI vocal call bot at Colis Privé - the most direct analogue to CMA CGM's customer care digitalization agenda
 - **Customer care management**: 25-person CS team, full accountability for performance on 90M parcels/year - this IS customer care leadership
 - **Knowledge management (SHIELD)**: BI platform built to centralise and standardise knowledge at scale across EMEA - directly maps to the "knowledge management" JD requirement
 - **€550k/year CS savings + 40% task reduction**: hard metrics from within the CMA CGM Group itself

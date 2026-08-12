@@ -31,7 +31,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 ### Director of Transformation — Colis Privé *(CEVA Logistics / CMA CGM Group)*
 **07/2023 – 04/2024 | Marseille, France**
 
-- Led the integration of 300 employees from an acquired company — coached cross-functional teams through the alignment of ways of working, handled legal negotiations, risk management, and P&L modelling
+- Led the integration of 300 employees from an acquired company — coached cross-functional teams through the alignment of ways of working, handled legal negotiations, risk management, and P&L modeling
 - Delivered full operational continuity throughout the transition (250,000 daily deliveries) — by working alongside teams and aligning processes incrementally, not imposing change from above
 - Defined the governance framework and operational playbooks that both organizations adopted as their new standard
 
@@ -41,7 +41,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 
 - Directed and coached a 25-person team across performance, service quality, and continuous improvement — embedding data-driven ways of working and governance standards across 5 hubs and 25 stations
 - Reorganized the performance team: introduced steering committees, automated performance tracking, and a governance framework that challenged results weekly — moved from ad hoc reviews to a structured, accountable operating rhythm
-- Led change management for an automation programme (AI forecasting, RPA, call bots): coached teams through new ways of working, reduced manual tasks by 40%, improved service levels by 30%
+- Led change management for an automation program (AI forecasting, RPA, call bots): coached teams through new ways of working, reduced manual tasks by 40%, improved service levels by 30%
 - Reduced Customer Service budget by 20% (€550k/year savings) despite 7.5% volume growth
 
 ### Head of Technical & Environmental Due Diligence — Amazon EMEA
@@ -56,7 +56,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 **06/2021 – 07/2022 | Berlin, Germany**
 *€72M CAPEX | 16 engineers and technicians | 4 EU countries (DE, UK, DK, FR)*
 
-- Led 16 engineers and technicians through aggressive pan-European scaling (DE, UK, DK, FR) — embedded structured project tracking, data-driven decision processes, and consistent governance routines where none had been formalised
+- Led 16 engineers and technicians through aggressive pan-European scaling (DE, UK, DK, FR) — embedded structured project tracking, data-driven decision processes, and consistent governance routines where none had been formalized
 - Implemented digital project tracking and reporting standards that changed how the team operated across four countries
 - Conducted structured training and mentoring to elevate team capabilities and embed consistent ways of working at pace
 
@@ -64,7 +64,7 @@ Trilingual FR/EN/ES. Based in Marseille. Available immediately.
 **08/2022 – 07/2023 | Luxembourg (Remote)**
 
 - Defined the Amazon EU Supply Chain expansion SOP (36-month horizon) — governance document structuring decisions for 80+ buildings across Europe
-- Built the programme governance framework and piloted it with project teams, embedding new decision-making standards across the Supply Chain planning organization
+- Built the program governance framework and piloted it with project teams, embedding new decision-making standards across the Supply Chain planning organization
 
 ### Head of Last-Mile Delivery Expansion — Amazon Logistics South EU
 **04/2016 – 09/2018 | Milan, Italy / Madrid, Spain**

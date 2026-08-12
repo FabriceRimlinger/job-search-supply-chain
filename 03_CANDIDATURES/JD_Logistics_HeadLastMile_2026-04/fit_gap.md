@@ -9,7 +9,7 @@
 | **Technical Skills** | 9/10 | Amazon AMZL launch is THE credential. Colis Privé operations ownership. French labour law hands-on. Systems, automation, data proven. Gap: Lean/Six Sigma label absent (practice present) |
 | **Sector Experience** | 10/10 | Last-mile delivery, B2C parcel, delivery station operations, DSP management - exact sector match across Amazon and Colis Privé |
 | **Responsibility Level** | 8/10 | Director/Senior Manager level, operational ownership, P&L, team leadership. Watch point: "200+ employees" requirement - Colis Privé was 25 direct + broader network; needs careful framing |
-| **ATS Keywords** | 7/10 | Last-mile, delivery station, logistics operations, French compliance, cost optimisation, team leadership = strong. Lean/Six Sigma, Mandarin = absent |
+| **ATS Keywords** | 7/10 | Last-mile, delivery station, logistics operations, French compliance, cost optimization, team leadership = strong. Lean/Six Sigma, Mandarin = absent |
 | **Go/No-Go Criteria** | 6/10 | Role/sector/level: perfect. Location: Paris vs Marseille = main constraint. Salary TBC. Mandarin preferred: not a blocker |
 | **Culture & Fit** | 8/10 | JD Logistics = tech-first, data-driven, fast-moving - exact match for Fabrice's profile. Chinese expansion culture: startup energy within large corporate, high performance expectations |
 
@@ -22,7 +22,7 @@
 - **Amazon AMZL pioneer**: 10 stations launched in 2 years, IT + ES - this is exactly what JD is doing in France. No other candidate likely has this credential combined with French operations experience
 - **Colis Privé operational ownership**: 25 stations, >4,000 contracted drivers, 90M parcels/year - proven scale in the French last-mile market specifically
 - **French labour law**: led integration of 300 employees under French labour law, union negotiations, social plan - the most feared compliance dimension for a Chinese company entering France
-- **Startup-to-scale playbook**: standardised AMZL processes deployed EMEA-wide - exactly what JD needs to build in France
+- **Startup-to-scale playbook**: standardized AMZL processes deployed EMEA-wide - exactly what JD needs to build in France
 - **Data and automation**: AI/RPA deployment, BI ownership - aligned with JD's tech-first logistics model
 
 ## Gaps to Address
@@ -43,5 +43,5 @@ On location: do not pre-screen yourself out. Apply with full force and raise loc
 - Delivery station (used throughout AMZL section) ✅
 - Last-mile delivery, sortation, dispatch ✅
 - French labour law / transport compliance ✅
-- Cost optimisation ✅
+- Cost optimization ✅
 - Add: "continuous improvement" explicitly in Colis Privé section

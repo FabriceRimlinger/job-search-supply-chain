@@ -54,6 +54,7 @@ Toujours lire ces fichiers avant de produire un document de candidature :
 - Les documents de candidature doivent toujours passer une **vérification manuelle** avant envoi.
 - Le scoring 6D est utilisé pour toutes les analyses de fit (voir template `fit_gap.md`).
 - **Diplôme** : toujours écrire "Ingénieur Agronome (MSc)" (jamais "Agricultural Engineer" ni autre traduction), y compris dans les documents en anglais.
+- **Anglais US** : tous les documents en anglais utilisent l'orthographe américaine (`organization`, `optimization`, `standardization`, `customized`, `program`, `artifact`, `modeling`, `license`, `analyze`), jamais l'orthographe britannique. Ne pas appliquer aux mots français identiques (`programmes`, `Licence`, `optimisation` en français restent inchangés).
 - **Tirets** : utiliser uniquement `-` (tiret simple). Ne jamais utiliser `—` (tiret long/em dash) dans aucun document.
 
 ---

@@ -1,6 +1,6 @@
 # PREP - Alloga, Portfolio Manager Technology / Change & Transformation
 **Date d'entretien** : 6 mai 2026, 11:30 CET (Teams)
-**Interviewers** : Mamoudou Traore (Head of TSFM Delivery) + Mercedes Garcia (Senior Programme Manager)
+**Interviewers** : Mamoudou Traore (Head of TSFM Delivery) + Mercedes Garcia (Senior Program Manager)
 **Durée** : 1 heure
 **Contexte** : Portfolio management pan-European en environnement pharma régulé (GDP), expansion Cencora 2026
 
@@ -40,12 +40,12 @@
 
 ---
 
-### Mercedes Garcia - Senior Programme Manager (Alliance Healthcare/Alloga)
+### Mercedes Garcia - Senior Program Manager (Alliance Healthcare/Alloga)
 **LinkedIn** : https://www.linkedin.com/in/mercedes-garcia-5191582/
 
 **Profil clé** :
 - **À Alliance Healthcare** : Récemment (context: Alliance Healthcare est parent group d'Alloga)
-- **Tagline** : "Business transformation programme manager energised by ambiguity and with a real passion for enabling people, function and businesses achieve their goals"
+- **Tagline** : "Business transformation program manager energised by ambiguity and with a real passion for enabling people, function and businesses achieve their goals"
 - **Background spécialisé** :
   - Legal Entity Carve-out (Mercedes-Benz Trucks UK, 2021-2023, CFO/COO reporting) — interim + target operating models, transition planning, governance forums
   - Global Finance Transformation (2019-2021, ERP roadmap, cloud ERP selection)
@@ -53,15 +53,15 @@
   - Merlin Entertainments Global Transformation (2016-2017, retail + F&B, multi-brand: LEGOLAND, Alton Towers, Madame Tussaud's)
   - Phone House M&A, Joint Ventures, Divestment (2012-2015, Nordics merger, Media Markt Store-in-Store pilot)
   - Principal PM: SEPA Compliance, Workforce Management Transformation (5 yrs 9 mois)
-- **Certification** : Managing Successfull Programmes Practitioner (APM, 2011)
+- **Certification** : Managing Successfull Programs Practitioner (APM, 2011)
 - **Langues** : Spanish, English
 
-**Dynamique d'entretien** : Mercedes pilotera **"what value will you bring? Can you engage and shape?"** — elle évalue ta capacité à **enabler stakeholders**, structurer programmes complexes, adapter approches à contextes différents (interim vs target states), gérer ambiguité. Elle pense people first, puis structure.
+**Dynamique d'entretien** : Mercedes pilotera **"what value will you bring? Can you engage and shape?"** — elle évalue ta capacité à **enabler stakeholders**, structurer programs complexes, adapter approches à contextes différents (interim vs target states), gérer ambiguité. Elle pense people first, puis structure.
 
 **Angles d'attaque pour elle** :
-- Parle sa langue : **stakeholder enablement, vision clarity, interim + target operating models, change adoption, programme shaping (not just execution), people-focused delivery, governance forums**
+- Parle sa langue : **stakeholder enablement, vision clarity, interim + target operating models, change adoption, program shaping (not just execution), people-focused delivery, governance forums**
 - Références pertinentes : SHIELD adoption narrative (100% stakeholder engagement, training, feedback loops), Milee integration (300 employees, continuité opérationnelle, staff engagement), Amazon pan-European leadership (multi-regional coordination, C-level reporting)
-- Question à poser : *"Having worked on carve-outs and major transformations, how do you see programme structure and stakeholder enablement differ between Alloga's current phase (stabilisation) and the growth/expansion phase Cencora is targeting?"* → Montre tu penses vision + people + structure, pas juste execution
+- Question à poser : *"Having worked on carve-outs and major transformations, how do you see program structure and stakeholder enablement differ between Alloga's current phase (stabilisation) and the growth/expansion phase Cencora is targeting?"* → Montre tu penses vision + people + structure, pas juste execution
 - Red flag à éviter : parler de "process conformance" ou "risk mitigation" sans anchor dans human/organizational change. Mercedes veut de l'engagement, de la vision clarity, et des gens motivés.
 
 ---
@@ -70,7 +70,7 @@
 
 **Division de rôles attendue** :
 - **Mamoudou** = technical delivery, architecture, risk, timeliness ✓
-- **Mercedes** = programme shaping, stakeholder enablement, interim/target states, change readiness ✓
+- **Mercedes** = program shaping, stakeholder enablement, interim/target states, change readiness ✓
 
 **Avant l'entretien** (5-10 min tech check) :
 1. Relire cette section (2 min)
@@ -95,14 +95,14 @@
 
 **STAR** : Amazon SC Planning (2022-2023) - Expansion SOP 36 mois, 80+ bâtiments réaffectés EU-wide.
 
-- **Situation** : Pilotage d'un programme de réaffectation supply chain pan-European sur 36 mois impliquant 25+ équipes transversales (Immobilier, Juridique, Finance, IT, Ops), avec C-level governance et rapports mensuels directement au VP Supply Chain.
+- **Situation** : Pilotage d'un program de réaffectation supply chain pan-European sur 36 mois impliquant 25+ équipes transversales (Immobilier, Juridique, Finance, IT, Ops), avec C-level governance et rapports mensuels directement au VP Supply Chain.
 - **Task** : Assurer alignment entre demandes des pays, constraints réglementaires et roadmap d'expansion, tout en maintenant business continuity.
-- **Action** : Mis en place un SteerCo mensuel structuré (agenda, decision logs, escalation paths), created a BI dashboard (SHIELD) pour consolidate KPIs across countries. Used data-driven prioritisation to challenge scope creep et redirect resources vers high-impact projects.
+- **Action** : Mis en place un SteerCo mensuel structuré (agenda, decision logs, escalation paths), created a BI dashboard (SHIELD) pour consolidate KPIs across countries. Used data-driven prioritization to challenge scope creep et redirect resources vers high-impact projects.
 - **Result** : 80+ bâtiments réaffectés on-track sans rupture opérationnelle. C-level visibility complète. Engagement du VP + Finance confiance renforcée.
 
 ---
 
-### 2. **"Describe a situation where you had to deliver a major programme in a regulated or high-stakes environment. What compliance or quality controls did you implement?"**
+### 2. **"Describe a situation where you had to deliver a major program in a regulated or high-stakes environment. What compliance or quality controls did you implement?"**
 
 **STAR** : Milee acquisition integration (2023-2024) - 300 employees, regulated logistics context.
 
@@ -113,11 +113,11 @@
 
 ---
 
-### 3. **"Can you give an example of a technical transformation programme you managed? What systems or integrations were involved, and how did you ensure benefits realisation?"**
+### 3. **"Can you give an example of a technical transformation program you managed? What systems or integrations were involved, and how did you ensure benefits realisation?"**
 
 **STAR** : SHIELD platform deployment (Amazon EMEA, 2019-2021) - pan-European BI rollout.
 
-- **Situation** : 150+ Amazon EMEA stakeholders (Operations, Finance, Compliance, Regional MDs) utilisant des processes manuels et des data silos pour piloter Due Diligence decisions. Besoin : plateforme BI centralisée, audit trail, standardisation multi-pays.
+- **Situation** : 150+ Amazon EMEA stakeholders (Operations, Finance, Compliance, Regional MDs) utilisant des processes manuels et des data silos pour piloter Due Diligence decisions. Besoin : plateforme BI centralisée, audit trail, standardization multi-pays.
 - **Task** : Concevoir et déployer une solution BI (SHIELD) qui unifierait 15+ données sources (ERP, systems externes, spreadsheets legacy), en moins de 6 mois, sur 6 pays.
 - **Action** : Led discovery sessions avec chaque stakeholder pour comprendre pain points. Built data model using SQL + PowerBI. Phased rollout avec training intensive (week 1-2), feedback loops (week 3-8), optimization. Tracked adoption (KPI: % de stakeholders actifs). Post-launch: 2-3 mois iterations basées sur usage réel.
 - **Result** : Plateforme adoptée par 100% des stakeholders. Onboarding de nouveaux collaborateurs répassé de 4 semaines à 1 semaine. Décisions exécutives accélérées (audit trail auto-generated). Reconnu par les pairs : "revolutionised how the team operates".
@@ -187,7 +187,7 @@
   - **Revenue growth track** : new client onboarding KPIs (# of clients, ramp-up timeline, revenue ramp), project to revenue contribution
   - **Stability/compliance track** : operational metrics (on-time delivery %, inventory accuracy, audit findings), compliance risk (zero non-conformances target)
 - **Portfolio governance bridges them** :
-  - **Portfolio prioritisation logic** : projects that drive growth AND maintain/improve stability rank highest (avoid false trade-off)
+  - **Portfolio prioritization logic** : projects that drive growth AND maintain/improve stability rank highest (avoid false trade-off)
   - **Go/no-go gates** : a project only goes live if (a) revenue assumptions confirmed, (b) compliance validation complete, (c) operations signed off on readiness
   - **Post-implementation tracking** : benefits realisation doesn't end at go-live. Track revenue vs. plan for 3-6 months post-launch, track operational metrics for stability impact. If new client onboarding destabilises existing clients, red flag early
 - **Your experience** :
@@ -219,13 +219,13 @@
 
 ## Points Forts à Mettre en Avant (Ce Poste Précisément)
 
-1. **Pan-European portfolio management at scale** : Amazon SC Planning (36-month SOP, 80+ sites, 6 countries), Infarm CAPEX (€72M, 4 countries, multi-cultural teams). You've proven you can coordinate complex, multi-country programmes with executive-level reporting.
+1. **Pan-European portfolio management at scale** : Amazon SC Planning (36-month SOP, 80+ sites, 6 countries), Infarm CAPEX (€72M, 4 countries, multi-cultural teams). You've proven you can coordinate complex, multi-country programs with executive-level reporting.
 
 2. **Financial governance + CapEx/OpEx ownership** : Amazon €40M/year budget (1200+ due diligence cases, 10 managers, 30+ consultants). Direct experience with large-scale financial forecast, variance management, business case oversight—exactly what the role requires.
 
 3. **BI as a competitive advantage** : SHIELD platform (Amazon EMEA, 2019-2021) = you don't just manage portfolios, you revolutionise how teams see data. This is rare in Portfolio Managers. Mention SQL + PowerBI skills explicitly.
 
-4. **Transformation programme delivery under pressure** : Colis Privé M&A integration (300 employees, 4 months, zero operational incidents), Infarm multi-country build, Amazon expansion SOP. You've delivered complex change without losing control or compliance.
+4. **Transformation program delivery under pressure** : Colis Privé M&A integration (300 employees, 4 months, zero operational incidents), Infarm multi-country build, Amazon expansion SOP. You've delivered complex change without losing control or compliance.
 
 5. **Regulated environment bridge** : Cold chain background (Dole, ColdEnergy ~10 years), Amazon EDD compliance (audit trails, regulatory audits), Milee integration (GDP-adjacent controls). Frame this as "I've built compliance into delivery, not bolted it on afterwards."
 
@@ -254,18 +254,18 @@
 ---
 
 ### Potential Secondary Gaps
-- **WMS/TMS/ERP direct experience** : you have *indirect* experience (Amazon, Colis Privé systems exposure). Don't claim expertise. Instead: "I've managed programmes that integrated WMS/TMS/EDI, working closely with IT and vendors. I don't code, but I understand the governance and validation requirements."
+- **WMS/TMS/ERP direct experience** : you have *indirect* experience (Amazon, Colis Privé systems exposure). Don't claim expertise. Instead: "I've managed programs that integrated WMS/TMS/EDI, working closely with IT and vendors. I don't code, but I understand the governance and validation requirements."
 - **PMO certifications** : you don't have PMP/PRINCE2/MSP. **Do not mention**. Let your 40M€ + 72M€ + multi-year SOP speak for itself.
 
 ---
 
 ## Tone & Delivery Notes
 
-- **Speak their language** : you're talking to TSFM Delivery (operations mindset) and a Senior Programme Manager (delivery mindset). Use concrete examples, metrics, timelines—not theory.
+- **Speak their language** : you're talking to TSFM Delivery (operations mindset) and a Senior Program Manager (delivery mindset). Use concrete examples, metrics, timelines—not theory.
 - **Show respect for constraints** : "Regulated environment, GDP, multi-site complexity" = they've likely been burned by portfolio chaos. Show you understand why governance matters.
 - **Lead with data** : your superpower is turning data into decisions. Reference SHIELD, BI dashboards, KPI tracking. This will resonate with a growth-stage company in transformation.
 - **Ask clarifying questions** : the three questions above are genuine discovery questions. Listen more than you talk.
-- **Timeline expectation** : Amazon SC Planning + Infarm suggest you're comfortable with 36-month + programmes. Alloga expansion is likely similar scale.
+- **Timeline expectation** : Amazon SC Planning + Infarm suggest you're comfortable with 36-month + programs. Alloga expansion is likely similar scale.
 
 ---
 

@@ -19,14 +19,14 @@
 ## Supply Chain & Transformation Priorities
 
 - Scaling digital customer experience globally (from booking to delivery)
-- Knowledge management and standardisation across a highly fragmented global organisation
+- Knowledge management and standardization across a highly fragmented global organization
 - AI and automation to reduce manual customer service touchpoints
 - Cross-functional integration: connecting business, IT, and operations teams around the customer journey
 - Onboarding and upskilling large global teams on new tools and processes
 
 ## Why This Role is Strategic
 
-The Global Project Management Specialist is a high-visibility connector role - translating CMA CGM's digital transformation strategy into operational reality for customer care. The person in this role drives the programmes, builds the knowledge frameworks, measures the KPIs, and bridges the gap between business intent and IT execution. In a group of 160,000 people across 160+ countries, this kind of structured delivery capability is scarce and highly valued.
+The Global Project Management Specialist is a high-visibility connector role - translating CMA CGM's digital transformation strategy into operational reality for customer care. The person in this role drives the programs, builds the knowledge frameworks, measures the KPIs, and bridges the gap between business intent and IT execution. In a group of 160,000 people across 160+ countries, this kind of structured delivery capability is scarce and highly valued.
 
 ## Contacts & Context
 

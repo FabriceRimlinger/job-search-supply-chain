@@ -13,12 +13,12 @@
 
 ## Role Summary
 
-Manage a pan-European portfolio of technology transformation initiatives in a regulated logistics (pharma) environment. Drive governance, prioritisation, delivery assurance and benefits realisation across countries and sites, supporting multi-million euro revenue growth while protecting compliance and operational performance.
+Manage a pan-European portfolio of technology transformation initiatives in a regulated logistics (pharma) environment. Drive governance, prioritization, delivery assurance and benefits realisation across countries and sites, supporting multi-million euro revenue growth while protecting compliance and operational performance.
 
 ## Key Responsibilities
 
 - Drive portfolio governance (SteerCo cadence), decision logs, stage gates and reporting
-- Manage demand intake, business case quality, prioritisation and portfolio shaping
+- Manage demand intake, business case quality, prioritization and portfolio shaping
 - Own portfolio budget/forecast (CapEx/OpEx), variance management and investment governance support
 - Track benefits realisation (revenue growth and margin protection) through to go-live and post-implementation
 - Drive RAID and dependency management at portfolio level (IT, Operations, Quality, Finance, clients)
@@ -28,7 +28,7 @@ Manage a pan-European portfolio of technology transformation initiatives in a re
 
 ## Key Requirements
 
-- Strong PMO / portfolio or programme management experience, ideally in a regulated environment (pharma supply chain, healthcare logistics, 3PL or similar)
+- Strong PMO / portfolio or program management experience, ideally in a regulated environment (pharma supply chain, healthcare logistics, 3PL or similar)
 - Proven pan-European stakeholder management, multi-site and executive-level reporting
 - Financial governance skills (budgeting, forecasting, EAC, business case oversight)
 - Comfort with high-integration changes (WMS/TMS/ERP, EDI/API) and multi-vendor delivery (preferred)
@@ -42,7 +42,7 @@ Manage a pan-European portfolio of technology transformation initiatives in a re
 - WMS / TMS / ERP / EDI / API integration
 - QMS controls, audit trail, regulated environment, compliance
 - Benefits realisation, pan-European, cross-site
-- PMO, programme management
+- PMO, program management
 - PMP / PRINCE2 / MSP / PfMP / ITIL
 
 ## Level

@@ -37,7 +37,7 @@ I led a 25-person team accountable for internal operations performance and exter
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
 **08/2022 - 07/2023 | Luxembourg (Remote)**
 
-- Defined Amazon Fulfilment and Amazon Logistics EU expansion SOP over a 36-month horizon - strategic supply chain planning for a 80+ building network across EU
+- Defined Amazon Fulfillment and Amazon Logistics EU expansion SOP over a 36-month horizon - strategic supply chain planning for a 80+ building network across EU
 - Designed and launched pilot programs for Amazon EU building reallocation - scenario analysis, capacity planning, recommendations to EU Executive Committee
 - Built the SNN4 dashboard: real-time compliance visibility, reduction of EU regulatory blockers - adopted across EU supply chain teams
 
@@ -78,7 +78,7 @@ I led a 25-person team accountable for internal operations performance and exter
 
 **Analytics & BI** : PowerBI, Microstrategy, SQL, PowerQuery, Excel VBA, data visualization, KPI frameworks
 
-**Programme Management** : CAPEX management, programme governance, cross-functional coordination, SteerCo reporting, risk management
+**Program Management** : CAPEX management, program governance, cross-functional coordination, SteerCo reporting, risk management
 
 **Tools** : MS Project, Jira, Salesforce, AutoCAD (certified), Cognos
 
@@ -89,7 +89,7 @@ I led a 25-person team accountable for internal operations performance and exter
 ## Education
 
 **Ingénieur Agronome (MSc) - Grande Ecole** - INP Toulouse / National School of Agronomy (1991-1994)
-Master of Science, specialisation Economics and Management of Agro-industry
+Master of Science, specialization Economics and Management of Agro-industry
 
 ---
 

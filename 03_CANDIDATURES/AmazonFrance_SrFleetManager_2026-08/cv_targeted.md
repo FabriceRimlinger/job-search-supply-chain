@@ -18,7 +18,7 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Senior PMO & Change Lead - Alloga (Alliance Healthcare / Cencora Group)
 **06/2026 - present | Marseille, France**
-- Organisational transformation assignment: IT project governance, stakeholder reporting
+- Organizational transformation assignment: IT project governance, stakeholder reporting
 - **I run the delivery governance rituals and coach project leaders one-on-one** (milestone tracking, accountability, delivery governance) - I built the governance and communication materials that embed these new practices in the IT and project teams
 - Change management through field presence ("hearts and minds" leadership)
 
@@ -36,13 +36,13 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 ### Senior Manager - Supply Chain Long-term Planning & Risk Management - Amazon
 **08/2022 - 07/2023 | Luxembourg (Remote)**
-- Defined the 36-month Amazon Fulfilment and Amazon Logistics expansion plan across the EU
+- Defined the 36-month Amazon Fulfillment and Amazon Logistics expansion plan across the EU
 - Ran reallocation scenarios across 80+ Amazon EU buildings
 
 ### Director of Expansion & Industrial Integration - Infarm
 **06/2021 - 07/2022 | Berlin, Germany**
 - Led infrastructure installation across the EU (DE, UK, DK, FR) - 72M€ CAPEX, team of 16 engineers and technicians
-- **Ran the training and mentoring programmes** to raise the technical team's skill level across 4 countries
+- **Ran the training and mentoring programs** to raise the technical team's skill level across 4 countries
 
 ### Head of Technical & Environmental Real Estate Due Diligence - Amazon
 **10/2018 - 08/2021 | Aix-en-Provence, France (Remote)**
@@ -71,9 +71,9 @@ Operations and supply chain leader with 10 years at Amazon (last-mile, transport
 
 - **Fleet stand-up & asset management**: station equipment and vehicle fleet stand-up across 10 AMZL launches, vessel scheduling and terminal management (Dole), fleet fit-out of 600 vehicles (Pomona)
 - **Delivery network performance**: 250-300k parcels/day across 300 in-house and 4,000+ contracted drivers, arbitration between volume demand and available delivery capacity (Colis Privé)
-- **Single-threaded leadership / regional programme management**: multi-site initiative launches, short- and long-term trade-offs on asset availability
+- **Single-threaded leadership / regional program management**: multi-site initiative launches, short- and long-term trade-offs on asset availability
 - **Stakeholder management**: internal and external coordination, negotiation, influence without direct authority
-- **Training & communication**: running project-management training and delivery governance rituals for IT and project teams (Alloga), building the matching communication and training materials; training and mentoring programmes across 4 countries (Infarm)
+- **Training & communication**: running project-management training and delivery governance rituals for IT and project teams (Alloga), building the matching communication and training materials; training and mentoring programs across 4 countries (Infarm)
 - **Demand and pipeline management**: asset pool and pipeline tracking, shortage arbitration, operational escalations, activity peaks and ramp-ups
 - **Compliance & safety**: regulatory due diligence (Amazon EMEA/MENA), industrial compliance (Infarm)
 - **Data & BI**: SQL, PowerBI, Microstrategy, PowerQuery, Excel VBA

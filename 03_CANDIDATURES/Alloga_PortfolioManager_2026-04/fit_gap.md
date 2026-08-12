@@ -19,7 +19,7 @@
 
 ## Strong Matches
 
-- Portfolio management and complex programme governance: Amazon SC 36-month SOP, €40M/year CAPEX, Colis Privé transformation
+- Portfolio management and complex program governance: Amazon SC 36-month SOP, €40M/year CAPEX, Colis Privé transformation
 - Pan-European, multi-site, executive stakeholder management: Amazon EMEA, Infarm EU (DE/UK/DK/FR)
 - BI and executive reporting: SHIELD (EMEA BI platform deployed at scale), PowerBI, Microstrategy - rare capability among Portfolio Managers
 - Large portfolio financial management: €40M/year Amazon budget, €72M Infarm CAPEX, Colis Privé P&L
