@@ -8,6 +8,8 @@
 - [2026-05-06 | Alloga] **Question "position impopulaire"** : préparer un exemple de courage managérial avec prise de risque assumée et acceptation des conséquences. Ne pas rester sur une friction de projet résolue par consensus.
 - [2026-05-06 | Alloga] **IA systématique** : préparer 2 exemples concrets : callbot Colis Privé (NLP, réduction charge CS) + analyse photo de livraison / détection d'anomalie par vision IA. La question IA est posée dans tous les entretiens tech.
 - [2026-05-06 | Alloga] **Influencer sans autorité** : montrer vision, advocacy et construction de coalition active. Ne pas se limiter à "j'ai consulté les stakeholders."
+- [2026-10-18 | Cogepart] **Axe signature à réutiliser** : "la robustesse ne se rattrape pas à posteriori en réparant les anomalies, elle se construit en amont par les process (standards, pilotage des ressources, gestion des pics)" - fil rouge STAR Fabrice, pas slogan.
+- [2026-10-18 | Cogepart] **Tri-parcours narrative** : Colis Privé (échelle) → Alloga/Cencora (réglementaire santé/GDP) → Pomona (froid dirigé physique). Structurante pour "parlez-moi de vous" - rejoint les 3 verticales Cogepart (agences, Life by Cogepart, WineSitting) si poste santé/transport régulé.
 
 ---
 

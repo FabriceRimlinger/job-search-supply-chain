@@ -30,7 +30,8 @@ Recherche Emploi Supply Chain/
 │   ├── BIO_EXECUTIVE.md             # Pitch exécutif 1 page
 │   ├── REALISATIONS.md              # 10 réalisations chiffrées
 │   ├── CRITERES_CIBLES.md           # Critères go/no-go
-│   └── PAPI_PROFIL.md               # Profil de personnalité PAPI-I
+│   ├── PAPI_PROFIL.md               # Profil de personnalité PAPI-I
+│   └── STYLE_REDACTION.md           # Style de rédaction Fabrice (patterns LM + règles VULCAIN)
 │
 ├── 02_CIBLES/
 │   ├── ENTREPRISES.md               # Pipeline cibles entreprises
